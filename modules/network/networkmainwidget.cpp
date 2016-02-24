@@ -25,6 +25,7 @@
 #include "imagenamebutton.h"
 #include "genericlistitem.h"
 #include "generaladdbutton.h"
+#include "dynamiclabel.h"
 
 #include "wirednetworklistitem.h"
 #include "wirelessnetworklistitem.h"
@@ -157,6 +158,9 @@ void NetworkMainWidget::initUI()
     QHBoxLayout *header_right_widget_layout = new QHBoxLayout(header_right_widget);
     GeneralAddButton *add_button = new GeneralAddButton;
     ImageNameButton *info_button = new ImageNameButton("info");
+    DynamicLabel* info_dynamicLabel = new DynamicLabel(this);
+    info_dynamicLabel->move(95, 12);
+    info_dynamicLabel->setText(tr("View detailed information"));
 
     header->setFixedSize(DCC::ModuleContentWidth, DUI::CONTENT_HEADER_HEIGHT);
     header_right_widget_layout->setMargin(0);
@@ -192,5 +196,16 @@ void NetworkMainWidget::initUI()
     connect(info_button, &ImageNameButton::clicked, this, [this] {
         if(!stackWidget()->busy())
             pushWidget(new NetworkInfo(m_dbusNetwork));
+    });
+
+    connect(info_button, &ImageNameButton::stateChanged, [=](){
+        if (info_button->getState()== ImageNameButton::Hover) {
+            info_dynamicLabel->showLabel();
+        }
+    });
+    connect(info_button, &ImageNameButton::stateChanged, [=](){
+        if (info_button->getState() == ImageNameButton::Normal) {
+            info_dynamicLabel->hideLabel();
+        }
     });
 }

@@ -37,9 +37,9 @@ SoundModel::SoundModel(QObject *parent)
       m_soundEffectOn(true),
       m_speakerVolume(75),
       m_speakerBalance(0),
-      m_microphoneVolume(75),
+      m_microphoneVolume(75)
 #ifndef DCC_DISABLE_FEEDBACK
-      m_microphoneFeedback(50)
+    , m_microphoneFeedback(50)
 #endif
 {
 

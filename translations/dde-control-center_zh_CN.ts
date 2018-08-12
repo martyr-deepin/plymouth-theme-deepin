@@ -2291,6 +2291,11 @@
         <translation>版本协议</translation>
     </message>
     <message>
+    <location filename="../modules/systeminfo/systeminfowidget.cpp" line="123"/>
+        <source>End User License Agreement</source>
+        <translation type="unfinished">最终用户协议</translation>
+    </message>
+    <message>
         <location filename="../modules/systeminfo/systeminfowidget.cpp" line="123"/>
         <source>Boot Menu</source>
         <translation>启动菜单</translation>
@@ -2319,6 +2324,14 @@
         <location filename="../modules/systeminfo/systeminfowidget.cpp" line="106"/>
         <source>Disk:</source>
         <translation>磁盘：</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::systeminfo::UserLicense</name>
+    <message>
+        <location filename="../modules/systeminfo/userlicense.cpp" line="15"/>
+        <source>End User License Agreement</source>
+        <translation type="unfinished">最终用户协议</translation>
     </message>
 </context>
 <context>

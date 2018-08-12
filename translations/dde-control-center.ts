@@ -2296,6 +2296,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+    <location filename="../modules/systeminfo/systeminfowidget.cpp" line="123"/>
+        <source>End User License Agreement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../modules/systeminfo/systeminfowidget.cpp" line="123"/>
         <source>Boot Menu</source>
         <translation type="unfinished"></translation>
@@ -2323,6 +2328,14 @@
     <message>
         <location filename="../modules/systeminfo/systeminfowidget.cpp" line="106"/>
         <source>Disk:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>dcc::systeminfo::UserLicense</name>
+    <message>
+        <location filename="../modules/systeminfo/userlicense.cpp" line="15"/>
+        <source>End User License Agreement</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

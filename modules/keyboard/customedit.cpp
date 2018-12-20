@@ -138,6 +138,7 @@ void keyboard::CustomEdit::keyEvent(bool press, const QString &shortcut)
         setBottomTip(nullptr);
     }
 
+    m_info->accels = shortcut;
     m_short->setShortcut(shortcut);
 }
 
@@ -165,6 +166,9 @@ void keyboard::CustomEdit::onSaveAccels()
     if (m_conflict) {
         m_info->replace = m_conflict;
     }
+
+    m_info->name = m_name->text();
+    m_info->command = m_command->text();
 
     emit requestSaveShortcut(m_info);
 

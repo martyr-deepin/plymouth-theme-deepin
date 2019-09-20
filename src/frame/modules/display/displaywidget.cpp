@@ -63,17 +63,17 @@ DisplayWidget::DisplayWidget()
 
     QStringList scaleList;
     scaleList << "1.0"
-              << "1.25"
-              << "1.5"
-              << "1.75"
+//              << "1.25"
+//              << "1.5"
+//              << "1.75"
               << "2.0"
-              << "2.25"
-              << "2.5"
-              << "2.75"
+//              << "2.25"
+//              << "2.5"
+//              << "2.75"
               << "3.0";
 
     DCCSlider *slider = m_scaleWidget->slider();
-    slider->setRange(1, 9);
+    slider->setRange(1, 3);
     slider->setType(DCCSlider::Vernier);
     slider->setTickPosition(QSlider::TicksBelow);
     slider->setTickInterval(1);
@@ -285,10 +285,11 @@ int DisplayWidget::convertToSlider(const float value)
 {
     //remove base scale (100), then convert to 1-based value
     //with a stepping of 25
-    return (int)round(value * 100 - 100) / 25 + 1;
+
+    return qRound(value);
 }
 
 float DisplayWidget::convertToScale(const int value)
 {
-    return 1.0 + (value - 1) * 0.25;
+    return value;
 }

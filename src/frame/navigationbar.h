@@ -34,9 +34,12 @@
 #include <dimagebutton.h>
 #include <darrowrectangle.h>
 
+#include "widgets/contentwidget.h"
+#include "widgets/translucentframe.h"
+
 DWIDGET_USE_NAMESPACE
 
-class NavigationBar : public QWidget
+class NavigationBar : public dcc::ContentWidget
 {
     Q_OBJECT
 

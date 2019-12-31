@@ -85,14 +85,20 @@ ContentWidget::ContentWidget(QWidget *parent)
     QScroller::grabGesture(m_contentArea, QScroller::LeftMouseButtonGesture);
 
     QHBoxLayout *titleLayout = new QHBoxLayout;
+    QVBoxLayout *titleLayout2 = new QVBoxLayout;
+    QVBoxLayout *titleLayout3 = new QVBoxLayout;
     titleLayout->addWidget(m_backBtn);
     titleLayout->addWidget(m_title);
     titleLayout->setContentsMargins(0, 0, m_backBtn->width(), 0);
+    titleLayout2->addSpacing(15);
+    titleLayout2->addLayout(titleLayout);
+    titleLayout2->addWidget(new dcc::widgets::HSeparator);
+    titleContainer = new QWidget;
+    titleContainer->setLayout(titleLayout2);
+    titleLayout3->addWidget(titleContainer);
 
     QVBoxLayout *centralLayout = new QVBoxLayout;
-    centralLayout->addLayout(titleLayout);
-    centralLayout->addSpacing(15);
-    centralLayout->addWidget(new dcc::widgets::HSeparator);
+    centralLayout->addLayout(titleLayout3);
     centralLayout->addLayout(m_contentTopLayout);
     centralLayout->addWidget(m_contentArea);
     centralLayout->setContentsMargins(0, 8, 8, 0);
@@ -217,6 +223,11 @@ void ContentWidget::stopScroll()
     m_speedTime = DEFAULT_SPEED_TIME;
     m_scrollAni->stop();
     m_wheelAni->stop();
+}
+
+void ContentWidget::setBackVisible(bool bVisible)
+{
+    titleContainer->setVisible(bVisible);
 }
 
 void ContentWidget::wheelEvent(QWheelEvent *e)

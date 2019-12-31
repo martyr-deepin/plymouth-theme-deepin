@@ -79,7 +79,7 @@ static const QStringList ModuleList = {
 };
 
 NavigationBar::NavigationBar(QWidget *parent)
-    : QWidget(parent)
+    : ContentWidget(parent)
     , m_arrowRectangle(new DArrowRectangle(DArrowRectangle::ArrowRight))
     , m_navLabel(new QLabel)
 {
@@ -97,7 +97,10 @@ NavigationBar::NavigationBar(QWidget *parent)
     centralLayout->setContentsMargins(0, 0, 0, 0);
     centralLayout->setSpacing(20);
 
-    setLayout(centralLayout);
+    QWidget *container = new dcc::widgets::TranslucentFrame;
+    setBackVisible(false);
+    container->setLayout(centralLayout);
+    setContent(container);
 //    setStyleSheet("background-color: cyan;");
 
     // init buttons

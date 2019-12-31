@@ -55,7 +55,7 @@ public:
     QWidget *content() const { return m_content; }
     QWidget *setContent(QWidget * const w);
     void stopScroll();
-
+    void setBackVisible(bool bVisible);
 Q_SIGNALS:
     void back() const;
     void appear() const;
@@ -78,6 +78,7 @@ protected:
     QLabel *m_title;
     QVBoxLayout *m_contentTopLayout;
     QScrollArea *m_contentArea;
+    QWidget *titleContainer;
 
     QWidget *m_content;
 

@@ -31,8 +31,11 @@
 #include "widgets/switchwidget.h"
 #include "widgets/settingsgroup.h"
 #include "widgets/titledslideritem.h"
+#include "widgets/labels/tipslabel.h"
 
 #include <QVBoxLayout>
+
+class Resolution;
 
 namespace dcc {
 
@@ -54,9 +57,16 @@ Q_SIGNALS:
     void requestUiScaleChange(const double scale) const;
     void requestIndividualScaling(Monitor* m,const double scale) const;
 
+private Q_SLOT:
+    void onResolutionChanged();
+
 private:
     void setupSliders();
     void addSlider(int monitorID);
+
+    QStringList getScaleList(const Resolution &r);
+    int convertToSlider(const double value);
+    double convertToScale(const int value);
 
 private:
     DisplayModel *m_displayModel;
@@ -65,6 +75,8 @@ private:
 
     QList<widgets::TitledSliderItem *> m_sliders;
     widgets::SettingsGroup *m_slidersgrp;
+    widgets::TitledSliderItem *m_slider{nullptr};
+    widgets::TipsLabel *tip;
 };
 
 }

@@ -60,6 +60,7 @@ public:
     inline const Resolution currentMode() const { return m_currentMode; }
     inline const QList<quint16> rotateList() const { return m_rotateList; }
     inline const QList<Resolution> modeList() const { return m_modeList; }
+    inline bool enable() const { return m_enable; }
 
 Q_SIGNALS:
     void geometryChanged() const;
@@ -101,6 +102,7 @@ private:
     Resolution m_currentMode;
     QList<quint16> m_rotateList;
     QList<Resolution> m_modeList;
+    bool m_enable;
 };
 
 } // namespace display

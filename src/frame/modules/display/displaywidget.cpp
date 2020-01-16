@@ -61,34 +61,11 @@ DisplayWidget::DisplayWidget()
     m_brightnessSettings->setTitle(tr("Brightness"));
     m_scalingSettings->setTitle(tr("Scaling Settings"));
 
-    QStringList scaleList;
-    scaleList << "1.0"
-              << "1.25"
-              << "1.5"
-              << "1.75"
-              << "2.0"
-              << "2.25"
-              << "2.5"
-              << "2.75"
-              << "3.0";
-
-    DCCSlider *slider = m_scaleWidget->slider();
-    slider->setRange(1, 9);
-    slider->setType(DCCSlider::Vernier);
-    slider->setTickPosition(QSlider::TicksBelow);
-    slider->setTickInterval(1);
-    slider->setPageStep(1);
-    slider->blockSignals(true);
-    slider->blockSignals(false);
-    m_scaleWidget->setAnnotations(scaleList);
-
     m_displayControlPageGrp = new SettingsGroup;
     m_displayControlPageGrp->appendItem(m_displayControlPage);
 
-    SettingsGroup *scaleGrp = new SettingsGroup;
-    scaleGrp->appendItem(m_scaleWidget);
-    scaleGrp->appendItem(m_scalingSettings);
-    m_scalingSettings->hide();
+    m_scaleGrps = new SettingsGroup;
+    m_scaleGrps->appendItem(m_scalingSettings);
 
     m_resolutionsGrp = new SettingsGroup;
     m_resolutionsGrp->appendItem(m_resolution);
@@ -101,7 +78,7 @@ DisplayWidget::DisplayWidget()
     brightnessGrp->appendItem(m_brightnessSettings);
 
     m_centralLayout->addWidget(m_displayControlPageGrp);
-    m_centralLayout->addWidget(scaleGrp);
+    m_centralLayout->addWidget(m_scaleGrps);
     m_centralLayout->addWidget(m_resolutionsGrp);
 #ifndef DCC_DISABLE_MIRACAST
     m_centralLayout->addWidget(m_miracastGrp);
@@ -123,8 +100,6 @@ DisplayWidget::DisplayWidget()
 #endif
 
     connect(m_customConfigButton, &QPushButton::clicked, this, [=] {
-        setIndividualScalingEnabled(true);
-
         // save/record current mode/config state in order to restore later
         Q_EMIT requestRecordCurrentState();
 
@@ -134,25 +109,12 @@ DisplayWidget::DisplayWidget()
             Q_EMIT requestNewConfig(m_model->DDE_Display_Config);
         }
     });
-    connect(slider, &DCCSlider::valueChanged, this, [=](const int value) {
-        Q_EMIT requestUiScaleChanged(convertToScale(value));
-
-        m_scaleWidget->setValueLiteral(QString::number(convertToScale(value)));
-    });
-
     connect(m_displayControlPage, &DisplayControlPage::requestDuplicateMode, this,
             &DisplayWidget::requestDuplicateMode);
     connect(m_displayControlPage, &DisplayControlPage::requestExtendMode, this,
             &DisplayWidget::requestExtendMode);
     connect(m_displayControlPage, &DisplayControlPage::requestOnlyMonitor, this,
             &DisplayWidget::requestOnlyMonitor);
-
-    connect(m_displayControlPage, &DisplayControlPage::requestDuplicateMode, this,
-            std::bind(&DisplayWidget::setIndividualScalingEnabled, this, false));
-    connect(m_displayControlPage, &DisplayControlPage::requestOnlyMonitor, this,
-            std::bind(&DisplayWidget::setIndividualScalingEnabled, this, false));
-    connect(m_displayControlPage, &DisplayControlPage::requestExtendMode, this,
-            std::bind(&DisplayWidget::setIndividualScalingEnabled, this, true));
 }
 
 void DisplayWidget::setModel(DisplayModel *model)
@@ -167,13 +129,11 @@ void DisplayWidget::setModel(DisplayModel *model)
             Qt::QueuedConnection);
     connect(m_model, &DisplayModel::configCreated, this, &DisplayWidget::requestModifyConfig,
             Qt::QueuedConnection);
-    connect(m_model, &DisplayModel::uiScaleChanged, this, &DisplayWidget::onUiScaleChanged);
 
     m_displayControlPage->setModel(model);
 
     onMonitorListChanged();
     onScreenSizeChanged();
-    onUiScaleChanged(m_model->uiScale());
 }
 
 #ifndef DCC_DISABLE_MIRACAST
@@ -201,7 +161,6 @@ void DisplayWidget::onMonitorListChanged() const
 
         m_resolutionsGrp->show();
         m_resolution->show();
-        setIndividualScalingEnabled(false);
 #ifndef DCC_DISABLE_ROTATE
         m_rotate->show();
 #endif
@@ -215,7 +174,6 @@ void DisplayWidget::onMonitorListChanged() const
 
         m_resolutionsGrp->hide();
         m_resolution->hide();
-        setIndividualScalingEnabled(m_model->allowEnableMultiScaleRatio());
 #ifndef DCC_DISABLE_ROTATE
         m_rotate->hide();
 #endif
@@ -256,31 +214,6 @@ void DisplayWidget::onMiracastLinkRemoved(const QDBusObjectPath &path)
     m_miracastGrp->setVisible(!m_miracastList.isEmpty());
 }
 #endif
-
-void DisplayWidget::onUiScaleChanged(const double scale)
-{
-    DCCSlider *slider = m_scaleWidget->slider();
-
-    slider->blockSignals(true);
-    slider->setValue(convertToSlider(scale));
-    slider->blockSignals(false);
-
-    m_scaleWidget->setValueLiteral(QString::number(scale));
-}
-
-void DisplayWidget::setIndividualScalingEnabled(bool enabled) const
-{
-    if(enabled && m_model->allowEnableMultiScaleRatio()) {
-        m_scaleWidget->hide();
-        m_scalingSettings->show();
-    }
-    else {
-        m_scaleWidget->show();
-        m_scalingSettings->hide();
-    }
-}
-
-
 int DisplayWidget::convertToSlider(const float value)
 {
     //remove base scale (100), then convert to 1-based value

@@ -31,9 +31,7 @@
 #include "widgets/dccslider.h"
 #include "widgets/settingsheaderitem.h"
 #include "widgets/settingsgroup.h"
-
-const float MinScreenWidth = 1024.0f;
-const float MinScreenHeight = 768.0f;
+#include "widgets/labels/tipslabel.h"
 
 using namespace dcc::widgets;
 
@@ -55,11 +53,11 @@ ScalingPage::ScalingPage(QWidget *parent)
     m_slidersgrp = new SettingsGroup;
     m_centralLayout->addWidget(m_slidersgrp);
 
-    tip = new TipsLabel(tr("Some applications in multi-screens may not scale as the settings."), this);
+    TipsLabel *tip = new TipsLabel(tr("Some applications in multi-screens may not scale as the settings."), this);
     tip->setWordWrap(true);
     tip->setContentsMargins(16, 5, 10, 5);
     tip->setAlignment(Qt::AlignTop|Qt::AlignLeft);
-    m_centralLayout->addWidget(tip, 0, Qt::AlignTop);
+    m_centralLayout->addWidget(tip);
 
     setTitle(tr("Display Scaling"));
     setContent(w);
@@ -83,114 +81,43 @@ void ScalingPage::setupSliders()
 
 void ScalingPage::addSlider(int monitorID)
 {
-    Q_UNUSED(monitorID)
-    if (m_displayModel->monitorList().size() == 0)
-        return;
-    m_slider = new TitledSliderItem("");
-    const QStringList maxList = {"1.0", "1.25", "1.5", "1.75", "2.0", "2.25", "2.5", "2.75", "3.0"};;
-    QStringList fscaleList = maxList;
-    for (auto moni : m_displayModel->monitorList()) {
-        auto tmode = moni->currentMode();
-        auto ts = getScaleList(tmode);
-        fscaleList = ts.size() < fscaleList.size() ? ts :fscaleList;
-    }
-    //如果仅一个缩放值可用，则不显示
-    auto scale = m_displayModel->uiScale();
-    if (fscaleList.size() == 1 && fabs(scale - 1.0) < 0.000001) {
-        tip->setText(tr("The monitor only supports 100% display scaling"));
-        return;
-    }
-    tip->setText(tr("Some applications cannot be scaled with the specified settings in multi-display environment."));
-    //如果当前缩放大于可用缩放，则显示至当前缩放
-    while(scale > fscaleList.last().toDouble() && fscaleList.size() < maxList.size()) {
-        fscaleList.append(maxList.at(fscaleList.size()));
-    }
-    DCCSlider *slider = m_slider->slider();
-    slider->setRange(1, fscaleList.size());
+    m_sliders.push_back(
+        new TitledSliderItem(
+            ~monitorID ? tr("Display scaling for %1").arg(m_displayModel->monitorList()[monitorID]->name())
+                       : tr("Display scaling for all monitors")
+        )
+    );
+    QStringList scaleList;
+    scaleList << "1.0"
+              << "1.25"
+              << "1.5"
+              << "1.75"
+              << "2.0"
+              << "2.25"
+              << "2.5"
+              << "2.75"
+              << "3.0";
+    TitledSliderItem *slideritem=m_sliders.back();
+    DCCSlider *slider = slideritem->slider();
+    slider->setRange(1, 9);
     slider->setType(DCCSlider::Vernier);
     slider->setTickPosition(QSlider::TicksBelow);
     slider->setTickInterval(1);
     slider->setPageStep(1);
-    m_slider->setAnnotations(fscaleList);
-    m_centralLayout->addWidget(m_slider);
-    m_centralLayout->addStretch();
+    slideritem->setAnnotations(scaleList);
+    m_slidersgrp->appendItem(slideritem);
 
-    double scaling = m_displayModel->uiScale();
-    if (scaling < 1.0)
-        scaling = 1.0;
-    slider->setValue(convertToSlider(scaling));
+    connect(slider, &DCCSlider::valueChanged, this, [=](const int value) {
+        Q_EMIT requestIndividualScaling(m_displayModel->monitorList()[monitorID],
+                                        DisplayWidget::convertToScale(value));
 
-    connect(slider, &DCCSlider::valueChanged, this, [ = ](const int value) {
-        Q_EMIT requestUiScaleChange(convertToScale(value));
-    });
-    connect(m_displayModel, &DisplayModel::uiScaleChanged, this, [ = ](const double scale) {
-        slider->blockSignals(true);
-        qDebug() << "monitor scaleCahnged ,scale :" << convertToSlider(scale);
-        slider->setValue(convertToSlider(scale));
-        slider->blockSignals(false);
+        slideritem->setValueLiteral(QString::number(DisplayWidget::convertToScale(value)));
     });
 
-    for (auto moni : m_displayModel->monitorList()) {
-        connect(moni, &Monitor::currentModeChanged, this, &ScalingPage::onResolutionChanged);
-    }
-}
-
-QStringList dcc::display::ScalingPage::getScaleList(const Resolution &r)
-{
-    QStringList tvstring;
-    tvstring << "1.0"
-             << "1.25"
-             << "1.5"
-             << "1.75"
-             << "2.0"
-             << "2.25"
-             << "2.5"
-             << "2.75"
-             << "3.0";
-
-    QStringList fscaleList;
-    auto maxWScale = r.width() / MinScreenWidth;
-    auto maxHScale = r.height() / MinScreenHeight;
-    auto maxScale = maxWScale < maxHScale ? maxWScale : maxHScale;
-    maxScale = maxScale < 3.0f ? maxScale : 3.0f;
-    for (int idx = 0; idx * 0.25f + 1.0f <= maxScale; ++idx) {
-        fscaleList << tvstring[idx];
-    }
-    return  fscaleList;
-}
-
-int ScalingPage::convertToSlider(const double value)
-{
-    //remove base scale (100), then convert to 1-based value
-    //with a stepping of 25
-    return int(round(double(value * 100 - 100) / 25)) + 1;
-}
-
-double ScalingPage::convertToScale(const int value)
-{
-    return 1.0 + (value - 1) * 0.25;
-}
-
-void ScalingPage::onResolutionChanged()
-{
-    auto pmoni = m_displayModel->monitorList()[0];
-    QStringList fscaleList = getScaleList(pmoni->currentMode());
-    for (auto moni : m_displayModel->monitorList()) {
-        auto ts = getScaleList(moni->currentMode());
-        fscaleList = ts.size() < fscaleList.size() ? ts :fscaleList;
-    }
-
-    DCCSlider *tslider = m_slider->slider();
-    if (fscaleList.size() < tslider->value()) {
-        qWarning() << "分辨率被设置，当前缩放会使屏幕过小，大部分窗口将无法被完整显示！";
-    } else {
-        auto tv = tslider->value();
-        tslider->blockSignals(true);
-        tslider->setRange(1, fscaleList.size());
-        tslider->setValue(tv);
-        tslider->blockSignals(false);
-        m_slider->setAnnotations(fscaleList);
-    }
+    double scaling = m_displayModel->monitorList()[monitorID]->scale();
+    if(scaling < 0)scaling = 1.0;
+    slider->setValue(DisplayWidget::convertToSlider(scaling));
+    slideritem->setValueLiteral(QString::number(scaling));
 }
 
 }

@@ -157,7 +157,7 @@ void Frame::popWidget()
     ContentWidget *w = qobject_cast<ContentWidget *>(sender());
 
     // w is nullptr if call this function directly or call by other object
-//    Q_ASSERT(!w || w == m_frameWidgetStack.last()->content());
+    Q_ASSERT(!w || w == m_frameWidgetStack.last()->content());
 
     // destroy the container
     m_frameWidgetStack.pop()->destroy();

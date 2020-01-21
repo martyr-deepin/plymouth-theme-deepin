@@ -44,7 +44,7 @@ ResolutionDetailPage::ResolutionDetailPage(QWidget *parent)
     QVBoxLayout *mainLayout = new QVBoxLayout(widget);
     mainLayout->setMargin(0);
     mainLayout->addSpacing(10);
-    mainLayout->addWidget(m_resolutions, 0, Qt::AlignTop);
+    mainLayout->addWidget(m_resolutions);
 
     setContent(widget);
 }

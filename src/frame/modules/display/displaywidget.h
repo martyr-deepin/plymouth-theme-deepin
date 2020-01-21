@@ -86,6 +86,7 @@ private Q_SLOTS:
     void onMiracastLinkAdded(const LinkInfo &link);
     void onMiracastLinkRemoved(const QDBusObjectPath &path);
 #endif
+    void onUiScaleChanged(const double scale);
 
 private:
     DisplayModel *                   m_model;
@@ -93,10 +94,9 @@ private:
     DisplayControlPage *             m_displayControlPage;
     widgets::NextPageWidget *        m_resolution;
     widgets::NextPageWidget *        m_brightnessSettings;
-    widgets::NextPageWidget *        m_scalingSettings;
     widgets::SettingsGroup *         m_resolutionsGrp;
-    widgets::SettingsGroup *         m_scaleGrps;
     widgets::TitledSliderItem *      m_scaleWidget;
+    widgets::NextPageWidget *        m_scalingSettings;
 #ifndef DCC_DISABLE_MIRACAST
     widgets::SettingsGroup *m_miracastGrp;
 #endif
@@ -108,6 +108,7 @@ private:
 #ifndef DCC_DISABLE_MIRACAST
     QMap<QDBusObjectPath, NextPageWidget *> m_miracastList;
 #endif
+    void setIndividualScalingEnabled(bool enabled) const;
 };
 
 }  // namespace display

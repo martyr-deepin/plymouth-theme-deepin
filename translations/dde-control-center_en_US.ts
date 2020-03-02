@@ -4248,6 +4248,64 @@
         <translation type="unfinished"></translation>
         <extra-contents_path>/systeminfo/End User License Agreement</extra-contents_path>
     </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systeminfowidget.cpp" line="86"/>
+        <source>System Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DCC_NAMESPACE::systeminfo::SystemRestore</name>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="26"/>
+        <source>Initialize all data on your system partition and reset the system configuration file, but keep the username, password, and the contents of other partitions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="27"/>
+        <source>Reinstall the system, which will erase all data from the disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="31"/>
+        <source>Reset All Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="32"/>
+        <source>Erase All Content and Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="66"/>
+        <source>This will reset all system settings to their defaults. Your data, username and password will not be deleted, please confirm and continue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="72"/>
+        <source>This will reinstall the system and clear all user data. It is risky, please confirm and continue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="77"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="80"/>
+        <source>Confirm</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="89"/>
+        <source>You should reboot the computer to erase all content and settings, reboot now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="92"/>
+        <source>You should reboot the computer to reset all settings, reboot now?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>dccV20::update::MirrorSourceItem</name>

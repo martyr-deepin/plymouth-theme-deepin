@@ -4142,7 +4142,6 @@
 <context>
     <name>dccV20::systeminfo::NativeInfoWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="73"/>
         <source>Edition:</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/systeminfo/About This PC</extra-contents_path>

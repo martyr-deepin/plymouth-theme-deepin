@@ -44,6 +44,7 @@ add_subdirectory("src/frame")
 add_subdirectory("src/dialogs")
 add_subdirectory("src/develop-tool")
 add_subdirectory("abrecovery")
+add_subdirectory("src/restore-tool")
 
 file(GLOB DOCS_FILES "docs/*")
 
@@ -73,3 +74,6 @@ if (OS_DEEPIN_PROFESSIONAL)
         install(FILES com.deepin.controlcenter.addomain.policy DESTINATION share/polkit-1/actions)
     endif()
 endif()
+
+install(FILES com.deepin.controlcenter.restore.policy DESTINATION share/polkit-1/actions)
+

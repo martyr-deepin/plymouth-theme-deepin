@@ -24,6 +24,9 @@
 #include "nativeinfowidget.h"
 #include "versionprotocolwidget.h"
 #include "userlicensewidget.h"
+#include "systemrestore.h"
+#include "backupandrestoremodel.h"
+#include "backupandrestoreworker.h"
 #include "modules/systeminfo/systeminfowork.h"
 #include "modules/systeminfo/systeminfomodel.h"
 
@@ -45,9 +48,13 @@ void SystemInfoModule::initialize()
 {
     m_model = new SystemInfoModel(this);
     m_work = new SystemInfoWork(m_model, this);
+    m_backupAndRestoreModel = new BackupAndRestoreModel(this);
+    m_backupAndRestoreWorker = new BackupAndRestoreWorker(m_backupAndRestoreModel, this);
 
     m_work->moveToThread(qApp->thread());
     m_model->moveToThread(qApp->thread());
+    m_backupAndRestoreModel->moveToThread(qApp->thread());
+    m_backupAndRestoreWorker->moveToThread(qApp->thread());
 
     m_work->activate();
 }
@@ -67,6 +74,7 @@ void SystemInfoModule::active()
     connect(m_sysinfoWidget, &SystemInfoWidget::requestShowAboutNative, this, &SystemInfoModule::onShowAboutNativePage);
     connect(m_sysinfoWidget, &SystemInfoWidget::requestShowVersionProtocol, this, &SystemInfoModule::onVersionProtocolPage);
     connect(m_sysinfoWidget, &SystemInfoWidget::requestShowEndUserLicenseAgreement, this, &SystemInfoModule::onShowEndUserLicenseAgreementPage);
+    connect(m_sysinfoWidget, &SystemInfoWidget::requestShowRestore, this, &SystemInfoModule::onShowSystemRestore);
     m_frameProxy->pushWidget(this, m_sysinfoWidget);
     m_sysinfoWidget->setCurrentIndex(0);
 }
@@ -118,4 +126,13 @@ void SystemInfoModule::onShowEndUserLicenseAgreementPage()
 {
     UserLicenseWidget *w = new UserLicenseWidget;
     m_frameProxy->pushWidget(this, w);
+}
+
+void SystemInfoModule::onShowSystemRestore() {
+    SystemRestore* restore = new SystemRestore(m_backupAndRestoreModel);
+    connect(restore, &SystemRestore::requestSetBackupDirectory, m_backupAndRestoreWorker, &BackupAndRestoreWorker::manualBackup);
+    connect(restore, &SystemRestore::requestManualRestore, m_backupAndRestoreWorker, &BackupAndRestoreWorker::manualRestore);
+    connect(restore, &SystemRestore::requestSystemRestore, m_backupAndRestoreWorker, &BackupAndRestoreWorker::systemRestore);
+
+    m_frameProxy->pushWidget(this, restore);
 }

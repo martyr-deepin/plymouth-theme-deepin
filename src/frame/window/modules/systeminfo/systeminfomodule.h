@@ -38,6 +38,8 @@ class SystemInfoWork;
 namespace DCC_NAMESPACE {
 namespace systeminfo {
 class SystemInfoWidget;
+class BackupAndRestoreModel;
+class BackupAndRestoreWorker;
 class SystemInfoModule : public QObject, public ModuleInterface
 {
     Q_OBJECT
@@ -57,10 +59,13 @@ public Q_SLOTS:
     void onShowAboutNativePage();
     void onVersionProtocolPage();
     void onShowEndUserLicenseAgreementPage();
+    void onShowSystemRestore();
 
 private:
     dcc::systeminfo::SystemInfoWork *m_work;
     dcc::systeminfo::SystemInfoModel *m_model;
+    BackupAndRestoreWorker* m_backupAndRestoreWorker;
+    BackupAndRestoreModel* m_backupAndRestoreModel;
     SystemInfoWidget *m_sysinfoWidget;
 };
 

@@ -160,7 +160,7 @@ void DisplayWorker::mergeScreens()
     Resolution bestMode = modes.first();
     for (auto m : modes) {
         bool isCommon = true;
-        for (int i = 1; i< monis.size(); ++i) {
+        for (int i = 1; i < monis.size(); ++i) {
             if (!monis[i]->hasResolution(m)) {
                 isCommon = false;
                 break;
@@ -173,7 +173,7 @@ void DisplayWorker::mergeScreens()
 
         qDebug() << "get same resolution:" << m.width() << " x " << m.height();
         auto ts = m.width() * m.height();
-        if ( ts <= maxSize)
+        if (ts <= maxSize)
             continue;
 
         bestMode = m;
@@ -182,9 +182,13 @@ void DisplayWorker::mergeScreens()
 
     qDebug() << "get best Resolution :" << bestMode.width() << " x " << bestMode.height();
     const auto mode = bestMode;
-    const auto rotate = m_model->primaryMonitor()->rotate();
+    auto rotate = m_model->primaryMonitor()->rotate();
     const auto brightness = m_model->primaryMonitor()->brightness();
-
+    for (auto *mon : m_model->monitorList()) {
+        if (mon->rotate() != rotate) {
+            rotate = 1;
+        }
+    }
     QList<QDBusPendingReply<>> replys;
 
     for (auto *mon : m_model->monitorList()) {
@@ -369,7 +373,7 @@ void DisplayWorker::setMonitorRotate(Monitor *mon, const quint16 rotate)
 
 void DisplayWorker::setMonitorRotateAll(const quint16 rotate)
 {
-    qDebug()<<rotate;
+    qDebug() << rotate;
     for (auto *mi : m_monitors)
         mi->SetRotation(rotate).waitForFinished();
 
@@ -401,6 +405,93 @@ void DisplayWorker::applyChanges()
     m_displayInter.ApplyChanges().waitForFinished();
 }
 
+void DisplayWorker::onMonitorEnable(Monitor *monitor, const bool enabled)
+{
+    //如果是灭屏幕，且当前亮的屏幕只有一个，直接返回
+    if (!enabled) {
+        int enableCount = 0;
+        for (auto *tm : m_model->monitorList()) {
+            // pass primary
+            enableCount += tm->enable() ? 1 : 0;
+        }
+        if (enableCount <= 1) {
+            if (m_monitors.size()) {
+                m_monitors.first()->Enable(true);
+            }
+            return;
+        }
+    }
+    const bool ismerge = m_model->isMerge();
+    auto *primary = m_model->primaryMonitor();
+    //如果设置的是主屏，则先改主屏
+    if (monitor == primary) {
+        for (auto *tm : m_model->monitorList()) {
+            // pass primary
+            if (tm == monitor || !tm->enable())
+                continue;
+
+            setPrimaryByName(tm->name());
+            primary = tm;
+            break;
+        }
+    }
+
+    //灭掉屏幕
+    MonitorInter *inter = m_monitors.value(monitor);
+    if (enabled) {
+        auto modes = monitor->modeList();
+        Resolution bestMode = modes.first();
+        qDebug() << "get best Resolution :" << bestMode.width() << " x " << bestMode.height();
+        auto mode = bestMode;
+        if (ismerge) {
+            Resolution currentmode;
+            for (auto *tm : m_model->monitorList()) {
+                if (tm->enable()) {
+                    currentmode = tm->currentMode();
+                    break;
+                }
+            }
+            if (monitor->hasResolutionAndRate(currentmode)) {
+                mode = currentmode;
+            }
+        }
+
+        const auto rotate = m_model->primaryMonitor()->rotate();
+        const auto brightness = m_model->primaryMonitor()->brightness();
+
+        QList<QDBusPendingReply<>> replys;
+        replys << inter->SetModeBySize(mode.width(), mode.height());
+        replys << inter->SetRotation(rotate);
+        replys << inter->Enable(enabled);
+        replys << m_displayInter.SetBrightness(monitor->name(), brightness);
+
+        for (auto r : replys)
+            r.waitForFinished();
+    } else
+        inter->Enable(enabled).waitForFinished();
+    Q_ASSERT(m_monitors.contains(primary));
+    m_monitors[primary]->SetPosition(0, 0).waitForFinished();
+
+    //为亮的屏幕排序
+    int xOffset = primary->w();
+    if (ismerge == false) {
+        for (auto *mon : m_model->monitorList()) {
+            // pass primary
+            if (mon == primary)
+                continue;
+            if (!mon->enable()) {
+                if (monitor == mon && enabled) {
+                } else
+                    continue;
+            }
+            Q_ASSERT(m_monitors.contains(mon));
+            auto *mInter = m_monitors[mon];
+            mInter->SetPosition(xOffset, 0).waitForFinished();
+            xOffset += mon->w();
+        }
+    }
+    m_displayInter.ApplyChanges().waitForFinished();
+}
 void DisplayWorker::setMonitorResolution(Monitor *mon, const int mode)
 {
     MonitorInter *inter = m_monitors.value(mon);
@@ -439,7 +530,8 @@ void DisplayWorker::setUiScale(const double value)
         if (call.isError())
         {
             qWarning() << call.error();
-        } else {
+        } else
+        {
             m_model->setUIScale(rv);
         }
         watcher->deleteLater();

@@ -1060,6 +1060,16 @@
         <source>Resolution %1x%2</source>
         <translation>分辨率  %1x%2</translation>
     </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="94"/>
+        <source>Displays</source>
+        <translation>屏幕显示</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="388"/>
+        <source>Monitor Connected(Multiple Choice)</source>
+        <translation>开启屏幕（可多选）</translation>
+    </message>
 </context>
 <context>
     <name>dccV20::display::DisplayModule</name>
@@ -9197,7 +9207,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
-        <translation>Copyright © 2019-2020 统信软件技术有限公司</translation>
+        <translation>Copyright © 2019-2020 统信软件技术有限公司</translation>
     </message>
 </context>
 <context>

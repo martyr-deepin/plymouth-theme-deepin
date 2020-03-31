@@ -55,8 +55,9 @@ private Q_SLOTS:
     void resetMonitorsView();
     void monitorMoved(MonitorProxyWidget *pw);
     void adjust(MonitorProxyWidget *pw);
-
+    void adjustAll();
 private:
+
     void ensureWidgetPerfect(MonitorProxyWidget *pw);
     void reloadViewPortSize();
     void applySettings();

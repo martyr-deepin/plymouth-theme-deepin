@@ -53,7 +53,6 @@ DisplayModule::~DisplayModule()
     m_displayWorker->deleteLater();
 }
 
-
 void DisplayModule::initialize()
 {
 }
@@ -186,7 +185,6 @@ void DisplayModule::showScalingPage()
     m_frameProxy->pushWidget(this, page);
 }
 
-
 void DisplayModule::showMultiScreenSettingPage()
 {
     MultiScreenSettingPage *page = new MultiScreenSettingPage();
@@ -284,7 +282,7 @@ void DisplayModule::onCustomPageRequestSetResolution(Monitor *mon, CustomSetting
     } else {
         lastres.w = qint16(m_displayModel->primaryMonitor()->currentMode().width());
         lastres.h = qint16(m_displayModel->primaryMonitor()->currentMode().height());
-        lastres.rate = qint16(m_displayModel->primaryMonitor()->currentMode().rate());
+        lastres.rate = m_displayModel->primaryMonitor()->currentMode().rate();
     }
 
     auto tfunc = [this](Monitor *tmon, CustomSettingDialog::ResolutionDate tmode) {

@@ -390,5 +390,10 @@ void BluetoothWorker::clearUnpairedDevice()
     m_bluetoothInter->ClearUnpairedDevice();
 }
 
+void BluetoothWorker::clearUnpairedDevice()
+{
+    m_bluetoothInter->ClearUnpairedDevice();
+}
+
 } // namespace bluetooth
 } // namespace dcc

@@ -148,6 +148,7 @@ void BluetoothWidget::setVisibleState()
 {
     Q_EMIT requestModuleVisible(m_valueMap.size());
 }
+
 void BluetoothWidget::onRequestClearUnpairedDevice()
 {
     m_bluetoothWorker->clearUnpairedDevice();

@@ -65,8 +65,8 @@
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="820"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="822"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="821"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="823"/>
         <source>Bluetooth</source>
         <translation>蓝牙</translation>
     </message>
@@ -87,13 +87,14 @@
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="832"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="834"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="833"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="835"/>
         <source>Drawing Tablet</source>
         <translation>数位板</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="413"/>
         <source>Keyboard and Language</source>
         <translation>键盘和语言</translation>
     </message>
@@ -128,8 +129,8 @@
         <translation>辅助功能</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/mainwindow.cpp" line="844"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="846"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="845"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="847"/>
         <source>Cloud Sync</source>
         <translation>云同步</translation>
     </message>
@@ -138,58 +139,58 @@
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
         <source>Full Name</source>
         <translation>设置全名</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="233"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
         <source>The full name already exists</source>
         <translation>该全名已存在</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
         <source>Validity Days</source>
         <translation>密码有效天数</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="275"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="276"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="338"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
         <source>Always</source>
         <translation>长期有效</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="331"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
         <source>Please input a number between 1-99999</source>
         <translation>请输入1到99999之间的数字</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="372"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
         <source>Change Password</source>
         <translation>修改密码</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="374"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
         <source>Delete Account</source>
         <translation>删除帐户</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="377"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
         <source>Auto Login</source>
         <translation>自动登录</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
         <source>Login Without Password</source>
         <translation>无密码登录</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="455"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="464"/>
         <source>Group</source>
         <translation>用户组</translation>
     </message>
@@ -511,12 +512,12 @@
 <context>
     <name>dccV20::bluetooth::DeviceSettingsItem</name>
     <message>
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="162"/>
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="165"/>
         <source>Connected</source>
         <translation>已连接</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="167"/>
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="170"/>
         <source>Not connected</source>
         <translation>未连接</translation>
     </message>
@@ -529,29 +530,29 @@
         <translation>正在更新...</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="94"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="91"/>
         <source>Startup Delay</source>
         <translation>启动延时</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="95"/>
         <source>Theme</source>
         <translation>主题</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="97"/>
         <source>Click the option in boot menu to set it as the first boot, and drag and drop a picture to change the background</source>
         <translation>您可以点击菜单改变默认启动项，也可以拖拽图片到窗口改变背景图片</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="102"/>
         <source>Switch theme on to view it in boot menu</source>
         <translation>开启主题后您可以在开机时看到主题背景</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="126"/>
         <source>Boot Menu</source>
         <translation>启动菜单</translation>
     </message>
@@ -1015,72 +1016,57 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
-        <source>Main Screen</source>
-        <translation>主屏幕</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
-        <source>Resolution</source>
-        <translation>分辨率</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
-        <source>Refresh Rate</source>
-        <translation>刷新率</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
-        <source>Save</source>
-        <translation>保存</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="266"/>
-        <source>Hz</source>
-        <translation>赫兹</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="268"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="328"/>
-        <source>Recommended</source>
-        <translation>推荐</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
-        <source>inch</source>
-        <translation>英寸</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="359"/>
-        <source>Resolution %1x%2</source>
-        <translation>分辨率  %1x%2</translation>
-    </message>
-    <message>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="94"/>
         <source>Displays</source>
         <translation>屏幕显示</translation>
     </message>
     <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="100"/>
+        <source>Resolution</source>
+        <translation>分辨率</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="106"/>
+        <source>Refresh Rate</source>
+        <translation>刷新率</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="135"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="257"/>
+        <source>Hz</source>
+        <translation>赫兹</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="259"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="319"/>
+        <source>Recommended</source>
+        <translation>推荐</translation>
+    </message>
+    <message>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="388"/>
-        <source>Monitor Connected(Multiple Choice)</source>
-        <translation>开启屏幕（可多选）</translation>
+        <source>Monitor Connected (Multiple)</source>
+        <translation>开启屏幕(可多选)</translation>
     </message>
 </context>
 <context>
     <name>dccV20::display::DisplayModule</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="67"/>
         <source>Display</source>
         <translation>显示</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="119"/>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="118"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="121"/>
         <source>Multiple Displays</source>
         <translation>多屏显示模式</translation>
     </message>
@@ -1088,38 +1074,38 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="124"/>
         <source>Multiple Displays</source>
         <translation>多屏显示模式</translation>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="126"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="132"/>
         <source>Brightness</source>
         <translation>亮度</translation>
         <extra-contents_path>/display/Brightness</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
         <source>Resolution</source>
         <translation>分辨率</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="136"/>
         <source>Display Scaling</source>
         <translation>屏幕缩放</translation>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="143"/>
         <source>Refresh Rate</source>
         <translation>刷新率</translation>
         <extra-contents_path>/display/Refresh Rate</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="172"/>
         <source>Rotate Screen</source>
         <translation>旋转屏幕</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1153,22 +1139,12 @@
         <translation>扩展屏幕并在不同屏幕显示不同内容</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
-        <source>%1 only</source>
-        <translation>只在%1显示</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
-        <source>Show the screen content only on %1</source>
-        <translation>仅在%1上显示屏幕内容</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="136"/>
         <source>Customize</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="137"/>
         <source>Configure the display according to your needs</source>
         <translation>根据您需要的方式进行自定义配置</translation>
     </message>
@@ -2023,15 +1999,15 @@
         <translation>前缀</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="445"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="457"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="466"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="476"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="485"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="513"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="529"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="539"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="548"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="461"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="470"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="480"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="489"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="517"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="533"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="543"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="552"/>
         <source>Invalid IP address</source>
         <translation>无效的IP地址</translation>
     </message>
@@ -3656,28 +3632,28 @@
 <context>
     <name>dccV20::network::WirelessPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="265"/>
         <source>Connect to hidden network</source>
         <translation>连接到隐藏网络</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="271"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="273"/>
         <source>Wireless Network Adapter</source>
         <translation>无线网卡</translation>
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="283"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="285"/>
         <source>Close Hotspot</source>
         <translation>关闭热点</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="288"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>若要连接并使用无线网络功能，请先关闭热点分享</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="309"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="311"/>
         <source>WLAN</source>
         <translation>WLAN</translation>
     </message>
@@ -3687,7 +3663,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/wirelesssection.cpp" line="37"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation>Wi-Fi</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/wirelesssection.cpp" line="60"/>
@@ -3936,59 +3912,59 @@
 <context>
     <name>dccV20::power::UseBatteryWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="42"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>关闭显示器于</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="55"/>
         <source>Computer will suspend after</source>
         <translation>电脑进入待机模式</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="57"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="58"/>
         <source>Lock screen after</source>
         <translation>自动锁屏</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="61"/>
         <source>Suspend on lid close</source>
         <translation>合上笔记本时待机</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="77"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="178"/>
         <source>Never</source>
         <translation>从不</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="160"/>
         <source>1 Minute</source>
         <translation>1 分钟</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="163"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="169"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="172"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="181"/>
         <source>%1 Minutes</source>
         <translation>%1 分钟</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="175"/>
         <source>1 Hour</source>
         <translation>1 小时</translation>
     </message>
@@ -3996,59 +3972,59 @@
 <context>
     <name>dccV20::power::UseElectricWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>关闭显示器于</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="56"/>
         <source>Lock screen after</source>
         <translation>自动锁屏</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="59"/>
         <source>Suspend on lid close</source>
         <translation>合上笔记本时待机</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="64"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="67"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="68"/>
         <source>Computer will suspend after</source>
         <translation>电脑进入待机模式</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="88"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="202"/>
         <source>Never</source>
         <translation>从不</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
         <source>1 Minute</source>
         <translation>1 分钟</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="205"/>
         <source>%1 Minutes</source>
         <translation>%1 分钟</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="199"/>
         <source>1 Hour</source>
         <translation>1 小时</translation>
     </message>
@@ -4390,24 +4366,24 @@
 <context>
     <name>dccV20::systeminfo::ManualBackup</name>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="17"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="18"/>
+        <source>Backup</source>
+        <translation>备份</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="30"/>
+        <source>Set backup directory</source>
+        <translation>设置备份目录</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="111"/>
         <source>Invalid path</source>
         <translation>此路径无效</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="115"/>
         <source>Tool execution error</source>
-        <translation>工具执行错误</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="18"/>
-        <source>Backup</source>
-        <translation>备份</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="29"/>
-        <source>Set backup directory</source>
-        <translation>设置备份目录</translation>
+        <translation>工具执行失败</translation>
     </message>
 </context>
 <context>
@@ -4418,69 +4394,69 @@
         <translation>还原</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="120"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="121"/>
         <source>Save User Data</source>
         <translation>保存用户数据</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="123"/>
         <source>Reset All Settings</source>
         <translation>还原所有设置</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="143"/>
         <source>Select restore directory</source>
         <translation>选择还原目录</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="150"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="151"/>
         <source>Manual Restore</source>
         <translation>手动还原</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="205"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="220"/>
         <source>Backup file is invalid</source>
         <translation>备份文件无效</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="228"/>
-        <source>Tool execution error</source>
-        <translation>工具执行错误</translation>
-    </message>
-    <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="224"/>
         <source>Grub authentication failed</source>
-        <translation>Grub认证失败</translation>
+        <translation>grub验证失败</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="215"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="228"/>
+        <source>Tool execution error</source>
+        <translation>工具执行失败</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="244"/>
         <source>It will reset system settings to their defaults without affecting your files and apps, but the username and password will be cleared, please confirm before proceeding</source>
         <translation>还原所有设置会将系统盘恢复到您安装系统时的状态，您的数据将保留而用户名和密码会清空，请确认后操作</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="219"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="248"/>
         <source>It will reinstall the system and clear all user data, which is highly risky, please confirm before proceeding</source>
         <translation>还原所有数据和设置会彻底抹掉您的所有数据，系统会被重新安装，并清空所有用户数据。此操作非常危险，请确认后再操作</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="223"/>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="241"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="252"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="270"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="226"/>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="243"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="255"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="272"/>
         <source>Confirm</source>
         <translation>确定还原</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="235"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="264"/>
         <source>You should reboot the computer to erase all content and settings, reboot now?</source>
         <translation>重启系统才能还原所有数据和设置，是否现在重启?</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="267"/>
         <source>You should reboot the computer to reset all settings, reboot now?</source>
         <translation>重启系统才能还原所有设置，是否现在重启?</translation>
     </message>
@@ -4506,15 +4482,15 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="85"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="162"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="163"/>
         <source>To be activated</source>
         <translation>待激活</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="164"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="172"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="176"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="165"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="173"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="177"/>
         <source>Activate</source>
         <translation>激活</translation>
     </message>
@@ -4537,33 +4513,33 @@
         <extra-contents_path>/systeminfo/About This PC</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="143"/>
         <source>%1-bit</source>
         <translation>%1位</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="158"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="159"/>
         <source>Activated</source>
         <translation>已激活</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="160"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="161"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="169"/>
         <source>View</source>
         <translation>查看</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="167"/>
         <source>Expired</source>
         <translation>已过期</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="170"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="171"/>
         <source>In trial period</source>
         <translation>试用期</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="175"/>
         <source>Trial expired</source>
         <translation>试用期过期</translation>
     </message>
@@ -9200,12 +9176,12 @@ If no operation, the display will be restored after %1s.</source>
         <translation>%1位</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="187"/>
-        <source>Deepin Community</source>
-        <translation>深度社区</translation>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="188"/>
+        <source>www.deepin.org</source>
+        <translation>www.deepin.org</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="190"/>
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
         <translation>Copyright © 2019-2020 统信软件技术有限公司</translation>
     </message>

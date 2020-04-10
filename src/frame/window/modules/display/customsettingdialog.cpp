@@ -385,7 +385,7 @@ void CustomSettingDialog::initMoniList()
     }
     if (m_main_select_lab_widget == nullptr) {
         m_main_select_lab_widget = new QWidget(this);
-        QLabel *main_select_lab = new QLabel(tr("Monitor Connected(Multiple Choice)"), m_main_select_lab_widget);
+        QLabel *main_select_lab = new QLabel(tr("Monitor Connected (Multiple)"), m_main_select_lab_widget);
         m_main_select_lab_widget->setFixedHeight(50);
         QHBoxLayout *m_main_select_lab_layout = new QHBoxLayout();
         m_main_select_lab_layout->addWidget(main_select_lab);

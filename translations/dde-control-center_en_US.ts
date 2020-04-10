@@ -67,8 +67,8 @@
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="820"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="822"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="821"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="823"/>
         <source>Bluetooth</source>
         <translation type="unfinished"></translation>
     </message>
@@ -89,13 +89,14 @@
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="832"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="834"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="833"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="835"/>
         <source>Drawing Tablet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="413"/>
         <source>Keyboard and Language</source>
         <translation type="unfinished"></translation>
     </message>
@@ -130,8 +131,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/mainwindow.cpp" line="844"/>
-        <location filename="../src/frame/window/mainwindow.cpp" line="846"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="845"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="847"/>
         <source>Cloud Sync</source>
         <translation type="unfinished"></translation>
     </message>
@@ -513,12 +514,12 @@
 <context>
     <name>dccV20::bluetooth::DeviceSettingsItem</name>
     <message>
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="162"/>
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="165"/>
         <source>Connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="167"/>
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="170"/>
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
@@ -531,29 +532,29 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="94"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="91"/>
         <source>Startup Delay</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="95"/>
         <source>Theme</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="97"/>
         <source>Click the option in boot menu to set it as the first boot, and drag and drop a picture to change the background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="102"/>
         <source>Switch theme on to view it in boot menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="126"/>
         <source>Boot Menu</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1017,62 +1018,57 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
-        <source>Main Screen</source>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="94"/>
+        <source>Displays</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="100"/>
         <source>Resolution</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="106"/>
         <source>Refresh Rate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="135"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="266"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="257"/>
         <source>Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="268"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="328"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="259"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="319"/>
         <source>Recommended</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
-        <source>inch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="359"/>
-        <source>Resolution %1x%2</source>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="388"/>
+        <source>Monitor Connected (Multiple)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>dccV20::display::DisplayModule</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="67"/>
         <source>Display</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="119"/>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="118"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="121"/>
         <source>Multiple Displays</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1145,22 +1141,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
-        <source>%1 only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
-        <source>Show the screen content only on %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="136"/>
         <source>Customize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="137"/>
         <source>Configure the display according to your needs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2015,15 +2001,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="445"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="457"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="466"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="476"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="485"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="513"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="529"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="539"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="548"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="461"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="470"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="480"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="489"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="517"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="533"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="543"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="552"/>
         <source>Invalid IP address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3648,28 +3634,28 @@
 <context>
     <name>dccV20::network::WirelessPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="265"/>
         <source>Connect to hidden network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="269"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="273"/>
         <source>Wireless Network Adapter</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="285"/>
         <source>Close Hotspot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="288"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="307"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="311"/>
         <source>WLAN</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3928,59 +3914,59 @@
 <context>
     <name>dccV20::power::UseBatteryWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="42"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation type="unfinished"></translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="55"/>
         <source>Computer will suspend after</source>
         <translation type="unfinished"></translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="57"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="58"/>
         <source>Lock screen after</source>
         <translation type="unfinished"></translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="61"/>
         <source>Suspend on lid close</source>
         <translation type="unfinished"></translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="77"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="178"/>
         <source>Never</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="160"/>
         <source>1 Minute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="163"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="169"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="172"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="181"/>
         <source>%1 Minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="175"/>
         <source>1 Hour</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3988,59 +3974,59 @@
 <context>
     <name>dccV20::power::UseElectricWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation type="unfinished"></translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="56"/>
         <source>Lock screen after</source>
         <translation type="unfinished"></translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="59"/>
         <source>Suspend on lid close</source>
         <translation type="unfinished"></translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="64"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="67"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="68"/>
         <source>Computer will suspend after</source>
         <translation type="unfinished"></translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="88"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="202"/>
         <source>Never</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
         <source>1 Minute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="205"/>
         <source>%1 Minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="199"/>
         <source>1 Hour</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4498,15 +4484,15 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="85"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="162"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="163"/>
         <source>To be activated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="164"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="172"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="176"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="165"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="173"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="177"/>
         <source>Activate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4529,33 +4515,33 @@
         <extra-contents_path>/systeminfo/About This PC</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="143"/>
         <source>%1-bit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="158"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="159"/>
         <source>Activated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="160"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="161"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="169"/>
         <source>View</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="167"/>
         <source>Expired</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="170"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="171"/>
         <source>In trial period</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="175"/>
         <source>Trial expired</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9200,12 +9186,12 @@ If no operation, the display will be restored after %1s.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="187"/>
-        <source>Deepin Community</source>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="188"/>
+        <source>www.deepin.org</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="190"/>
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
         <translation type="unfinished"></translation>
     </message>

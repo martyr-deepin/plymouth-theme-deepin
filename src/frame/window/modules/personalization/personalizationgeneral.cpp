@@ -146,10 +146,10 @@ PersonalizationGeneral::PersonalizationGeneral(QWidget *parent)
         slider->setPageStep(1);
         winEffectVLayout->addWidget(m_transparentSlider);
 
-        m_cmbMiniEffect->setTitle(tr("Miniminze Effect"));
+        m_cmbMiniEffect->setTitle(tr("Window Miniminze Effect"));
         m_cmbMiniEffect->addBackground();
         QStringList options;
-        options << tr("Scale") << tr("Magic Light");
+        options << tr("Scale") << tr("Magic Lamp");
         m_cmbMiniEffect->setComboxOption(options);
         winEffectVLayout->addWidget(m_cmbMiniEffect);
 

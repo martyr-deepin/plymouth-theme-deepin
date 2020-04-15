@@ -26,6 +26,7 @@
 #include "frame.h"
 #include "dbuscontrolcenterservice.h"
 #include "window/mainwindow.h"
+#include "window/accessible.h"
 
 #include <DApplication>
 #include <DDBusSender>
@@ -35,6 +36,7 @@
 #include <QScreen>
 #include <QStyle>
 #include <QGSettings>
+#include <QAccessible>
 
 #include <signal.h>
 
@@ -48,6 +50,25 @@ void closeSignal(int s) {
     if (gwm) {
         delete gwm;
     }
+}
+
+QAccessibleInterface *accessibleFactory(const QString &classname, QObject *object)
+{
+    QAccessibleInterface *interface = nullptr;
+    GET_ACCESSIBLE(classname, QWidget);
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::", ""), MainWindow);
+    GET_ACCESSIBLE(QString(classname).replace("Dtk::Widget::", ""), DBackgroundGroup);
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), PersonalizationList);
+    //个性化模块
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), PersonalizationGeneral);
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), PerssonalizationThemeWidget);
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), ThemeItem);
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), ThemeItemPic);
+    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), RoundColorWidget);
+    GET_ACCESSIBLE(QString(classname).replace("dcc::widgets::", ""), SettingsItem);
+    GET_ACCESSIBLE(QString(classname).replace("dcc::widgets::", ""), DCCSlider);
+    GET_ACCESSIBLE_BY_OBJECTNAME(QString(classname).replace("Dtk::Widget::", ""), DSwitchButton, "");
+    return interface;
 }
 
 int main(int argc, char *argv[])
@@ -78,6 +99,8 @@ int main(int argc, char *argv[])
 
     DLogManager::registerConsoleAppender();
     DLogManager::registerFileAppender();
+
+    QAccessible::installFactory(accessibleFactory);
 
     // take care of command line options
     QCommandLineOption showOption(QStringList() << "s" << "show", "show control center(hide for default).");

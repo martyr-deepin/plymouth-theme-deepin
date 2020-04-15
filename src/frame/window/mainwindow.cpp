@@ -104,18 +104,20 @@ MainWindow::MainWindow(QWidget *parent)
 {
     //Initialize view and layout structure
     QWidget *content = new QWidget(this);
-
+    content->setObjectName("Form_content");
     m_contentLayout = new QHBoxLayout(content);
     m_contentLayout->setContentsMargins(0, 0, 0, 0);
     m_contentLayout->setSpacing(0);
     m_rightContentLayout = new QHBoxLayout();
 
     m_rightView = new DBackgroundGroup(m_rightContentLayout);
+    m_rightView->setObjectName("From_rightview");
     m_rightView->setItemSpacing(2);
     m_rightView->setItemMargins(QMargins(10, 10, 10, 10));
     m_rightView->setContentsMargins(10, 10, 10, 10);
 
     m_navView = new dcc::widgets::MultiSelectListView(this);
+    m_navView->setAccessibleName("List_leftview");
     m_navView->setFrameShape(QFrame::Shape::NoFrame);
     m_navView->setEditTriggers(QListView::NoEditTriggers);
     m_navView->setResizeMode(QListView::Adjust);
@@ -340,6 +342,7 @@ void MainWindow::initAllModule(QString m)
         DStandardItem *item = new DStandardItem;
         item->setIcon(it->first->icon());
         item->setText(it->second);
+        item->setAccessibleText(it->second);
 
         //目前只有"update"模块需要使用右上角的角标，其他模块还是使用旧的位置数据设置
         //若其他地方需要使用右上角的角标，可在下面if处使用“||”添加对应模块的name()值

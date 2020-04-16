@@ -37,6 +37,7 @@ class PersonalizationModel;
 namespace dcc {
 namespace widgets {
 class TitledSliderItem;
+class ComboxWidget;
 }
 }
 
@@ -72,10 +73,12 @@ Q_SIGNALS:
     void showFontsWidget();
     void requestSwitchWM();
     void requestSetOpacity(int value);
+    void requestSetMiniEffect(int effect);
     void requestSetActiveColor(const QString &color);
 
 private:
     void onOpacityChanged(std::pair<int, double> value);
+    void onMiniEffectChanged(int index);
     void onActiveColorChanged(const QString &newColor);
     void onActiveColorClicked();
     void onCompositingAllowSwitchChanged(bool value);
@@ -84,6 +87,7 @@ private:
     QVBoxLayout *m_centralLayout;             //主布局
     DTK_WIDGET_NAMESPACE::DSwitchButton *m_wmSwitch;  //是否开启特效
     dcc::widgets::TitledSliderItem *m_transparentSlider;  //透明度调节
+    dcc::widgets::ComboxWidget *m_cmbMiniEffect;    //最小化效果
     dcc::personalization::PersonalizationModel *m_model;
     PerssonalizationThemeWidget *m_Themes;
     QList<RoundColorWidget *> m_activeColorsList;

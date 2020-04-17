@@ -215,8 +215,12 @@ void DisplayModule::showCustomSettingDialog()
     auto displayMode = m_displayModel->displayMode();
     Q_ASSERT(displayMode == CUSTOM_MODE);
 
-    for (auto mon : m_displayModel->monitorList())
-        m_displayWorker->setMonitorEnable(mon, true);
+    for (auto mon : m_displayModel->monitorList()){
+        if(mon->enable()==false){
+            m_displayWorker->onMonitorEnable(mon, true);
+        }
+        //m_displayWorker->setMonitorEnable(mon, true);
+    }
 
     CustomSettingDialog *dlg = new CustomSettingDialog();
 
@@ -226,6 +230,9 @@ void DisplayModule::showCustomSettingDialog()
             &DisplayModule::onCustomPageRequestSetResolution);
     connect(dlg, &CustomSettingDialog::requestMerge,
             m_displayWorker, &DisplayWorker::mergeScreens);
+    connect(dlg, &CustomSettingDialog::requestEnalbeMonitor, [=](Monitor *mon, bool enable) {
+        m_displayWorker->onMonitorEnable(mon, enable);
+    });
     connect(dlg, &CustomSettingDialog::requestSplit,
             m_displayWorker, &DisplayWorker::splitScreens);
     connect(dlg, &CustomSettingDialog::requestSetMonitorPosition,

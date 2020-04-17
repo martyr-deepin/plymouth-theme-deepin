@@ -114,12 +114,12 @@ void DisplayWidget::onMonitorListChanged()
     if (m_isMultiScreen && mons.size() <= 1) {
         m_isMultiScreen = false;
         m_menuList->setModel(m_singleModel);
-
+        m_rotate->show();
         onMenuClicked(m_menuList->model()->index(0, 0));
     } else if (!m_isMultiScreen && mons.size() > 1) {
         m_isMultiScreen = true;
         m_menuList->setModel(m_multiModel);
-
+        m_rotate->hide();
         onMenuClicked(m_menuList->model()->index(0, 0));
     }
 }

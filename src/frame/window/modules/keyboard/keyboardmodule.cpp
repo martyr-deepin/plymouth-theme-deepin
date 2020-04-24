@@ -28,6 +28,7 @@
 #include "shortcutsettingwidget.h"
 #include "systemlanguagewidget.h"
 #include "systemlanguagesettingwidget.h"
+#include "numericalsettingwidget.h"
 #include "widgets/settingshead.h"
 #include "modules/keyboard/keyboardwork.h"
 #include "modules/keyboard/keyboardmodel.h"
@@ -72,6 +73,7 @@ void KeyboardModule::active()
     connect(m_keyboardWidget, &KeyboardWidget::showKBLayoutSetting, this, &KeyboardModule::showKBLayoutSetting);
     connect(m_keyboardWidget, &KeyboardWidget::showSystemLanguageSetting, this, &KeyboardModule::showSystemLanguageSetting);
     connect(m_keyboardWidget, &KeyboardWidget::showShortCutSetting, this, &KeyboardModule::showShortCutSetting);
+    connect(m_keyboardWidget, &KeyboardWidget::showNumericalSetting, this, &KeyboardModule::showNumericalSetting);
     m_frameProxy->pushWidget(this, m_keyboardWidget);
     showGeneralSetting();
 }
@@ -90,7 +92,11 @@ int KeyboardModule::load(QString path)
     } else if (loadPath == QStringLiteral("System Language")) {
         m_keyboardWidget->initSetting(2);
         hasPage = 0;
-    } else if (loadPath == QStringLiteral("Shortcuts")) {
+    }else if (loadPath == QStringLiteral("Numerical Setting")){
+        m_keyboardWidget->initSetting(3);
+        hasPage = 0;
+    }
+    else if (loadPath == QStringLiteral("Shortcuts")) {
         if ((pathList.length() > 1) && (pathList.at(1) == QStringLiteral("Custom Shortcut"))) {
             showShortCutSetting();
             m_shortcutSettingWidget->showCustomShotcut();
@@ -222,6 +228,12 @@ void KeyboardModule::showShortCutSetting()
     connect(m_work, &KeyboardWorker::searchChangd, m_shortcutSettingWidget, &ShortCutSettingWidget::onSearchInfo);
 
     m_frameProxy->pushWidget(this, m_shortcutSettingWidget);
+}
+
+void KeyboardModule::showNumericalSetting()
+{
+    m_numericalSettinWidget = new NumericalSettingWidget(m_model);
+    m_frameProxy->pushWidget(this, m_numericalSettinWidget);
 }
 
 void KeyboardModule::onPushSystemLanguageSetting()

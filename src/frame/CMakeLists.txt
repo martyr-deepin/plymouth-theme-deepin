@@ -157,6 +157,8 @@ set(WINDOW_FILES
     window/modules/datetime/timezonelist.cpp
     window/modules/datetime/timezonecontentlist.cpp
     window/modules/datetime/systemtimezone.cpp
+    window/modules/datetime/formatsetting.cpp
+    window/modules/datetime/formatsetting.h
     window/modules/datetime/datesettings.cpp
     window/modules/datetime/timesetedit.cpp
     window/modules/datetime/datetimecombox.cpp
@@ -605,6 +607,8 @@ set(KEYBOARD_FILES
                 window/modules/keyboard/keyboardwidget.cpp
                 window/modules/keyboard/customcontent.h
                 window/modules/keyboard/customcontent.cpp
+                window/modules/keyboard/numericalsettingwidget.h
+                window/modules/keyboard/numericalsettingwidget.cpp
                 window/modules/keyboard/generalkbsettingwidget.h
                 window/modules/keyboard/generalkbsettingwidget.cpp
                 window/modules/keyboard/kblayoutsettingwidget.h

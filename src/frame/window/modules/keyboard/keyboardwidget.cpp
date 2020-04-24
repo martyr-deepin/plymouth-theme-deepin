@@ -54,7 +54,9 @@ void KeyboardWidget::init()
         //~ contents_path /keyboard/System Language
         { QIcon::fromTheme("dcc_language"), tr("System Language")},
         //~ contents_path /keyboard/Shortcuts
-        { QIcon::fromTheme("dcc_hot_key"), tr("Shortcuts")}
+        { QIcon::fromTheme("dcc_hot_key"), tr("Shortcuts")},
+        //~ contents_path /keyboard/Numerical Setting
+        { QIcon::fromTheme("dcc_language"), tr("Numerical Setting")}
     };
     DStandardItem *keyboardItem = nullptr;
     for (auto it = menuIconText.cbegin(); it != menuIconText.cend(); ++it) {
@@ -92,6 +94,9 @@ void KeyboardWidget::onItemClick(const QModelIndex &index)
         break;
     case 3:
         Q_EMIT showShortCutSetting();
+        break;
+    case 4:
+        Q_EMIT showNumericalSetting();
         break;
     default:
         Q_EMIT showGeneralSetting();

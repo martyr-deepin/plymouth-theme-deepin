@@ -47,6 +47,7 @@ class KBLayoutSettingWidget;
 class SystemLanguageWidget;
 class SystemLanguageSettingWidget;
 class ShortCutSettingWidget;
+class NumericalSettingWidget;
 class CustomContent;
 class KeyboardModule : public QObject, public ModuleInterface
 {
@@ -69,6 +70,7 @@ public Q_SLOTS:
     void showKBLayoutSetting();
     void showSystemLanguageSetting();
     void showShortCutSetting();
+    void showNumericalSetting();
     void onAddLocale(const QModelIndex &index);
     void onPushKeyboard(const QStringList &kblist);
     void onPushSystemLanguageSetting();
@@ -83,7 +85,7 @@ private:
     SystemLanguageWidget *m_systemLanguageWidget = nullptr;
     SystemLanguageSettingWidget *m_systemLanguageSettingWidget = nullptr;
     ShortCutSettingWidget *m_shortcutSettingWidget = nullptr;
-
+    NumericalSettingWidget* m_numericalSettinWidget = nullptr;
     dcc::keyboard::KeyboardLayoutWidget *m_kbLayoutWidget = nullptr;
     dcc::keyboard::KeyboardModel  *m_model = nullptr;
     dcc::keyboard::ShortcutModel *m_shortcutModel = nullptr;

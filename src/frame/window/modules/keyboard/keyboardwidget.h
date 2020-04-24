@@ -65,6 +65,7 @@ Q_SIGNALS:
     void showGeneralSetting();
     void showKBLayoutSetting();
     void showSystemLanguageSetting();
+    void showNumericalSetting();
     void showShortCutSetting();
 private:
     dcc::keyboard::KeyboardModel *m_keyboardModel;

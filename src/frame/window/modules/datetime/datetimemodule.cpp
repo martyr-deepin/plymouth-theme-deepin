@@ -203,12 +203,16 @@ void DatetimeModule::ensureZoneChooserDialog()
 
 void DatetimeModule::showFormatSetting()
 {
-    DCC_NAMESPACE::datetime::FormatSetting* fsetting = new DCC_NAMESPACE::datetime::FormatSetting(m_model);
+    DCC_NAMESPACE::datetime::FormatSetting *fsetting = new DCC_NAMESPACE::datetime::FormatSetting(m_model);
     connect(fsetting, &FormatSetting::weekdayFormatChanged, this, &DatetimeModule::weekdayFormatChanged);
     connect(fsetting, &FormatSetting::shortDateFormatChanged, this, &DatetimeModule::shortDateFormatChanged);
     connect(fsetting, &FormatSetting::longDateFormatChanged, this, &DatetimeModule::longDateFormatChanged);
     connect(fsetting, &FormatSetting::longTimeFormatChanged, this, &DatetimeModule::longTimeFormatChanged);
     connect(fsetting, &FormatSetting::shortTimeFormatChanged, this, &DatetimeModule::shortTimeFormatChanged);
+
+    connect(m_model, &DatetimeModel::hourTypeChanged, this, [ = ] {
+        fsetting->resetUi();
+    });
     connect(m_model, &DatetimeModel::weekdayFormatTypeChanged, fsetting, &FormatSetting::setCururentWeekdayFormat);
     connect(m_model, &DatetimeModel::shortDateFormatChanged, fsetting, &FormatSetting::setCururentShortDateFormat);
     connect(m_model, &DatetimeModel::longDateFormatChanged, fsetting, &FormatSetting::setCururentLongDateFormat);

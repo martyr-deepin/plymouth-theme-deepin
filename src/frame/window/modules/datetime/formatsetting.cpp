@@ -80,7 +80,7 @@ FormatSetting::FormatSetting(DatetimeModel *mdoel, QWidget *parent)
 
 void FormatSetting::initComboxWidgetList()
 {
-    int formatcount = 3;
+    int formatcount = 2;
     for (int i = 0; i < formatcount; i++) {
         m_weekCbx->comboBox()->addItem(fotmatWeek(i));
     }
@@ -101,14 +101,14 @@ void FormatSetting::initComboxWidgetList()
     m_longdateCbx->comboBox()->setCurrentIndex(mModel->longDateFormat());
     connect(m_longdateCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
             this, &FormatSetting::longDateFormatChanged);
-    int longtimecount = 4;
+    int longtimecount = 2;
     for (int i = 0; i < longtimecount; i++) {
         m_longtimeCbx->comboBox()->addItem(fotmatLongTime(i));
     }
     m_longtimeCbx->comboBox()->setCurrentIndex(mModel->longTimeFormat());
     connect(m_longtimeCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
             this, &FormatSetting::longTimeFormatChanged);
-    int shorttimecount = 4;
+    int shorttimecount = 2;
     for (int i = 0; i < shorttimecount; i++) {
         m_shortimeCbx->comboBox()->addItem(fotmatShortTime(i));
     }
@@ -126,9 +126,6 @@ QString FormatSetting::fotmatWeek(int type)
         break;
     case 1:
         day = tr("sunday"); //周天
-        break;
-    case 2:
-        day = tr("seven");
         break;
     default:
         break;
@@ -197,18 +194,20 @@ QString FormatSetting::fotmatLongTime(int type)
 {
     QString time("");
     switch (type) {
-    case 0:
-        time = tr("9:40:07");
+    case 0: {
+        if (mModel->get24HourFormat()) {
+            time = tr("9:40:07");
+        } else
+            time = tr("AM 9:40:07");
         break;
-    case 1:
-        time = tr("09:40:07");
+    }
+    case 1: {
+        if (mModel->get24HourFormat()) {
+            time = tr("09:40:07");
+        } else
+            time = tr("AM 09:40:07");
         break;
-    case 2:
-        time = tr("AM 9:40:07");
-        break;
-    case 3:
-        time = tr("AM 09:40:07");
-        break;
+    }
     default:
         break;
     }
@@ -218,19 +217,23 @@ QString FormatSetting::fotmatLongTime(int type)
 QString FormatSetting::fotmatShortTime(int type)
 {
     QString time("");
-    switch (type) {
-    case 0:
-        time = tr("9:40");
+    switch (type) {;
+    case 0: {
+        if (mModel->get24HourFormat()) {
+            time = tr("9:40");
+        } else {
+            time = tr("AM 9:40");
+        }
         break;
-    case 1:
-        time = tr("09:40");
+    }
+    case 1: {
+        if (mModel->get24HourFormat()) {
+            time = tr("09:40");
+        } else {
+            time = tr("AM 09:40");
+        }
         break;
-    case 2:
-        time = tr("AM 9:40");
-        break;
-    case 3:
-        time = tr("AM09:40");
-        break;
+    }
     default:
         break;
     }
@@ -276,6 +279,37 @@ void FormatSetting::setCururentShortTimeFormat(int type)
         m_shortimeCbx->comboBox()->setCurrentIndex(type);
         m_shortimeCbx->blockSignals(false);
     }
+}
+
+void FormatSetting::resetUi()
+{
+    if(m_weekCbx)
+    {
+        disconnect(m_weekCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+                this, &FormatSetting::weekdayFormatChanged);
+        m_weekCbx->comboBox()->clear();
+    }
+    if(m_shortDateCbx){
+        disconnect(m_shortDateCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+                this, &FormatSetting::shortDateFormatChanged);
+        m_shortDateCbx->comboBox()->clear();
+    }
+    if(m_longdateCbx){
+        disconnect(m_longdateCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+                this, &FormatSetting::longDateFormatChanged);
+        m_longdateCbx->comboBox()->clear();
+    }
+    if(m_longtimeCbx){
+        disconnect(m_longtimeCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+                this, &FormatSetting::longTimeFormatChanged);
+        m_longtimeCbx->comboBox()->clear();
+    }
+    if(m_shortimeCbx){
+        disconnect(m_shortimeCbx->comboBox(), static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+                this, &FormatSetting::shortTimeFormatChanged);
+        m_shortimeCbx->comboBox()->clear();
+    }
+    initComboxWidgetList();
 }
 
 

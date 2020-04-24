@@ -60,6 +60,7 @@ public Q_SLOTS:
     void setCururentLongDateFormat(int type);
     void setCururentLongTimeFormat(int type);
     void setCururentShortTimeFormat(int type);
+    void resetUi();
 private:
     void initComboxWidgetList();
     QString fotmatWeek(int type);

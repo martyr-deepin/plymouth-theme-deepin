@@ -94,10 +94,10 @@ NumericalSettingWidget::NumericalSettingWidget(KeyboardModel *model, QWidget *pa
     QLabel *label4 = new QLabel(tr("Currency")); //货币
     timeLayout->addWidget(label4, 1, 0, 1, 1, Qt::AlignHCenter);
     m_currencyCbx = new QComboBox();
-    m_currencyCbx->addItem("RMB");     //人民币
-    m_currencyCbx->addItem("Dollars");     //美元
-    m_currencyCbx->addItem("Pound");    //英镑
-    m_currencyCbx->addItem("Hong Kong dollar");     //港元
+    m_currencyCbx->addItem(tr("RMB"));     //人民币
+    m_currencyCbx->addItem(tr("Dollars"));     //美元
+    m_currencyCbx->addItem(tr("Pound"));    //英镑
+    m_currencyCbx->addItem(tr("Hong Kong dollar"));     //港元
     timeLayout->addWidget(m_currencyCbx, 1, 1, 1, 5);
     numlayout->addLayout(timeLayout);
     timeItem->setLayout(numlayout);

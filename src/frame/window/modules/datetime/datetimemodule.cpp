@@ -203,22 +203,44 @@ void DatetimeModule::ensureZoneChooserDialog()
 
 void DatetimeModule::showFormatSetting()
 {
-    DCC_NAMESPACE::datetime::FormatSetting *fsetting = new DCC_NAMESPACE::datetime::FormatSetting(m_model);
-    connect(fsetting, &FormatSetting::weekdayFormatChanged, this, &DatetimeModule::weekdayFormatChanged);
-    connect(fsetting, &FormatSetting::shortDateFormatChanged, this, &DatetimeModule::shortDateFormatChanged);
-    connect(fsetting, &FormatSetting::longDateFormatChanged, this, &DatetimeModule::longDateFormatChanged);
-    connect(fsetting, &FormatSetting::longTimeFormatChanged, this, &DatetimeModule::longTimeFormatChanged);
-    connect(fsetting, &FormatSetting::shortTimeFormatChanged, this, &DatetimeModule::shortTimeFormatChanged);
-
-    connect(m_model, &DatetimeModel::hourTypeChanged, this, [ = ] {
-        fsetting->resetUi();
+    m_formatSetting = new DCC_NAMESPACE::datetime::FormatSetting(m_model);
+    connect(m_formatSetting, &FormatSetting::weekdayFormatChanged, this, &DatetimeModule::weekdayFormatChanged);
+    connect(m_formatSetting, &FormatSetting::shortDateFormatChanged, this, &DatetimeModule::shortDateFormatChanged);
+    connect(m_formatSetting, &FormatSetting::longDateFormatChanged, this, &DatetimeModule::longDateFormatChanged);
+    connect(m_formatSetting, &FormatSetting::longTimeFormatChanged, this, &DatetimeModule::longTimeFormatChanged);
+    connect(m_formatSetting, &FormatSetting::shortTimeFormatChanged, this, &DatetimeModule::shortTimeFormatChanged);
+    connect(m_model, &DatetimeModel::hourTypeChanged, this, [this] {
+        if (m_formatSetting)
+        {
+            m_formatSetting->resetUi();
+        }
     });
-    connect(m_model, &DatetimeModel::weekdayFormatTypeChanged, fsetting, &FormatSetting::setCururentWeekdayFormat);
-    connect(m_model, &DatetimeModel::shortDateFormatChanged, fsetting, &FormatSetting::setCururentShortDateFormat);
-    connect(m_model, &DatetimeModel::longDateFormatChanged, fsetting, &FormatSetting::setCururentLongDateFormat);
-    connect(m_model, &DatetimeModel::longTimeFormatChanged, fsetting, &FormatSetting::setCururentLongTimeFormat);
-    connect(m_model, &DatetimeModel::shorTimeFormatChanged, fsetting, &FormatSetting::setCururentShortTimeFormat);
-    m_frameProxy->pushWidget(this, fsetting);
+    connect(m_model, &DatetimeModel::weekdayFormatTypeChanged, this, [this](int value) {
+        if (m_formatSetting) {
+            m_formatSetting->setCururentWeekdayFormat(value);
+        }
+    });
+    connect(m_model, &DatetimeModel::shortDateFormatChanged,  this, [this](int value) {
+        if (m_formatSetting) {
+            m_formatSetting->setCururentShortDateFormat(value);
+        }
+    });
+    connect(m_model, &DatetimeModel::longDateFormatChanged, this, [this](int value) {
+        if (m_formatSetting) {
+            m_formatSetting->setCururentLongDateFormat(value);
+        }
+    });
+    connect(m_model, &DatetimeModel::longTimeFormatChanged, this, [this](int value) {
+        if (m_formatSetting) {
+            m_formatSetting->setCururentLongTimeFormat(value);
+        }
+    });
+    connect(m_model, &DatetimeModel::shorTimeFormatChanged, this, [this](int value) {
+        if (m_formatSetting) {
+            m_formatSetting->setCururentShortTimeFormat(value);
+        }
+    });
+    m_frameProxy->pushWidget(this, m_formatSetting);
 }
 
 void DatetimeModule::showTimezoneList()

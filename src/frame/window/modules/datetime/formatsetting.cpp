@@ -29,6 +29,15 @@
 using namespace dcc::datetime;
 using namespace DCC_NAMESPACE::datetime;
 using namespace dcc::widgets;
+/*格式说明
+weekdayFormat   0 星期一 (默认项），1周一
+shortDateFormat 0  2020/4/5（默认项）/ 1; 2020-4-5;2   2020.4.5;3  2020/04/05;4  2020-04-05
+;5 2020.04.05;6  20/4/5;7  20-4-5;8 20.4.5
+longDateFormat  0 2020年4月5日（默认项）;1 2020年4月5日 星期三,2  星期三 020年4月5日
+shortTimeFormat 0 9:40（默认项)1, 09:40
+longTimeFormat  0 9:40:07（默认项）;1  09:40:07
+*/
+
 FormatSetting::FormatSetting(DatetimeModel *mdoel, QWidget *parent)
     : QWidget(parent)
     , m_layout(new QVBoxLayout)

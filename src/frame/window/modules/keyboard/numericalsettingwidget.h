@@ -42,6 +42,7 @@ class SettingsGroup;
 
 namespace DCC_NAMESPACE {
 namespace keyboard {
+//NumericalSettingWidget类为数值设置界面类
 class NumericalSettingWidget : public QWidget
 {
     Q_OBJECT

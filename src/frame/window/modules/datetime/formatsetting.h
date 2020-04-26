@@ -41,7 +41,7 @@ namespace widgets {
 }
 namespace DCC_NAMESPACE {
 namespace datetime {
-
+//FormatSetting类功能为设置时间，日期格式界面类
 class FormatSetting : public QWidget
 {
     Q_OBJECT

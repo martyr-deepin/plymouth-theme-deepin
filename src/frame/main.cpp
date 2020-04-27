@@ -52,25 +52,6 @@ void closeSignal(int s) {
     }
 }
 
-QAccessibleInterface *accessibleFactory(const QString &classname, QObject *object)
-{
-    QAccessibleInterface *interface = nullptr;
-    GET_ACCESSIBLE(classname, QWidget);
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::", ""), MainWindow);
-    GET_ACCESSIBLE(QString(classname).replace("Dtk::Widget::", ""), DBackgroundGroup);
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), PersonalizationList);
-    //个性化模块
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), PersonalizationGeneral);
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), PerssonalizationThemeWidget);
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), ThemeItem);
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), ThemeItemPic);
-    GET_ACCESSIBLE(QString(classname).replace("dccV20::personalization::", ""), RoundColorWidget);
-    GET_ACCESSIBLE(QString(classname).replace("dcc::widgets::", ""), SettingsItem);
-    GET_ACCESSIBLE(QString(classname).replace("dcc::widgets::", ""), DCCSlider);
-    GET_ACCESSIBLE_BY_OBJECTNAME(QString(classname).replace("Dtk::Widget::", ""), DSwitchButton, "");
-    return interface;
-}
-
 int main(int argc, char *argv[])
 {
     DApplication::loadDXcbPlugin();

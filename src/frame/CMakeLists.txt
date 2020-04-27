@@ -148,7 +148,7 @@ set(WINDOW_FILES
     window/standarditemhelper.h
     window/standarditemhelper.cpp
     window/utils.h
-    window/accessible.cpp
+    window/accessibledefine.h
     window/accessible.h
     window/modules/display/displaywidget.cpp
     window/modules/datetime/datetimemodule.cpp

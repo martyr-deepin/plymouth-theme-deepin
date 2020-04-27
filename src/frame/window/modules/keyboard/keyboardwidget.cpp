@@ -56,7 +56,7 @@ void KeyboardWidget::init()
         //~ contents_path /keyboard/Shortcuts
         { QIcon::fromTheme("dcc_hot_key"), tr("Shortcuts")},
         //~ contents_path /keyboard/Numerical Setting
-        { QIcon::fromTheme("dcc_language"), tr("Numerical Setting")}
+        { QIcon::fromTheme("dcc_general_purpose"), tr("Number Format")}
     };
     DStandardItem *keyboardItem = nullptr;
     for (auto it = menuIconText.cbegin(); it != menuIconText.cend(); ++it) {

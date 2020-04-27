@@ -62,7 +62,7 @@ void DatetimeWidget::init()
         //~ contents_path /datetime/Time Settings
         { QIcon::fromTheme("dcc_setting"), tr("Time Settings")} ,
         //~ contents_path /datetime/Format Settings
-        { QIcon::fromTheme("dcc_setting"), tr("Format Settings")}
+        { QIcon::fromTheme("dcc_setting"), tr("Time Format")}
 
     };
 

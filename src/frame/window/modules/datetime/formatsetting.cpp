@@ -45,7 +45,7 @@ FormatSetting::FormatSetting(DatetimeModel *mdoel, QWidget *parent)
 {
     setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
 
-    TitleLabel *headTitle = new TitleLabel(tr("TIME Format Setting"));     //时间格式设置
+    TitleLabel *headTitle = new TitleLabel(tr("Date and Time Formats"));     //时间格式设置
     QLabel *txtLbael = new QLabel("Format the date  you see in the system bar"); //设置您在系统栏中看到的日期格式
     m_layout->setSpacing(10);
     m_layout->setMargin(0);
@@ -60,17 +60,17 @@ FormatSetting::FormatSetting(DatetimeModel *mdoel, QWidget *parent)
 
 
     m_shortDateCbx = new ComboxWidget();
-    m_shortDateCbx->setTitle(tr("short data"));  //短日期
+    m_shortDateCbx->setTitle(tr("Short Date"));  //短日期
 
     m_longdateCbx = new ComboxWidget();
-    m_longdateCbx->setTitle(tr("longdata"));  //长日期
+    m_longdateCbx->setTitle(tr("Long Date"));  //长日期
 
 
     m_shortimeCbx = new ComboxWidget();
-    m_shortimeCbx->setTitle(tr("short time"));  //短时间
+    m_shortimeCbx->setTitle(tr("Short Time"));  //短时间
 
     m_longtimeCbx = new ComboxWidget();
-    m_longtimeCbx->setTitle(tr("long time"));  //长时间
+    m_longtimeCbx->setTitle(tr("Long Time"));  //长时间
 
 
     vbox->addWidget(m_weekCbx);
@@ -131,10 +131,10 @@ QString FormatSetting::fotmatWeek(int type)
     QString day("");
     switch (type) {
     case 0:
-        day = tr("Sunday"); //星期天
+        day = "星期天"; //星期天
         break;
     case 1:
-        day = tr("sunday"); //周天
+        day = "周天"; //周天
         break;
     default:
         break;
@@ -147,13 +147,13 @@ QString FormatSetting::fotmatLongDate(int type)
     QString date("");
     switch (type) {
     case 0:
-        date = tr("2020year4month5day");
+        date = tr("April 5, 2020");
         break;
     case 1:
-        date = tr("2020year4month5day Sunday");
+        date = tr("April 5, 2020, Sunday");
         break;
     case 2:
-        date = tr("Sunday 2020year4month5day");
+        date = tr("Sunday, April 5, 2020");
         break;
     default:
         break;
@@ -167,31 +167,31 @@ QString FormatSetting::fotmatShortDate(int type)
     QString date("");
     switch (type) {
     case 0:
-        date = tr("2020/4/5");
+        date = tr("yyyy/M/d");
         break;
     case 1:
-        date = tr("2020-4-5");
+        date = tr("yyyy-M-d");
         break;
     case 2:
-        date = tr("2020.4.5");
+        date = tr("yyyy.M.d");
         break;
     case 3:
-        date = tr("2020/04/05");
+        date = tr("yyyy/MM/dd");
         break;
     case 4:
-        date = tr("2020-04-05");
+        date = tr("yyyy-MM-dd");
         break;
     case 5:
-        date = tr("2020.04.05");
+        date = tr("yyyy.MM.dd");
         break;
     case 6:
-        date = tr("20/4/5");
+        date = tr("yy/M/d");
         break;
     case 7:
-        date = tr("20-4-5");
+        date = tr("yy-M-d");
         break;
     case 8:
-        date = tr("20.4.5");
+        date = tr("yy.M.d");
         break;
     default:
         break;
@@ -207,14 +207,14 @@ QString FormatSetting::fotmatLongTime(int type)
         if (mModel->get24HourFormat()) {
             time = tr("9:40:07");
         } else
-            time = tr("AM 9:40:07");
+            time = tr("9:40:07 AM");
         break;
     }
     case 1: {
         if (mModel->get24HourFormat()) {
             time = tr("09:40:07");
         } else
-            time = tr("AM 09:40:07");
+            time = tr("09:40:07 AM");
         break;
     }
     default:
@@ -231,7 +231,7 @@ QString FormatSetting::fotmatShortTime(int type)
         if (mModel->get24HourFormat()) {
             time = tr("9:40");
         } else {
-            time = tr("AM 9:40");
+            time = tr("9:40 AM");
         }
         break;
     }
@@ -239,7 +239,7 @@ QString FormatSetting::fotmatShortTime(int type)
         if (mModel->get24HourFormat()) {
             time = tr("09:40");
         } else {
-            time = tr("AM 09:40");
+            time = tr("09:40 AM");
         }
         break;
     }

@@ -45,7 +45,7 @@ NumericalSettingWidget::NumericalSettingWidget(KeyboardModel *model, QWidget *pa
 
     QHBoxLayout *headLayout = new QHBoxLayout();
     headLayout->setMargin(0);
-    TitleLabel *headTitle = new TitleLabel(tr("Numerical Setting"));   //数值设置
+    TitleLabel *headTitle = new TitleLabel(tr("Number and Currency Formats"));   //数值显示设置
     headLayout->addWidget(headTitle);
     //headLayout->addStretch();
 
@@ -62,7 +62,7 @@ NumericalSettingWidget::NumericalSettingWidget(KeyboardModel *model, QWidget *pa
 
     SettingsItem *timeItem = new SettingsItem;
     QVBoxLayout *numlayout = new  QVBoxLayout;
-    QLabel *label = new QLabel(tr("Digital Divider"));  //数位分割符
+    QLabel *label = new QLabel(tr("Separator"));  //数位分割符
     numlayout->addWidget(label);
     QGridLayout *timeLayout = new QGridLayout;
     /* if (label) {
@@ -70,7 +70,7 @@ NumericalSettingWidget::NumericalSettingWidget(KeyboardModel *model, QWidget *pa
      }
      label->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);*/
     //timeLayout->addWidget(label);
-    QLabel *label2 = new QLabel(tr("Percentile")); //分位
+    QLabel *label2 = new QLabel(tr("Grouping")); //分位
     /*label2->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     label2->setFixedWidth(45);*/
     timeLayout->addWidget(label2, 0, 0, 1, 1, Qt::AlignHCenter);
@@ -80,7 +80,7 @@ NumericalSettingWidget::NumericalSettingWidget(KeyboardModel *model, QWidget *pa
     m_interCbx->addItem(" ");
     timeLayout->addWidget(m_interCbx, 0, 1, 1, 2);
 
-    QLabel *label3 = new QLabel(tr("Decimals"));  //小数
+    QLabel *label3 = new QLabel(tr("Decimal"));  //小数
     /* label3->setFixedWidth(45);
      label3->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);*/
     timeLayout->addWidget(label3, 0, 3, 1, 1, Qt::AlignHCenter);
@@ -98,6 +98,10 @@ NumericalSettingWidget::NumericalSettingWidget(KeyboardModel *model, QWidget *pa
     m_currencyCbx->addItem(tr("Dollars"));     //美元
     m_currencyCbx->addItem(tr("Pound"));    //英镑
     m_currencyCbx->addItem(tr("Hong Kong dollar"));     //港元
+    m_currencyCbx->addItem(tr("Euro"));     //欧元
+    m_currencyCbx->addItem(tr("Yen"));     //日元
+    m_currencyCbx->addItem(tr("AUD"));    //澳元
+    m_currencyCbx->addItem(tr("Canadian dollar"));     //加元
     timeLayout->addWidget(m_currencyCbx, 1, 1, 1, 5);
     numlayout->addLayout(timeLayout);
     timeItem->setLayout(numlayout);
@@ -159,6 +163,18 @@ void NumericalSettingWidget::numericalSettingChanged(int index)
         break;
     case 3:
         text = "HK$";
+        break;
+    case 4:
+        text = "€";
+        break;
+    case 5:
+        text = "￥";
+        break;
+    case 6:
+        text = "$";
+        break;
+    case 7:
+        text = "C$";
         break;
     default:
         break;

@@ -35,7 +35,6 @@
 DWIDGET_USE_NAMESPACE
 using namespace dcc::widgets;
 using namespace dcc::notification;
-using namespace DCC_NAMESPACE;
 using namespace DCC_NAMESPACE::notification;
 
 NotificationWidget::NotificationWidget(NotificationModel *model, QWidget *parent)

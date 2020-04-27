@@ -28,7 +28,6 @@
 
 using namespace dcc;
 using namespace dcc::notification;
-using namespace DCC_NAMESPACE;
 using namespace DCC_NAMESPACE::notification;
 
 NotificationModule::NotificationModule(dccV20::FrameProxyInterface *frameProxy, QObject *parent)
@@ -75,11 +74,11 @@ void NotificationModule::active()
 {
     m_worker->active(true);
 
-    NotificationWidget *list = new NotificationWidget(m_model);
+    m_widget = new NotificationWidget(m_model);
 
-    connect(list, &NotificationWidget::requestShowSystem, this, &NotificationModule::showSystemNotify);
-    connect(list, &NotificationWidget::requestShowApp, this, &NotificationModule::showAppNotify);
-    m_frameProxy->pushWidget(this, list);
+    connect(m_widget, &NotificationWidget::requestShowSystem, this, &NotificationModule::showSystemNotify);
+    connect(m_widget, &NotificationWidget::requestShowApp, this, &NotificationModule::showAppNotify);
+    m_frameProxy->pushWidget(this, m_widget);
 
     showSystemNotify();
 }
@@ -96,7 +95,10 @@ int NotificationModule::load(QString path)
 QStringList NotificationModule::availPage() const
 {
     QStringList list;
-    //list << "System Notify";
+    list << "System Notification";
+    for(int i = 0; i < m_model->getAppSize(); i++) {
+        list << m_model->getAppModel(i)->getAppName();
+    }
     return list;
 }
 

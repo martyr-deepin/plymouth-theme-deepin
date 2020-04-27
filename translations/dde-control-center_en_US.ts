@@ -413,8 +413,12 @@
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="442"/>
 =======
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="441"/>
+<<<<<<< HEAD
 >>>>>>> feat:when modifying the full name of an account, there is no length limit
         <source>Username cannot be a pure number</source>
+=======
+        <source>Your username should not only have numbers</source>
+>>>>>>> feat(Accounts):username cannot be a pure number
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -20,8 +20,6 @@
  */
 #include "timeslotitem.h"
 
-#include <DLineEdit>
-
 #include <QCheckBox>
 #include <QLabel>
 #include <QHBoxLayout>
@@ -29,25 +27,24 @@
 
 DWIDGET_USE_NAMESPACE
 using namespace dcc;
-using namespace dcc::widgets;
 using namespace DCC_NAMESPACE::notification;
 
 //消息通知时间段项
 TimeSlotItem::TimeSlotItem(QWidget *parent)
     : SettingsItem(parent)
     , m_chkState(new QCheckBox)
-    , m_editStart(new DLineEdit)
-    , m_editEnd(new DLineEdit)
+    , m_editStart(new DTimeEdit)
+    , m_editEnd(new DTimeEdit)
 {
     setFixedHeight(45);
+
+    m_editStart->setDisplayFormat("h:mm");
+    m_editEnd->setDisplayFormat("h:mm");
 
     QLabel *lblFrom = new QLabel(tr("From"));
     lblFrom->adjustSize();
     QLabel *lblTo = new QLabel(tr("To"));
     lblTo->adjustSize();
-
-    m_editStart->setMaximumWidth(120);
-    m_editEnd->setMaximumWidth(120);
 
     auto layout = new QHBoxLayout;
     layout->setContentsMargins(10, 0, 10, 0);
@@ -63,22 +60,8 @@ TimeSlotItem::TimeSlotItem(QWidget *parent)
     connect(m_chkState, &QCheckBox::click, this, [ = ]() {
         stateChanged(getState());
     });
-    connect(m_editStart, &DLineEdit::textEdited, this, [ = ](const QString & strtime) {
-        QTime time = QTime::fromString(strtime, "h:mm");
-        if (time.isValid()) {
-            Q_EMIT timeStartChanged(time);
-        } else {
-            m_editStart->showAlertMessage("请输入正确的时间格式：‘0:00’", qobject_cast<QWidget *>(this->parent()));
-        }
-    });
-    connect(m_editEnd, &DLineEdit::textEdited, this, [ = ](const QString & strtime) {
-        QTime time = QTime::fromString(strtime, "h:mm");
-        if (time.isValid()) {
-            Q_EMIT timeEndChanged(time);
-        } else {
-            m_editStart->showAlertMessage("请输入正确的时间格式：‘0:00’", qobject_cast<QWidget *>(this->parent()));
-        }
-    });
+    connect(m_editStart, &DTimeEdit::timeChanged, this, &TimeSlotItem::timeStartChanged);
+    connect(m_editEnd, &DTimeEdit::timeChanged, this, &TimeSlotItem::timeEndChanged);
 }
 
 bool TimeSlotItem::getState() const
@@ -96,26 +79,26 @@ void TimeSlotItem::setState(const bool &state)
 
 QTime TimeSlotItem::getTimeStart() const
 {
-    return QTime::fromString(m_editStart->text(), "h:mm");
+    return m_editStart->time();
 }
 
 void TimeSlotItem::setTimeStart(const QTime &time)
 {
     if (QTime::fromString(m_editStart->text()) != time) {
-        m_editStart->setText(time.toString("h:mm"));
+        m_editStart->setTime(time);
         Q_EMIT timeStartChanged(time);
     }
 }
 
 QTime TimeSlotItem::getTimeEnd() const
 {
-    return QTime::fromString(m_editEnd->text(), "h:mm");
+    return m_editEnd->time();
 }
 
 void TimeSlotItem::setTimeEnd(const QTime &time)
 {
     if (QTime::fromString(m_editEnd->text()) != time) {
-        m_editEnd->setText(time.toString("h:mm"));
+        m_editEnd->setTime(time);
         Q_EMIT timeEndChanged(time);
     }
 }

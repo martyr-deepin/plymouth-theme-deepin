@@ -35,12 +35,6 @@ class QStandardItemModel;
 class QVBoxLayout;
 QT_END_NAMESPACE
 
-namespace dcc {
-namespace widgets {
-class MultiSelectListView;
-}
-}
-
 namespace DCC_NAMESPACE {
 namespace notification {
 
@@ -62,8 +56,8 @@ public Q_SLOTS:
     void onSystemClicked(const QModelIndex &index);
     void refreshList();
 private:
-    dcc::widgets::MultiSelectListView *m_softwareListView;
-    dcc::widgets::MultiSelectListView *m_systemListView;
+    Dtk::Widget::DListView *m_softwareListView;
+    Dtk::Widget::DListView *m_systemListView;
     QStandardItemModel *m_sysmodel;
     QStandardItemModel *m_softwaremodel;
     QVBoxLayout *m_centralLayout;

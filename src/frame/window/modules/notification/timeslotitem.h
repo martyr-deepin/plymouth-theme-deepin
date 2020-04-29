@@ -23,9 +23,7 @@
 #include "interface/namespace.h"
 #include "widgets/settingsitem.h"
 
-DWIDGET_BEGIN_NAMESPACE
-class DLineEdit;
-DWIDGET_END_NAMESPACE
+#include <DTimeEdit>
 
 QT_BEGIN_NAMESPACE
 class QTime;
@@ -57,8 +55,8 @@ Q_SIGNALS:
 
 private:
     QCheckBox *m_chkState;
-    Dtk::Widget::DLineEdit *m_editStart;
-    Dtk::Widget::DLineEdit *m_editEnd;
+    Dtk::Widget::DTimeEdit *m_editStart;
+    Dtk::Widget::DTimeEdit *m_editEnd;
 };
 
 }   //namespace notification

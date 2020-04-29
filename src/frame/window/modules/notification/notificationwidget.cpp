@@ -22,9 +22,9 @@
 #include "notificationwidget.h"
 #include "modules/notification/model/appitemmodel.h"
 #include "modules/notification/notificationmodel.h"
-#include "widgets/multiselectlistview.h"
-#include "widgets/titlelabel.h"
 #include "window/utils.h"
+
+#include <DListView>
 
 #include <QLabel>
 #include <QVBoxLayout>
@@ -33,14 +33,13 @@
 #include <QMessageBox>
 
 DWIDGET_USE_NAMESPACE
-using namespace dcc::widgets;
 using namespace dcc::notification;
 using namespace DCC_NAMESPACE::notification;
 
 NotificationWidget::NotificationWidget(NotificationModel *model, QWidget *parent)
     : QWidget(parent)
-    , m_softwareListView(new MultiSelectListView())
-    , m_systemListView(new MultiSelectListView())
+    , m_softwareListView(new DListView())
+    , m_systemListView(new DListView())
     , m_sysmodel(new QStandardItemModel(this))
     , m_softwaremodel(new QStandardItemModel(this))
     , m_centralLayout(new QVBoxLayout())
@@ -53,9 +52,11 @@ NotificationWidget::NotificationWidget(NotificationModel *model, QWidget *parent
     m_systemListView->setMaximumHeight(50);
     m_systemListView->setResizeMode(QListView::Adjust);
     m_systemListView->setMovement(QListView::Static);
-    m_systemListView->setFrameShape(QFrame::NoFrame);
     m_systemListView->setViewportMargins(ScrollAreaMargins);
     m_systemListView->setEditTriggers(QAbstractItemView:: NoEditTriggers);
+    m_systemListView->setAutoScroll(false);
+    m_systemListView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    m_systemListView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     DStandardItem *systemitem = new DStandardItem(QIcon::fromTheme("dcc_general_purpose"), tr("System Notifications"));
 
@@ -64,16 +65,15 @@ NotificationWidget::NotificationWidget(NotificationModel *model, QWidget *parent
     m_systemListView->setModel(m_sysmodel);
     m_centralLayout->addWidget(m_systemListView);
 
-    connect(m_systemListView, &QListView::clicked, this, &NotificationWidget::onSystemClicked);
-    connect(m_systemListView, &DListView::activated, m_systemListView, &QListView::clicked);
+    connect(m_systemListView, &DListView::clicked, this, &NotificationWidget::onSystemClicked);
+    connect(m_systemListView, &DListView::activated, m_systemListView, &DListView::clicked);
     m_systemListView->setCurrentIndex(m_sysmodel->indexFromItem(m_sysmodel->item(0)));
 
-    QLabel *themeL = new TitleLabel(tr("App Notifications"));
+    QLabel *themeL = new QLabel(tr("App Notifications"));
     themeL->setMargin(3);
     m_centralLayout->addWidget(themeL);
     m_softwareListView->setResizeMode(QListView::Adjust);
     m_softwareListView->setMovement(QListView::Static);
-    m_softwareListView->setFrameShape(QFrame::NoFrame);
     m_softwareListView->setViewportMargins(ScrollAreaMargins);
     m_softwareListView->setModel(m_softwaremodel);
     m_softwareListView->setEditTriggers(QAbstractItemView:: NoEditTriggers);
@@ -99,7 +99,7 @@ void NotificationWidget::onAppClicked(const QModelIndex &index)
     if (index.row() >= 0) {
         Q_EMIT requestShowApp(index.row());
         m_systemListView->clearSelection();
-        m_softwareListView->resetStatus(index);
+        m_softwareListView->setCurrentIndex(index);
     }
 }
 
@@ -121,7 +121,7 @@ void NotificationWidget::onSystemClicked(const QModelIndex &index)
     default:
         break;
     }
-    m_systemListView->resetStatus(index);
+    m_systemListView->setCurrentIndex(index);
 }
 
 void NotificationWidget::refreshList()

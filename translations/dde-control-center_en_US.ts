@@ -1269,6 +1269,7 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="152"/>
 =======
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
@@ -1283,15 +1284,22 @@
     <message>
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="151"/>
 >>>>>>> refeactor(text):Finger unclear.And Lift finger info
+=======
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+>>>>>>> fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
         <source>Customize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="153"/>
 =======
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="152"/>
 >>>>>>> refeactor(text):Finger unclear.And Lift finger info
+=======
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+>>>>>>> fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
         <source>Configure the display according to your needs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2581,17 +2589,17 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secret8021xsection.cpp" line="170"/>
-        <source>Saved</source>
+        <source>Save password for this user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secret8021xsection.cpp" line="171"/>
-        <source>Ask</source>
+        <source>Save password for all users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secret8021xsection.cpp" line="172"/>
-        <source>Not Required</source>
+        <source>Ask me always</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5778,11 +5786,13 @@ If no operation, the display will be restored after %1s.</source>
     <name>dcc::accounts::FingerModel</name>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="114"/>
+        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="160"/>
         <source>The fingerprint already exists</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="115"/>
+        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="161"/>
         <source>Please scan other fingers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5803,7 +5813,7 @@ If no operation, the display will be restored after %1s.</source>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="153"/>
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="169"/>
+        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="170"/>
         <source>Clean your finger or adjust the finger position, and try again</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5814,17 +5824,12 @@ If no operation, the display will be restored after %1s.</source>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="157"/>
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="166"/>
+        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="167"/>
         <source>Adjust the finger position to scan your fingerprint fully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="160"/>
-        <source>The fingerprint already exists, please scan other fingers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="163"/>
+        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="164"/>
         <source>Finger moved too fast. Please do not lift until prompted</source>
         <translation type="unfinished"></translation>
     </message>

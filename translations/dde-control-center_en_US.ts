@@ -2782,6 +2782,7 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="113"/>
         <source>WEP 40/64/128-bit</source>
         <translation type="unfinished"></translation>
@@ -2794,6 +2795,9 @@
 >>>>>>> Fix(accounts):Finger input-widiget lose focus only at the first-time
 =======
 =======
+=======
+        <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="113"/>
+>>>>>>> fix(network): 更新翻译，【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】更新WIFI加密方式支持WEP shared和open模式
         <source>WEP 40/64/128-bit</source>
 >>>>>>> Fix(text):lift finger.And clean Finger
         <translation type="unfinished"></translation>
@@ -2811,6 +2815,9 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fix(network): 更新翻译，【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】更新WIFI加密方式支持WEP shared和open模式
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="119"/>
         <source>Shared key</source>
         <translation type="unfinished"></translation>
@@ -2818,6 +2825,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="120"/>
         <source>Open system</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
 =======
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="116"/>
@@ -2826,6 +2834,8 @@
         <translation>Security</translation>
 >>>>>>> Fix(accounts):Finger input-widiget lose focus only at the first-time
 =======
+=======
+>>>>>>> fix(network): 更新翻译，【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】更新WIFI加密方式支持WEP shared和open模式
         <translation type="unfinished"></translation>
 >>>>>>> feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
     </message>
@@ -9367,6 +9377,14 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundwidget.cpp" line="109"/>
         <source>Sound Effects</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>dcc::sound::SoundWorker</name>
+    <message>
+        <location filename="../src/frame/modules/sound/soundworker.cpp" line="265"/>
+        <source>Bluetooth Earphones</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

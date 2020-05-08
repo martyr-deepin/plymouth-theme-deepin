@@ -87,9 +87,6 @@ DateSettings::DateSettings(QWidget *parent)
     cancelButton->setText(tr("Cancel"));
     confirmButton->setText(tr("Confirm"));
 
-    cancelButton->setAccessibleName("TimeCancel");
-    confirmButton->setAccessibleName("TimeConfirm");
-
     QDate date(QDate::currentDate());
     m_yearWidget->setValue(date.year());
     m_monthWidget->setValue(date.month());

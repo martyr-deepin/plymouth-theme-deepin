@@ -66,10 +66,6 @@ PersonalizationGeneral::PersonalizationGeneral(QWidget *parent)
     , m_bgWidget(new QWidget)
     , m_switchWidget(new QWidget)
 {
-    m_Themes->setAccessibleName("From_theme");
-    m_bgWidget->setObjectName("From_accentcolor");
-    m_switchWidget->setObjectName("From_windoweffect");
-
     m_centralLayout->setMargin(0);
     //appearance
     //~ contents_path /personalization/General

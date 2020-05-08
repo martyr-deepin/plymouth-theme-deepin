@@ -104,20 +104,20 @@ MainWindow::MainWindow(QWidget *parent)
 {
     //Initialize view and layout structure
     QWidget *content = new QWidget(this);
-    content->setObjectName("Form_content");
+    content->setObjectName("contentwindow");
     m_contentLayout = new QHBoxLayout(content);
     m_contentLayout->setContentsMargins(0, 0, 0, 0);
     m_contentLayout->setSpacing(0);
     m_rightContentLayout = new QHBoxLayout();
 
     m_rightView = new DBackgroundGroup(m_rightContentLayout);
-    m_rightView->setObjectName("From_rightview");
+    m_rightView->setObjectName("modulepage");
     m_rightView->setItemSpacing(2);
     m_rightView->setItemMargins(QMargins(10, 10, 10, 10));
     m_rightView->setContentsMargins(10, 10, 10, 10);
 
     m_navView = new dcc::widgets::MultiSelectListView(this);
-    m_navView->setAccessibleName("List_leftview");
+    m_navView->setAccessibleName("Form_mainmenulist");
     m_navView->setFrameShape(QFrame::Shape::NoFrame);
     m_navView->setEditTriggers(QListView::NoEditTriggers);
     m_navView->setResizeMode(QListView::Adjust);

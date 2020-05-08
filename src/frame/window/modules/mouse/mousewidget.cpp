@@ -67,6 +67,7 @@ void MouseWidget::init(bool tpadExist, bool redPointExist)
         mouseItem->setData(VListViewItemMargin, Dtk::MarginsRole);
         m_listviewModel->appendRow(mouseItem);
     }
+    m_mouseListView->setAccessibleName("List_mousemenulist");
     m_mouseListView->setFrameShape(QFrame::NoFrame);
     m_mouseListView->setModel(m_listviewModel);
     m_mouseListView->setEditTriggers(QAbstractItemView::NoEditTriggers);

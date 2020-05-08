@@ -147,6 +147,7 @@ void CreateAccountPage::initWidgets(QVBoxLayout *layout)
     layout->addWidget(titleLabel);
 
     m_avatarListWidget = new AvatarListWidget(m_newUser, this);
+    m_avatarListWidget->setAccessibleName("List_useravatarlist");
     m_avatarListWidget->setAvatarSize(QSize(40, 40));
     m_avatarListWidget->setViewportMargins(0, 0, 0, 0);
     m_avatarListWidget->setSpacing(14);

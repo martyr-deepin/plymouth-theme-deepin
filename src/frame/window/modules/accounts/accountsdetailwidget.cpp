@@ -182,6 +182,7 @@ void AccountsDetailWidget::initUserInfo(QVBoxLayout *layout)
     layout->addLayout(fullnameLayout);
 
     m_avatarListWidget = new AvatarListWidget(m_curUser, this);
+    m_avatarListWidget->setAccessibleName("List_useravatarlist");
     m_avatarListWidget->setVisible(false);
     m_avatarListWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Minimum);
     m_avatarListWidget->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);

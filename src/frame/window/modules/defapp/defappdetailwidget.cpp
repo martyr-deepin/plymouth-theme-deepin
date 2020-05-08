@@ -51,6 +51,7 @@ DefappDetailWidget::DefappDetailWidget(dcc::defapp::DefAppWorker::DefaultAppsCat
     , m_systemAppCnt(0)
     , m_userAppCnt(0)
 {
+    m_defApps->setAccessibleName("List_defapplist");
     m_defApps->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
     m_defApps->setEditTriggers(QListView::NoEditTriggers);
     m_defApps->setIconSize(QSize(32, 32));

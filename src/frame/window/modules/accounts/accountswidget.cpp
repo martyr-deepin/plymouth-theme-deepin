@@ -63,6 +63,7 @@ AccountsWidget::AccountsWidget(QWidget *parent)
     mainContentLayout->addWidget(m_userlistView);
     mainContentLayout->addWidget(m_createBtn, 0, Qt::AlignHCenter);
 
+    m_userlistView->setAccessibleName("List_userlist");
     m_userlistView->setFrameShape(QFrame::NoFrame);
     m_userlistView->setViewportMargins(ScrollAreaMargins);
     m_userlistView->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);

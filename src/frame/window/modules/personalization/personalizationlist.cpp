@@ -36,7 +36,7 @@ PersonalizationList::PersonalizationList(QWidget *parent)
     , m_model(new QStandardItemModel(this))
     , m_centralLayout(new QVBoxLayout())
 {
-    m_categoryListView->setAccessibleName("List_categorylistview");
+    m_categoryListView->setAccessibleName("List_categorylist");
     m_categoryListView->setResizeMode(QListView::Adjust);
     m_categoryListView->setMovement(QListView::Static);
     m_categoryListView->setFrameShape(QFrame::NoFrame);

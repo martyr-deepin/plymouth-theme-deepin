@@ -23,113 +23,208 @@
 <context>
     <name>dccV20::MainWindow</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="160"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="162"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Help</source>
         <translation>Súgó</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="305"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Accounts</source>
         <translation>Felhasználók</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="307"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="310"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Cloud Account</source>
         <translation>Felhő fiók</translation>
         <extra-contents_path>/cloudsync/Cloud Sync</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Display</source>
         <translation>Kijelző</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="309"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Default Applications</source>
         <translation>Alapértelmezett alkalmazások</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="310"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="313"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Personalization</source>
         <translation>Személyreszabás</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Network</source>
         <translation>Hálózat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
+        <source>Notification</source>
+        <translation>Értesítés</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Sound</source>
         <translation>Hang</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="313"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="819"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="821"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="317"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="824"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="826"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Bluetooth</source>
         <translation>Bluetooth</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Date and Time</source>
         <translation>Dátum és Idő</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Power</source>
         <translation>Kikapcsolás</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Mouse</source>
         <translation>Egér</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="317"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="831"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="833"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="836"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="838"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Drawing Tablet</source>
         <translation>Rajztábla</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="322"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="416"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Keyboard and Language</source>
         <translation>Billentyűzet és Nyelv</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="323"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Updates</source>
         <translation>Frissítés</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="324"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>System Info</source>
         <translation>Rendszerinformáció</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="325"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>General Settings</source>
         <translation>Általános beállítások</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="372"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="376"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Touchpad</source>
         <translation>Érintőpad</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="373"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="377"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>TrackPoint</source>
         <translation>TrackPoint</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="410"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="414"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Assistive Tools</source>
         <translation>Segítő eszközök</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="843"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="845"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="848"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="850"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Cloud Sync</source>
         <translation>Felhő alapú szinkronizálás</translation>
     </message>
@@ -151,63 +246,101 @@
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
         <source>Full Name</source>
         <translation>Teljes név</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="225"/>
         <source>The full name is too long</source>
         <translation>A teljes név túl hosszú</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="242"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>The full name already exists</source>
         <translation>A teljes név már létezik</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="282"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Validity Days</source>
         <translation>Érvényességi napok</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="284"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="347"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Always</source>
         <translation>Mindig</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="340"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Please input a number between 1-99999</source>
         <translation>Kérjük, írjon be egy számot 1-99999 között</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Change Password</source>
         <translation>Jelszóváltoztatás</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="383"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Delete Account</source>
         <translation>Felhasználói fiók törlése</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="386"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Auto Login</source>
         <translation>Automatikus belépés</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="390"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Login Without Password</source>
         <translation>Bejelentkezés jelszó nélkül</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="466"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="464"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Group</source>
         <translation>Csoport</translation>
     </message>
@@ -373,9 +506,15 @@
         <translation>A felhasználónév hosszának 3 és 32 karakter között kell lennie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="441"/>
         <source>Your username should not only have numbers</source>
         <translation type="unfinished"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="431"/>
+        <source>The first character must be a letter or number</source>
+        <translation>Az első karakternek betűnek vagy számnak kell lennie</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="448"/>
@@ -548,7 +687,11 @@
 <context>
     <name>dccV20::bluetooth::DeviceSettingsItem</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="168"/>
+=======
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="165"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Connected</source>
         <translation>Kapcsolódva</translation>
     </message>
@@ -566,29 +709,29 @@
         <translation>Frissítés...</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="94"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="91"/>
         <source>Startup Delay</source>
         <translation>Indítás időzítés</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="95"/>
         <source>Theme</source>
         <translation>Téma</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="97"/>
         <source>Click the option in boot menu to set it as the first boot, and drag and drop a picture to change the background</source>
         <translation>A boot menuben beállíthatod és kicserélheted a háttérképet.</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="102"/>
         <source>Switch theme on to view it in boot menu</source>
         <translation>A boot-menü téma megváltoztatása</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="126"/>
         <source>Boot Menu</source>
         <translation>Boot menü</translation>
     </message>
@@ -702,7 +845,11 @@
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="91"/>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="121"/>
         <source>Please sign in to your cloud account first and continue</source>
+<<<<<<< HEAD
         <translation>Először jelentkezzen be a felhőalapú fiókjába, majd folytassa</translation>
+=======
+        <translation>Először jelentkezzen be a felhőalapú fiókjába, majd tovább</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="96"/>
@@ -727,7 +874,11 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
         <source>2. Go to https://www.chinauos.com/developMode to download an offline certificate</source>
+<<<<<<< HEAD
         <translation>Nyissa meg a https://www.chinauos.com/developMode webhelyet  a tanúsítvány letöltéséhez</translation>
+=======
+        <translation>2. Nyissa meg a https://www.chinauos.com/developMode webhelyet  a tanúsítvány letöltéséhez</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="129"/>
@@ -811,7 +962,11 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/userexperienceprogramwidget.cpp" line="48"/>
         <source>Joining User Experience Program means that you grant and authorize us to collect and use the information of your device, system and applications. If you refuse our collection and use of the aforementioned information, do not join User Experience Program. For details, please refer to UOS Privacy Policy (https://www.chinauos.com/agreement/experience).</source>
+<<<<<<< HEAD
         <translation>Csatlakozás a felhasználói élmény programhoz azt jelenti, hogy Ön elfogadja és felhatalmaz minket arra, hogy összegyűjtsük és felhasználjuk az eszköz, rendszer és alkalmazások információit. Ha elutasítja a fent említett információk gyűjtését és felhasználását, ne csatlakozzon a felhasználói élmény programhoz. Részletekért kérjük, olvassa el az UOS adatvédelmi irányelveit (https://www.chinauos.com/aglement/experience).</translation>
+=======
+        <translation>Csatlakozás a felhasználói élmény programhoz azt jelenti, hogy Ön elfogadja és felhatalmaz minket arra, hogy összegyűjtsük és felhasználjuk az eszköz, rendszer és alkalmazások információit. Ha elutasítja a fent említett információk gyűjtését és felhasználását, ne csatlakozzon a felhasználói élmény programhoz. Részletekért kérjük, olvassa el az UOS adatvédelmi irányelveit.(https://www.chinauos.com/agreement/experience).</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -1063,6 +1218,8 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="153"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="176"/>
         <source>Refresh Rate</source>
         <translation>Frissítési arány</translation>
     </message>
@@ -1077,23 +1234,40 @@
         <translation>Ment</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="279"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="341"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Recommended</source>
         <translation>Ajánlott</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="371"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>inch</source>
         <translation>inch</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="372"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Resolution %1x%2</source>
         <translation>Felbontás  %1x%2</translation>
     </message>
@@ -1115,38 +1289,39 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
-        <source>Multiple Displays</source>
-        <translation>Többképernyős mód</translation>
-        <extra-contents_path>/display/Multiple Displays</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
-        <source>Brightness</source>
-        <translation>Fényerősség</translation>
-        <extra-contents_path>/display/Brightness</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
-        <source>Resolution</source>
-        <translation>Felbontás</translation>
-        <extra-contents_path>/display/Resolution</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
-        <source>Display Scaling</source>
-        <translation>Képernyő átméretezés</translation>
-        <extra-contents_path>/display/Display Scaling</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="71"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="151"/>
         <source>Refresh Rate</source>
         <translation>Frissítési arány</translation>
         <extra-contents_path>/display/Refresh Rate</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+        <source>Multiple Displays</source>
+        <translation>Többképernyős mód</translation>
+        <extra-contents_path>/display/Multiple Displays</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="133"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="139"/>
+        <source>Brightness</source>
+        <translation>Fényerősség</translation>
+        <extra-contents_path>/display/Brightness</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="138"/>
+        <source>Resolution</source>
+        <translation>Felbontás</translation>
+        <extra-contents_path>/display/Resolution</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="143"/>
+        <source>Display Scaling</source>
+        <translation>Képernyő átméretezés</translation>
+        <extra-contents_path>/display/Display Scaling</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="181"/>
         <source>Rotate Screen</source>
         <translation>Képernyő elforgatása</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1180,6 +1355,19 @@
         <translation>Képernyő kiterjesztése a többi képernyőre</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
+        <source>%1 only</source>
+        <translation>Csak %1</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
+        <source>Show the screen content only on %1</source>
+        <translation>Csak az %1 mutassa a képernyő tartalmát</translation>
+    </message>
+    <message>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
         <source>Customize</source>
         <translation>Testreszabás</translation>
@@ -1615,32 +1803,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Mutató sebessége</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
         <source>Tap to Click</source>
         <translation>Érintésre kattintás</translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
         <source>Natural Scrolling</source>
         <translation>Természetes görgetés</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
         <source>Slow</source>
         <translation>Lassú</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
         <source>Fast</source>
         <translation>Gyors</translation>
     </message>
@@ -1668,73 +1856,81 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>Alkalmazás proxy</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Proxy típus </translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>IP-cím</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Szükséges</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Felhasználónév</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Tetszőleges</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Jelszó</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>Jelöld be a &quot;Proxy használata&quot; pontot az Indító alkalmazás környezeti menüjében miután beállítottad</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Mégsem</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Ment</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
         <source>Invalid IP address</source>
+<<<<<<< HEAD
         <translation>Érvénytelen IP-cím
 </translation>
+=======
+        <translation>Érvénytelen IP-cím</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid port</source>
+<<<<<<< HEAD
         <translation>Érvénytelen port
 </translation>
+=======
+        <translation>Érvénytelen port</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -2042,15 +2238,15 @@
         <translation>Prefix</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="445"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="457"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="466"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="476"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="485"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="513"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="529"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="539"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="548"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="461"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="470"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="480"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="489"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="517"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="533"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="543"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="552"/>
         <source>Invalid IP address</source>
         <translation>Érvénytelen IP-cím
 </translation>
@@ -3761,6 +3957,91 @@
     </message>
 </context>
 <context>
+    <name>dccV20::notification::AppNotifyWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="75"/>
+        <source>Show notifications from %1 on desktop and in the notification center.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="89"/>
+        <source>Play a sound</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="92"/>
+        <source>Show messages on lockscreen</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="95"/>
+        <source>Show only in notification center</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="98"/>
+        <source>Show message preview</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::NotificationModule</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationmodule.cpp" line="70"/>
+        <source>Notification</source>
+        <translation>Értesítés</translation>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::NotificationWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationwidget.cpp" line="61"/>
+        <source>System Notifications</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationwidget.cpp" line="72"/>
+        <source>App Notifications</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::SystemNotifyWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="50"/>
+        <source>Show icon on Dock</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="78"/>
+        <source>Do Not Disturb</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="84"/>
+        <source>App notifications will not be shown on desktop and the sounds will be silenced, but you can view all messages in the notification center.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="107"/>
+        <source>When the screen is locked</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::TimeSlotItem</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/timeslotitem.cpp" line="44"/>
+        <source>From</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/timeslotitem.cpp" line="46"/>
+        <source>To</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
     <name>dccV20::personalization::PersonalizationFontsWidget</name>
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationfontswidget.cpp" line="50"/>
@@ -3788,28 +4069,43 @@
 <context>
     <name>dccV20::personalization::PersonalizationGeneral</name>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="75"/>
         <source>Theme</source>
         <translation>Téma</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="81"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="84"/>
         <source>Accent Color</source>
         <translation>Színárnyalat</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="117"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="120"/>
         <source>Window Effect</source>
         <translation>Ablak effekt</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="126"/>
         <source>Transparency</source>
         <translation>Áttetszőség</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="149"/>
+        <source>Window Miniminze Effect</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Scale</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Magic Lamp</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3976,59 +4272,80 @@
 <context>
     <name>dccV20::power::UseBatteryWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="42"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>A monitor alvó állapotba kerül utána</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="55"/>
         <source>Computer will suspend after</source>
         <translation>A számítógép alvó állapotba kerül utána</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="57"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="58"/>
         <source>Lock screen after</source>
         <translation>Későbbi zárolási képernyő</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="61"/>
         <source>Suspend on lid close</source>
         <translation>Alvó állapot a notebook fedelének lehajtásakor</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="77"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="178"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Never</source>
         <translation>Soha</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="160"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Minute</source>
         <translation>1 perc</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="163"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="169"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="172"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="181"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1 Minutes</source>
         <translation>%1 perc</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="175"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Hour</source>
         <translation>1 óra</translation>
     </message>
@@ -4036,59 +4353,80 @@
 <context>
     <name>dccV20::power::UseElectricWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>A monitor alvó állapotba kerül utána</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="56"/>
         <source>Lock screen after</source>
         <translation>Későbbi zárolási képernyő</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="59"/>
         <source>Suspend on lid close</source>
         <translation>Alvó állapot a notebook fedelének lehajtásakor</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="64"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="67"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="68"/>
         <source>Computer will suspend after</source>
         <translation>A számítógép alvó állapotba kerül utána</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="88"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="202"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Never</source>
         <translation>Soha</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Minute</source>
         <translation>1 perc</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="205"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1 Minutes</source>
         <translation>%1 perc</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="199"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Hour</source>
         <translation>1 óra</translation>
     </message>
@@ -4367,17 +4705,12 @@
         <translation>Energiagazdálkodási beállítások</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="158"/>
-        <source>Corner Settings</source>
-        <translation>Sarkok beállítása</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="256"/>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="255"/>
         <source>Last Sync: %1</source>
         <translation>Utolsó szinkronizálás: %1</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="258"/>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="257"/>
         <source>yyyy-MM-dd hh:mm</source>
         <translation>éééé-HH-nn óó:pp</translation>
     </message>
@@ -4398,7 +4731,11 @@
     <message>
         <location filename="../src/frame/window/modules/sync/pages/login.cpp" line="45"/>
         <source>Cloud Account Sign In</source>
+<<<<<<< HEAD
         <translation>Cloud Fiók Bejelentkezés</translation>
+=======
+        <translation> Felhő Fiók Bejelentkezés</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/sync/pages/login.cpp" line="57"/>
@@ -4437,7 +4774,11 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="30"/>
         <source>Set backup directory</source>
+<<<<<<< HEAD
         <translation>Állítsa be a biztonsági mentés könyvtárát</translation>
+=======
+        <translation>Állítsa be a biztonsági mentés helyét</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="111"/>
@@ -4546,15 +4887,15 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="85"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="162"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="163"/>
         <source>To be activated</source>
         <translation>Bekapcsolni</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="164"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="172"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="176"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="165"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="173"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="177"/>
         <source>Activate</source>
         <translation>Aktiválja</translation>
     </message>
@@ -4577,33 +4918,33 @@
         <extra-contents_path>/systeminfo/About This PC</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="143"/>
         <source>%1-bit</source>
         <translation>%1-bit</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="158"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="159"/>
         <source>Activated</source>
         <translation>Aktív</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="160"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="161"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="169"/>
         <source>View</source>
         <translation>Megtekintés</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="167"/>
         <source>Expired</source>
         <translation>Lejárt</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="170"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="171"/>
         <source>In trial period</source>
         <translation>Próbaidőszakban</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="175"/>
         <source>Trial expired</source>
         <translation>A próba lejárt</translation>
     </message>
@@ -9344,12 +9685,12 @@ Ha nem működik, a képernyőbeállítás visszaáll %1 másodperc elteltével.
         <translation>%1bit</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="187"/>
-        <source>Deepin Community</source>
-        <translation>Deepin közösség</translation>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="188"/>
+        <source>www.deepin.org</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="190"/>
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
         <translation>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</translation>
     </message>

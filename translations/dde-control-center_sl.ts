@@ -23,111 +23,202 @@
 <context>
     <name>dccV20::MainWindow</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="160"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="162"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Help</source>
         <translation>Pomoč</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="305"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Accounts</source>
         <translation>Računi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="307"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="310"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Cloud Account</source>
         <translation>Račun v oblaku</translation>
         <extra-contents_path>/cloudsync/Cloud Sync</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Display</source>
         <translation>Prikaži</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="309"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Default Applications</source>
         <translation>Privzeti programi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="310"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="313"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Personalization</source>
         <translation>Prilagoditev</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Network</source>
         <translation>Omrežje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
+        <source>Notification</source>
+        <translation>Obvestilo</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Sound</source>
         <translation>Zvok</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="313"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="819"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="821"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="317"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="824"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="826"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Bluetooth</source>
         <translation>Bluetooth</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Date and Time</source>
         <translation>Datum in čas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Power</source>
         <translation>Napajanje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Mouse</source>
         <translation>Miška</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="317"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="831"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="833"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="836"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="838"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Drawing Tablet</source>
         <translation>Risalna tablica</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="322"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="416"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Keyboard and Language</source>
         <translation>Tipkovnica in jezik</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="323"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Updates</source>
         <translation>Posodobitve</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="324"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>System Info</source>
         <translation>Sistemske informacije</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="325"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>General Settings</source>
         <translation>Splošne nastavitve</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="372"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="376"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Touchpad</source>
         <translation>Drsna ploščica</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="373"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="377"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>TrackPoint</source>
         <translation>Gumb drsnik</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="410"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="414"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Assistive Tools</source>
         <translation>Podporna orodja</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="843"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="845"/>
         <source>Cloud Sync</source>
@@ -140,69 +231,117 @@
         <location filename="../src/frame/window/modules/accounts/accounntfingeitem.cpp" line="123"/>
         <source>The name must only contain letters, numbers and underline, and no more than 15 characters.</source>
         <translation type="unfinished"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="848"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="850"/>
+        <source>Cloud Sync</source>
+        <translation>Sinhronizacija v oblaku</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Full Name</source>
         <translation>Polno ime</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="225"/>
         <source>The full name is too long</source>
         <translation>Polno ime je predolgo</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="242"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>The full name already exists</source>
         <translation>Ime že obstaja</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="282"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Validity Days</source>
         <translation>Dnevi veljavnosti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="284"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="347"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Always</source>
         <translation>Vedno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="340"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Please input a number between 1-99999</source>
         <translation>Prosim, vnesite število od 1 do 99999</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Change Password</source>
         <translation>Spremeni geslo</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="383"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Delete Account</source>
         <translation>Izbriši račun</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="386"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Auto Login</source>
         <translation>Samodejna prijava</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="390"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Login Without Password</source>
         <translation>Prijava brez gesla</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="466"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="464"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Group</source>
         <translation>Skupina</translation>
     </message>
@@ -266,6 +405,7 @@
         <translation>Ponovite skeniranje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="165"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="179"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="194"/>
@@ -276,6 +416,17 @@
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="194"/>
         <source>Scan time expired</source>
         <translation type="unfinished"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="141"/>
+        <source>Place your finger on the fingerprint reader, or swipe upwards or downwards, and then lift it off</source>
+        <translation>Prislonite prst na skener, ali ga povlecite po površini navzgor ali navzdol, in ga nato odmaknite</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="132"/>
+        <source>Fingerprint added</source>
+        <translation>Prstni odtis dodan</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -368,6 +519,7 @@
         <translation>Uporabniško ime mora vsebovati od 3 do 32 znakov</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="441"/>
         <source>Your username should not only have numbers</source>
         <translation type="unfinished"/>
@@ -384,6 +536,19 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="473"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="431"/>
+        <source>The first character must be a letter or number</source>
+        <translation>Prvi znak mora biti črka ali številka</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="449"/>
+        <source>The full name already exists</source>
+        <translation>Ime že obstaja</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="456"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>The full name is too long</source>
         <translation>Polno ime je predolgo</translation>
     </message>
@@ -392,9 +557,14 @@
     <name>dccV20::accounts::FingerWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="44"/>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="75"/>
         <source>Edit</source>
         <translation>Uredi</translation>
+=======
+        <source>Delete fingerprint</source>
+        <translation>Izbriši prstni odtis</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="47"/>
@@ -407,8 +577,13 @@
         <translation>Prekliči</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="136"/>
         <source>Add Fingerprint</source>
+=======
+        <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="133"/>
+        <source>Add fingerprint</source>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <translation>Dodaj prstni odtis</translation>
     </message>
 </context>
@@ -538,7 +713,11 @@
 <context>
     <name>dccV20::bluetooth::DeviceSettingsItem</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="168"/>
+=======
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="165"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Connected</source>
         <translation>Povezava vzpostavljena</translation>
     </message>
@@ -556,29 +735,49 @@
         <translation>Posodabljanje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="94"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="91"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Startup Delay</source>
         <translation>Zamik ob zagonu</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="98"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="95"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Theme</source>
         <translation>Tema</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="100"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="97"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Click the option in boot menu to set it as the first boot, and drag and drop a picture to change the background</source>
         <translation>Kliknite možnost v zagonskem meniju, da jo nastavite kot primarni zagon, in povlecite sliko, da spremenite ozadje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="105"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="102"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Switch theme on to view it in boot menu</source>
         <translation>Preklopite temo za ogled v zagonskem meniju</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="129"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="126"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Boot Menu</source>
         <translation>Meni zagona</translation>
     </message>
@@ -644,6 +843,7 @@
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="93"/>
         <source>Certificate loading failed, unable to get root access</source>
         <translation>Neuspešno nalaganje certifikata, korenskega dostopa ni mogoče pridobiti</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="95"/>
@@ -651,6 +851,15 @@
         <translation>Neuspešno preverjanje podpisa, korenskega dostopa ni mogoče pridobiti</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="95"/>
+        <source>Signature verification failed, unable to get root access</source>
+        <translation>Neuspešno preverjanje podpisa, korenskega dostopa ni mogoče pridobiti</translation>
+    </message>
+    <message>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="232"/>
         <source>UOS Privacy Policy</source>
         <translation>UOS politika zasebnosti</translation>
@@ -677,6 +886,7 @@
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="65"/>
         <source>Request Root Access</source>
         <translation>Zahteva za korenski dostop</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
@@ -705,6 +915,36 @@
         <translation>Izvozi informacije o računalniku</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
+        <source>Online</source>
+        <translation>Dosegljiv</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="75"/>
+        <source>Offline</source>
+        <translation>Nedosegljiv</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="91"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="121"/>
+        <source>Please sign in to your cloud account first and continue</source>
+        <translation>Prosim, najprej se prijavite v račun v oblaku in nadaljujte</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="96"/>
+        <source>Next</source>
+        <translation>Naslednji</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
+        <source>Export PC Info</source>
+        <translation>Izvozi informacije o računalniku</translation>
+    </message>
+    <message>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="101"/>
         <source>Import Certificate</source>
         <translation>Uvozi certifikat</translation>
@@ -729,7 +969,11 @@
     <name>dccV20::commoninfo::DeveloperModeWidget</name>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="56"/>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="178"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="190"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Request Root Access</source>
         <translation>Zahteva za korenski dostop</translation>
     </message>
@@ -763,6 +1007,7 @@
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="112"/>
         <source>Certificate loading failed, unable to get root access</source>
         <translation>Neuspešno nalaganje certifikata, korenskega dostopa ni mogoče pridobiti</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="114"/>
@@ -776,16 +1021,39 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="152"/>
+=======
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="114"/>
+        <source>Signature verification failed, unable to get root access</source>
+        <translation>Neuspešno preverjanje podpisa, korenskega dostopa ni mogoče pridobiti</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="152"/>
+        <source>To make some features effective, a restart is required. Restart now?</source>
+        <translation>Za aktiviranje določene funkcionalnosti je zahtevan ponovni zagon. Ponovno zaženem sedaj?</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="153"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Cancel</source>
         <translation>Prekliči</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="152"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="153"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Restart Now</source>
         <translation>Ponovno zaženi zdaj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="175"/>
+=======
+        <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="183"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Root Access Allowed</source>
         <translation>Dovoljen korenski dostop</translation>
     </message>
@@ -1053,6 +1321,8 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="153"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="176"/>
         <source>Refresh Rate</source>
         <translation type="unfinished"/>
     </message>
@@ -1067,23 +1337,40 @@
         <translation>Shrani</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="279"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Hz</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="341"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Recommended</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="371"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>inch</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="372"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Resolution %1x%2</source>
         <translation type="unfinished"/>
     </message>
@@ -1105,31 +1392,56 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="71"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="151"/>
+        <source>Refresh Rate</source>
+        <translation type="unfinished"/>
+        <extra-contents_path>/display/Refresh Rate</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Multiple Displays</source>
         <translation type="unfinished"/>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="133"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="139"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Brightness</source>
         <translation>Svetlost</translation>
         <extra-contents_path>/display/Brightness</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="138"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Resolution</source>
         <translation>Ločljivost</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="143"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Display Scaling</source>
         <translation type="unfinished"/>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
         <source>Refresh Rate</source>
         <translation type="unfinished"/>
@@ -1137,6 +1449,9 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="181"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Rotate Screen</source>
         <translation type="unfinished"/>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1605,32 +1920,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Hitrost kazalca</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
         <source>Tap to Click</source>
         <translation>Dotakni se za klik</translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
         <source>Natural Scrolling</source>
         <translation>Naravni drsnik</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
         <source>Slow</source>
         <translation>Počasi</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
         <source>Fast</source>
         <translation>Hitro</translation>
     </message>
@@ -1658,69 +1973,77 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Proxy vrsta </translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>IP naslov</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Zahtevano</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Vrata</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Uporabniško ime</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Po želji</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Geslo</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Prekliči</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Shrani</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+=======
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Invalid IP address</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+=======
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Invalid port</source>
         <translation type="unfinished"/>
     </message>
@@ -2030,6 +2353,7 @@
         <translation>Predpona</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="445"/>
         <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="457"/>
         <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="466"/>
@@ -2039,6 +2363,17 @@
         <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="529"/>
         <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="539"/>
         <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="548"/>
+=======
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="461"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="470"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="480"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="489"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="517"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="533"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="543"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="552"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Invalid IP address</source>
         <translation type="unfinished"/>
     </message>
@@ -3733,6 +4068,91 @@
     </message>
 </context>
 <context>
+    <name>dccV20::notification::AppNotifyWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="75"/>
+        <source>Show notifications from %1 on desktop and in the notification center.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="89"/>
+        <source>Play a sound</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="92"/>
+        <source>Show messages on lockscreen</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="95"/>
+        <source>Show only in notification center</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="98"/>
+        <source>Show message preview</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::NotificationModule</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationmodule.cpp" line="70"/>
+        <source>Notification</source>
+        <translation>Obvestilo</translation>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::NotificationWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationwidget.cpp" line="61"/>
+        <source>System Notifications</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationwidget.cpp" line="72"/>
+        <source>App Notifications</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::SystemNotifyWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="50"/>
+        <source>Show icon on Dock</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="78"/>
+        <source>Do Not Disturb</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="84"/>
+        <source>App notifications will not be shown on desktop and the sounds will be silenced, but you can view all messages in the notification center.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="107"/>
+        <source>When the screen is locked</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::TimeSlotItem</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/timeslotitem.cpp" line="44"/>
+        <source>From</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/timeslotitem.cpp" line="46"/>
+        <source>To</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
     <name>dccV20::personalization::PersonalizationFontsWidget</name>
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationfontswidget.cpp" line="50"/>
@@ -3760,29 +4180,63 @@
 <context>
     <name>dccV20::personalization::PersonalizationGeneral</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="72"/>
+=======
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="75"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Theme</source>
         <translation>Tema</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="81"/>
+=======
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="84"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Accent Color</source>
         <translation type="unfinished"/>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="117"/>
+=======
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="120"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Window Effect</source>
         <translation type="unfinished"/>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="123"/>
+=======
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="126"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Transparency</source>
         <translation type="unfinished"/>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="149"/>
+        <source>Window Miniminze Effect</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Scale</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Magic Lamp</source>
+        <translation type="unfinished"/>
+    </message>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
 </context>
 <context>
     <name>dccV20::personalization::PersonalizationList</name>
@@ -3948,59 +4402,80 @@
 <context>
     <name>dccV20::power::UseBatteryWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="42"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>Monitor se bo ugasnil, ko mine</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="55"/>
         <source>Computer will suspend after</source>
         <translation>Računalnik se bo ugasnil, ko mine</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="57"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="58"/>
         <source>Lock screen after</source>
         <translation type="unfinished"/>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="61"/>
         <source>Suspend on lid close</source>
         <translation>Izključi ob zapiranju prenosnika</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="77"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="178"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Never</source>
         <translation>Nikoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="160"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Minute</source>
         <translation>1 minuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="163"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="169"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="172"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="181"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1 Minutes</source>
         <translation>%1 minute</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="175"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Hour</source>
         <translation>1 ura</translation>
     </message>
@@ -4008,59 +4483,80 @@
 <context>
     <name>dccV20::power::UseElectricWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>Monitor se bo ugasnil, ko mine</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="56"/>
         <source>Lock screen after</source>
         <translation type="unfinished"/>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="59"/>
         <source>Suspend on lid close</source>
         <translation>Izključi ob zapiranju prenosnika</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="64"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="67"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="68"/>
         <source>Computer will suspend after</source>
         <translation>Računalnik se bo ugasnil, ko mine</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="88"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="202"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Never</source>
         <translation>Nikoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Minute</source>
         <translation>1 minuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="205"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1 Minutes</source>
         <translation>%1 minute</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="199"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Hour</source>
         <translation>1 ura</translation>
     </message>
@@ -4287,6 +4783,7 @@
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="94"/>
         <source>Sign Out</source>
         <translation>Odjava</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="119"/>
@@ -4389,6 +4886,175 @@
         <location filename="../src/frame/window/modules/sync/pages/logout.cpp" line="54"/>
         <source>Sign Out</source>
         <translation>Odjava</translation>
+    </message>
+</context>
+<context>
+    <name>dccV20::sync::SyncModule</name>
+    <message>
+        <location filename="../src/frame/window/modules/sync/syncmodule.cpp" line="32"/>
+        <source>Cloud Account</source>
+        <translation>Račun v oblaku</translation>
+=======
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
+    </message>
+</context>
+<context>
+    <name>dccV20::systeminfo::ManualBackup</name>
+    <message>
+<<<<<<< HEAD
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="18"/>
+        <source>Backup</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="30"/>
+        <source>Set backup directory</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="111"/>
+        <source>Invalid path</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="115"/>
+        <source>Tool execution error</source>
+=======
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="119"/>
+        <source>Your WLAN password will be synced if Network Settings is turned on</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="149"/>
+        <source>Network Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="150"/>
+        <source>Sound Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="151"/>
+        <source>Mouse Settings</source>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::systeminfo::ManualRestore</name>
+    <message>
+<<<<<<< HEAD
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="92"/>
+        <source>Restore</source>
+        <translation>Obnovi</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="121"/>
+        <source>Save User Data</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="123"/>
+        <source>Reset All Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="143"/>
+        <source>Select restore directory</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="151"/>
+        <source>Manual Restore</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="220"/>
+        <source>Backup file is invalid</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="224"/>
+        <source>Grub authentication failed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="228"/>
+        <source>Tool execution error</source>
+        <translation type="unfinished"/>
+=======
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="152"/>
+        <source>Update Settings</source>
+        <translation>Nastavitve posodobitev</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="153"/>
+        <source>Dock</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="154"/>
+        <source>Launcher</source>
+        <translation>Zaganjalnik</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="155"/>
+        <source>Wallpaper</source>
+        <translation>Ozadje</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="156"/>
+        <source>Theme</source>
+        <translation>Tema</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="157"/>
+        <source>Power Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="255"/>
+        <source>Last Sync: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="257"/>
+        <source>yyyy-MM-dd hh:mm</source>
+        <translation>yyyy-MM-dd hh:mm</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="244"/>
+        <source>It will reset system settings to their defaults without affecting your files and apps, but the username and password will be cleared, please confirm before proceeding</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="248"/>
+        <source>It will reinstall the system and clear all user data, which is highly risky, please confirm before proceeding</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="252"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="270"/>
+        <source>Cancel</source>
+        <translation>Prekliči</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="255"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="272"/>
+        <source>Confirm</source>
+        <translation>Potrdi</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="264"/>
+        <source>You should reboot the computer to erase all content and settings, reboot now?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="267"/>
+        <source>You should reboot the computer to reset all settings, reboot now?</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4518,15 +5184,25 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="85"/>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="162"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="163"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>To be activated</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="87"/>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="164"/>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="172"/>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="176"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="165"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="173"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="177"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Activate</source>
         <translation type="unfinished"/>
     </message>
@@ -4549,27 +5225,45 @@
         <extra-contents_path>/systeminfo/About This PC</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="142"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="143"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1-bit</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="158"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="159"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Activated</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="160"/>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="168"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="161"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="169"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>View</source>
         <translation>Prikaži</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="166"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="167"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Expired</source>
         <translation type="unfinished"/>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="170"/>
         <source>In trial period</source>
         <translation type="unfinished"/>
@@ -4577,7 +5271,24 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="174"/>
         <source>Trial expired</source>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="171"/>
+        <source>In trial period</source>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="175"/>
+        <source>Trial expired</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::systeminfo::SystemInfoModule</name>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/systeminfomodule.cpp" line="89"/>
+        <source>System Info</source>
+        <translation>Sistemske informacije</translation>
     </message>
 </context>
 <context>
@@ -9307,12 +10018,21 @@ If no operation, the display will be restored after %1s.</source>
         <translation>%1Bit</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="187"/>
         <source>Deepin Community</source>
         <translation>Skupnost Deepin</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="188"/>
+        <source>www.deepin.org</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="190"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
         <translation type="unfinished"/>
     </message>

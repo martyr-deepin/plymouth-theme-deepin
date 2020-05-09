@@ -23,111 +23,202 @@
 <context>
     <name>dccV20::MainWindow</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="160"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="162"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="305"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Accounts</source>
         <translation>Účty</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="307"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="310"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Cloud Account</source>
         <translation>Cloudový účet</translation>
         <extra-contents_path>/cloudsync/Cloud Sync</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Display</source>
         <translation>Zobrazení</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="309"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Default Applications</source>
         <translation>Výchozí aplikace</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="310"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="313"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Personalization</source>
         <translation>Přizpůsobení</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Network</source>
         <translation>Síť</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
+        <source>Notification</source>
+        <translation>Oznámení</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Sound</source>
         <translation>Zvuk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="313"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="819"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="821"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="317"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="824"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="826"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Bluetooth</source>
         <translation>Bluetooth</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="314"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Date and Time</source>
         <translation>Datum a čas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Power</source>
         <translation>Napájení</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Mouse</source>
         <translation>Myš</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="317"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="831"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="833"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="836"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="838"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Drawing Tablet</source>
         <translation>Grafický tablet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="318"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="322"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="416"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Keyboard and Language</source>
         <translation>Klávesnice a jazyk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="323"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Updates</source>
         <translation>Aktualizace</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="324"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>System Info</source>
         <translation>Informace o systému</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="325"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>General Settings</source>
         <translation>Obecná nastavení</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="372"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="376"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Touchpad</source>
         <translation>Touchpad</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="373"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="377"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>TrackPoint</source>
         <translation>TrackPoint</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="410"/>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="414"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Assistive Tools</source>
         <translation>Nástroje pro zpřístupnění</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/mainwindow.cpp" line="843"/>
         <location filename="../src/frame/window/mainwindow.cpp" line="845"/>
         <source>Cloud Sync</source>
@@ -145,69 +236,113 @@
         <location filename="../src/frame/window/modules/accounts/accounntfingeitem.cpp" line="130"/>
         <source>The name must only contain letters, numbers and underline, and no more than 15 characters.</source>
         <translation>Je třeba, aby název obsahoval pouze písmena, číslice a podtržítka a nebyl delší než 15 znaků.</translation>
+=======
+        <location filename="../src/frame/window/mainwindow.cpp" line="848"/>
+        <location filename="../src/frame/window/mainwindow.cpp" line="850"/>
+        <source>Cloud Sync</source>
+        <translation>Synchronizace s cloudem</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
         <source>Full Name</source>
         <translation>Celé jméno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="225"/>
         <source>The full name is too long</source>
         <translation>Celé jméno je příliš dlouhé</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="242"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>The full name already exists</source>
         <translation>Toto celé jméno už je v systému používáno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="282"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Validity Days</source>
         <translation>Dnů platnosti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="284"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="347"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Always</source>
         <translation>Vždy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="340"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Please input a number between 1-99999</source>
         <translation>Zadejte číslo z rozmezí 1-99999</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Change Password</source>
         <translation>Změnit heslo</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="383"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Delete Account</source>
         <translation>Smazat účet</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="386"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Auto Login</source>
         <translation>Automatické přihlášení</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="390"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Login Without Password</source>
         <translation>Přihlásit se bez hesla</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="466"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="464"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Group</source>
         <translation>Skupina</translation>
     </message>
@@ -262,6 +397,7 @@
         <translation>Hotovo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="91"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="154"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="166"/>
@@ -276,6 +412,17 @@
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="194"/>
         <source>Scan Suspended</source>
         <translation>Sken odložen</translation>
+=======
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="125"/>
+        <source>Identifying fingerprint</source>
+        <translation>Identifikování otisku prstu</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="141"/>
+        <source>Place your finger on the fingerprint reader, or swipe upwards or downwards, and then lift it off</source>
+        <translation>Přiložte svůj prst na příslušnou čtečku, nebo jím po ní přejeďte odspodu nahoru (nebo naopak), a pak prst oddalte</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="194"/>
@@ -360,7 +507,11 @@
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="393"/>
         <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
+<<<<<<< HEAD
         <translation>Je třeba, aby heslo bylo tvořeno pouze písmeny z anglické abecedy (rozlišuje se velikost písmen), číslice nebo speciální symboly (~!@#$%^&amp;*()[]{}|/?,.&lt;&gt;)</translation>
+=======
+        <translation>Heslo může obsahovat pouze písmena z anglické abecedy (rozlišují se malá a VELKÁ písmena), číslice a dále ještě speciální symboly (~!@#$%^&amp;*()[]{}|/?,.&lt;&gt;)</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="400"/>
@@ -371,11 +522,14 @@
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="424"/>
         <source>Username must be between 3 and 32 characters</source>
         <translation>Je třeba, aby uživatelské jméno mělo délku 3 až 32 znaků</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="441"/>
         <source>Your username should not only have numbers</source>
         <translation>Uživatelské jméno by nemělo být tvořeno pouze číslicemi</translation>
+=======
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="448"/>
@@ -548,7 +702,11 @@
 <context>
     <name>dccV20::bluetooth::DeviceSettingsItem</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="168"/>
+=======
+        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="165"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Connected</source>
         <translation>Připojeno</translation>
     </message>
@@ -566,31 +724,35 @@
         <translation>Aktualizace…</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="94"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="91"/>
         <source>Startup Delay</source>
         <translation>Zpoždění spuštění</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="95"/>
         <source>Theme</source>
         <translation>Vzhled</translation>
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="97"/>
         <source>Click the option in boot menu to set it as the first boot, and drag and drop a picture to change the background</source>
         <translation>Kliknutím na volbu v nabídce startu systému ji nastavíte jako první v pořadí a přetažením obrázku se změníte pozadí</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="102"/>
         <source>Switch theme on to view it in boot menu</source>
         <translation>Aby se zobrazil v nabídce startu systému, vzhled zapněte</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/bootwidget.cpp" line="126"/>
         <source>Boot Menu</source>
+<<<<<<< HEAD
         <translation>Nabídka před startem systému</translation>
+=======
+        <translation>Nabídka startu systému</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -606,7 +768,11 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowidget.cpp" line="71"/>
         <source>Boot Menu</source>
+<<<<<<< HEAD
         <translation>Nabídka startu systému</translation>
+=======
+        <translation>Nabídka před startem systému</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <extra-contents_path>/commoninfo/Boot Menu</extra-contents_path>
     </message>
     <message>
@@ -658,7 +824,11 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="95"/>
         <source>Signature verification failed, unable to get root access</source>
+<<<<<<< HEAD
         <translation>Ověřování podpisu se nezdařilo, nedaří se získat přístup správce systému</translation>
+=======
+        <translation>Ověřování podpisu se nezdařilo, proto nezískán přístup na úrovni správce systému</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="232"/>
@@ -746,7 +916,11 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="57"/>
         <source>Developer mode enables you to get root privileges, install and run unsigned apps not listed in app store, but your system integrity may also be damaged, please use it carefully.</source>
+<<<<<<< HEAD
         <translation>Režim pro vývojáře vám zpřístupní oprávnění správce systému, instalaci a spouštění nepodepsaných aplikací, nenacházejících se v obchodu s aplikacemi, ale může tím být poškozena neporušenost vašeho systému – používejte opatrně.</translation>
+=======
+        <translation>Režim pro vývojáře vám zpřístupní oprávnění správce systému, instalaci a spouštění nepodepsaných aplikací, nenacházejících se v obchodu s aplikacemi, ale může tím být poškozena celistvost vašeho systému – používejte opatrně.</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="104"/>
@@ -772,7 +946,11 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="112"/>
         <source>Certificate loading failed, unable to get root access</source>
+<<<<<<< HEAD
         <translation>Načítání certifikátu se nezdařilo, nedaří se získat přístup správce systému</translation>
+=======
+        <translation>Načítání certifikátu se nezdařilo, proto nezískán přístup na úrovni správce systému</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="114"/>
@@ -1034,7 +1212,7 @@
     <message>
         <location filename="../src/frame/window/modules/display/brightnesspage.cpp" line="60"/>
         <source>Night Shift</source>
-        <translation>Noční posun</translation>
+        <translation>Noční režim</translation>
         <extra-contents_path>/display/Brightness</extra-contents_path>
     </message>
     <message>
@@ -1063,6 +1241,8 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="153"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="176"/>
         <source>Refresh Rate</source>
         <translation>Obnovovací frekvence</translation>
     </message>
@@ -1077,23 +1257,40 @@
         <translation>Uložit</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="279"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="341"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Recommended</source>
         <translation>Doporučeno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="371"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>inch</source>
         <translation>palec</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+=======
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="372"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Resolution %1x%2</source>
         <translation>Rozlišení %1x%2</translation>
     </message>
@@ -1115,31 +1312,39 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="71"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="151"/>
+        <source>Refresh Rate</source>
+        <translation>Obnovovací frekvence</translation>
+        <extra-contents_path>/display/Refresh Rate</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
         <source>Multiple Displays</source>
         <translation>Více obrazovek</translation>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="133"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="139"/>
         <source>Brightness</source>
         <translation>Jas</translation>
         <extra-contents_path>/display/Brightness</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="138"/>
         <source>Resolution</source>
         <translation>Rozlišení</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="143"/>
         <source>Display Scaling</source>
         <translation>Změna velikosti zobrazení</translation>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
         <source>Refresh Rate</source>
         <translation>Obnovovací frekvence</translation>
@@ -1147,6 +1352,9 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="181"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Rotate Screen</source>
         <translation>Otočit obrazovku</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1172,7 +1380,11 @@
     <message>
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="131"/>
         <source>Show the same image on other screens</source>
+<<<<<<< HEAD
         <translation>Zobrazovat stejný obrázek na ostatních obrazovkách</translation>
+=======
+        <translation>Zobrazovat stejný obraz i na ostatních obrazovkách</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="132"/>
@@ -1180,6 +1392,19 @@
         <translation>Roztáhnout pracovní plochu přes obrazovky</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
+        <source>%1 only</source>
+        <translation>Pouze %1</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
+        <source>Show the screen content only on %1</source>
+        <translation>Zobrazovat pouze na %1</translation>
+    </message>
+    <message>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
         <source>Customize</source>
         <translation>Přizpůsobit</translation>
@@ -1559,7 +1784,7 @@
     <message>
         <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="46"/>
         <source>Mouse Acceleration</source>
-        <translation>Zrychlení myši</translation>
+        <translation>Zrychlení ukazatele myši</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
@@ -1615,32 +1840,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Rychlost ukazatele</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
         <source>Tap to Click</source>
         <translation>Kliknutí klepnutím</translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
         <source>Natural Scrolling</source>
         <translation>Přirozené posunování</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
         <source>Slow</source>
         <translation>Pomalé</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
         <source>Fast</source>
         <translation>Rychlé</translation>
     </message>
@@ -1668,69 +1893,73 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>Aplikační proxy</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Typ proxy</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>IP adresa</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Požadováno</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Uživatelské jméno</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Volitelné</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Heslo</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
+<<<<<<< HEAD
         <translation>Po nastavení zaškrtněte v kontextové nabídce spouštěče aplikace na panelu „Použít proxy“</translation>
+=======
+        <translation>Poté, co nastavíte, jděte do kontextové nabídky aplikace na panelu a zaškrtněte v ní „Použít proxy“</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Uložit</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
         <source>Invalid IP address</source>
         <translation>Neplatná IP adresa</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid port</source>
         <translation>Neplatný port</translation>
     </message>
@@ -2040,15 +2269,15 @@
         <translation>Předpona</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="445"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="457"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="466"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="476"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="485"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="513"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="529"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="539"/>
-        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="548"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="461"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="470"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="480"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="489"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="517"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="533"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="543"/>
+        <location filename="../src/frame/window/modules/network/sections/ipvxsection.cpp" line="552"/>
         <source>Invalid IP address</source>
         <translation>Neplatná IP adresa</translation>
     </message>
@@ -2294,7 +2523,11 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/pppsection.cpp" line="91"/>
         <source>No BSD Data Compression</source>
+<<<<<<< HEAD
         <translation>Nekomprimovat BSD data</translation>
+=======
+        <translation>Nekomprimovat data algoritmem BSD</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/pppsection.cpp" line="92"/>
@@ -2423,7 +2656,11 @@
     <message>
         <location filename="../src/frame/window/modules/network/proxypage.cpp" line="106"/>
         <source>Ignore the proxy configurations for the above hosts and domains</source>
+<<<<<<< HEAD
         <translation>Nastavení proxy neuplatňovat pro stroje a domény uvedené výše</translation>
+=======
+        <translation>Nastavení proxy neuplatňovat pro výše uvedené stroje a domény</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/proxypage.cpp" line="110"/>
@@ -2622,7 +2859,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/secrethotspotsection.cpp" line="115"/>
         <source>WPA/WPA2 Personal</source>
-        <translation>WPA/WPA2 Personal</translation>
+        <translation>WPA/WPA2 osobní</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secrethotspotsection.cpp" line="122"/>
@@ -2679,9 +2916,10 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="115"/>
         <source>WPA/WPA2 Enterprise</source>
-        <translation>WPA/WPA2 Enterprise</translation>
+        <translation>WPA/WPA2 podnikové</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="119"/>
         <source>Shared key</source>
         <translation>Sdílený klíč</translation>
@@ -2690,6 +2928,11 @@
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="120"/>
         <source>Open system</source>
         <translation>Nešifrováno</translation>
+=======
+        <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="116"/>
+        <source>Security</source>
+        <translation>Zabezpečení</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="126"/>
@@ -2782,7 +3025,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="173"/>
         <source>Restrict Tunnel TCP MSS</source>
-        <translation>Omezit TCP MSS tunelu</translation>
+        <translation>Omezit TCP MSS pro tunel</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="176"/>
@@ -3525,7 +3768,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpnstrongswansection.cpp" line="192"/>
         <source>Enable Custom Cipher Proposals</source>
-        <translation>Povolit vlastní šifrovací návrhy</translation>
+        <translation>Navrhovat použití uživatelsky určených šifer</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpnstrongswansection.cpp" line="195"/>
@@ -3568,7 +3811,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpntlssection.cpp" line="92"/>
         <source>Remote Cert Type</source>
-        <translation>Typ vzdáleného certifikátu</translation>
+        <translation>Typ certifikátu protějšku</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpntlssection.cpp" line="104"/>
@@ -3724,7 +3967,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/wirelesssection.cpp" line="37"/>
         <source>WLAN</source>
-        <translation>WLAN</translation>
+        <translation>Wi-Fi</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/wirelesssection.cpp" line="60"/>
@@ -3758,6 +4001,91 @@
     </message>
 </context>
 <context>
+    <name>dccV20::notification::AppNotifyWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="75"/>
+        <source>Show notifications from %1 on desktop and in the notification center.</source>
+        <translation>Zobrazovat upozornění z %1 na ploše a v centru oznámení</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="89"/>
+        <source>Play a sound</source>
+        <translation>Přehrát zvuk</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="92"/>
+        <source>Show messages on lockscreen</source>
+        <translation>Zobrazit zprávy na uzamčené obrazovce</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="95"/>
+        <source>Show only in notification center</source>
+        <translation>Zobrazit pouze v centru oznámení</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/appnotifywidget.cpp" line="98"/>
+        <source>Show message preview</source>
+        <translation>Zobrazit náhled zprávy</translation>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::NotificationModule</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationmodule.cpp" line="70"/>
+        <source>Notification</source>
+        <translation>Oznámení</translation>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::NotificationWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationwidget.cpp" line="61"/>
+        <source>System Notifications</source>
+        <translation>Upozornění ze systému</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/notificationwidget.cpp" line="72"/>
+        <source>App Notifications</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::SystemNotifyWidget</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="50"/>
+        <source>Show icon on Dock</source>
+        <translation>Zobrazit ikonu v panelu</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="78"/>
+        <source>Do Not Disturb</source>
+        <translation>Nerušit</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="84"/>
+        <source>App notifications will not be shown on desktop and the sounds will be silenced, but you can view all messages in the notification center.</source>
+        <translation>Upozornění z aplikací nebudou zobrazená na ploše a zvuky nebudou přehrávány, ale všechny zprávy uvidíte v centru oznámení.</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/systemnotifywidget.cpp" line="107"/>
+        <source>When the screen is locked</source>
+        <translation>Když je obrazovka uzamčena</translation>
+    </message>
+</context>
+<context>
+    <name>dccV20::notification::TimeSlotItem</name>
+    <message>
+        <location filename="../src/frame/window/modules/notification/timeslotitem.cpp" line="44"/>
+        <source>From</source>
+        <translation>Od</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/notification/timeslotitem.cpp" line="46"/>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+</context>
+<context>
     <name>dccV20::personalization::PersonalizationFontsWidget</name>
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationfontswidget.cpp" line="50"/>
@@ -3785,28 +4113,43 @@
 <context>
     <name>dccV20::personalization::PersonalizationGeneral</name>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="75"/>
         <source>Theme</source>
         <translation>Vzhled</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="81"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="84"/>
         <source>Accent Color</source>
         <translation>Barva zdůraznění</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="117"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="120"/>
         <source>Window Effect</source>
         <translation>Efekt okna</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="126"/>
         <source>Transparency</source>
         <translation>Průhlednost</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="149"/>
+        <source>Window Miniminze Effect</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Scale</source>
+        <translation>Škála</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Magic Lamp</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3973,59 +4316,80 @@
 <context>
     <name>dccV20::power::UseBatteryWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="42"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>Obrazovka bude uspána po</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="55"/>
         <source>Computer will suspend after</source>
         <translation>Počítač bude uspán po</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="57"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="58"/>
         <source>Lock screen after</source>
         <translation>Uzamknout obrazovku po</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="61"/>
         <source>Suspend on lid close</source>
         <translation>Při zavření víka uspat</translation>
         <extra-child_page>On Battery</extra-child_page>
         <extra-contents_path>/power/On Battery</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="77"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="178"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Never</source>
         <translation>Nikdy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="160"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Minute</source>
         <translation>1 minuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="163"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="169"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="172"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="181"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1 Minutes</source>
         <translation>%1 minut</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+=======
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="175"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Hour</source>
         <translation>1 hodina</translation>
     </message>
@@ -4033,59 +4397,80 @@
 <context>
     <name>dccV20::power::UseElectricWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="43"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="52"/>
         <source>Monitor will suspend after</source>
         <translation>Obrazovka bude uspána po</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="44"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="56"/>
         <source>Lock screen after</source>
         <translation>Uzamknout obrazovku po</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="45"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="59"/>
         <source>Suspend on lid close</source>
         <translation>Při zavření víka uspat</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="64"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="67"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="68"/>
         <source>Computer will suspend after</source>
         <translation>Počítač bude uspán po</translation>
         <extra-child_page>Plugged In</extra-child_page>
         <extra-contents_path>/power/Plugged In</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="88"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="202"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>Never</source>
         <translation>Nikdy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Minute</source>
         <translation>1 minuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="205"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>%1 Minutes</source>
         <translation>%1 minut</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
+=======
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="199"/>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
         <source>1 Hour</source>
         <translation>1 hodina</translation>
     </message>
@@ -4364,17 +4749,12 @@
         <translation>Nastavení správy napájení</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="158"/>
-        <source>Corner Settings</source>
-        <translation>Nastavení rohů</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="256"/>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="255"/>
         <source>Last Sync: %1</source>
         <translation>Naposledy synchronizováno: %1</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="258"/>
+        <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="257"/>
         <source>yyyy-MM-dd hh:mm</source>
         <translation>rrrr-MM-dd hh:mm</translation>
     </message>
@@ -4467,7 +4847,11 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="143"/>
         <source>Select restore directory</source>
+<<<<<<< HEAD
         <translation>Vybrat složku pro obnovení</translation>
+=======
+        <translation>Vyberte složku, do které obnovit</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="151"/>
@@ -4497,7 +4881,11 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="248"/>
         <source>It will reinstall the system and clear all user data, which is highly risky, please confirm before proceeding</source>
+<<<<<<< HEAD
         <translation>Přeinstaluje systém a vyčistí veškerá data uživatele, což je velmi riskantní – potvrďte před pokračováním</translation>
+=======
+        <translation>Přeinstaluje systém a zlikviduje přitom veškerá data uživatelů, což je velmi riskantní – pokud opravdu chcete pokračovat, výslovně potvrďte</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="252"/>
@@ -4543,15 +4931,15 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="85"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="162"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="163"/>
         <source>To be activated</source>
         <translation>K zapnutí</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="164"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="172"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="176"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="165"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="173"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="177"/>
         <source>Activate</source>
         <translation>Zapnout</translation>
     </message>
@@ -4574,33 +4962,33 @@
         <extra-contents_path>/systeminfo/About This PC</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="143"/>
         <source>%1-bit</source>
         <translation>%1 bitový</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="158"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="159"/>
         <source>Activated</source>
         <translation>Aktivováno</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="160"/>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="161"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="169"/>
         <source>View</source>
         <translation>Pohled</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="166"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="167"/>
         <source>Expired</source>
         <translation>Platnost skončila</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="170"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="171"/>
         <source>In trial period</source>
         <translation>Ve zkušebním období</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="175"/>
         <source>Trial expired</source>
         <translation>Zkušební období skončilo</translation>
     </message>
@@ -4709,7 +5097,11 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="70"/>
         <source>Restart the computer to use the system and the applications properly</source>
+<<<<<<< HEAD
         <translation>Pro správné fungování systému a aplikací po provedení aktualizace restartujte</translation>
+=======
+        <translation>Pro správné fungování systému a aplikací, po provedení aktualizace restartujte</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="71"/>
@@ -4778,7 +5170,11 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="306"/>
         <source>Dependency error, failed to detect the updates</source>
+<<<<<<< HEAD
         <translation>Chyba v závislosti na dalších balíčcích – aktualizace se nepodařilo zjistit</translation>
+=======
+        <translation>Chyba v závislosti na dalších balíčcích – aktualizace se nepdařilo zjistit</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="313"/>
@@ -4869,7 +5265,11 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatesettings.cpp" line="70"/>
         <source>Switch it on to automatically download the updates in wireless or wired network</source>
+<<<<<<< HEAD
         <translation>Zapněte, pokud chcete, aby aktualizace byly na drátových a WiFi sítích stahovány automaticky</translation>
+=======
+        <translation>Zapněte, pokud chcete, aby aktualizace byly na drátových a Wi-Fi sítích stahovány automaticky</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatesettings.cpp" line="79"/>
@@ -5021,7 +5421,7 @@
         <location filename="../src/frame/modules/display/displaycontrolmodel.cpp" line="103"/>
         <location filename="../src/frame/quick_control/display/displaycontrolmodel.cpp" line="110"/>
         <source>Screen contents are only displayed on %1</source>
-        <translation>Obsah obrazovky je zobrazen pouze na %1</translation>
+        <translation>Obraz pouze na %1</translation>
     </message>
     <message>
         <location filename="../src/frame/quick_control/display/displaycontrolmodel.cpp" line="100"/>
@@ -5188,8 +5588,13 @@
         <location filename="../src/frame/modules/display/rotatedialog.cpp" line="137"/>
         <source>Left click to rotate, right click to restore and exit, press Ctrl+S to save.
 If no operation, the display will be restored after %1s.</source>
+<<<<<<< HEAD
         <translation>Klikněte levým tlačítkem myši pro otočení nebo pravým tlačítkem pro vrácení zpět a ukončení. Pro uložení stiskněte Ctrl+S.
 Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního stavu.</translation>
+=======
+        <translation>Klikněte levým tlačítkem myši pro otočení nebo pravým tlačítkem pro vrácení do původního stavu a ukončení. Pro uložení stiskněte Ctrl+S.
+Pokud neuděláte nic, zobrazení bude po uplynutí %1s zobrazení vráceno do původního stavu.</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -5300,7 +5705,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="27"/>
         <source>Removable device connected</source>
+<<<<<<< HEAD
         <translation>Vyjímatelné zařízení připojeno</translation>
+=======
+        <translation>Připojení vyjímatelného zařízení</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="28"/>
@@ -5346,7 +5755,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/updatenotifier.cpp" line="162"/>
         <source>Dependency error, failed to detect the updates</source>
+<<<<<<< HEAD
         <translation>Chyba v závislosti na dalších balíčcích – aktualizace se nepdařilo zjistit</translation>
+=======
+        <translation>Chyba v závislosti na dalších balíčcích – aktualizace se nepodařilo zjistit</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/updatenotifier.cpp" line="165"/>
@@ -5413,12 +5826,12 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/widgets/addialog.cpp" line="53"/>
         <source>Join domain</source>
-        <translation>Připojit se k doméně</translation>
+        <translation>Přidat do domény</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/widgets/addialog.cpp" line="61"/>
         <source>Domain Server</source>
-        <translation>Doménový server</translation>
+        <translation>Server s řadičem domény</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/widgets/addialog.cpp" line="62"/>
@@ -5461,7 +5874,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/accountsdetailwidget.cpp" line="64"/>
         <source>Login Without Password</source>
-        <translation>Přihlásit se bez hesla</translation>
+        <translation>Přihlašování se bez hesla</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsdetailwidget.cpp" line="68"/>
@@ -5501,7 +5914,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/accountswidget.cpp" line="99"/>
         <source>Join domain</source>
-        <translation>Připojit se k doméně</translation>
+        <translation>Přidat do domény</translation>
     </message>
 </context>
 <context>
@@ -5562,7 +5975,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/addfingerpage.cpp" line="114"/>
         <source>Failed to identify fingerprint, place your finger on the fingerprint reader, swipe upwards and release</source>
+<<<<<<< HEAD
         <translation>Nepodařilo se určit otisku prstu. Položte svůj prst na příslušnou čtečku, přejeďte jím odspodu nahoru a oddalte ho</translation>
+=======
+        <translation>Nepodařilo se určit otisku prstu. Přiložte svůj prst na příslušnou čtečku, přejeďte jím odspodu nahoru a oddalte ho</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/addfingerpage.cpp" line="120"/>
@@ -5572,7 +5989,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/addfingerpage.cpp" line="130"/>
         <source>Place your finger on the fingerprint reader, swipe upwards, then repeat</source>
+<<<<<<< HEAD
         <translation>Položte svůj prst na příslušnou čtečku, přejeďte jím odspodu nahoru a oddalte ho, pak znovu</translation>
+=======
+        <translation>Přiložte svůj prst na příslušnou čtečku, přejeďte jím odspodu nahoru a oddalte ho, pak znovu</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -5587,7 +6008,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="56"/>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="59"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="55"/>
@@ -5633,6 +6054,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="271"/>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="274"/>
         <source>The password must contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
+<<<<<<< HEAD
         <translation>Je třeba, aby heslo bylo tvořeno písmeny z anglické abecedy (rozlišuje se velikost písmen), číslice nebo speciální symboly (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
     </message>
 </context>
@@ -5686,6 +6108,9 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="164"/>
         <source>Finger moved too fast. Please do not lift until prompted</source>
         <translation>Prstem bylo pohybováno příliš rychle. Nezvedejte prst dokud k tomu nebudete vyzváni</translation>
+=======
+        <translation>Je třeba, aby heslo bylo tvořeno písmeny z anglické abecedy (rozlišují se malá a VELKÁ písmena), číslicemi a případně ještě speciální symboly (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -5805,7 +6230,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="57"/>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="58"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="62"/>
@@ -5820,7 +6245,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="117"/>
         <source>New password should differ from the current one</source>
+<<<<<<< HEAD
         <translation>Nové heslo by nemělo být stejné jako to stávající</translation>
+=======
+        <translation>Nové heslo by nemělo být stejné jako to původní</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="156"/>
@@ -5835,7 +6264,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="223"/>
         <source>The password must contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
+<<<<<<< HEAD
         <translation>Je třeba, aby heslo bylo tvořeno písmeny z anglické abecedy (rozlišuje se velikost písmen), číslice nebo speciální symboly (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
+=======
+        <translation>Je třeba, aby heslo bylo tvořeno písmeny z anglické abecedy (rozlišuje se velikost písmen), číslicemi a případně ještě speciálními symboly (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -5876,7 +6309,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/bluetooth/adapterwidget.cpp" line="69"/>
         <source>Enable bluetooth to find nearby devices (loudspeaker, keyboard, mouse)</source>
+<<<<<<< HEAD
         <translation>Pokud chcete najít okolní zařízení (reproduktor, klávesnice, myš, atp.), povolte rozhraní Bluetooth</translation>
+=======
+        <translation>Pokud chcete najít zařízení poblíž (reproduktory, klávesnici, myš, atp.), zapněte rozhraní Bluetooth</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -5948,7 +6385,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="34"/>
         <source>Sorry, it is not supported in your region at present, and will be coming soon</source>
+<<<<<<< HEAD
         <translation>Omlouváme se, ale ve vašem regionu zatím není k dispozici – ale snad brzy bude</translation>
+=======
+        <translation>Omlouváme se, ale ve vašem regionu zatím není k dispozici – ale snad už brzy bude</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="65"/>
@@ -5958,7 +6399,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="72"/>
         <source>Switch it on to sync part of the settings for Control Center, Launcher and Dock automatically.</source>
+<<<<<<< HEAD
         <translation>Zapněte, pokud chcete automaticky synchronizovat část nastavení v Ovládacích panelech, Spouštěče a Panelu.</translation>
+=======
+        <translation>Zapněte, pokud chcete automaticky synchronizovat část nastavení v Ovládacích panelech, Spouštěči a Panelu.</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="79"/>
@@ -5978,7 +6423,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="82"/>
         <source>Update Settings</source>
+<<<<<<< HEAD
         <translation>Nastavení aktualizací</translation>
+=======
+        <translation>Aktualizovat nastaveni</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="83"/>
@@ -5993,7 +6442,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="85"/>
         <source>Wallpaper</source>
+<<<<<<< HEAD
         <translation>Obrázek na ploše</translation>
+=======
+        <translation>Pozadí plochy</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="86"/>
@@ -6186,7 +6639,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/defapp/defappviewer.cpp" line="56"/>
         <source>Mail</source>
-        <translation>Pošta</translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/defapp/defappviewer.cpp" line="57"/>
@@ -6246,7 +6699,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/display/brightnesspage.cpp" line="81"/>
         <source>Night Shift</source>
-        <translation>Noční posun</translation>
+        <translation>Noční režim</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/display/brightnesspage.cpp" line="86"/>
@@ -6305,7 +6758,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/display/displaywidget.cpp" line="59"/>
         <source>Custom Settings</source>
-        <translation>Vlastní nastavení</translation>
+        <translation>Uživatelsky určená nastavení</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/display/displaywidget.cpp" line="60"/>
@@ -6358,7 +6811,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/display/miracastsettings.cpp" line="51"/>
         <source>WLAN will be disconnected when screen projection is enabled</source>
+<<<<<<< HEAD
         <translation>WIFI bude při povolení promítání obrazovky odpojeno</translation>
+=======
+        <translation>Wi-Fi síťové připojení bude při zapnutí promítání obrazovky odpojeno</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/display/miracastsettings.cpp" line="55"/>
@@ -6435,7 +6892,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/display/scalingpage.cpp" line="56"/>
         <source>Some applications in multi-screens may not scale as the settings.</source>
+<<<<<<< HEAD
         <translation>V případě vícero obrazovek a některých aplikací se může stát, že měřítko zobrazení nebude dle nastavení.</translation>
+=======
+        <translation>V případě zobrazování na vícero obrazovek se u některých aplikací může stát, že měřítko jejich zobrazení nebude takové, jaké bylo nastaveno.</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/display/scalingpage.cpp" line="62"/>
@@ -6469,7 +6930,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="61"/>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="65"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="64"/>
@@ -6705,7 +7166,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="55"/>
         <source>System</source>
-        <translation>Systém</translation>
+        <translation>Systémové</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="56"/>
@@ -6715,17 +7176,17 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="57"/>
         <source>WorkSpace</source>
-        <translation>Pracovní prostředí</translation>
+        <translation>Pracovní plocha</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="65"/>
         <source>Custom Shortcut</source>
-        <translation>Vlastní zkratka</translation>
+        <translation>Uživatelsky určená zkratka</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="78"/>
         <source>Add Custom Shortcut</source>
-        <translation>Přidat vlastní zkratku</translation>
+        <translation>Přidat uživatelsky určenou zkratku</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="80"/>
@@ -6774,7 +7235,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/mouse/mousewidget.cpp" line="53"/>
         <source>Left Hand</source>
+<<<<<<< HEAD
         <translation>Levoruké</translation>
+=======
+        <translation>Levoruká</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/mouse/mousewidget.cpp" line="54"/>
@@ -6796,7 +7261,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/mouse/mousewidget.cpp" line="59"/>
         <source>Mouse Acceleration</source>
-        <translation>Zrychlení myši</translation>
+        <translation>Zrychlení ukazatele myši</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/mouse/mousewidget.cpp" line="60"/>
@@ -6883,7 +7348,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="53"/>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="57"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="56"/>
@@ -6909,7 +7374,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="83"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
+<<<<<<< HEAD
         <translation>Po nastavení zaškrtněte v kontextové nabídce spouštěče aplikace na panelu „Použít proxy“</translation>
+=======
+        <translation>Po nastavení jděte do kontextové nabídky spouštěče aplikace na panelu a v té zaškrtněte „Použít proxy“</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="88"/>
@@ -7044,7 +7513,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="124"/>
         <source>Customize MTU</source>
-        <translation>Přizpůsobit MTU</translation>
+        <translation>Přizpůsobit velikost MTU</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="127"/>
@@ -7119,7 +7588,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="216"/>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="221"/>
         <source>Manual</source>
-        <translation>Ruční</translation>
+        <translation>Ručně</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="222"/>
@@ -7140,7 +7609,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="230"/>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="295"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="231"/>
@@ -7349,7 +7818,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="79"/>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="86"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="82"/>
@@ -7397,7 +7866,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="91"/>
         <source>No BSD Data Compression</source>
+<<<<<<< HEAD
         <translation>Nekomprimovat BSD data</translation>
+=======
+        <translation>Nekomprimovat data algoritmem BSD</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="92"/>
@@ -7468,12 +7941,12 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="61"/>
         <source>None</source>
-        <translation>Žádný</translation>
+        <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="62"/>
         <source>Manual</source>
-        <translation>Ruční</translation>
+        <translation>Ručně</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="63"/>
@@ -7511,7 +7984,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="92"/>
         <source>Ignore the proxy configurations for the above hosts and domains</source>
+<<<<<<< HEAD
         <translation>Nastavení proxy neuplatňovat pro stroje a domény uvedené výše</translation>
+=======
+        <translation>Nastavení proxy neuplatňovat pro výše uvedené stroje a domény</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="95"/>
@@ -7569,7 +8046,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="164"/>
         <source>Ask</source>
-        <translation>Ptát se</translation>
+        <translation>Dotázat se</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="165"/>
@@ -7625,7 +8102,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="216"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="224"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="218"/>
@@ -7694,7 +8171,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="104"/>
         <source>None</source>
-        <translation>Žádný</translation>
+        <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="105"/>
@@ -7704,7 +8181,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="106"/>
         <source>WPA/WPA2 Personal</source>
-        <translation>WPA/WPA2 Personal</translation>
+        <translation>WPA/WPA2 osobní</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="112"/>
@@ -7714,7 +8191,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="118"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="148"/>
@@ -7740,7 +8217,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="106"/>
         <source>None</source>
-        <translation>Žádný</translation>
+        <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="107"/>
@@ -7750,12 +8227,12 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="108"/>
         <source>WPA/WPA2 Personal</source>
-        <translation>WPA/WPA2 Personal</translation>
+        <translation>WPA/WPA2 osobní</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="109"/>
         <source>WPA/WPA2 Enterprise</source>
-        <translation>WPA/WPA2 Enterprise</translation>
+        <translation>WPA/WPA2 podnikové</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="115"/>
@@ -7765,7 +8242,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="121"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="163"/>
@@ -7788,7 +8265,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="128"/>
         <source>Customize Gateway Port</source>
+<<<<<<< HEAD
         <translation>Přizpůsobit port brány</translation>
+=======
+        <translation>Upravit číslo portu brány</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="131"/>
@@ -7798,7 +8279,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="137"/>
         <source>Customize Renegotiation Interval</source>
+<<<<<<< HEAD
         <translation>Přizpůsobit interval pro nové vyjednávání</translation>
+=======
+        <translation>Přizpůsobit interval pro nové vyjednání</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="140"/>
@@ -7843,7 +8328,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="173"/>
         <source>Restrict Tunnel TCP MSS</source>
-        <translation>Omezit TCP MSS tunelu</translation>
+        <translation>Omezit TCP MSS pro tunel</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="176"/>
@@ -7876,13 +8361,13 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="145"/>
         <source>Weak</source>
-        <translation>Slabý</translation>
+        <translation>Slabé</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="146"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="161"/>
         <source>None</source>
-        <translation>Žádný</translation>
+        <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="149"/>
@@ -7954,7 +8439,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="188"/>
         <source>NAT Traversal Mode</source>
+<<<<<<< HEAD
         <translation>Režim překonávání NAT</translation>
+=======
+        <translation>Režim překonávání NAT překladu</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="194"/>
@@ -8030,7 +8519,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="89"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="92"/>
@@ -8105,7 +8594,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="124"/>
         <source>Ask</source>
-        <translation>Ptát se</translation>
+        <translation>Dotázat se</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="125"/>
@@ -8124,7 +8613,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="288"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="293"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="142"/>
@@ -8175,7 +8664,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="287"/>
         <source>Remote IP</source>
+<<<<<<< HEAD
         <translation>Vzdálená IP adresa</translation>
+=======
+        <translation>IP adresa protějšku</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="292"/>
@@ -8233,7 +8726,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="151"/>
         <source>No BSD Data Compression</source>
+<<<<<<< HEAD
         <translation>Nekomprimovat BSD data</translation>
+=======
+        <translation>Nekomprimovat data algoritmem BSD</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="152"/>
@@ -8291,7 +8788,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/vpnpage.cpp" line="82"/>
         <source>Import VPN</source>
+<<<<<<< HEAD
         <translation>Importovat VPN</translation>
+=======
+        <translation>Import VPN</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/vpnpage.cpp" line="101"/>
@@ -8354,7 +8855,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="31"/>
         <source>VPN Proxy</source>
+<<<<<<< HEAD
         <translation>VPN proxy</translation>
+=======
+        <translation>VPN Proxy</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="135"/>
@@ -8386,7 +8891,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="166"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="170"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="157"/>
@@ -8396,7 +8901,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="162"/>
         <source>Retry Indefinitely When Failed</source>
-        <translation>V případě neúspěchu zkoušet zas a znovu pořád dokola</translation>
+        <translation>V případě neúspěchu zkoušet pořád dokola znovu</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="165"/>
@@ -8424,7 +8929,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsstpsection.cpp" line="85"/>
         <source>Use TLS Hostname Extensions</source>
+<<<<<<< HEAD
         <translation>Použít rozšíření názvu hostitele TLS</translation>
+=======
+        <translation>Použít TLS rozšíření pro názvy hostitele</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -8444,7 +8953,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/vpn/vpnsecopenvpnsection.cpp" line="76"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsecopenvpnsection.cpp" line="97"/>
         <source>None</source>
-        <translation>Žádný</translation>
+        <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsecopenvpnsection.cpp" line="111"/>
@@ -8472,7 +8981,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="107"/>
         <source>Ask</source>
-        <translation>Ptát se</translation>
+        <translation>Dotázat se</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="108"/>
@@ -8489,7 +8998,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="119"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="129"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="118"/>
@@ -8517,7 +9026,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsstpproxysection.cpp" line="31"/>
         <source>VPN Proxy</source>
+<<<<<<< HEAD
         <translation>VPN proxy</translation>
+=======
+        <translation>VPN Proxy</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsstpproxysection.cpp" line="105"/>
@@ -8581,7 +9094,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="153"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="156"/>
@@ -8626,7 +9139,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="190"/>
         <source>Enable Custom Cipher Proposals</source>
-        <translation>Povolit vlastní šifrovací návrhy</translation>
+        <translation>Umožnit navrhnout použití uživatelsky určené šifry</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="193"/>
@@ -8669,7 +9182,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpntlssection.cpp" line="90"/>
         <source>Remote Cert Type</source>
-        <translation>Typ vzdáleného certifikátu</translation>
+        <translation>Typ certifikátu protějšku</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpntlssection.cpp" line="100"/>
@@ -8702,7 +9215,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="160"/>
         <source>Ask</source>
-        <translation>Ptát se</translation>
+        <translation>Dotázat se</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="161"/>
@@ -8721,7 +9234,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="186"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="196"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="171"/>
@@ -8821,7 +9334,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="113"/>
         <source>Required</source>
-        <translation>Požadováno</translation>
+        <translation>Vyžadováno</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="116"/>
@@ -8831,7 +9344,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="144"/>
         <source>Customize MTU</source>
-        <translation>Přizpůsobit MTU</translation>
+        <translation>Přizpůsobit velikost MTU</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="147"/>
@@ -8948,7 +9461,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/personalization/module/themewidget/themewidget.cpp" line="42"/>
         <source>Cursor Theme</source>
+<<<<<<< HEAD
         <translation>Vzhled kurzoru</translation>
+=======
+        <translation>Vzhled ukazatele</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/personalization/module/themewidget/themewidget.cpp" line="54"/>
@@ -8966,7 +9483,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="47"/>
         <source>On battery</source>
+<<<<<<< HEAD
         <translation>Napájení z akumulátoru</translation>
+=======
+        <translation>Z akumulátoru</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="48"/>
@@ -9000,7 +9521,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="106"/>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="107"/>
         <source>Suspend on lid close</source>
+<<<<<<< HEAD
         <translation>Při zavření víka uspat</translation>
+=======
+        <translation>Při přiklopení obrazovky uspat</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="110"/>
@@ -9232,7 +9757,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/systeminfo/bootwidget.cpp" line="73"/>
         <source>Startup Delay</source>
-        <translation>Zpoždění spuštění</translation>
+        <translation>Prodleva před spuštěním</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/bootwidget.cpp" line="76"/>
@@ -9242,17 +9767,29 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/systeminfo/bootwidget.cpp" line="78"/>
         <source>You can click the option in boot menu to set it as the first boot, and drag and drop a picture to replace the background.</source>
+<<<<<<< HEAD
         <translation>Kliknutím na volbu v nabídce pro zavádění ji nastavíte jako první v pořadí a přetažením obrázku se nahradí pozadí.</translation>
+=======
+        <translation>Kliknutím na volbu pro nabídku před startem systému ji nastavíte jako první v pořadí a přetažením obrázku se nahradí pozadí.</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/bootwidget.cpp" line="82"/>
         <source>Switch theme on to view it in boot menu</source>
+<<<<<<< HEAD
         <translation>Aby se zobrazil v nabídce startu systému, vzhled zapněte</translation>
+=======
+        <translation>Aby se zobrazil v nabídce před startem systému, vzhled zapněte</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/bootwidget.cpp" line="102"/>
         <source>Boot Menu</source>
+<<<<<<< HEAD
         <translation>Nabídka startu systému</translation>
+=======
+        <translation>Nabídka před startem systému</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
 </context>
 <context>
@@ -9313,7 +9850,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="102"/>
         <source>Memory:</source>
-        <translation>Paměť:</translation>
+        <translation>Operační paměť:</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="106"/>
@@ -9333,7 +9870,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="126"/>
         <source>Boot Menu</source>
+<<<<<<< HEAD
         <translation>Nabídka startu systému</translation>
+=======
+        <translation>Nabídka před startem systému</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="182"/>
@@ -9341,12 +9882,18 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <translation>%1bitový</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="187"/>
         <source>Deepin Community</source>
         <translation>Komunita projektu Deepin</translation>
+=======
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="188"/>
+        <source>www.deepin.org</source>
+        <translation>www.deepin.org</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="190"/>
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
         <translation>Autorská práva © 2019-2020 UnionTech Software Technology Co., LTD</translation>
     </message>
@@ -9371,7 +9918,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="91"/>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="125"/>
         <source>Timeout</source>
-        <translation>Časové omezení</translation>
+        <translation>Časový limit</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="93"/>
@@ -9433,7 +9980,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="55"/>
         <source>Please restart to use the system and applications properly after updated</source>
+<<<<<<< HEAD
         <translation>Pro správné fungování systému a aplikací po provedení aktualizace restartujte</translation>
+=======
+        <translation>Pro správné fungování systému a aplikací, po provedení aktualizace restartujte</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="56"/>
@@ -9466,7 +10017,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="190"/>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="294"/>
         <source>%1% downloaded (Click to pause)</source>
+<<<<<<< HEAD
         <translation>%1% staženo (pro pozastavení klikněte)</translation>
+=======
+        <translation>%1% staženo (pozastavíte kliknutím)</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="195"/>
@@ -9501,12 +10056,20 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="242"/>
         <source>Dependency error, failed to detect the updates</source>
+<<<<<<< HEAD
         <translation>Chyba v závislosti na dalších balíčcích – aktualizace se nepdařilo zjistit</translation>
+=======
+        <translation>Chyba v závislosti na dalších balíčcích – aktualizace se nepodařilo zjistit</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message numerus="yes">
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="264"/>
         <source>%n application update(s) detected</source>
+<<<<<<< HEAD
         <translation><numerusform>Zjištěna %n aktualizace aplikací</numerusform><numerusform>Zjištěny %n aktualizace aplikací</numerusform><numerusform>Zjištěno %n aktualizace aplikací</numerusform><numerusform>Zjištěny %n aktualizace aplikací</numerusform></translation>
+=======
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="269"/>
@@ -9516,7 +10079,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message numerus="yes">
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="271"/>
         <source>New system edition and %n application update(s) detected</source>
+<<<<<<< HEAD
         <translation><numerusform>Zjištěno nové vydání systému a aktualizace %n aplikace</numerusform><numerusform>Zjištěno nové vydání systému a aktualizace %n aplikací</numerusform><numerusform>Zjištěno nové vydání systému a aktualizace %n aplikací</numerusform><numerusform>Zjištěno nové vydání systému a aktualizace %n aplikací</numerusform></translation>
+=======
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="278"/>
@@ -9526,7 +10093,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="280"/>
         <source>Download size: %1</source>
-        <translation>Velikost stahování: %1</translation>
+        <translation>Objem dat ke stažení: %1</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="302"/>
@@ -9558,7 +10125,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="50"/>
         <source>Update Settings</source>
-        <translation>Nastavení aktualizací</translation>
+        <translation>Aktualizovat nastaveni</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="62"/>
@@ -9578,7 +10145,11 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="70"/>
         <source>Switch it on to automatically download the updates in wireless or wired network</source>
+<<<<<<< HEAD
         <translation>Zapněte, pokud chcete, aby aktualizace byly na drátových a WiFi sítích stahovány automaticky</translation>
+=======
+        <translation>Zapněte, pokud chcete, aby aktualizace byly na drátových a Wi-Fi sítích stahovány automaticky</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="77"/>
@@ -9588,12 +10159,12 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="81"/>
         <source>Prompt the notification if system update mirror has been modified</source>
-        <translation>Vyvolat upozornění, pokud bylo zrcadlo pro aktualizaci systému změněno</translation>
+        <translation>Upozornit, pokud bylo změněno nastavení toho, ze kterého zrcadla aktualizovat systém</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="99"/>
         <source>Smart Mirror Switch</source>
-        <translation>Chytré přepnutí zrcadla</translation>
+        <translation>Chytré přepínání mezi zrcadly</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatesettings.cpp" line="105"/>
@@ -9617,7 +10188,7 @@ Pokud neuděláte nic, zobrazení bude po uplynutí %1s vráceno do původního 
     <message>
         <location filename="../src/frame/modules/update/updateview.cpp" line="45"/>
         <source>Update Settings</source>
-        <translation>Nastavení aktualizací</translation>
+        <translation>Aktualizovat nastaveni</translation>
     </message>
 </context>
 <context>

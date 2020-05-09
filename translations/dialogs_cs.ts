@@ -4,7 +4,11 @@
     <message>
         <location filename="../src/dialogs/reminderdialog.cpp" line="35"/>
         <source>Restart the computer to use the system and the applications properly</source>
+<<<<<<< HEAD
         <translation>Pro správné fungování systému a aplikací po provedení aktualizace restartujte</translation>
+=======
+        <translation>Pro správné fungování systému a aplikací, po provedení aktualizace restartujte</translation>
+>>>>>>> cea9d64d1... feat(翻译):更新翻译
     </message>
     <message>
         <location filename="../src/dialogs/reminderdialog.cpp" line="36"/>

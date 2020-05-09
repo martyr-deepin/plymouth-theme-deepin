@@ -57,8 +57,8 @@ TimeSlotItem::TimeSlotItem(QWidget *parent)
 
     setLayout(layout);
 
-    connect(m_chkState, &QCheckBox::click, this, [ = ]() {
-        stateChanged(getState());
+    connect(m_chkState, &QCheckBox::stateChanged, this, [ = ]() {
+        Q_EMIT stateChanged(getState());
     });
     connect(m_editStart, &DTimeEdit::timeChanged, this, &TimeSlotItem::timeStartChanged);
     connect(m_editEnd, &DTimeEdit::timeChanged, this, &TimeSlotItem::timeEndChanged);

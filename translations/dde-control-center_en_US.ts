@@ -153,96 +153,63 @@
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
         <source>Full Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="225"/>
         <source>The full name is too long</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="242"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>The full name already exists</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="282"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Validity Days</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="284"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="347"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Always</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="340"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Please input a number between 1-99999</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Change Password</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="383"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Delete Account</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="386"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Auto Login</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
-=======
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="390"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
         <source>Login Without Password</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="464"/>
@@ -280,6 +247,9 @@
 >>>>>>> Fix(text):lift finger.And clean Finger
 >>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
 >>>>>>> dd32d9ab0... Fix(text):lift finger.And clean Finger
+=======
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="466"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Group</source>
         <translation type="unfinished"></translation>
     </message>
@@ -287,18 +257,10 @@
 <context>
     <name>dccV20::accounts::AccountsModule</name>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsmodule.cpp" line="78"/>
+        <location filename="../src/frame/window/modules/accounts/accountsmodule.cpp" line="80"/>
         <source>Accounts</source>
         <translation type="unfinished"></translation>
     </message>
-<<<<<<< HEAD
-=======
-    <message>
-        <location filename="../src/frame/window/modules/accounts/accountsmodule.cpp" line="219"/>
-        <source>The device is in use or cannot be connected</source>
-        <translation type="unfinished"></translation>
-    </message>
->>>>>>> 43f1a58c4... Fix(accounts):Finger input-widiget lose focus only at the first-time
 </context>
 <context>
     <name>dccV20::accounts::AccountsWidget</name>
@@ -324,44 +286,24 @@
 <context>
     <name>dccV20::accounts::AddFingeDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="79"/>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="83"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="80"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="85"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="171"/>
-        <source>Add fingerprint</source>
-=======
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="84"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="89"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="218"/>
         <source>Add Fingerprint</source>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 48c38ec86... refeactor(accounts):Finger input overtime warning change
         <translation type="unfinished"></translation>
-=======
-        <translation>Add Fingerprint</translation>
->>>>>>> 43f1a58c4... Fix(accounts):Finger input-widiget lose focus only at the first-time
-=======
-        <translation type="unfinished"></translation>
->>>>>>> c73488cbd... feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="85"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="117"/>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="89"/>
+        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="129"/>
         <source>Done</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="139"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="150"/>
-=======
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="91"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="154"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="166"/>
@@ -373,62 +315,15 @@
     <message>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="165"/>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="179"/>
-<<<<<<< HEAD
->>>>>>> 48c38ec86... refeactor(accounts):Finger input overtime warning change
-        <source>Scan Again</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="138"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="149"/>
-=======
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="152"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="164"/>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="178"/>
->>>>>>> 48c38ec86... refeactor(accounts):Finger input overtime warning change
-        <source>Scan Suspended</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="164"/>
-        <source>Cannot recognize your fingerprint</source>
-=======
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="178"/>
-=======
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="194"/>
         <source>Scan Suspended</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="194"/>
-<<<<<<< HEAD
->>>>>>> 43f1a58c4... Fix(accounts):Finger input-widiget lose focus only at the first-time
-        <source>Scan Overtime</source>
-        <translation>Scan Overtime</translation>
-=======
         <source>Scan time expired</source>
         <translation type="unfinished"></translation>
->>>>>>> c73488cbd... feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="211"/>
-        <source>Already scanned</source>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 48c38ec86... refeactor(accounts):Finger input overtime warning change
-        <translation type="unfinished"></translation>
-=======
-        <translation>Already scanned</translation>
->>>>>>> 43f1a58c4... Fix(accounts):Finger input-widiget lose focus only at the first-time
-=======
-        <translation type="unfinished"></translation>
->>>>>>> c73488cbd... feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
-    </message>
-=======
->>>>>>> eb5190f82... refeactor(text):Finger unclear.And Lift finger info
 </context>
 <context>
     <name>dccV20::accounts::AvatarListWidget</name>
@@ -501,6 +396,7 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="386"/>
         <source>Password must be no more than %1 characters</source>
         <translation type="unfinished"></translation>
@@ -508,6 +404,8 @@
 <<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="406"/>
 =======
+=======
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="386"/>
         <source>Password must be no more than %1 characters</source>
 <<<<<<< HEAD
@@ -526,6 +424,7 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="400"/>
+<<<<<<< HEAD
 =======
         <translation>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
 =======
@@ -536,6 +435,8 @@
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="400"/>
 >>>>>>> Fix(accounts):Finger input-widiget lose focus only at the first-time
 >>>>>>> 91be4b317... Fix(accounts):Finger input-widiget lose focus only at the first-time
+=======
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Passwords do not match</source>
         <translation type="unfinished"></translation>
     </message>
@@ -545,17 +446,34 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="431"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="441"/>
+        <source>Your username should not only have numbers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="448"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>The first character must be a letter or number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="449"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="466"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>The full name already exists</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="456"/>
+=======
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="473"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>The full name is too long</source>
         <translation type="unfinished"></translation>
     </message>
@@ -584,22 +502,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="136"/>
-<<<<<<< HEAD
-        <source>Add fingerprint</source>
-        <translation type="unfinished"></translation>
-=======
-=======
         <location filename="../src/frame/window/modules/accounts/fingerwidget.cpp" line="153"/>
->>>>>>> a6eb02f5e... feat(translations):update translations
         <source>Add Fingerprint</source>
-<<<<<<< HEAD
-        <translation>Add Fingerprint</translation>
->>>>>>> 43f1a58c4... Fix(accounts):Finger input-widiget lose focus only at the first-time
-=======
         <translation type="unfinished"></translation>
->>>>>>> c73488cbd... feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
     </message>
 </context>
 <context>
@@ -659,6 +564,7 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="245"/>
         <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
         <translation type="unfinished"></translation>
@@ -669,14 +575,19 @@
 <<<<<<< HEAD
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="253"/>
 =======
+=======
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="245"/>
         <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="251"/>
+<<<<<<< HEAD
 >>>>>>> Fix(accounts):Finger input-widiget lose focus only at the first-time
 >>>>>>> 91be4b317... Fix(accounts):Finger input-widiget lose focus only at the first-time
+=======
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>New password should differ from the current one</source>
         <translation type="unfinished"></translation>
     </message>
@@ -741,24 +652,12 @@
 <context>
     <name>dccV20::bluetooth::DeviceSettingsItem</name>
     <message>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="162"/>
-=======
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="164"/>
->>>>>>> 43f1a58c4... Fix(accounts):Finger input-widiget lose focus only at the first-time
-=======
         <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="168"/>
->>>>>>> eb5190f82... refeactor(text):Finger unclear.And Lift finger info
         <source>Connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="166"/>
-=======
         <location filename="../src/frame/window/modules/bluetooth/devicesettingsitem.cpp" line="170"/>
->>>>>>> eb5190f82... refeactor(text):Finger unclear.And Lift finger info
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1282,23 +1181,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="266"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
         <source>Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="268"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="328"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
         <source>Recommended</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
         <source>inch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="359"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
         <source>Resolution %1x%2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1306,13 +1205,13 @@
 <context>
     <name>dccV20::display::DisplayModule</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="67"/>
         <source>Display</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="119"/>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="118"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="121"/>
         <source>Multiple Displays</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1320,38 +1219,63 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="124"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Multiple Displays</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="126"/>
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="132"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Brightness</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/display/Brightness</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Resolution</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="136"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Display Scaling</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="143"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Refresh Rate</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/display/Refresh Rate</extra-contents_path>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="172"/>
+=======
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Rotate Screen</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1382,6 +1306,7 @@
     <message>
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="132"/>
         <source>Expand the desktop across the screens</source>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <translation>Expand the desktop across the screens</translation>
     </message>
@@ -1427,10 +1352,17 @@
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
 >>>>>>> fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
 >>>>>>> 896b1ff7c... fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
+=======
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Customize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
@@ -1449,6 +1381,9 @@
         <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
 >>>>>>> fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
 >>>>>>> 896b1ff7c... fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
+=======
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <source>Configure the display according to your needs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1878,32 +1813,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
         <source>Pointer Speed</source>
         <translation type="unfinished"></translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Tap to Click</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
         <source>Natural Scrolling</source>
         <translation type="unfinished"></translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
         <source>Slow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
         <source>Fast</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1931,69 +1866,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
         <source>Application Proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
         <source>Proxy Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
         <source>IP Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
         <source>Required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
         <source>Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
         <source>Optional</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
         <source>Invalid IP address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
         <source>Invalid port</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2009,49 +1944,49 @@
 <context>
     <name>dccV20::network::ConnectionEditPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="99"/>
         <source>Disconnect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="102"/>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="101"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="207"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="108"/>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="207"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="107"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="206"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="109"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="108"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="205"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="204"/>
         <source>Are you sure you want to delete this configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="381"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="380"/>
         <source>Wired Connection %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="386"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="385"/>
         <source>hotspot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="388"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="387"/>
         <source>Wireless Connection %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="393"/>
+        <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="392"/>
         <source>PPPoE Connection %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2931,27 +2866,17 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="108"/>
         <source>WEP 40/128-bit</source>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="113"/>
         <source>WEP 40/64/128-bit</source>
 >>>>>>> 91be4b317... Fix(accounts):Finger input-widiget lose focus only at the first-time
         <translation type="unfinished"></translation>
-=======
-        <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="108"/>
-<<<<<<< HEAD
-        <source>WEP 40/128-bit</source>
-<<<<<<< HEAD
-        <translation>WEP 40/128-bit</translation>
->>>>>>> Fix(accounts):Finger input-widiget lose focus only at the first-time
-=======
-=======
-        <source>WEP 40/64/128-bit</source>
->>>>>>> Fix(text):lift finger.And clean Finger
-        <translation type="unfinished"></translation>
->>>>>>> feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="109"/>
@@ -2965,9 +2890,12 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="116"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ed9d3204e... feat: fix .ts file error
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="119"/>
         <source>Shared key</source>
         <translation type="unfinished"></translation>
@@ -2976,15 +2904,6 @@
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="120"/>
         <source>Open system</source>
         <translation type="unfinished"></translation>
-=======
-        <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="116"/>
-        <source>Security</source>
-<<<<<<< HEAD
-        <translation>Security</translation>
->>>>>>> Fix(accounts):Finger input-widiget lose focus only at the first-time
-=======
-        <translation type="unfinished"></translation>
->>>>>>> feat(translations):Modify 'Scan Overtime' to 'Scan time expired'
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/secretwirelesssection.cpp" line="126"/>
@@ -3953,54 +3872,59 @@
 <context>
     <name>dccV20::network::WiredPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="70"/>
+        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="76"/>
         <source>Plug in the network cable first</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="82"/>
         <source>Wired Network Adapter</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/network/Wired Network</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="88"/>
-        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="110"/>
+        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="94"/>
+        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="116"/>
         <source>Add Network Connection</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/network/Wired Network/addWiredConnection</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="102"/>
+        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="108"/>
         <source>Select Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="182"/>
+        <source>Wired Connection</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>dccV20::network::WirelessPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="265"/>
         <source>Connect to hidden network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="269"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="273"/>
         <source>Wireless Network Adapter</source>
         <translation type="unfinished"></translation>
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="285"/>
         <source>Close Hotspot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="288"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="307"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="311"/>
         <source>WLAN</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5939,37 +5863,13 @@ If no operation, the display will be restored after %1s.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="145"/>
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="158"/>
-        <source>Finger moved too fast. Please do not lift until prompted</source>
-=======
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="157"/>
-        <source>Finger moved too fast, please do not lift until prompted</source>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
-=======
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="115"/>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="161"/>
         <source>Please scan other fingers</source>
->>>>>>> eb5190f82... refeactor(text):Finger unclear.And Lift finger info
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="148"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="164"/>
-        <source>Clean your finger or adjust the finger position, and try again</source>
-=======
-        <source>Unclear fingerprint, please clean your finger and try again</source>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="151"/>
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="161"/>
-=======
         <source>Moved too fast</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5996,12 +5896,7 @@ If no operation, the display will be restored after %1s.</source>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="157"/>
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="166"/>
->>>>>>> eb5190f82... refeactor(text):Finger unclear.And Lift finger info
-=======
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="167"/>
->>>>>>> 2e4e1bd90... fix(network): 修复【Pangu-WBY0B 5.7.0.7(C233) + BIOS1.07 V7】Root权限下可以查看用户连接SSID的明文密码
         <source>Adjust the finger position to scan your fingerprint fully</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6057,39 +5952,6 @@ If no operation, the display will be restored after %1s.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="132"/>
-=======
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="68"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
-        <source>Place the edges of your fingerprint on the sensor</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="134"/>
-=======
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="71"/>
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="131"/>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
-        <source>Place your finger firmly on the sensor until you&apos;re asked to lift it</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="164"/>
-        <source>Fingerprint added</source>
-=======
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="138"/>
-        <source>Lift your finger</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="139"/>
-        <source>Lift your finger and place it on the sensor again</source>
->>>>>>> 5bf6de21c... Fix(text):lift finger.And clean Finger
-=======
         <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="126"/>
         <source>Lift your finger</source>
         <translation type="unfinished"></translation>
@@ -6118,7 +5980,6 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/accounts/widgets/fingerwidget.cpp" line="138"/>
         <source>Fingerprint added</source>
->>>>>>> eb5190f82... refeactor(text):Finger unclear.And Lift finger info
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9560,6 +9421,14 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundwidget.cpp" line="109"/>
         <source>Sound Effects</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>dcc::sound::SoundWorker</name>
+    <message>
+        <location filename="../src/frame/modules/sound/soundworker.cpp" line="265"/>
+        <source>Bluetooth Earphones</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

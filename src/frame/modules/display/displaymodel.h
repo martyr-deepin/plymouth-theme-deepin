@@ -135,7 +135,7 @@ private Q_SLOTS:
 private:
     int m_screenHeight;
     int m_screenWidth;
-    int m_mode;
+    int m_mode{-1};
     double m_uiScale;
     double m_minimumBrightnessScale;
     QString m_primary;

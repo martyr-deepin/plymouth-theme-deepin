@@ -58,8 +58,6 @@ Q_SIGNALS:
 private:
     SysItemModel *m_sysItemModel;
     QList<AppItemModel *> m_appItemModels;
-    bool m_isDisturbM;
-    bool m_isStatusBar;
 };
 
 }   //namespace notification

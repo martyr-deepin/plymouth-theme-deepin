@@ -40,13 +40,6 @@ class NotificationModule: public QObject, public ModuleInterface
 {
     Q_OBJECT
 public:
-    enum MsgType {
-        DEFAULT = -1,
-        SYSTEM_NOTIFY,
-        OTHER,
-        COUNT
-    };
-
     NotificationModule(FrameProxyInterface *frameProxy, QObject *parent = nullptr);
     ~NotificationModule() override;
 
@@ -57,7 +50,6 @@ public:
     virtual void active() override;
     virtual int load(QString path) override;
     QStringList availPage() const override;
-Q_SIGNALS:
 
 private Q_SLOTS:
     void showSystemNotify();

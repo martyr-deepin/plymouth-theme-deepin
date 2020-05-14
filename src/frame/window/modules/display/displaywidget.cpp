@@ -128,13 +128,13 @@ void DisplayWidget::initMenuUI()
         //~ contents_path /display/Multiple Displays
         {tr("Multiple Displays"), "dcc_display", QMetaMethod::fromSignal(&DisplayWidget::requestShowMultiScreenPage)},
         //~ contents_path /display/Brightness
-        {tr("Brightness"), "dcc_brightness", QMetaMethod::fromSignal(&DisplayWidget::requestShowBrightnessPage)}
+//        {tr("Brightness"), "dcc_brightness", QMetaMethod::fromSignal(&DisplayWidget::requestShowBrightnessPage)}
     };
 
     m_singleMenuList = {
         //~ contents_path /display/Resolution
         {tr("Resolution"), "dcc_resolution", QMetaMethod::fromSignal(&DisplayWidget::requestShowResolutionPage)},
-        {tr("Brightness"), "dcc_brightness", QMetaMethod::fromSignal(&DisplayWidget::requestShowBrightnessPage)}
+//        {tr("Brightness"), "dcc_brightness", QMetaMethod::fromSignal(&DisplayWidget::requestShowBrightnessPage)}
     };
     if (!IsServerSystem) {
         //~ contents_path /display/Display Scaling

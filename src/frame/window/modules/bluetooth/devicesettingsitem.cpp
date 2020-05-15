@@ -40,6 +40,10 @@ DeviceSettingsItem::DeviceSettingsItem(const Device *device, QStyle *style)
     , m_style(style)
 {
     initItemActionList();
+    if (m_device->deviceType().isEmpty())
+        m_deviceItem->setIcon(QIcon::fromTheme("dcc_nav_commoninfo"));
+    else
+        m_deviceItem->setIcon(QIcon::fromTheme(m_device->deviceType()));
     m_deviceItem->setText(m_device->alias().isEmpty() ? m_device->name() : m_device->alias());
     m_deviceItem->setActionList(Qt::RightEdge, m_dActionList);
 }
@@ -145,6 +149,10 @@ DStandardItem *DeviceSettingsItem::createStandardItem(DListView *parent)
         setDevice(m_device);
     }
     m_deviceItem = new DStandardItem;
+    if (m_device->deviceType().isEmpty())
+        m_deviceItem->setIcon(QIcon::fromTheme("dcc_nav_commoninfo"));
+    else
+        m_deviceItem->setIcon(QIcon::fromTheme(m_device->deviceType()));
     m_deviceItem->setText(m_device->alias().isEmpty() ? m_device->name() : m_device->alias());
     m_deviceItem->setActionList(Qt::RightEdge, m_dActionList);
     return m_deviceItem;

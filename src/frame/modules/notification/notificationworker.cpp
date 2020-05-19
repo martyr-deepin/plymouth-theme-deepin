@@ -32,8 +32,8 @@ NotificationWorker::NotificationWorker(NotificationModel *model, QObject *parent
     , m_model(model)
     , m_dbus(new Notification(Notification::staticInterfaceName(), Path, QDBusConnection::sessionBus(), this))
 {
-    connect(m_dbus, &Notification::appSettingChanged, this, &NotificationWorker::getDbusAppsetting);
-    connect(m_dbus, &Notification::systemSettingChanged, this, &NotificationWorker::getDbusSyssetting);
+    connect(m_dbus, &Notification::AllSettingChanged, this, &NotificationWorker::getDbusAppsetting);
+    connect(m_dbus, &Notification::SystemSettingChanged, this, &NotificationWorker::getDbusSyssetting);
 }
 
 void NotificationWorker::active(bool sync)

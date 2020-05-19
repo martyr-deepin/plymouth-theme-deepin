@@ -23,7 +23,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "widgets/switchwidget.h"
+#include "widgets/powerdisplaywidget.h"
 
 #include <QHBoxLayout>
 
@@ -37,75 +37,49 @@ DWIDGET_USE_NAMESPACE
 namespace dcc {
 namespace widgets {
 
-SwitchWidget::SwitchWidget(const QString &title, QWidget *parent)
-    : SwitchWidget(parent, new NormalLabel(title))
+PowerDisplayWidget::PowerDisplayWidget(const QString &title, QWidget *parent)
+    : PowerDisplayWidget(parent, new QLabel(title), new QLabel)
 {
 
 }
 
-SwitchWidget::SwitchWidget(QWidget *parent, QWidget *widget)
+PowerDisplayWidget::PowerDisplayWidget(QWidget *parent, QLabel *leftWidget, QLabel *rightWidget)
     : SettingsItem(parent)
-    , m_leftWidget(widget)
-    , m_switchBtn(new DSwitchButton)
+    , m_leftWidget(leftWidget)
+    , m_rightWidget(rightWidget)
 {
     if (!m_leftWidget)
         m_leftWidget = new QLabel();
+
+    if (!m_rightWidget)
+        m_rightWidget = new QLabel();
 
     QHBoxLayout *mainLayout = new QHBoxLayout(this);
     mainLayout->setSpacing(0);
 
     mainLayout->addWidget(m_leftWidget, 0, Qt::AlignVCenter);
-    mainLayout->addWidget(m_switchBtn, 0, Qt::AlignVCenter);
+    mainLayout->addWidget(m_rightWidget, 0, Qt::AlignVCenter);
 
     m_leftWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+    m_rightWidget->setAlignment(Qt::AlignRight);
 
     setLayout(mainLayout);
-
-    connect(m_switchBtn, &DSwitchButton::toggled, this, &SwitchWidget::checkedChanged);
 }
 
-void SwitchWidget::setChecked(const bool checked)
+void PowerDisplayWidget::setTitle(const QString &title)
 {
-    m_switchBtn->blockSignals(true);
-    m_switchBtn->setChecked(checked);
-    m_switchBtn->blockSignals(false);
-}
-
-QString SwitchWidget::title() const
-{
-    QLabel *label = qobject_cast<QLabel *>(m_leftWidget);
-    if (label) {
-        return label->text();
-    }
-
-   return QString();
-}
-
-void SwitchWidget::setTitle(const QString &title)
-{
-    QLabel *label = qobject_cast<QLabel *>(m_leftWidget);
-    if (label) {
-        label->setWordWrap(true);
-        label->setText(title);
-        label->setWordWrap(true);
-    }
+    m_leftWidget->setWordWrap(true);
+    m_leftWidget->setText(title);
+    m_leftWidget->setWordWrap(true);
 
     setAccessibleName(title);
 }
 
-bool SwitchWidget::checked() const
+void PowerDisplayWidget::setText(const QString &text)
 {
-    return m_switchBtn->isChecked();
+    m_rightWidget->setWordWrap(true);
+    m_rightWidget->setText(text);
+    m_rightWidget->setWordWrap(true);
 }
-
-void SwitchWidget::mouseReleaseEvent(QMouseEvent *event)
-{
-    if (!m_switchBtn->geometry().contains(event->pos())) {
-        Q_EMIT clicked();
-    }
-
-    return SettingsItem::mouseReleaseEvent(event);
-}
-
 }
 }

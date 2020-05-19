@@ -23,11 +23,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef SWITCHWIDGET_H
-#define SWITCHWIDGET_H
+#ifndef POWERDISPLAYWIDGET_H
+#define POWERDISPLAYWIDGET_H
 
 #include "widgets/settingsitem.h"
-
 #include <dswitchbutton.h>
 
 QT_BEGIN_NAMESPACE
@@ -37,38 +36,23 @@ QT_END_NAMESPACE
 namespace dcc {
 namespace widgets {
 
-class SwitchWidget : public SettingsItem
+class PowerDisplayWidget : public SettingsItem
 {
     Q_OBJECT
 
 public:
 //    explicit SwitchWidget(QWidget *parent = nullptr);
-    explicit SwitchWidget(const QString &title, QWidget *parent = nullptr);
-    explicit SwitchWidget(QWidget *parent = nullptr, QWidget *widget = nullptr);
-
-    void setChecked(const bool checked = true);
-    QString title() const;
+    explicit PowerDisplayWidget(const QString &title, QWidget *parent = nullptr);
+    explicit PowerDisplayWidget(QWidget *parent = nullptr, QLabel *leftwidget = nullptr, QLabel *rightWidget = nullptr);
     void setTitle(const QString &title);
-    bool checked() const;
-
-    QWidget *leftWidget() const { return m_leftWidget; }
-
-public:
-    inline DTK_WIDGET_NAMESPACE::DSwitchButton *switchButton() const { return m_switchBtn; }
-
-Q_SIGNALS:
-    void checkedChanged(const bool checked) const;
-    void clicked();
-
-protected:
-    void mouseReleaseEvent(QMouseEvent *event) Q_DECL_OVERRIDE;
+    void setText(const QString &text);
 
 private:
-    QWidget *m_leftWidget;
-    Dtk::Widget::DSwitchButton *m_switchBtn;
+    QLabel *m_leftWidget;
+    QLabel *m_rightWidget;
 };
-
 }
 }
 
-#endif // SWITCHWIDGET_H
+#endif // POWERDISPLAYWIDGET_H
+

@@ -21,13 +21,17 @@
 #pragma once
 
 #include "interface/namespace.h"
+#include <com_deepin_system_systempower.h>
 
 #include <QWidget>
 #include <QVBoxLayout>
 
+using SystemPower = com::deepin::system::Power;
+
 namespace dcc {
 namespace widgets {
 class SwitchWidget;
+class PowerDisplayWidget;
 class NormalLabel;
 }
 
@@ -36,6 +40,7 @@ class PowerModel;
 }
 }
 
+class QLabel;
 namespace DCC_NAMESPACE {
 namespace power {
 
@@ -54,15 +59,22 @@ private:
     dcc::widgets::SwitchWidget *m_autoIntoSaveEnergyMode;
     dcc::widgets::SwitchWidget *m_wakeComputerNeedPassword;
     dcc::widgets::SwitchWidget *m_wakeDisplayNeedPassword;
+    QLabel *m_titleWidget;
+    dcc::widgets::SwitchWidget *m_powerShowTimeToFull;
+    dcc::widgets::PowerDisplayWidget *m_ShowTimeToFullTips;
+
+    SystemPower *m_systemPowerInter;
 
 Q_SIGNALS:
     void requestSetLowBatteryMode(const bool &state);
     void requestSetAutoIntoSaveEnergyMode(const bool &state);
     void requestSetWakeComputer(const bool &state);
     void requestSetWakeDisplay(const bool &state);
+    void requestSetPowerDisplay(const bool &state);
 
 public Q_SLOTS:
+    void SetPowerDisplay(const bool &state);
+    void onGSettingsChanged(const QString &key);
 };
-
 }// namespace datetime
 }// namespace DCC_NAMESPACE

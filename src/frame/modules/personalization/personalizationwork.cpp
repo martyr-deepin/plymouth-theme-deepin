@@ -498,13 +498,27 @@ void PersonalizationWork::setMiniEffect(int effect)
 {
     switch(effect){
     case 0:
-        qDebug() << "scale";
-        m_effects->unloadEffect("magiclamp");
+    {
+        QDBusPendingCallWatcher *watcher = new QDBusPendingCallWatcher(m_effects->unloadEffect("magiclamp"), this);
+        connect(watcher, &QDBusPendingCallWatcher::finished, this, [ = ] (QDBusPendingCallWatcher *watcher) {
+            qDebug() << watcher->error();
+            if (!watcher->isError()) {
+                    m_model->setMiniEffect(0);
+            }
+        });
         break;
+    }
     case 1:
-        qDebug() << "magiclamp";
-        m_effects->loadEffect("magiclamp");
+    {
+        QDBusPendingCallWatcher *watcher = new QDBusPendingCallWatcher(m_effects->loadEffect("magiclamp"), this);
+        connect(watcher, &QDBusPendingCallWatcher::finished, this, [ = ] (QDBusPendingCallWatcher *watcher) {
+            qDebug() << watcher->error();
+            if (!watcher->isError()) {
+                    m_model->setMiniEffect(1);
+            }
+        });
         break;
+    }
     default:break;
     }
 }

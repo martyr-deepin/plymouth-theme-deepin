@@ -73,6 +73,10 @@ void DisplayModule::active()
     m_displayWidget = new DisplayWidget;
     m_displayWidget->setModel(m_displayModel);
 
+    connect(m_displayModel, &DisplayModel::monitorListChanged, m_displayWidget, &DisplayWidget::onMonitorListChanged);      //+ 5-19-1 fix +
+    connect(m_displayModel, &DisplayModel::configListChanged, m_displayWidget, &DisplayWidget::onMonitorListChanged);
+    connect(m_displayModel, &DisplayModel::configCreated, m_displayWidget, &DisplayWidget::requestShowCustomConfigPage);
+
     connect(m_displayWidget, &DisplayWidget::requestShowScalingPage,
             this, &DisplayModule::showScalingPage);
     connect(m_displayWidget, &DisplayWidget::requestShowResolutionPage,
@@ -239,6 +243,7 @@ void DisplayModule::showCustomSettingDialog()
 
     m_displayModel->setIsMerge(m_displayModel->monitorsIsIntersect());
     QString currentPrimaryName = m_displayModel->primary();
+    qDebug() << Q_FUNC_INFO << ".....5-23-1......" << "currentPrimaryName " << currentPrimaryName;  //+ 5-23-1 log
     dlg->setModel(m_displayModel);
     if (dlg->exec() != QDialog::Accepted) {
         m_displayWorker->restore();
@@ -267,7 +272,7 @@ void DisplayModule::onDetailPageRequestSetResolution(Monitor *mon, const int mod
     auto lastMode = mon->currentMode().id();
     m_displayWorker->setMonitorResolution(mon, mode);
 
-    if (showTimeoutDialog(mon) == QDialog::Accepted) {
+    if (showTimeoutDialog(mon) == QDialog::Accepted) {  //+ 5-19-1 tag
         m_displayWorker->saveChanges();
         qDebug() << "showTimeoutDialog:Accepted()";
     } else {
@@ -292,22 +297,28 @@ void DisplayModule::onCustomPageRequestSetResolution(Monitor *mon, CustomSetting
             int w = tmode.w;
             int h = tmode.h;
             double r = tmode.rate;
-            qDebug() << "resolution:"<< tmode.w << "x" << tmode.h
+            qDebug() << "if (!tmon)----.......5-23-1......-----" << "resolution:"<< tmode.w << "x" << tmode.h
                      << "\t rate:" << tmode.rate
                      << "\t id: " << tmode.id;
+
             for (auto m : m_displayModel->monitorList()) {
                 for (auto res : m->modeList()) {
 //                    if (fabs(r) > 0.000001 && fabs(res.rate() - r) > 0.000001) {
 //                        continue;
 //                    }
-                    if (res.width() == w && res.height() == h) {
+
+//                    if (res.width() == w && res.height() == h) {
+                    //+ 5-23-1 fix an issue where switching frequency was not successful in multi-screen mode
+                    //+ 修复多屏幕状态下切换屏幕频率不成功问题
+                    if (res.width() == w && res.height() == h && res.rate() == r) {
+                        qDebug() << "5-23-1.........if (res.width() == w && res.height() == h && res.rate() == r)" << "res.id" << res.id(); //+ 5-23-1 log
                         m_displayWorker->setMonitorResolution(m, res.id());
                         break;
                     }
                 }
             }
         } else {
-            qDebug() << "resolution:"<< tmode.w << "x" << tmode.h
+            qDebug() << "else-----------" << "resolution:"<< tmode.w << "x" << tmode.h
                      << "\t rate:" << tmode.rate
                      << "\t id: " << tmode.id;
             m_displayWorker->setMonitorResolution(tmon, tmode.id);
@@ -329,6 +340,8 @@ int DisplayModule::showTimeoutDialog(Monitor *mon)
     connect(mon, &Monitor::geometryChanged, timeoutDialog, [ = ] {
         if (timeoutDialog)
         {
+            qDebug() << __FUNCTION__ << " geometryChanged " << "mon-x()" << mon->x() << "mon->y()" << mon->y() << \
+                        "mon->w()" << mon->w() << "mon->h()" << mon->h();   //+ 5-19-1 log
             QRectF rt(mon->x(), mon->y(), mon->w() / radio, mon->h() / radio);
             timeoutDialog->moveToCenterByRect(rt.toRect());
         }
@@ -379,6 +392,7 @@ void DisplayModule::showRotate(Monitor *mon)
 
 void DisplayModule::showRecognize()
 {
+    qDebug() << Q_FUNC_INFO << ".......5-23-1......."; //+ 5-23-1 log
     RecognizeDialog dialog(m_displayModel);
     dialog.exec();
 }

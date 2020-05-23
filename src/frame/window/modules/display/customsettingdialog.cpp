@@ -228,7 +228,7 @@ void CustomSettingDialog::initOtherDialog()
     }
 }
 
-void CustomSettingDialog::initRefreshrateList()
+void CustomSettingDialog::initRefreshrateList() //+ 5-19-1 tag
 {
     QStandardItemModel *listModel = qobject_cast<QStandardItemModel *>(m_rateList->model());
     if (listModel) {
@@ -424,6 +424,7 @@ void CustomSettingDialog::initConnect()
         auto w = m_resolutionListModel->data(idx, WidthRole).toInt();
         auto h = m_resolutionListModel->data(idx, HeightRole).toInt();
         auto id = m_resolutionListModel->data(idx, IdRole).toInt();
+        auto rate = m_resolutionListModel->data(idx,RateRole).toDouble();  //+ 5-23-1 fix +
 
         if (m_model->isMerge()) {
             if (w == m_monitor->currentMode().width()
@@ -434,6 +435,7 @@ void CustomSettingDialog::initConnect()
             ResolutionDate res;
             res.w = w;
             res.h = h;
+            res.rate = rate;    //+ 5-23-1 fix +
             this->requestSetResolution(nullptr, res);
         } else {
             if (id == m_monitor->currentMode().id()) {
@@ -457,12 +459,11 @@ void CustomSettingDialog::initConnect()
             auto h = cm.height();
             auto rate = lm->data(idx, RateRole).toDouble();
 
-            qDebug() << rate;
             if (fabs(cm.rate() - rate) < 0.00001) {
                 return;
             }
 
-            qDebug() << rate;
+            qDebug() << Q_FUNC_INFO << ".......5-23-1........rate " << rate;  //+ 5-23-1 log
             ResolutionDate res;
             res.w = w;
             res.h = h;
@@ -516,6 +517,7 @@ void CustomSettingDialog::resetMonitorObject(Monitor *moni)
 
 void CustomSettingDialog::onChangList(QAbstractButton *btn, bool beChecked)
 {
+    qDebug() << Q_FUNC_INFO << "..........5-23-1........." << "beChecked " << beChecked;  //+ 5-23-1 log
     if (!beChecked)
         return;
 

@@ -57,11 +57,6 @@ DisplayWidget::DisplayWidget(QWidget *parent)
 void DisplayWidget::setModel(DisplayModel *model)
 {
     m_model = model;
-    m_isMultiScreen = model->monitorList().size() > 1;
-
-    connect(m_model, &DisplayModel::monitorListChanged, this, &DisplayWidget::onMonitorListChanged);
-    connect(m_model, &DisplayModel::configListChanged, this, &DisplayWidget::onMonitorListChanged);
-    connect(m_model, &DisplayModel::configCreated, this, &DisplayWidget::requestShowCustomConfigPage);
 
     //确保第一次进入onMonitorListChanged会命中一个判断
     m_isMultiScreen = model->monitorList().size() <= 1;

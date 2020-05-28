@@ -45,7 +45,7 @@ RefreshRatePage::RefreshRatePage(QWidget *parent)
 void RefreshRatePage::setModel(DisplayModel *model)
 {
     m_model = model;
-    qDebug() << model->monitorList().size();
+    qDebug() << Q_FUNC_INFO << "......5-28-1......" << model->monitorList().size();
     m_monitor = model->monitorList().first();
 
     initRateList();
@@ -64,7 +64,7 @@ void RefreshRatePage::initRateList()
     auto moni = m_model->monitorList().first();
     QList<double> rateList;
     bool isFirst = true;
-    qDebug() << "moni->modeList size:" << moni->modeList().size();
+    qDebug() << "...........5-28-1...........moni->modeList size:" << moni->modeList().size();
     qDebug() << "moni current mode :" << moni->currentMode().width()
              << "x" << moni->currentMode().height();
     for (auto m : moni->modeList()) {
@@ -93,8 +93,12 @@ void RefreshRatePage::initRateList()
 
     connect(list, &DListView::clicked, this, [ = ](const QModelIndex & idx) {
         if (listModel->data(idx, Qt::CheckStateRole) == Qt::CheckState::Checked)
+        {
+            qDebug() << ".....if (listModel->data(idx, Qt::CheckStateRole) == Qt::CheckState::Checked).....";   //+ 5-28-1
             return ;
+        }
 
+        qDebug() << ".......this->requestSetResolution(m_monitor, listModel->data(idx, Qt::WhatsThisPropertyRole).toInt())...."; //+ 5-28-1
         this->requestSetResolution(m_monitor, listModel->data(idx, Qt::WhatsThisPropertyRole).toInt());
     });
 
@@ -102,8 +106,10 @@ void RefreshRatePage::initRateList()
         for (int i = 0; i < listModel->rowCount(); ++i) {
             auto tItem = listModel->item(i);
             if (tItem->data(Qt::WhatsThisPropertyRole).toInt() == r.id()) {
+                qDebug() << "................if (tItem->data(Qt::WhatsThisPropertyRole).toInt() == r.id()).............";   //+ 5-28-1
                 tItem->setData(Qt::CheckState::Checked, Qt::CheckStateRole);
             } else {
+                qDebug() << ".................tItem->setData(Qt::CheckState::Unchecked, Qt::CheckStateRole).........";  //+ 5-28-1
                 tItem->setData(Qt::CheckState::Unchecked, Qt::CheckStateRole);
             }
         }

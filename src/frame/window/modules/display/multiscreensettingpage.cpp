@@ -48,7 +48,7 @@ MultiScreenSettingPage::MultiScreenSettingPage(QWidget *parent)
     mainLayout->addWidget(m_modeList);
 
 ///    //~ contents_path /display/Customize
-    QPushButton *btn = new QPushButton(tr("Custom Settings"), this);
+    QPushButton *btn = new QPushButton(tr("Custom Settings"), this);    //+ 5-28-1 tag
     mainLayout->addSpacing(10);
     mainLayout->addWidget(btn);
 
@@ -188,6 +188,10 @@ void MultiScreenSettingPage::onCustomClicked()
     Q_EMIT requsetRecord();
 
     auto displayMode = m_model->displayMode();
+
+    qDebug() << Q_FUNC_INFO << ".......5-28-1........" << " displayMode " << displayMode \
+             << " m_model->config() " << m_model->config() \
+             << "m_model->DDE_Display_Config " << m_model->DDE_Display_Config; //+ 5-28-1 log
 
     if (displayMode == CUSTOM_MODE && m_model->config() == m_model->DDE_Display_Config) {
         Q_EMIT requestCustomDiglog();

@@ -68,6 +68,7 @@ CustomSettingDialog::~CustomSettingDialog()
 
 void CustomSettingDialog::initUI()
 {
+    qDebug() << "Multiscreen Dialog .......5-28-1......." << Q_FUNC_INFO;
     setMinimumWidth(480);
     setMinimumHeight(600);
     setWindowFlags(windowFlags() | Qt::WindowStaysOnTopHint );
@@ -243,7 +244,10 @@ void CustomSettingDialog::initRefreshrateList() //+ 5-19-1 tag
     auto moni = m_monitor;
     QList<double> rateList;
     bool isFirst = true;
+
+//    qDebug() << Q_FUNC_INFO << "........5-28-1......moni->modeList().size() " << moni->modeList().size();
     for (auto m : moni->modeList()) {
+//        qDebug() << "m.height() " << m.height() << "m.width() " << m.width() << "m.rate() " << m.rate();
         if (!Monitor::isSameResolution(m, moni->currentMode()))
             continue;
 
@@ -268,6 +272,8 @@ void CustomSettingDialog::initRefreshrateList() //+ 5-19-1 tag
             tstr += QString(" (%1)").arg(tr("Recommended"));
             isFirst = false;
         }
+
+
         if (fabs(trate - moni->currentMode().rate()) < 0.000001) {
             item->setCheckState(Qt::CheckState::Checked);
         } else {
@@ -280,6 +286,8 @@ void CustomSettingDialog::initRefreshrateList() //+ 5-19-1 tag
         item->setData(QVariant(m.height()), HeightRole);
         item->setText(tstr);
     }
+
+//    qDebug() << "...5-28-1.........." << Q_FUNC_INFO << " listModel->rowCount() .........." << listModel->rowCount();
 }
 
 void CustomSettingDialog::initResolutionList()
@@ -293,6 +301,8 @@ void CustomSettingDialog::initResolutionList()
     bool first = true;
     auto modes = m_monitor->modeList();
     const auto curMode = m_monitor->currentMode();
+
+//    qDebug() << Q_FUNC_INFO << "...........5-28-1..........." << " modes.size()-resolutionSize " << modes.size();   //+ 5-28-1 log
 
     DStandardItem *curIdx{nullptr};
     Resolution pevR;
@@ -330,8 +340,14 @@ void CustomSettingDialog::initResolutionList()
             item->setText(res);
         }
 
-        if (curMode == m)
+        qDebug() << Q_FUNC_INFO <<"......5-28-1 resolution checked status ......" << "curMode.width() " << curMode.width() \
+                 << "m.width() " << m.width() << "curMode.height() " << curMode.height() << "m.height() " << m.height() \
+                 << "curMode.rate() " << curMode.rate() << "m.rate() " << m.rate();     //+ 5-28-1 fix +
+
+//        if (curMode == m)
+        if (curMode.width() == m.width() && curMode.height() == m.height())     //+ 5-28-1 fix +
             curIdx = item;
+
         m_resolutionListModel->appendRow(item);
     }
 
@@ -463,7 +479,8 @@ void CustomSettingDialog::initConnect()
                 return;
             }
 
-            qDebug() << Q_FUNC_INFO << ".......5-23-1........rate " << rate;  //+ 5-23-1 log
+            qDebug() << Q_FUNC_INFO << "connect(m_rateList, &DListView::clicked, this, [this](QModelIndex idx).......5-28-1\
+                        ........rate " << rate;  //+ 5-28-1 log
             ResolutionDate res;
             res.w = w;
             res.h = h;
@@ -517,7 +534,7 @@ void CustomSettingDialog::resetMonitorObject(Monitor *moni)
 
 void CustomSettingDialog::onChangList(QAbstractButton *btn, bool beChecked)
 {
-    qDebug() << Q_FUNC_INFO << "..........5-23-1........." << "beChecked " << beChecked;  //+ 5-23-1 log
+    qDebug() << Q_FUNC_INFO << "..........5-28-1........." << "beChecked " << beChecked;  //+ 5-28-1 log
     if (!beChecked)
         return;
 
@@ -571,8 +588,12 @@ void CustomSettingDialog::onMonitorModeChange(const Resolution &r)
         if (m_model->isMerge()) {
             auto w = item->data(WidthRole).toInt();
             auto h = item->data(HeightRole).toInt();
+            auto rate = item->data(RateRole).toDouble();    //+ 5-28-1 fix
 
-            if (w == r.width() && h == r.height()) {
+            qDebug() << Q_FUNC_INFO << "......5-28-1......" << "w " << w << "r.width() " << r.width() << "h " << h << "r.height() " << r.height() \
+                     << "rate " << rate << "r.rate() " << r.rate();
+//            if (w == r.width() && h == r.height()) {
+            if (w == r.width() && h == r.height() && abs(rate - r.rate()) < 1e-5) {    //+ 5-28-1 fix
                 item->setCheckState(Qt::Checked);
             } else {
                 item->setCheckState(Qt::Unchecked);
@@ -587,6 +608,8 @@ void CustomSettingDialog::onMonitorModeChange(const Resolution &r)
             }
         }
     }
+
+    initWithModel();    //+ 5-28-1 fix +
 
     resetDialog();
 }

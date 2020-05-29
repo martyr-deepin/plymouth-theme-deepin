@@ -133,10 +133,15 @@ void Monitor::setRotateList(const QList<quint16> &rotateList)
 
 void Monitor::setCurrentMode(const Resolution &resolution)
 {
-    if (m_currentMode == resolution)
+//    if (m_currentMode == resolution)  //+ 当id都为0时两者相等，导致偶发性问题；
+    if (m_currentMode.id() == resolution.id() && m_currentMode.width() == resolution.width() && \
+        m_currentMode.height() == resolution.height() && abs(m_currentMode.rate() - resolution.rate()) < 1e-5)  //+ 5-29-1 fix+
         return;
 
     m_currentMode = resolution;
+
+    qDebug() << m_currentMode.id() << m_currentMode.width() << m_currentMode.height() << m_currentMode.rate();
+    qDebug() << resolution.id() << resolution.width() << resolution.height() << resolution.rate();
 
     Q_EMIT currentModeChanged(m_currentMode);
 }

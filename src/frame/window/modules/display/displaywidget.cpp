@@ -98,6 +98,9 @@ void DisplayWidget::onMonitorListChanged()
 {
     const auto mons = m_model->monitorList();
 
+    qDebug() << ".....5-29-1......" << Q_FUNC_INFO << "mons.first()->w() " << mons.first()->w() \
+             << "mons.first()->h() " << mons.first()->h();   //+ 5-29-1 log
+
     QDBusInterface  tInter("com.deepin.daemon.Display",
                                        "/com/deepin/daemon/Display",
                                        "com.deepin.daemon.Display",

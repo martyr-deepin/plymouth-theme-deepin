@@ -80,6 +80,7 @@ void ResolutionDetailPage::setModel(DisplayModel *model)
 
 void ResolutionDetailPage::initResoList()
 {
+    qDebug() << "start........5-29-1........." << Q_FUNC_INFO;   //+ 5-29-1 log
     if (m_resoList) {
         stopScroller();
 

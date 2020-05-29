@@ -440,7 +440,32 @@ void CustomSettingDialog::initConnect()
         auto w = m_resolutionListModel->data(idx, WidthRole).toInt();
         auto h = m_resolutionListModel->data(idx, HeightRole).toInt();
         auto id = m_resolutionListModel->data(idx, IdRole).toInt();
-        auto rate = m_resolutionListModel->data(idx,RateRole).toDouble();  //+ 5-23-1 fix +
+
+        //+ 5-29-3 fix +
+        double rate = 60;
+        for (auto m : m_monitor->modeList()) {
+            if (m.width() != w || m.height() != h)
+                continue;
+
+            if (m_model->isMerge()) {
+                bool isCommen = true;;
+                for (auto tmonitor : m_model->monitorList()) {
+                    if (!tmonitor->hasResolutionAndRate(m)) {
+                        isCommen = false;
+                        break;
+                    }
+                }
+
+                if (!isCommen)
+                    continue;
+            }
+            rate = m.rate();
+        }
+        //+ 5-29-3 fix end
+
+
+        qDebug() << "5-29-3........." << " rate " << rate;
+//        auto rate = m_resolutionListModel->data(idx,RateRole).toDouble();  //+ 5-23-1 fix +
 
         if (m_model->isMerge()) {
             if (w == m_monitor->currentMode().width()

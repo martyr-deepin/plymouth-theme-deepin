@@ -78,7 +78,8 @@ public Q_SLOTS:
     void setMonitorRotateAll(const quint16 rotate);
     void setMonitorRotate(Monitor *mon, const quint16 rotate);
 #endif
-    void setMonitorResolution(Monitor *mon, const int mode);
+    void setMonitorResolution(Monitor *mon, const int mode, int type = 0);
+    void setApplyChanges();  //+ 5-29-2
     void setMonitorBrightness(Monitor *mon, const double brightness);
     void setMonitorPosition(Monitor *mon, const int x, const int y);
     void setUiScale(const double value);

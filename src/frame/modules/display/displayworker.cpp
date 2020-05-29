@@ -401,12 +401,19 @@ void DisplayWorker::applyChanges()
     m_displayInter.ApplyChanges().waitForFinished();
 }
 
-void DisplayWorker::setMonitorResolution(Monitor *mon, const int mode)
+void DisplayWorker::setMonitorResolution(Monitor *mon, const int mode, int type)
 {
     MonitorInter *inter = m_monitors.value(mon);
     Q_ASSERT(inter);
 
     inter->SetMode(mode).waitForFinished();
+
+    if (0 == type)  //+ 5-29-2
+        m_displayInter.ApplyChanges().waitForFinished();
+}
+
+void DisplayWorker::setApplyChanges()
+{
     m_displayInter.ApplyChanges().waitForFinished();
 }
 

@@ -304,6 +304,7 @@ void DisplayModule::onCustomPageRequestSetResolution(Monitor *mon, CustomSetting
                      << "\t rate:" << tmode.rate
                      << "\t id: " << tmode.id;
 
+            bool tstatus = false;   //+ 5-29-2
             for (auto m : m_displayModel->monitorList()) {
                 for (auto res : m->modeList()) {
 //                    if (fabs(r) > 0.000001 && fabs(res.rate() - r) > 0.000001) {
@@ -315,11 +316,15 @@ void DisplayModule::onCustomPageRequestSetResolution(Monitor *mon, CustomSetting
                     //+ 修复多屏幕状态下切换屏幕频率不成功问题
                     if (res.width() == w && res.height() == h && abs(res.rate() - r)<1e-5) {
                         qDebug() << "5-23-1.........if (res.width() == w && res.height() == h && res.rate() == r)" << "res.id" << res.id(); //+ 5-23-1 log
-                        m_displayWorker->setMonitorResolution(m, res.id());
+                        tstatus = true;
+                        m_displayWorker->setMonitorResolution(m, res.id(),1);   //+ 5-29-2
                         break;
                     }
                 }
             }
+
+            if (tstatus)
+                m_displayWorker->setApplyChanges();
         } else {
             qDebug() << "else-----------" << "resolution:"<< tmode.w << "x" << tmode.h
                      << "\t rate:" << tmode.rate

@@ -110,6 +110,12 @@ void DetailPage::onDeviceStatusChanged()
         m_connectButton->setDisabled(true);
         m_disconnectButton->hide();
         m_ignoreButton->setEnabled(false);
+    } else if (m_device->state() == Device::StateDisconnecting) {
+        m_connectButton->show();
+        m_connectButton->setText(tr("Disconnecting"));
+        m_connectButton->setDisabled(true);
+        m_disconnectButton->hide();
+        m_ignoreButton->setEnabled(false);
     } else {
         m_connectButton->show();
         m_connectButton->setText(tr("Connect"));

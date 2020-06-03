@@ -38,9 +38,10 @@ class Device : public QObject
 
 public:
     enum State {
-        StateUnavailable = 0,
-        StateAvailable   = 1,
-        StateConnected   = 2
+        StateUnavailable    = 0,
+        StateAvailable      = 1,
+        StateConnected      = 2,
+        StateDisconnecting  = 3
     };
     Q_ENUM(State)
 

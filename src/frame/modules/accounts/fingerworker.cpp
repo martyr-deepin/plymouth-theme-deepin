@@ -122,11 +122,11 @@ void FingerWorker::stopEnroll(const QString& userName)
 void FingerWorker::deleteFingerItem(const QString& userName, const QString& finger)
 {
     auto call = m_fingerPrintInter->DeleteFinger(userName, finger);
+    refreshUserEnrollList(userName);
     call.waitForFinished();
     if (call.isError()) {
         qDebug() << "call DeleteFinger Error : " << call.error();
     }
-    refreshUserEnrollList(userName);
 }
 
 void FingerWorker::renameFingerItem(const QString& userName, const QString& finger, const QString& newName)

@@ -49,7 +49,7 @@ AccounntFingeItem::AccounntFingeItem(QWidget *parent)
 
     m_removeBtn->setFlat(true);
     m_removeBtn->setIcon(DStyle::StandardPixmap::SP_DeleteButton);
-    m_removeBtn->setFixedSize(QSize(48, 48));
+    m_removeBtn->setFixedSize(QSize(36, 36));
     m_removeBtn->setIconSize(QSize(24, 24));
     m_removeBtn->setVisible(false);
 

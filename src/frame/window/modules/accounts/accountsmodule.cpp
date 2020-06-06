@@ -212,6 +212,8 @@ void AccountsModule::onShowAddThumb(const QString &name, const QString &thumb)
     connect(dlg, &AddFingeDialog::requestStopEnroll, m_fingerWorker, &FingerWorker::stopEnroll);
 
     QFutureWatcher<bool> *watcher = new QFutureWatcher<bool>(m_fingerWorker);
+    QFuture<bool> future = QtConcurrent::run(m_fingerWorker, &FingerWorker::tryEnroll, name, thumb);
+    watcher->setFuture(future);
     connect(watcher, &QFutureWatcher<bool>::finished, [this, watcher, dlg, name] {
         bool result = watcher->result();
         if (result) {
@@ -224,8 +226,6 @@ void AccountsModule::onShowAddThumb(const QString &name, const QString &thumb)
         dlg->deleteLater();
         watcher->deleteLater();
     });
-    QFuture<bool> future = QtConcurrent::run(m_fingerWorker, &FingerWorker::tryEnroll, name, thumb);
-    watcher->setFuture(future);
 
 //    if (m_fingerWorker->tryEnroll(name, thumb)) {
 //        dlg->startFoucosTimer();

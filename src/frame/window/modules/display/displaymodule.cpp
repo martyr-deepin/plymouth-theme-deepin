@@ -236,6 +236,12 @@ void DisplayModule::showCustomSettingDialog()
     connect(dlg, &CustomSettingDialog::requestSetPrimaryMonitor,
             m_displayWorker, &DisplayWorker::setPrimary);
     connect(m_displayModel, &DisplayModel::monitorListChanged, dlg, &QDialog::reject);
+    connect(m_displayModel, &DisplayModel::displayModeChanged, dlg, [dlg](const int displaymode) {
+        if (displaymode == MERGE_MODE)
+            dlg->requestMerge();
+        else
+            dlg->requestSplit();
+    });
 
     m_displayModel->setIsMerge(m_displayModel->monitorsIsIntersect());
     QString currentPrimaryName = m_displayModel->primary();
@@ -287,17 +293,17 @@ void DisplayModule::onCustomPageRequestSetResolution(Monitor *mon, CustomSetting
         lastres.rate = m_displayModel->primaryMonitor()->currentMode().rate();
     }
 
-    auto tfunc = [this](Monitor *tmon, CustomSettingDialog::ResolutionDate tmode) {
+    auto tfunc = [this](Monitor * tmon, CustomSettingDialog::ResolutionDate tmode) {
         if (!tmon) {
             int w = tmode.w;
             int h = tmode.h;
             double r = tmode.rate;
-            qDebug() << "resolution:"<< tmode.w << "x" << tmode.h
+            qDebug() << "resolution:" << tmode.w << "x" << tmode.h
                      << "\t rate:" << tmode.rate
                      << "\t id: " << tmode.id;
             for (auto m : m_displayModel->monitorList()) {
                 for (auto res : m->modeList()) {
-                    if (fabs(r) < 0.000001 ) {
+                    if (fabs(r) < 0.000001) {
                         if (res.width() == w && res.height() == h) {
                             m_displayWorker->setMonitorResolution(m, res.id());
                             break;
@@ -311,7 +317,7 @@ void DisplayModule::onCustomPageRequestSetResolution(Monitor *mon, CustomSetting
                 }
             }
         } else {
-            qDebug() << "resolution:"<< tmode.w << "x" << tmode.h
+            qDebug() << "resolution:" << tmode.w << "x" << tmode.h
                      << "\t rate:" << tmode.rate
                      << "\t id: " << tmode.id;
             m_displayWorker->setMonitorResolution(tmon, tmode.id);
@@ -360,7 +366,7 @@ void DisplayModule::showRotate(Monitor *mon)
     if (QDialog::DialogCode::Accepted == dialog->exec()) {
         // if monitor list size > 1 means the config file will be saved by CustomSettingDialog
         qDebug() << "monitor size: " << m_displayModel->monitorList().size() <<
-                    ", displayMode is " << m_displayModel->displayMode();
+                 ", displayMode is " << m_displayModel->displayMode();
         if (m_displayModel->monitorList().size() == 1 || m_displayModel->displayMode() != CUSTOM_MODE) {
             qDebug() << "m_displayWorker->saveChanges()" << "rotate:" << m_displayModel->monitorList()[0]->rotate();
             m_displayWorker->saveChanges();

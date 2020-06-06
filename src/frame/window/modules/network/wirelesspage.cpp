@@ -330,7 +330,7 @@ WirelessPage::WirelessPage(WirelessDevice *dev, QWidget *parent)
         if (m_clickedItem->isConnected()) {
             return;
         }
-        qDebug() << "clicked item " << m_clickedItem->text();
+        m_device->updateWirlessAp();
         this->onApWidgetConnectRequested(idx.data(APItem::PathRole).toString(),
                                          idx.data(Qt::ItemDataRole::DisplayRole).toString());
     });
@@ -364,6 +364,7 @@ WirelessPage::WirelessPage(WirelessDevice *dev, QWidget *parent)
         Q_EMIT requestDeviceAPList(m_device->path());
         Q_EMIT requestWirelessScan();
     });
+    m_device->updateWirlessAp();
 }
 
 WirelessPage::~WirelessPage()
@@ -405,6 +406,11 @@ void WirelessPage::onDeviceStatusChanged(const dde::network::WirelessDevice::Dev
         onNetworkAdapterChanged(!unavailable);
         m_preWifiStatus = curWifiStatus;
     }
+
+    if (stat == WirelessDevice::Failed || stat == WirelessDevice::Disconnected) {
+        m_device->updateWirlessAp();
+    }
+
     if (stat == WirelessDevice::Failed) {
         for (auto it = m_apItems.cbegin(); it != m_apItems.cend(); ++it) {
             if (m_clickedItem == it.value()) {
@@ -453,6 +459,9 @@ void WirelessPage::jumpByUuid(const QString &uuid)
 
 void WirelessPage::onNetworkAdapterChanged(bool checked)
 {
+    if (checked) {
+        m_device->updateWirlessAp();
+    }
     Q_EMIT requestDeviceEnabled(m_device->path(), checked);
     m_clickedItem = nullptr;
     m_lvAP->setVisible(checked);
@@ -534,6 +543,7 @@ void WirelessPage::onCloseHotspotClicked()
 
 void WirelessPage::onDeviceRemoved()
 {
+    m_device->updateWirlessAp();
     // back if ap edit page exist
     if (!m_apEditPage.isNull()) {
         m_apEditPage->onDeviceRemoved();

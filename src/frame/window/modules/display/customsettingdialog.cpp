@@ -35,11 +35,13 @@
 #include <QStandardItemModel>
 #include <QStandardItem>
 #include <QDebug>
+#include <QMargins>
 
 using namespace dcc::display;
 using namespace dcc::widgets;
 using namespace DCC_NAMESPACE::display;
-DWIDGET_USE_NAMESPACE
+
+const QMargins ScrollAreaMargins(0, 0, 15, 0);
 
 CustomSettingDialog::CustomSettingDialog(QWidget *parent)
     : DAbstractDialog(parent)
@@ -106,6 +108,9 @@ void CustomSettingDialog::initUI()
     btnBox->setButtonList(m_vSegBtn, true);
     m_vSegBtn[0]->setChecked(true);
     m_listLayout->addWidget(m_rateList);
+
+    m_resolutionList->setViewportMargins(ScrollAreaMargins);
+    m_rateList->setViewportMargins(ScrollAreaMargins);
 
     connect(btnBox, &DButtonBox::buttonToggled, this, &CustomSettingDialog::onChangList);
 

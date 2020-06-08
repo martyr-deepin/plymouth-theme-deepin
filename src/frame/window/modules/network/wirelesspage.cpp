@@ -313,7 +313,7 @@ WirelessPage::WirelessPage(WirelessDevice *dev, QWidget *parent)
     setTitle("WLAN");
 #endif
 
-    connect(m_lvAP, &QListView::clicked, this, [this](const QModelIndex & idx) {
+    auto onConnectWireLess =  [this](const QModelIndex & idx) {
         if (idx.data(APItem::PathRole).toString().length() == 0) {
             this->showConnectHidePage();
             return;
@@ -333,7 +333,10 @@ WirelessPage::WirelessPage(WirelessDevice *dev, QWidget *parent)
         m_device->updateWirlessAp();
         this->onApWidgetConnectRequested(idx.data(APItem::PathRole).toString(),
                                          idx.data(Qt::ItemDataRole::DisplayRole).toString());
-    });
+    };
+
+    connect(m_lvAP, &DListView::clicked, this, onConnectWireLess);
+    connect(m_lvAP, &DListView::doubleClicked, this, onConnectWireLess);
 
     connect(m_sortDelayTimer, &QTimer::timeout, this, &WirelessPage::sortAPList);
     connect(m_closeHotspotBtn, &QPushButton::clicked, this, &WirelessPage::onCloseHotspotClicked);

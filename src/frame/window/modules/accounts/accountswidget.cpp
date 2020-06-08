@@ -159,11 +159,11 @@ void AccountsWidget::addUser(User *user, bool t1)
         if (isCurrentUser) {
             auto tindex = m_userList.indexOf(user);
             auto titem = m_userItemModel->takeRow(tindex);
+            m_userItemModel->appendRow(item);
+//            m_userItemModel->insertRow(0, titem);
 
-            m_userItemModel->insertRow(0, titem);
-
-            m_userList.removeOne(user);
-            m_userList.push_front(user);
+//            m_userList.removeOne(user);
+//            m_userList.push_front(user);
 
             showDefaultAccountInfo();
         }
@@ -192,10 +192,11 @@ void AccountsWidget::addUser(User *user, bool t1)
         //如果是当前用户
         auto tttitem = m_userItemModel->takeRow(m_userItemModel->rowCount() - 1);
         Q_ASSERT(tttitem[0] == item);
-        m_userItemModel->insertRow(0, item);
+        m_userItemModel->appendRow(item);
+//        m_userItemModel->insertRow(0, item);
 
-        m_userList.push_front(user);
-        m_userList.pop_back();
+//        m_userList.push_front(user);
+//        m_userList.pop_back();
         m_currentUserAdded = true;
 
         QTimer::singleShot(0, this, &AccountsWidget::showDefaultAccountInfo);
@@ -205,10 +206,11 @@ void AccountsWidget::addUser(User *user, bool t1)
             if (user->createdTime() < m_userList[idx]->createdTime()) {
                 auto tttitem = m_userItemModel->takeRow(count - 1);
                 Q_ASSERT(tttitem[0] == item);
-                m_userItemModel->insertRow(idx, item);
+                m_userItemModel->appendRow(item);
+//                m_userItemModel->insertRow(idx, item);
 
-                m_userList.insert(idx, user);
-                m_userList.pop_back();
+//                m_userList.insert(idx, user);
+//                m_userList.pop_back();
                 break;
             }
         }

@@ -100,7 +100,7 @@ DetailPage::DetailPage(const Adapter *adapter, const Device *device)
 
 void DetailPage::onDeviceStatusChanged()
 {
-    if (m_device->state() == Device::StateConnected) {
+    if (m_device->state() == Device::StateConnected && m_device->connectState()) {
         m_disconnectButton->show();
         m_connectButton->hide();
         m_ignoreButton->setEnabled(true);

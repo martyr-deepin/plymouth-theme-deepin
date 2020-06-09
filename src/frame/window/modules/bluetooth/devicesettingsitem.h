@@ -64,7 +64,7 @@ Q_SIGNALS:
     void requestShowDetail(const dcc::bluetooth::Device *device) const;
 
 private Q_SLOTS:
-    void onDeviceStateChanged(const dcc::bluetooth::Device::State &state, bool paired);
+    void onDeviceStateChanged(const dcc::bluetooth::Device::State &state, bool connectState);
     void onDevicePairedChanged(const bool &paired);
 
 private:

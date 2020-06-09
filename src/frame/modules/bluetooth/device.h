@@ -69,11 +69,12 @@ public:
     inline bool connecting() const { return m_connecting; }
     void setConnecting(bool connecting);
 
+    inline bool connectState() const { return m_connectState; }
 Q_SIGNALS:
     void nameChanged(const QString &name) const;
     void aliasChanged(const QString &alias) const;
     void pairedChanged(const bool &paired) const;
-    void stateChanged(const State &state, bool paired) const;
+    void stateChanged(const State &state, bool connectState) const;
     void trustedChanged(const bool trusted) const;
     void connectingChanged(const bool &connecting) const;
 
@@ -85,6 +86,7 @@ private:
     bool m_trusted;
     bool m_connecting;
     State m_state;
+    bool m_connectState;
 };
 
 QDebug &operator<<(QDebug &stream, const Device *device);

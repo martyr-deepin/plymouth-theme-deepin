@@ -21,6 +21,9 @@
 
 #pragma once
 
+#include <org_freedesktop_displaymanager.h>
+#include <org_freedesktop_displaymanager_session.h>
+
 #include "interface/namespace.h"
 #include "widgets/contentwidget.h"
 #include "modules/accounts/user.h"
@@ -62,6 +65,8 @@ class UserModel;
 }
 
 using com::deepin::daemon::fprintd::Device;
+using DisplayManager = org::freedesktop::DisplayManager;
+using Session = org::freedesktop::displaymanager::Session;
 
 namespace DCC_NAMESPACE {
 namespace accounts {
@@ -118,6 +123,7 @@ private:
     bool m_isServerSystem;
     dcc::widgets::SwitchWidget *m_autoLogin;
     dcc::widgets::SwitchWidget *m_nopasswdLogin;
+    DisplayManager *m_dmInter;
 };
 
 }   // namespace accounts

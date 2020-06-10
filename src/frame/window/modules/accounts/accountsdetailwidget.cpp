@@ -54,6 +54,7 @@ AccountsDetailWidget::AccountsDetailWidget(User *user, QWidget *parent)
     , m_curUser(user)
     , m_groupListView(nullptr)
     , m_groupItemModel(nullptr)
+    , m_dmInter(new DisplayManager("org.freedesktop.DisplayManager", "/org/freedesktop/DisplayManager", QDBusConnection::systemBus(), this))
 {
     m_isServerSystem = IsServerSystem;
     //整体布局
@@ -393,8 +394,30 @@ void AccountsDetailWidget::initSetting(QVBoxLayout *layout)
     m_nopasswdLogin->setChecked(m_curUser->nopasswdLogin());
 
     //当前用户禁止使用删除按钮
-    const bool isOnline = m_curUser->online();
-    deleteAccount->setEnabled(!isOnline);
+    auto setdleteEnable = [ = ]() {
+        QStringList m_onlineUsers;
+        deleteAccount->setEnabled(true);
+        if (m_curUser->isCurrentUser()) {
+            deleteAccount->setEnabled(false);
+        } else {
+            for (const QDBusObjectPath &path : m_dmInter->sessions()) {
+                Session tmpSession("org.freedesktop.DisplayManager", path.path(), QDBusConnection::systemBus());
+                m_onlineUsers << tmpSession.userName();
+            }
+
+            if (m_onlineUsers.contains(m_curUser->name()))
+                deleteAccount->setEnabled(false);
+        }
+    };
+
+    setdleteEnable();
+
+    connect(m_dmInter, &DisplayManager::SessionsChanged, this, [ = ]() {
+        setdleteEnable();
+    });
+    connect(m_dmInter, &DisplayManager::SeatsChanged, this, [ = ]() {
+        setdleteEnable();
+    });
 
     //修改密码，删除账户操作
     connect(modifyPassword, &QPushButton::clicked, [ = ] {

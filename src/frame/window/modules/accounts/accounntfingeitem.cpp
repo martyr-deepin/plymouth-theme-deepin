@@ -52,6 +52,7 @@ AccounntFingeItem::AccounntFingeItem(QWidget *parent)
     m_removeBtn->setFixedSize(QSize(36, 36));
     m_removeBtn->setIconSize(QSize(24, 24));
     m_removeBtn->setVisible(false);
+    DStyle::setFocusRectVisible(m_removeBtn, false);
 
     m_layout->setContentsMargins(20, 0, 10, 0);
     m_layout->addWidget(m_title, 0, Qt::AlignLeft);

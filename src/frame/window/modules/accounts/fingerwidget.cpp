@@ -154,6 +154,7 @@ void FingerWidget::addFingerButton()
     DCommandLinkButton *addBtn = new DCommandLinkButton(tr("Add Fingerprint"));
     QHBoxLayout *fingerLayout = new QHBoxLayout(this);
     fingerLayout->addWidget(addBtn);
+    fingerLayout->addStretch();
     addfingerItem->setLayout(fingerLayout);
     m_listGrp->insertItem(m_listGrp->itemCount(), addfingerItem);
     addfingerItem->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);

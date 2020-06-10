@@ -538,7 +538,7 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="46"/>
-        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="115"/>
+        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="121"/>
         <source>Connect</source>
         <translation>Conectar</translation>
     </message>
@@ -546,6 +546,11 @@
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="109"/>
         <source>Connecting</source>
         <translation>Conectando</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="115"/>
+        <source>Disconnecting</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -687,53 +692,53 @@
 <context>
     <name>dccV20::commoninfo::DeveloperModeDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="64"/>
         <source>Request Root Access</source>
         <translation>Solicitar acceso root</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="73"/>
         <source>Online</source>
         <translation>En línea</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="75"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
         <source>Offline</source>
         <translation>Fuera de línea</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="91"/>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="121"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="90"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="120"/>
         <source>Please sign in to your cloud account first and continue</source>
         <translation>Por favor, ingrese su cuenta de la nube y continúe</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="96"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="95"/>
         <source>Next</source>
         <translation>Siguiente</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="99"/>
         <source>Export PC Info</source>
         <translation>Exportar información</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="101"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
         <source>Import Certificate</source>
         <translation>Importar certificado</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="127"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="126"/>
         <source>1. Export your PC information</source>
         <translation>1. Exporte la información de su equipo</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="127"/>
         <source>2. Go to https://www.chinauos.com/developMode to download an offline certificate</source>
         <translation>2. Vaya a https://www.chinauos.com/developMode para descargar un certificado sin conexión</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
         <source>3. Import the certificate</source>
         <translation>3. Importe el certificado</translation>
     </message>
@@ -1055,48 +1060,48 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="95"/>
         <source>Main Screen</source>
         <translation>Pantalla principal</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="101"/>
         <source>Resolution</source>
         <translation>Resolución</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="107"/>
         <source>Refresh Rate</source>
         <translation>Tasa de refresco</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="143"/>
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="270"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="272"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="332"/>
         <source>Recommended</source>
         <translation> Recomendado</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="362"/>
         <source>inch</source>
         <translation>pulgadas</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="363"/>
         <source>Resolution %1x%2</source>
         <translation>Resolución %1x%2</translation>
     </message>
@@ -1671,69 +1676,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>Proxy para aplicaciones</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Tipo de proxy</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>Dirección IP</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Requerido</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Puerto</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Nombre de usuario</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Opcional</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Contraseña</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>Una vez configurado, active la opción &quot;Usar un proxy&quot; haciendo clic derecho sobre las aplicaciones en el lanzador.</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid IP address</source>
         <translation>Dirección IP inválida</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="180"/>
         <source>Invalid port</source>
         <translation>Puerto inválido</translation>
     </message>
@@ -2220,20 +2225,15 @@
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="345"/>
-        <source>Connected</source>
-        <translation>Conectado</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="350"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="357"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="367"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="346"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="353"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="363"/>
         <source>Disabled</source>
         <translation>Desactivado</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="377"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="383"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="373"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="379"/>
         <source>Disconnected</source>
         <translation>Desconectado</translation>
     </message>
@@ -3714,12 +3714,12 @@
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="287"/>
         <source>Close Hotspot</source>
         <translation> Cerrar conexión compartida </translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="290"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>Desactive la conexión compartida si desea conectarse a una red inalámbrica</translation>
     </message>
@@ -4520,7 +4520,7 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="267"/>
         <source>You should reboot the computer to reset all settings, reboot now?</source>
-        <translation>Debe reiniciar el equipo para restablecer todos los ajustes, ¿reiniciar ahora?</translation>
+        <translation>Debe reiniciar el equipo para restablecer a valores de fábrica, ¿reiniciar ahora?</translation>
     </message>
 </context>
 <context>
@@ -5675,7 +5675,7 @@ Si no se realiza ninguna acción, la pantalla se restaurará después de %1s.</t
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="154"/>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="171"/>
         <source>Clean your finger or adjust the finger position, and try again</source>
-        <translation>Limpia tu dedo o ajusta la posición del mismo, e intenta de nuevo</translation>
+        <translation>Limpie su dedo o ajuste la posición del mismo, e intente de nuevo</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/fingermodel.cpp" line="157"/>

@@ -538,7 +538,7 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="46"/>
-        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="115"/>
+        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="121"/>
         <source>Connect</source>
         <translation>Повежи се</translation>
     </message>
@@ -546,6 +546,11 @@
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="109"/>
         <source>Connecting</source>
         <translation>Повезивање</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="115"/>
+        <source>Disconnecting</source>
+        <translation>Прекидање везе</translation>
     </message>
 </context>
 <context>
@@ -671,7 +676,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="233"/>
         <source>Agree and Join User Experience Program</source>
-        <translation>Пристани и придружи се програму корисничког искуства</translation>
+        <translation>Прихвати и придружи се програму корисничког искуства</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="290"/>
@@ -681,59 +686,59 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="291"/>
         <source>Agree and Request Root Access</source>
-        <translation>Пристани и захтевај root приступ</translation>
+        <translation>Прихвати и захтевај root приступ</translation>
     </message>
 </context>
 <context>
     <name>dccV20::commoninfo::DeveloperModeDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="64"/>
         <source>Request Root Access</source>
         <translation>Захтевај root приступ</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="73"/>
         <source>Online</source>
         <translation>На мрежи</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="75"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
         <source>Offline</source>
         <translation>Ван мреже</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="91"/>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="121"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="90"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="120"/>
         <source>Please sign in to your cloud account first and continue</source>
         <translation>Молимо пријавите се на ваш налог облака за наставак</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="96"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="95"/>
         <source>Next</source>
         <translation>Следеће</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="99"/>
         <source>Export PC Info</source>
         <translation>Извези податке о рачунару</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="101"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
         <source>Import Certificate</source>
         <translation>Увези сертификат</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="127"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="126"/>
         <source>1. Export your PC information</source>
         <translation>1. Извези податке о рачунару</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="127"/>
         <source>2. Go to https://www.chinauos.com/developMode to download an offline certificate</source>
         <translation>2. Иди на https://www.chinauos.com/developMode да преузмеш ванмрежни сертификат</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
         <source>3. Import the certificate</source>
         <translation>3. Увези сертификат</translation>
     </message>
@@ -814,7 +819,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/userexperienceprogramwidget.cpp" line="48"/>
         <source>Joining User Experience Program means that you grant and authorize us to collect and use the information of your device, system and applications. If you refuse our collection and use of the aforementioned information, do not join User Experience Program. For details, please refer to UOS Privacy Policy (https://www.chinauos.com/agreement/experience).</source>
-        <translation>Придруживањем програму корисничког искуства овлашћујете нас да прикупљамо и користимо податке о вашем уређају, систему и програмима. Ако не желите да делите ове податке са нама молимо Вас да се не придружите програму корисничког искуства. За више информација погледајте УОС политику приватности (https://www.chinauos.com/agreement/experience).</translation>
+        <translation>Придруживањем програму корисничког искуства овлашћујете нас да прикупљамо и користимо податке о вашем уређају, систему и програмима. Ако не желите да делите ове податке са нама, молимо Вас да се не придружите програму корисничког искуства. За више информација погледајте УОС политику приватности (https://www.chinauos.com/agreement/experience).</translation>
     </message>
 </context>
 <context>
@@ -1055,48 +1060,48 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="95"/>
         <source>Main Screen</source>
         <translation>Главни екран</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="101"/>
         <source>Resolution</source>
         <translation>Резолуција</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="107"/>
         <source>Refresh Rate</source>
         <translation>Брзина освежавања</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Cancel</source>
         <translation>Откажи</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="143"/>
         <source>Save</source>
         <translation>Сачувај</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="270"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="272"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="332"/>
         <source>Recommended</source>
         <translation>Препоручено</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="362"/>
         <source>inch</source>
         <translation>инча</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="363"/>
         <source>Resolution %1x%2</source>
         <translation>Резолуција %1x%2</translation>
     </message>
@@ -1671,69 +1676,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>Програмски посредник</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Врста посредника</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>ИП адреса</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Неопходно</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Прикључaк</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Корисничко име</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Опционо</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Лозинка</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>Обележи &quot;Користи посредника&quot; у контекстном изборнику програма Покретача Програма након поставке</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Откажи</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Сачувај</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid IP address</source>
         <translation>Неважећа ИП адреса</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="180"/>
         <source>Invalid port</source>
         <translation>Неважећи прикључак</translation>
     </message>
@@ -1879,7 +1884,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/ethernetsection.cpp" line="37"/>
         <source>Ethernet</source>
-        <translation>Унутрашња мрежа</translation>
+        <translation>Етернет</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/ethernetsection.cpp" line="59"/>
@@ -2220,20 +2225,15 @@
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="345"/>
-        <source>Connected</source>
-        <translation>Повезани сте</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="350"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="357"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="367"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="346"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="353"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="363"/>
         <source>Disabled</source>
         <translation>Онемогућенo</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="377"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="383"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="373"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="379"/>
         <source>Disconnected</source>
         <translation>Нисте поевзани</translation>
     </message>
@@ -3714,12 +3714,12 @@
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="287"/>
         <source>Close Hotspot</source>
         <translation>Затвори врућу тачку</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="290"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>Прво онемогућите врућу тачку ако желите да се повежете на бежичну мрежу</translation>
     </message>
@@ -7038,7 +7038,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="37"/>
         <source>Ethernet</source>
-        <translation>Унутрашња мрежа</translation>
+        <translation>Етернет</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="54"/>

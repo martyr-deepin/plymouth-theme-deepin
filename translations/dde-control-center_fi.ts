@@ -105,7 +105,7 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
         <source>System Info</source>
-        <translation>Järjestelmän tiedot</translation>
+        <translation>Tietoja</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
@@ -538,7 +538,7 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="46"/>
-        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="115"/>
+        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="121"/>
         <source>Connect</source>
         <translation>Yhdistä</translation>
     </message>
@@ -546,6 +546,11 @@
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="109"/>
         <source>Connecting</source>
         <translation>Yhdistää</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="115"/>
+        <source>Disconnecting</source>
+        <translation>Katkaistaan yhteys</translation>
     </message>
 </context>
 <context>
@@ -687,53 +692,53 @@
 <context>
     <name>dccV20::commoninfo::DeveloperModeDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="64"/>
         <source>Request Root Access</source>
         <translation>Pyydä pääkäyttäjän oikeuksia</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="73"/>
         <source>Online</source>
         <translation>Verkossa</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="75"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
         <source>Offline</source>
         <translation>Poissa</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="91"/>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="121"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="90"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="120"/>
         <source>Please sign in to your cloud account first and continue</source>
         <translation>Kirjaudu ensin pilvitiliisi ja jatka</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="96"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="95"/>
         <source>Next</source>
         <translation>Seuraava</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="99"/>
         <source>Export PC Info</source>
         <translation>Vie PC-tiedot</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="101"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
         <source>Import Certificate</source>
         <translation>Tuo varmenne</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="127"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="126"/>
         <source>1. Export your PC information</source>
         <translation>1. Vie tietokoneesi informaatio</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="127"/>
         <source>2. Go to https://www.chinauos.com/developMode to download an offline certificate</source>
         <translation>2. Siirry https://www.chinauos.com/developMode ja lataa offline-sertifikaatti</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="129"/>
+        <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="128"/>
         <source>3. Import the certificate</source>
         <translation>3. Tuo varmenne</translation>
     </message>
@@ -1055,48 +1060,48 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="95"/>
         <source>Main Screen</source>
         <translation>Päänäyttö</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="101"/>
         <source>Resolution</source>
         <translation>Resoluutio</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="107"/>
         <source>Refresh Rate</source>
         <translation>Virkistystaajuus</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Cancel</source>
         <translation>Peruuta</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="143"/>
         <source>Save</source>
         <translation>Tallenna</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="265"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="270"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="267"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="327"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="272"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="332"/>
         <source>Recommended</source>
         <translation>Suositeltava</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="357"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="362"/>
         <source>inch</source>
         <translation>tuuma</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="363"/>
         <source>Resolution %1x%2</source>
         <translation>Resoluutio %1x%2</translation>
     </message>
@@ -1336,7 +1341,7 @@
     <message>
         <location filename="../src/frame/window/modules/keyboard/generalkbsettingwidget.cpp" line="103"/>
         <source>Caps Lock Prompt</source>
-        <translation>CapsLock ilmoitus </translation>
+        <translation>Caps Lock -ilmoitus </translation>
         <extra-contents_path>/keyboard/General</extra-contents_path>
     </message>
 </context>
@@ -1671,69 +1676,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>Sovelluksen välityspalvelin</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Proxy tyyppi</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>IP osoite</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Vaadittu</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Portti</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Käyttäjänimi</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Valinnainen</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Salasana</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>Tarkista &quot;käytä välityspalvelinta&quot; sovelluksessa. Löytyy pikavalikosta määritysten jälkeen</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Peruuta</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Tallenna</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid IP address</source>
         <translation>Virheellinen IP-osoite</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="180"/>
         <source>Invalid port</source>
         <translation>Virheellinen portti</translation>
     </message>
@@ -1778,7 +1783,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="380"/>
         <source>Wired Connection %1</source>
-        <translation>Kaapeli yhteys %1</translation>
+        <translation>Verkkokaapeli %1</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="385"/>
@@ -1788,7 +1793,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="387"/>
         <source>Wireless Connection %1</source>
-        <translation>Langaton yhteys %1</translation>
+        <translation>Langaton %1</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/connectioneditpage.cpp" line="393"/>
@@ -2220,20 +2225,15 @@
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="345"/>
-        <source>Connected</source>
-        <translation>Yhdistetty</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="350"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="357"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="367"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="346"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="353"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="363"/>
         <source>Disabled</source>
         <translation>Suljettu</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="377"/>
-        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="383"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="373"/>
+        <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="379"/>
         <source>Disconnected</source>
         <translation>Katkaistu</translation>
     </message>
@@ -3697,7 +3697,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/wiredpage.cpp" line="182"/>
         <source>Wired Connection</source>
-        <translation>Yhteys kaapelilla</translation>
+        <translation>Verkkokaapeli</translation>
     </message>
 </context>
 <context>
@@ -3714,12 +3714,12 @@
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="287"/>
         <source>Close Hotspot</source>
         <translation>Sulje yhteyspiste</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="290"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>Poista esin yhteyden jakaminen käytöstä, jos haluat muodostaa yhteyden langattomaan verkkoon</translation>
     </message>
@@ -4377,7 +4377,7 @@
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="268"/>
         <source>yyyy-MM-dd hh:mm</source>
-        <translation>dd-MM-yyyy hh:mm</translation>
+        <translation>yyyy-MM-dd hh:mm</translation>
     </message>
 </context>
 <context>
@@ -4611,7 +4611,7 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systeminfomodule.cpp" line="89"/>
         <source>System Info</source>
-        <translation>Järjestelmän tiedot</translation>
+        <translation>Tietoja</translation>
     </message>
 </context>
 <context>
@@ -4759,7 +4759,7 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="270"/>
         <source>Your system is up to date</source>
-        <translation>Järjestelmä on ajan tasalla</translation>
+        <translation>on ajan tasalla</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="278"/>
@@ -6032,7 +6032,7 @@ Jos toimintoa ei käytetä, näyttö palautetaan %1s jälkeen.</translation>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="216"/>
         <source>yyyy-MM-dd hh:mm</source>
-        <translation>dd-MM-yyyy hh:mm</translation>
+        <translation>yyyy-MM-dd hh:mm</translation>
     </message>
 </context>
 <context>
@@ -6652,7 +6652,7 @@ Jos toimintoa ei käytetä, näyttö palautetaan %1s jälkeen.</translation>
     <message>
         <location filename="../src/frame/modules/keyboard/keyboardwidget.cpp" line="97"/>
         <source>Caps Lock Prompt</source>
-        <translation>CapsLock ilmoitus </translation>
+        <translation>Caps Lock -ilmoitus </translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/keyboardwidget.cpp" line="103"/>
@@ -6969,12 +6969,12 @@ Jos toimintoa ei käytetä, näyttö palautetaan %1s jälkeen.</translation>
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="344"/>
         <source>Wired Connection %1</source>
-        <translation>Kaapeli yhteys %1</translation>
+        <translation>Verkkokaapeli %1</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="348"/>
         <source>Wireless Connection %1</source>
-        <translation>Langaton yhteys %1</translation>
+        <translation>Langaton %1</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="352"/>
@@ -9495,7 +9495,7 @@ Jos toimintoa ei käytetä, näyttö palautetaan %1s jälkeen.</translation>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="208"/>
         <source>Your system is up to date</source>
-        <translation>Järjestelmä on ajan tasalla</translation>
+        <translation>on ajan tasalla</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="213"/>

@@ -425,6 +425,9 @@ void WirelessPage::onDeviceStatusChanged(const dde::network::WirelessDevice::Dev
         for (auto ls = m_device->activeConnections().cbegin(); ls != m_device->activeConnections().cend(); ++ls) {
             for (auto it = m_apItems.cbegin(); it != m_apItems.cend(); ++it) {
                 if (ls->value("Id").toString() == it.key()) {
+                    if(it.value()->isConnected())
+                        continue;
+
                     it.value()->setLoading(true);
                     m_clickedItem = it.value();
                 }
@@ -661,7 +664,7 @@ void WirelessPage::updateActiveAp()
         if (m_clickedItem == it.value()) {
             qDebug() << "click item: " << isConnected;
             bool loading = true;
-            if (status == NetworkDevice::Activated || status == NetworkDevice::Disconnected) {
+            if (status == NetworkDevice::Activated || status == NetworkDevice::Disconnected || it.value()->isConnected()) {
                 loading = false;
             }
             bool isReconnect = it.value()->setLoading(loading);

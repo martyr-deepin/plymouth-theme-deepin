@@ -96,6 +96,7 @@ void MultiScreenSettingPage::onDisplayModeChanged()
     if (m_currIdx.isValid())
         m_listModel->setData(m_currIdx, Qt::Unchecked, Qt::CheckStateRole);
 
+    m_modeList->setCurrentIndex(QModelIndex());
     switch (m_model->displayMode()) {
     case MERGE_MODE:
         m_currIdx = m_listModel->index(0, 0);

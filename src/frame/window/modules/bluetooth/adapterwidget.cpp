@@ -88,6 +88,7 @@ AdapterWidget::AdapterWidget(const dcc::bluetooth::Adapter *adapter)
     m_myDeviceListView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     m_myDeviceListView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     m_myDeviceListView->setViewportMargins(ScrollAreaMargins);
+    m_myDeviceListView->setSelectionMode(QListView::SelectionMode::NoSelection);
 
     m_otherDeviceListView = new DListView(this);
     m_otherDeviceModel = new QStandardItemModel(m_otherDeviceListView);
@@ -99,6 +100,7 @@ AdapterWidget::AdapterWidget(const dcc::bluetooth::Adapter *adapter)
     m_otherDeviceListView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     m_otherDeviceListView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     m_otherDeviceListView->setViewportMargins(ScrollAreaMargins);
+    m_otherDeviceListView->setSelectionMode(QListView::SelectionMode::NoSelection);
 
     layout->addSpacing(10);
     layout->addWidget(m_switch);
@@ -130,13 +132,13 @@ AdapterWidget::AdapterWidget(const dcc::bluetooth::Adapter *adapter)
             return;
         }
         for (auto it : m_deviceLists) {
-            it->setSpinnerColor(QColor(0,129,255));
+//            it->setSpinnerColor(QColor(0,129,255));
         }
         for (auto it : m_myDevices) {
             if (it->getStandardItem() == item) {
                 if (it->device()->state() != Device::StateConnected) {
                     it->requestConnectDevice(it->device());
-                    it->setSpinnerColor(Qt::white);
+//                    it->setSpinnerColor(Qt::white);
                 }
                 Q_EMIT requestShowDetail(m_adapter, it->device());
                 break;
@@ -158,9 +160,9 @@ AdapterWidget::AdapterWidget(const dcc::bluetooth::Adapter *adapter)
         for (auto it : m_deviceLists) {
             if (it->getStandardItem() == item) {
                 it->requestConnectDevice(it->device());
-                it->setSpinnerColor(Qt::white);
+//                it->setSpinnerColor(Qt::white);
             } else {
-                it->setSpinnerColor(QColor(0,129,255));
+//                it->setSpinnerColor(QColor(0,129,255));
             }
         }
     });

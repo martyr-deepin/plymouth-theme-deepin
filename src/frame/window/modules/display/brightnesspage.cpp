@@ -125,7 +125,7 @@ void BrightnessPage::addSlider()
         slider->setRightIcon(QIcon::fromTheme("dcc_brightnesshigh"));
         slider->setIconSize(QSize(24, 24));
 
-        qWarning() << "=BrightnessPage-addSlider==disply name:" << monList[i]->name() << "=BrightnessPage-addSlider==display brightness" << monList[i]->brightness();
+        qWarning() << "=BrightnessPage-addSlider==disply name:" << monList[i]->name() << "=BrightnessPage-addSlider==display brightness" << int(brightness * BrightnessMaxScale);
         slider->setTickInterval(int((BrightnessMaxScale - miniScale) / 5.0));
         slider->setValue(int(brightness * BrightnessMaxScale));
         slider->setPageStep(1);
@@ -141,13 +141,14 @@ void BrightnessPage::addSlider()
 
         connect(monList[i], &Monitor::brightnessChanged, this, [ = ](const double rb) {
             slider->blockSignals(true);
-            if ((rb - m_displayModel->minimumBrightnessScale()) < 0.00001) {
-                slideritem->setValueLiteral(QString("%1%").arg(m_displayModel->minimumBrightnessScale() * BrightnessMaxScale,0,'L',0));
-                slider->setValue(qRound(m_displayModel->minimumBrightnessScale() * BrightnessMaxScale));
-            } else {
+            qWarning() << "=BrightnessPage-addSlider==brightnessChanged" << rb;
+//            if ((rb - m_displayModel->minimumBrightnessScale()) < 0.00001) {
+//                slideritem->setValueLiteral(QString("%1%").arg(m_displayModel->minimumBrightnessScale() * BrightnessMaxScale,0,'L',0));
+//                slider->setValue(qRound(m_displayModel->minimumBrightnessScale() * BrightnessMaxScale));
+//            } else {
                 slideritem->setValueLiteral(QString("%1%").arg(rb * BrightnessMaxScale,0,'L',0));
                 slider->setValue(qRound(rb * BrightnessMaxScale));
-            }
+//            }
             slider->blockSignals(false);
         });
 
@@ -156,11 +157,13 @@ void BrightnessPage::addSlider()
             double rb = monList[i]->brightness();
             int tmini = int(ms * PercentageNum);
             slider->setMinimum(tmini);
+            qWarning() << "brightnessChanged===setMinimum" << tmini;
             slider->setTickInterval(int((BrightnessMaxScale - tmini) / 5.0));
 
             slider->blockSignals(true);
             slideritem->setValueLiteral(brightnessToTickInterval(rb));
             slider->setValue(qRound(rb * BrightnessMaxScale));
+            qWarning() << "brightnessChanged===setValue" << qRound(rb * BrightnessMaxScale);
             slider->blockSignals(false);
         });
 

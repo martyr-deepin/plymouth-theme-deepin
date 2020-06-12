@@ -103,7 +103,6 @@ void BluetoothWorker::setAdapterPowered(const Adapter *adapter, const bool &powe
                 connect(watcher, &QDBusPendingCallWatcher::finished, [this, adapterPoweredOffCall, adapter] {
                     if (!adapterPoweredOffCall.isError()) {
                         setAdapterDiscoverable(adapter->id());
-                        Q_EMIT poweredCallback();
                     } else {
                         qWarning() << adapterPoweredOffCall.error().message();
                     }
@@ -118,7 +117,6 @@ void BluetoothWorker::setAdapterPowered(const Adapter *adapter, const bool &powe
         connect(watcher, &QDBusPendingCallWatcher::finished, [this, adapterPoweredOnCall, adapter] {
             if (!adapterPoweredOnCall.isError()) {
                 setAdapterDiscoverable(adapter->id());
-               Q_EMIT poweredCallback();
             } else {
                 qWarning() << adapterPoweredOnCall.error().message();
             }

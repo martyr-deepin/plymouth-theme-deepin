@@ -71,7 +71,6 @@ private:
     void categoryDevice(DeviceSettingsItem *deviceItem, const bool paired);
 public Q_SLOTS:
     void toggleSwitch(const bool checked);
-    void setSwitchBtnEnable();
 
 Q_SIGNALS:
     void requestSetToggleAdapter(const dcc::bluetooth::Adapter *adapter, const bool &toggled);

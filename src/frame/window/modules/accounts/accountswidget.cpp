@@ -159,10 +159,10 @@ void AccountsWidget::addUser(User *user, bool t1)
         if (isCurrentUser) {
             auto tindex = m_userList.indexOf(user);
             auto titem = m_userItemModel->takeRow(tindex);
-           m_userItemModel->insertRow(0, titem);
+            m_userItemModel->insertRow(0, titem);
 
-//            m_userList.removeOne(user);
-//            m_userList.push_front(user);
+            m_userList.removeOne(user);
+            m_userList.push_front(user);
 
             showDefaultAccountInfo();
         }

@@ -110,6 +110,7 @@ void FingerWidget::setStatueMsg(const QString &title, const QString &msg, bool r
     m_reset = reset;
     m_msgTimer->stop();
     m_titleTimer->stop();
+    m_liftTimer->stop();
 
     m_titleLbl->setText(title);
     m_tipLbl->setText(msg);

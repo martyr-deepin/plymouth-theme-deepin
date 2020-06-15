@@ -207,7 +207,8 @@ void AccountsModule::onShowAddThumb(const QString &name, const QString &thumb)
     dlg->setUsername(name);
 
     connect(dlg, &AddFingeDialog::requestEnrollThumb, m_fingerWorker, [ = ] {
-        m_fingerWorker->startEnroll(name, thumb);
+       if(!m_fingerWorker->startEnroll(name, thumb))
+           dlg->close();
     });
     connect(dlg, &AddFingeDialog::requestStopEnroll, m_fingerWorker, &FingerWorker::stopEnroll);
 

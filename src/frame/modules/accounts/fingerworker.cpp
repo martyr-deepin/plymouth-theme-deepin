@@ -99,9 +99,9 @@ void FingerWorker::refreshUserEnrollList(const QString &id)
     m_model->setThumbsList(call.value());
 }
 
-void FingerWorker::startEnroll(const QString &name, const QString &thumb)
+bool FingerWorker::startEnroll(const QString &name, const QString &thumb)
 {
-    tryEnroll(name, thumb);
+    return tryEnroll(name, thumb);
 }
 
 void FingerWorker::stopEnroll(const QString& userName)

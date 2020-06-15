@@ -56,7 +56,7 @@ public:
 
 public Q_SLOTS:
     void refreshUserEnrollList(const QString &id);
-    void startEnroll(const QString &name, const QString &thumb);
+    bool startEnroll(const QString &name, const QString &thumb);
     void stopEnroll(const QString& userName);
     void deleteFingerItem(const QString& userName, const QString& finger);
     void renameFingerItem(const QString& userName, const QString& finger, const QString& newName);

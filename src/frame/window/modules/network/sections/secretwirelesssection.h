@@ -65,6 +65,8 @@ private:
     NetworkManager::Security8021xSetting::Ptr m_s8Setting;
 
     QMap<NetworkManager::WirelessSecuritySetting::KeyMgmt, QString> m_userInputPasswordMap;
+
+    bool m_isErrorMsgShow; //监控错误密码提示框是否弹出
 };
 
 } /* network */

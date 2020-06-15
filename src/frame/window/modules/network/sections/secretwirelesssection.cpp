@@ -40,6 +40,7 @@ SecretWirelessSection::SecretWirelessSection(NetworkManager::WirelessSecuritySet
     , m_currentAuthAlg(NetworkManager::WirelessSecuritySetting::AuthAlg::Shared)
     , m_wsSetting(wsSeting)
     , m_s8Setting(sSetting)
+    , m_isErrorMsgShow(false)
 {
     initStrMaps();
 
@@ -96,7 +97,8 @@ bool SecretWirelessSection::allInputValid()
                                                   NetworkManager::WirelessSecuritySetting::WepKeyType::Hex);
             m_passwdEdit->setIsErr(!valid);
             if (!valid && !m_passwdEdit->text().isEmpty()) {
-                m_passwdEdit->showAlertMessage(tr("Invalid password"));
+                 m_isErrorMsgShow = true;
+                 m_passwdEdit->dTextEdit()->showAlertMessage(tr("Invalid password"), this, 0xFFFF);
             }
         }
     } else if (m_currentKeyMgmt == NetworkManager::WirelessSecuritySetting::KeyMgmt::WpaPsk) {
@@ -104,7 +106,8 @@ bool SecretWirelessSection::allInputValid()
             valid = NetworkManager::wpaPskIsValid(m_passwdEdit->text());
             m_passwdEdit->setIsErr(!valid);
             if (!valid && !m_passwdEdit->text().isEmpty()) {
-                m_passwdEdit->showAlertMessage(tr("Invalid password"));
+                m_isErrorMsgShow = true;
+                m_passwdEdit->dTextEdit()->showAlertMessage(tr("Invalid password"), this, 0xFFFF);
             }
         }
     }
@@ -225,6 +228,12 @@ void SecretWirelessSection::initConnection()
     });
 
     connect(m_passwdEdit->textEdit(), &QLineEdit::editingFinished, this, &SecretWirelessSection::saveUserInputPassword);
+    connect(m_passwdEdit->textEdit(), &QLineEdit::textChanged, this, [ = ] {
+        if (m_isErrorMsgShow) {
+            m_passwdEdit->dTextEdit()->hideAlertMessage();
+            m_isErrorMsgShow = false;
+        }
+    });
     connect(m_enableWatcher, &Secret8021xEnableWatcher::passwdEnableChanged, this,  [ = ](const bool enabled) {
         switch (m_currentKeyMgmt) {
         case NetworkManager::WirelessSecuritySetting::KeyMgmt::WpaNone:

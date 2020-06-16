@@ -69,7 +69,7 @@ private:
     bool onPasswordEditFinished(DPasswordEdit *edit);
     bool validatePassword(const QString &password);
     bool containsChar(const QString &password, const QString &validate);
-    bool validateUsername(const QString &username);
+    bool validateUsername(const QString &username, QString &invalidReason);
     bool onNameEditFinished(DLineEdit *edit);
     bool onFullNameEidtFinished(DLineEdit *edit);
 

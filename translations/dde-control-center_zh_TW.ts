@@ -51,7 +51,7 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
         <source>Personalization</source>
-        <translation>個人化</translation>
+        <translation>個性化</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="315"/>
         <source>Date and Time</source>
-        <translation>日期與時間</translation>
+        <translation>時間日期</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="316"/>
@@ -95,12 +95,12 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="319"/>
         <source>Keyboard and Language</source>
-        <translation>鍵盤與語言</translation>
+        <translation>鍵盤和語言</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
         <source>Updates</source>
-        <translation>更新</translation>
+        <translation>檢查更新</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
@@ -138,58 +138,58 @@
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
         <source>Full Name</source>
         <translation>全名</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="233"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
         <source>The full name already exists</source>
         <translation>該全名已存在</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
         <source>Validity Days</source>
         <translation>密碼有效天數</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="275"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="276"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="338"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
         <source>Always</source>
         <translation>長期有效</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="331"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
         <source>Please input a number between 1-99999</source>
         <translation>請輸入1到99999之間的數字</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="372"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
         <source>Change Password</source>
         <translation>變更密碼</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="374"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
         <source>Delete Account</source>
         <translation>刪除帳號</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="377"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
         <source>Auto Login</source>
         <translation>自動登入</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
         <source>Login Without Password</source>
         <translation>無密碼登入</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="455"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="465"/>
         <source>Group</source>
         <translation>分組</translation>
     </message>
@@ -327,37 +327,33 @@
         <translation>前往設定</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="386"/>
-        <source>Password must be no more than %1 characters</source>
-        <translation>密碼必須少於 %1 個字元</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="393"/>
-        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation>密碼只能由英文字母 (區分大小寫)、數字及特殊符號 (~!@#$%^&amp;*()[]{}|/?,.&lt;&gt;) 組成</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="400"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="406"/>
         <source>Passwords do not match</source>
         <translation>密碼不符</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="424"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="421"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="425"/>
         <source>Username must be between 3 and 32 characters</source>
         <translation>使用者名稱長度必須介於 3 至 32 個字元之間</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="431"/>
-        <source>The first character must be a letter or number</source>
-        <translation>首字元必須為字母或數字</translation>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="430"/>
+        <source>The first character must be a letter (lowercase)</source>
+        <translation>首字元必須為小寫字母</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="435"/>
+        <source>Username can only contain English letters (lowercase), numbers or special symbols (_-)</source>
+        <translation>使用者名稱只能由小寫字母、數字、及符號(-_)組成</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="463"/>
         <source>The full name already exists</source>
         <translation>該全名已存在</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="456"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="470"/>
         <source>The full name is too long</source>
         <translation>名稱過長</translation>
     </message>
@@ -388,70 +384,65 @@
 <context>
     <name>dccV20::accounts::ModifyPasswdPage</name>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="59"/>
         <source>Change Password</source>
         <translation>變更密碼</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="62"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="63"/>
         <source>Current Password</source>
         <translation>目前密碼</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="66"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="67"/>
         <source>New Password</source>
         <translation>新的密碼</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="70"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="71"/>
         <source>Repeat Password</source>
         <translation>確認密碼</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="75"/>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="152"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="153"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="77"/>
         <source>Save</source>
         <translation>儲存</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="117"/>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="118"/>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="119"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="120"/>
         <source>Required</source>
         <translation>必須</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="151"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="152"/>
         <source>Go to Settings</source>
         <translation>前往設定</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="177"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="178"/>
         <source>Wrong password</source>
         <translation>密碼錯誤</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="239"/>
         <source>Passwords do not match</source>
         <translation>密碼不符</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="245"/>
-        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation>密碼只能由英文字母 (區分大小寫)、數字及特殊符號 (~!@#$%^&amp;*()[]{}|/?,.&lt;&gt;) 組成</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="251"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="253"/>
         <source>New password should differ from the current one</source>
         <translation>新的密碼必須不同於目前密碼</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="258"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="260"/>
         <source>Password must be no more than %1 characters</source>
         <translation>密碼必須少於 %1 個字元</translation>
     </message>
@@ -626,7 +617,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="232"/>
         <source>UOS Privacy Policy</source>
-        <translation>UOS隱私協議</translation>
+        <translation>UOS隱私政策</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfowork.cpp" line="233"/>
@@ -807,7 +798,7 @@
     <message>
         <location filename="../src/frame/window/modules/datetime/datesettings.cpp" line="88"/>
         <source>Confirm</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/datetime/datesettings.cpp" line="135"/>
@@ -1015,50 +1006,50 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="94"/>
         <source>Main Screen</source>
         <translation>主螢幕</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="100"/>
         <source>Resolution</source>
         <translation>解析度</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="106"/>
         <source>Refresh Rate</source>
         <translation>重新整理頻率</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>取消</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>儲存</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="266"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="270"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="268"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="328"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="272"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="338"/>
         <source>Recommended</source>
         <translation>建議</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="374"/>
         <source>inch</source>
-        <translation type="unfinished"/>
+        <translation>英寸</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="359"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="375"/>
         <source>Resolution %1x%2</source>
-        <translation type="unfinished"/>
+        <translation>解析度  %1x%2</translation>
     </message>
 </context>
 <context>
@@ -1066,11 +1057,11 @@
     <message>
         <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="68"/>
         <source>Display</source>
-        <translation>顯示</translation>
+        <translation>螢幕</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="119"/>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="126"/>
         <source>Multiple Displays</source>
         <translation>多顯示器模式</translation>
     </message>
@@ -1078,38 +1069,31 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="127"/>
         <source>Multiple Displays</source>
         <translation>多顯示器模式</translation>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
-        <source>Brightness</source>
-        <translation>螢幕亮度</translation>
-        <extra-contents_path>/display/Brightness</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="134"/>
         <source>Resolution</source>
         <translation>解析度</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="139"/>
         <source>Display Scaling</source>
         <translation>縮放螢幕</translation>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="146"/>
         <source>Refresh Rate</source>
         <translation>重新整理頻率</translation>
         <extra-contents_path>/display/Refresh Rate</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="175"/>
         <source>Rotate Screen</source>
         <translation>旋轉螢幕</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1123,42 +1107,42 @@
         <translation>自訂設定</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="142"/>
         <source>Duplicate</source>
         <translation>同步顯示畫面</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="142"/>
         <source>Extend</source>
         <translation>延伸畫面</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="131"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
         <source>Show the same image on other screens</source>
         <translation>將螢幕內容複製至其他螢幕</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="132"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
         <source>Expand the desktop across the screens</source>
         <translation>跨螢幕展開桌面</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="154"/>
         <source>%1 only</source>
-        <translation type="unfinished"/>
+        <translation>只在%1顯示</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="155"/>
         <source>Show the screen content only on %1</source>
-        <translation type="unfinished"/>
+        <translation>僅在 %1 顯示螢幕內容</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="166"/>
         <source>Customize</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="167"/>
         <source>Configure the display according to your needs</source>
         <translation>根據需要設定顯示器</translation>
     </message>
@@ -1179,7 +1163,7 @@
 <context>
     <name>dccV20::display::ResolutionDetailPage</name>
     <message>
-        <location filename="../src/frame/window/modules/display/resolutiondetailpage.cpp" line="137"/>
+        <location filename="../src/frame/window/modules/display/resolutiondetailpage.cpp" line="138"/>
         <source>Recommended</source>
         <translation>建議</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1523,38 +1507,38 @@
 <context>
     <name>dccV20::mouse::MouseSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>游標移動速度</translation>
         <extra-child_page>Mouse</extra-child_page>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="49"/>
         <source>Mouse Acceleration</source>
         <translation>滑鼠加速度</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="48"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="51"/>
         <source>Disable touchpad when a mouse is connected</source>
         <translation>插入滑鼠時停用觸控板</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="54"/>
         <source>Natural Scrolling</source>
         <translation>反向捲動</translation>
         <extra-child_page>Mouse</extra-child_page>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="57"/>
         <source>Slow</source>
         <translation>慢</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="58"/>
         <source>Fast</source>
         <translation>快</translation>
     </message>
@@ -1588,32 +1572,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>游標移動速度</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
         <source>Tap to Click</source>
         <translation>觸碰點擊</translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
         <source>Natural Scrolling</source>
         <translation>反向捲動</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
         <source>Slow</source>
         <translation>慢</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
         <source>Fast</source>
         <translation>快</translation>
     </message>
@@ -1641,69 +1625,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>應用程式代理伺服器</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>代理伺服器類型</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>IP 位址</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>必須</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>連線埠</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>使用者名稱</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>選填</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>密碼</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>設定完後，請在啟動器中的應用程式右鍵選單核取「使用代理伺服器」選項</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>儲存</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
         <source>Invalid IP address</source>
         <translation>無效的IP位址</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid port</source>
         <translation>無效的埠</translation>
     </message>
@@ -3646,28 +3630,28 @@
 <context>
     <name>dccV20::network::WirelessPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="251"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
         <source>Connect to hidden network</source>
         <translation>連線到隱藏網路</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="269"/>
         <source>Wireless Network Adapter</source>
         <translation>無線網路介面卡</translation>
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
         <source>Close Hotspot</source>
         <translation>關閉熱點</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="276"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>如想連線無線網路，請先關閉熱點</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="299"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="307"/>
         <source>WLAN</source>
         <translation>無線</translation>
     </message>
@@ -3802,7 +3786,7 @@
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationthemelist.cpp" line="100"/>
         <source>Light</source>
-        <translation>輕</translation>
+        <translation>淺色</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationthemelist.cpp" line="102"/>
@@ -3825,7 +3809,7 @@
     <message>
         <location filename="../src/frame/window/modules/personalization/perssonalizationthemewidget.cpp" line="77"/>
         <source>Light</source>
-        <translation>輕</translation>
+        <translation>淺色</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
@@ -3887,7 +3871,7 @@
     <message>
         <location filename="../src/frame/window/modules/power/powermodule.cpp" line="73"/>
         <source>Power</source>
-        <translation>電源管理</translation>
+        <translation>電源</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/powermodule.cpp" line="190"/>
@@ -3959,26 +3943,26 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
         <source>Never</source>
         <translation>從不</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="153"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
         <source>1 Minute</source>
         <translation>1 分鐘後</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
         <source>%1 Minutes</source>
         <translation>%1 分鐘後</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
         <source>1 Hour</source>
         <translation>1 小時後</translation>
     </message>
@@ -4019,26 +4003,26 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
         <source>Never</source>
         <translation>從不</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="175"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
         <source>1 Minute</source>
         <translation>1 分鐘後</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="178"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="181"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
         <source>%1 Minutes</source>
         <translation>%1 分鐘後</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
         <source>1 Hour</source>
         <translation>1 小時後</translation>
     </message>
@@ -4079,7 +4063,7 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="81"/>
         <source>Night Shift</source>
-        <translation type="unfinished"/>
+        <translation>夜間模式</translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="88"/>
@@ -4124,7 +4108,7 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="430"/>
         <source>Cloud Account</source>
-        <translation>網路帳戶</translation>
+        <translation>進入開發者模式</translation>
     </message>
 </context>
 <context>
@@ -4228,7 +4212,7 @@
         <translation>音量增強</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sound/speakerpage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/sound/speakerpage.cpp" line="165"/>
         <source>If the volume is louder than 100%, it may distort audio and be harmful to your speaker</source>
         <translation>音量大於100%時可能會導致音效失真，同時損害您的揚聲器</translation>
     </message>
@@ -4294,7 +4278,7 @@
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="153"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation>駐停</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="154"/>
@@ -4319,7 +4303,7 @@
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="158"/>
         <source>Corner Settings</source>
-        <translation>邊角設定</translation>
+        <translation>螢幕熱點設定</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="256"/>
@@ -4374,25 +4358,30 @@
     <message>
         <location filename="../src/frame/window/modules/sync/syncmodule.cpp" line="32"/>
         <source>Cloud Account</source>
-        <translation>網路帳戶</translation>
+        <translation>進入開發者模式</translation>
     </message>
 </context>
 <context>
     <name>dccV20::systeminfo::ManualBackup</name>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="17"/>
-        <source>Choose Directory invalid</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="18"/>
         <source>Backup</source>
-        <translation type="unfinished"/>
+        <translation>備份</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="29"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="30"/>
         <source>Set backup directory</source>
-        <translation type="unfinished"/>
+        <translation>設定備份目錄</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="111"/>
+        <source>Invalid path</source>
+        <translation>此路徑無效</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="115"/>
+        <source>Tool execution error</source>
+        <translation>工具執行失敗</translation>
     </message>
 </context>
 <context>
@@ -4400,64 +4389,74 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="92"/>
         <source>Restore</source>
-        <translation type="unfinished"/>
+        <translation>復原</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="120"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="121"/>
         <source>Save User Data</source>
-        <translation type="unfinished"/>
+        <translation>儲存使用者資料</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="123"/>
         <source>Reset All Settings</source>
-        <translation type="unfinished"/>
+        <translation>還原所有設定</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="143"/>
         <source>Select restore directory</source>
-        <translation type="unfinished"/>
+        <translation>選擇還原目錄</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="150"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="151"/>
         <source>Manual Restore</source>
-        <translation type="unfinished"/>
+        <translation>手動還原</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="205"/>
-        <source>Backup file is invalid.</source>
-        <translation type="unfinished"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="220"/>
+        <source>Backup file is invalid</source>
+        <translation>備份文件無效</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="215"/>
-        <source>This will reset all system settings to their defaults. Your data, username and password will not be deleted, please confirm and continue</source>
-        <translation type="unfinished"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="224"/>
+        <source>Grub authentication failed</source>
+        <translation>grub驗證失敗</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="221"/>
-        <source>This will reinstall the system and clear all user data. It is risky, please confirm and continue</source>
-        <translation type="unfinished"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="228"/>
+        <source>Tool execution error</source>
+        <translation>工具執行失敗</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="226"/>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="244"/>
+        <source>It will reset system settings to their defaults without affecting your files and apps, but the username and password will be cleared, please confirm before proceeding</source>
+        <translation>還原所有設定會將系統盤復原到您安裝系統時的狀態，您的資料將保留而使用者名稱和密碼會清空，請確認後操作</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="248"/>
+        <source>It will reinstall the system and clear all user data, which is highly risky, please confirm before proceeding</source>
+        <translation>還原所有資料和設定會徹底抹掉您的所有資料，系統會被重新安裝，並清空所有使用者資料。此操作非常危險，請確認後再操作</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="252"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="270"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>取消</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="229"/>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="246"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="255"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="272"/>
         <source>Confirm</source>
-        <translation type="unfinished"/>
+        <translation>確認</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="264"/>
         <source>You should reboot the computer to erase all content and settings, reboot now?</source>
-        <translation type="unfinished"/>
+        <translation>重啟系統才能還原所有資料和設定，是否現在重啟?</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="241"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="267"/>
         <source>You should reboot the computer to reset all settings, reboot now?</source>
-        <translation type="unfinished"/>
+        <translation>重啟系統才能還原所有設定，是否現在重啟?</translation>
     </message>
 </context>
 <context>
@@ -4548,7 +4547,7 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systeminfomodule.cpp" line="89"/>
         <source>System Info</source>
-        <translation>系統訊息</translation>
+        <translation>系統資訊</translation>
     </message>
 </context>
 <context>
@@ -4568,13 +4567,13 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systeminfowidget.cpp" line="72"/>
         <source>End User License Agreement</source>
-        <translation>終端使用者授權協議</translation>
+        <translation>最終使用者許可協議</translation>
         <extra-contents_path>/systeminfo/End User License Agreement</extra-contents_path>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systeminfowidget.cpp" line="87"/>
         <source>Backup and Restore</source>
-        <translation type="unfinished"/>
+        <translation>備份/還原</translation>
     </message>
 </context>
 <context>
@@ -4582,12 +4581,12 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="21"/>
         <source>Backup</source>
-        <translation type="unfinished"/>
+        <translation>備份</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="22"/>
         <source>Restore</source>
-        <translation type="unfinished"/>
+        <translation>復原</translation>
     </message>
 </context>
 <context>
@@ -4731,7 +4730,7 @@
     <message numerus="yes">
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="341"/>
         <source>%n application update(s) available</source>
-        <translation><numerusform>有 %n 個可用應用程式更新</numerusform></translation>
+        <translation><numerusform>檢測到%n個應用更新</numerusform></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="346"/>
@@ -4741,7 +4740,7 @@
     <message numerus="yes">
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="348"/>
         <source>New system edition and %n application update(s) available</source>
-        <translation><numerusform>有新的系統版本及 %n 個應用程式更新可用</numerusform></translation>
+        <translation><numerusform>檢測到新系統版本和%n個應用更新</numerusform></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="355"/>
@@ -4777,7 +4776,7 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatemodule.cpp" line="97"/>
         <source>Updates</source>
-        <translation>更新</translation>
+        <translation>檢查更新</translation>
     </message>
 </context>
 <context>
@@ -4886,7 +4885,7 @@
     <message>
         <location filename="../src/frame/window/modules/wacom/pressuresettings.cpp" line="52"/>
         <source>Light</source>
-        <translation>輕</translation>
+        <translation>淺色</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/wacom/pressuresettings.cpp" line="52"/>
@@ -5007,7 +5006,7 @@
     <message>
         <location filename="../src/frame/notify/notifydelegate.cpp" line="197"/>
         <source>Yesterday</source>
-        <translation>昨天</translation>
+        <translation>慢一日</translation>
     </message>
     <message>
         <location filename="../src/frame/notify/notifydelegate.cpp" line="199"/>
@@ -5279,12 +5278,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/updatenotifier.cpp" line="37"/>
         <source>Updates</source>
-        <translation>更新</translation>
+        <translation>檢查更新</translation>
     </message>
     <message>
         <location filename="../src/frame/updatenotifier.cpp" line="162"/>
         <source>Dependency error, failed to detect the updates</source>
-        <translation>依賴關係發生錯誤，偵測更新失敗。</translation>
+        <translation>依賴關係發生錯誤，偵測更新失敗</translation>
     </message>
     <message>
         <location filename="../src/frame/updatenotifier.cpp" line="165"/>
@@ -5525,7 +5524,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="56"/>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="59"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="55"/>
@@ -5571,7 +5570,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="271"/>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="274"/>
         <source>The password must contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation>密碼應包含英文字母（區分大小寫）、數字以及特殊符號 (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
+        <translation>密碼需包含英文字母（區分大小寫），數字或是特殊符號（~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;）</translation>
     </message>
 </context>
 <context>
@@ -5617,7 +5616,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/accounts/modifyfullnamepage.cpp" line="48"/>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifyfullnamepage.cpp" line="63"/>
@@ -5647,7 +5646,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="57"/>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="58"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="62"/>
@@ -5704,6 +5703,24 @@ If no operation, the display will be restored after %1s.</source>
     </message>
 </context>
 <context>
+    <name>dcc::accounts::UserModel</name>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="166"/>
+        <source>Password must be between %1 and %2 characters</source>
+        <translation>密碼長度必須介於%1到%2個字元之間</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="173"/>
+        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
+        <translation>密碼只能由英文字母 (區分大小寫)、數字及特殊符號 (~!@#$%^&amp;*()[]{}|/?,.&lt;&gt;) 組成</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="186"/>
+        <source>Password must contain at least %1 types of characters</source>
+        <translation>密碼應包含至少%1種字元</translation>
+    </message>
+</context>
+<context>
     <name>dcc::bluetooth::AdapterWidget</name>
     <message>
         <location filename="../src/frame/modules/bluetooth/adapterwidget.cpp" line="47"/>
@@ -5741,7 +5758,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/bluetooth/detailpage.cpp" line="44"/>
         <source>Disconnect</source>
-        <translation>斷線</translation>
+        <translation>斷開連線</translation>
     </message>
 </context>
 <context>
@@ -5772,7 +5789,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/bluetooth/pincodedialog.cpp" line="51"/>
         <source>Confirm</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
@@ -5810,7 +5827,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="80"/>
         <source>Sound Settings</source>
-        <translation>聲音設定</translation>
+        <translation>音效設定</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="81"/>
@@ -5825,7 +5842,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="83"/>
         <source>Dock</source>
-        <translation>Dock</translation>
+        <translation>駐停</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="84"/>
@@ -5835,7 +5852,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="85"/>
         <source>Wallpaper</source>
-        <translation>桌布</translation>
+        <translation>背景圖片</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="86"/>
@@ -5855,7 +5872,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="214"/>
         <source>Last Sync: %1</source>
-        <translation>上次同步：%1</translation>
+        <translation>上次同步時間：%1</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="216"/>
@@ -5897,7 +5914,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/datetime/datesettings.cpp" line="69"/>
         <source>Confirm</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
@@ -6033,7 +6050,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/defapp/defappviewer.cpp" line="57"/>
         <source>Text</source>
-        <translation>文字檔案</translation>
+        <translation>文字工具</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/defapp/defappviewer.cpp" line="58"/>
@@ -6311,12 +6328,12 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="61"/>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="65"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="64"/>
         <source>Command</source>
-        <translation>指令</translation>
+        <translation>命令</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="83"/>
@@ -6326,7 +6343,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="85"/>
         <source>Add</source>
-        <translation>加入</translation>
+        <translation>加入其他程式</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="116"/>
@@ -6344,7 +6361,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="61"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="72"/>
@@ -6435,7 +6452,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/navigation/navmodel.cpp" line="160"/>
         <location filename="../src/frame/navigationbar.cpp" line="213"/>
         <source>Keyboard and Language</source>
-        <translation>鍵盤與語言</translation>
+        <translation>鍵盤和語言</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/keyboardwidget.cpp" line="52"/>
@@ -6725,12 +6742,12 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="53"/>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="57"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="56"/>
         <source>Port</source>
-        <translation>通訊埠</translation>
+        <translation>連線埠</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="60"/>
@@ -6761,7 +6778,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="89"/>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
@@ -6777,7 +6794,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="90"/>
         <source>Disconnect</source>
-        <translation>中斷連線</translation>
+        <translation>斷開連線</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="92"/>
@@ -6881,7 +6898,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="111"/>
         <source>Cloned MAC Addr</source>
-        <translation>複製網卡 MAC 位址</translation>
+        <translation>複製裝置 MAC 位址</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="124"/>
@@ -6982,7 +6999,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="230"/>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="295"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="231"/>
@@ -7040,7 +7057,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/networkdetailpage.cpp" line="160"/>
         <source>Interface</source>
-        <translation>介面</translation>
+        <translation>界面</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/networkdetailpage.cpp" line="165"/>
@@ -7191,12 +7208,12 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="79"/>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="86"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="82"/>
         <source>Service</source>
-        <translation>服務提供者</translation>
+        <translation>服務</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="85"/>
@@ -7279,7 +7296,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="110"/>
         <source>Stateful MPPE</source>
-        <translation>MPPE 狀態</translation>
+        <translation>包含狀態的 MPPE</translation>
     </message>
 </context>
 <context>
@@ -7305,7 +7322,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="59"/>
         <source>Confirm</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="61"/>
@@ -7315,7 +7332,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="62"/>
         <source>Manual</source>
-        <translation>手動</translation>
+        <translation>手冊</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="63"/>
@@ -7333,7 +7350,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="80"/>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="85"/>
         <source>Port</source>
-        <translation>通訊埠</translation>
+        <translation>連線埠</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="73"/>
@@ -7456,7 +7473,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="202"/>
         <source>EAP Auth</source>
-        <translation>EAP 授權</translation>
+        <translation>EAP 憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="214"/>
@@ -7467,7 +7484,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="216"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="224"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="218"/>
@@ -7477,19 +7494,19 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="302"/>
         <source>Private Key</source>
-        <translation>金鑰</translation>
+        <translation>私鑰</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="306"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="387"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="423"/>
         <source>CA Cert</source>
-        <translation>CA 證書</translation>
+        <translation>CA 憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="310"/>
         <source>User Cert</source>
-        <translation>使用者證書</translation>
+        <translation>使用者憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="332"/>
@@ -7513,7 +7530,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="391"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="438"/>
         <source>Inner Auth</source>
-        <translation>內部授權</translation>
+        <translation>內部驗證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="427"/>
@@ -7523,7 +7540,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="523"/>
         <source>Private Pwd</source>
-        <translation>密碼</translation>
+        <translation>私鑰</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="525"/>
@@ -7551,17 +7568,17 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="112"/>
         <source>Security</source>
-        <translation>安全</translation>
+        <translation>安全性</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="118"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="148"/>
         <source>Key</source>
-        <translation>密碼</translation>
+        <translation>金鑰</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="154"/>
@@ -7602,17 +7619,17 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="115"/>
         <source>Security</source>
-        <translation>安全</translation>
+        <translation>安全性</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="121"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="163"/>
         <source>Key</source>
-        <translation>密碼</translation>
+        <translation>金鑰</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="170"/>
@@ -7665,7 +7682,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="155"/>
         <source>Customize Tunnel MTU</source>
-        <translation>自訂最大傳輸單元（MTU）</translation>
+        <translation>自訂隧道 MTU</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="158"/>
@@ -7744,7 +7761,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="152"/>
         <source>Disabled</source>
-        <translation>已關閉</translation>
+        <translation>已停用</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="155"/>
@@ -7781,7 +7798,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="173"/>
         <source>Vendor</source>
-        <translation>廠商</translation>
+        <translation>提供商</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="179"/>
@@ -7806,7 +7823,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="200"/>
         <source>Forward Secrecy</source>
-        <translation>完全正向保密</translation>
+        <translation>正向加密</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="206"/>
@@ -7872,12 +7889,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="89"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="92"/>
         <source>CA Cert</source>
-        <translation>CA 認證</translation>
+        <translation>CA 憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="95"/>
@@ -7897,7 +7914,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="104"/>
         <source>User Cert</source>
-        <translation>使用者證書</translation>
+        <translation>使用者憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="107"/>
@@ -7966,22 +7983,22 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="288"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="293"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="142"/>
         <source>Auth Type</source>
-        <translation>授權類型</translation>
+        <translation>驗證類型</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="145"/>
         <source>CA Cert</source>
-        <translation>CA 證書</translation>
+        <translation>CA 憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="177"/>
         <source>User Cert</source>
-        <translation>使用者證書</translation>
+        <translation>使用者憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="181"/>
@@ -8110,12 +8127,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="164"/>
         <source>Security</source>
-        <translation>安全</translation>
+        <translation>安全性</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="170"/>
         <source>Stateful MPPE</source>
-        <translation>MPPE 狀態</translation>
+        <translation>包含狀態的 MPPE</translation>
     </message>
 </context>
 <context>
@@ -8148,7 +8165,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/vpnpage.cpp" line="244"/>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/vpnpage.cpp" line="266"/>
@@ -8228,17 +8245,17 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="166"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="170"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="157"/>
         <source>Port</source>
-        <translation>通訊埠</translation>
+        <translation>連線埠</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="162"/>
         <source>Retry Indefinitely When Failed</source>
-        <translation>失敗時重試</translation>
+        <translation>失敗時重試無限次</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="165"/>
@@ -8309,7 +8326,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="106"/>
         <source>Saved</source>
-        <translation>已儲存的網路</translation>
+        <translation>已儲存</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="107"/>
@@ -8331,7 +8348,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="119"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="129"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="118"/>
@@ -8393,7 +8410,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="142"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="172"/>
         <source>Private Key</source>
-        <translation>金鑰</translation>
+        <translation>私鑰</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="143"/>
@@ -8413,7 +8430,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="146"/>
         <source>Pre-Shared Key</source>
-        <translation>已分享的密碼</translation>
+        <translation>預先分享金鑰</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="152"/>
@@ -8423,22 +8440,22 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="153"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="156"/>
         <source>CA Cert</source>
-        <translation>CA 認證</translation>
+        <translation>CA 憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="159"/>
         <source>Auth Type</source>
-        <translation>授權類型</translation>
+        <translation>驗證類型</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="169"/>
         <source>User Cert</source>
-        <translation>使用者認證</translation>
+        <translation>使用者憑證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="175"/>
@@ -8453,7 +8470,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="181"/>
         <source>Request an Inner IP Address</source>
-        <translation>需要一個內部 IP 位址</translation>
+        <translation>請求一個內部 IP 位址</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="184"/>
@@ -8463,7 +8480,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="187"/>
         <source>Use IP Compression</source>
-        <translation>使用 IP 檔頭壓縮</translation>
+        <translation>使用 IP 壓縮</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="190"/>
@@ -8506,17 +8523,17 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpntlssection.cpp" line="87"/>
         <source>Subject Match</source>
-        <translation>主題匹配</translation>
+        <translation>主旨相符</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpntlssection.cpp" line="90"/>
         <source>Remote Cert Type</source>
-        <translation>遠端證書類型</translation>
+        <translation>遠端憑證類型</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpntlssection.cpp" line="100"/>
         <source>Key File</source>
-        <translation>金鑰檔</translation>
+        <translation>金鑰檔案</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpntlssection.cpp" line="103"/>
@@ -8539,7 +8556,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="159"/>
         <source>Saved</source>
-        <translation>已儲存的網路</translation>
+        <translation>已儲存</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="160"/>
@@ -8563,7 +8580,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="186"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="196"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="171"/>
@@ -8594,12 +8611,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="199"/>
         <source>Use Hybrid Authentication</source>
-        <translation>使用混合授權</translation>
+        <translation>使用混合驗證</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="202"/>
         <source>CA File</source>
-        <translation>CA 檔案</translation>
+        <translation>CA 憑證檔</translation>
     </message>
 </context>
 <context>
@@ -8663,12 +8680,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="113"/>
         <source>Required</source>
-        <translation>必須填入</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="116"/>
         <source>Device MAC Addr</source>
-        <translation>網卡（MAC）位址</translation>
+        <translation>裝置 MAC 位址</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="144"/>
@@ -8713,7 +8730,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/personalization/module/fontswidget/fontsizewidget.cpp" line="41"/>
         <source>Size</source>
-        <translation>文字大小</translation>
+        <translation>圖示</translation>
     </message>
 </context>
 <context>
@@ -8721,7 +8738,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/personalization/module/fontswidget/fontswidget.cpp" line="52"/>
         <source>Font</source>
-        <translation>字型設定</translation>
+        <translation>字型</translation>
     </message>
 </context>
 <context>
@@ -8757,14 +8774,14 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/personalization/personalizationwidget.cpp" line="73"/>
         <source>Font</source>
-        <translation>字型設定</translation>
+        <translation>字型</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/personalization/personalizationwidget.cpp" line="79"/>
         <location filename="../src/frame/navigation/navmodel.cpp" line="153"/>
         <location filename="../src/frame/navigationbar.cpp" line="205"/>
         <source>Personalization</source>
-        <translation>個人化</translation>
+        <translation>個性化</translation>
     </message>
 </context>
 <context>
@@ -8896,7 +8913,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/advancedpage.cpp" line="40"/>
         <source>Advanced</source>
-        <translation>進階設定</translation>
+        <translation>進階</translation>
     </message>
 </context>
 <context>
@@ -9040,7 +9057,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundwidget.cpp" line="106"/>
         <source>Advanced</source>
-        <translation>進階設定</translation>
+        <translation>進階</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundwidget.cpp" line="109"/>
@@ -9100,7 +9117,7 @@ If no operation, the display will be restored after %1s.</source>
 <context>
     <name>dcc::systeminfo::SystemInfoModel</name>
     <message>
-        <location filename="../src/frame/modules/systeminfo/systeminfomodel.cpp" line="173"/>
+        <location filename="../src/frame/modules/systeminfo/systeminfomodel.cpp" line="180"/>
         <source>available</source>
         <translation>可用</translation>
     </message>
@@ -9137,7 +9154,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="95"/>
         <source>Type:</source>
-        <translation>類型：</translation>
+        <translation>Type:</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="98"/>
@@ -9162,7 +9179,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="122"/>
         <source>End User License Agreement</source>
-        <translation>終端使用者授權協議</translation>
+        <translation>最終使用者許可協議</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="126"/>
@@ -9177,7 +9194,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="187"/>
         <source>Deepin Community</source>
-        <translation>Deepin Community</translation>
+        <translation>Deepin 社群</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
@@ -9190,7 +9207,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/systeminfo/userlicense.cpp" line="15"/>
         <source>End User License Agreement</source>
-        <translation>終端使用者授權協議</translation>
+        <translation>最終使用者許可協議</translation>
     </message>
 </context>
 <context>
@@ -9211,7 +9228,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="93"/>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="126"/>
         <source>Slow</source>
-        <translation>慢速</translation>
+        <translation>慢</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="95"/>
@@ -9223,7 +9240,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="97"/>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="128"/>
         <source>Fast</source>
-        <translation>快速</translation>
+        <translation>快</translation>
     </message>
 </context>
 <context>
@@ -9457,17 +9474,17 @@ If no operation, the display will be restored after %1s.</source>
 <context>
     <name>dcc::update::UpdateWorker</name>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="343"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="350"/>
         <source>Patches</source>
         <translation>修補程式</translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="344"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="351"/>
         <source>System patches</source>
         <translation>系統修補程式</translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="1042"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="1049"/>
         <source>System</source>
         <translation>系統</translation>
     </message>
@@ -9495,7 +9512,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/wacom/widget/wacomsettings.cpp" line="52"/>
         <source>Light</source>
-        <translation>輕</translation>
+        <translation>淺色</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/wacom/widget/wacomsettings.cpp" line="52"/>
@@ -9508,7 +9525,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/wacom/wacomwidget.cpp" line="50"/>
         <source>Mode</source>
-        <translation>樣式</translation>
+        <translation>模式</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/wacom/wacomwidget.cpp" line="57"/>

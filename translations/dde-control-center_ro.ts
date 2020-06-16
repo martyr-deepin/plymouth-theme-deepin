@@ -30,12 +30,12 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="306"/>
         <source>Accounts</source>
-        <translation type="unfinished"/>
+        <translation>Conturi</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="308"/>
         <source>Cloud Account</source>
-        <translation type="unfinished"/>
+        <translation>Cont cloud</translation>
         <extra-contents_path>/cloudsync/Cloud Sync</extra-contents_path>
     </message>
     <message>
@@ -100,7 +100,7 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="320"/>
         <source>Updates</source>
-        <translation type="unfinished"/>
+        <translation>Actualizări</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="321"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="411"/>
         <source>Assistive Tools</source>
-        <translation type="unfinished"/>
+        <translation>Instrumente de asistență</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="844"/>
@@ -138,60 +138,60 @@
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
         <source>Full Name</source>
         <translation>Nume Complet</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="233"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
         <source>The full name already exists</source>
-        <translation type="unfinished"/>
+        <translation>Numele complet există deja</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
         <source>Validity Days</source>
-        <translation type="unfinished"/>
+        <translation>Zile de valabilitate</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="275"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="276"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="338"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
         <source>Always</source>
-        <translation type="unfinished"/>
+        <translation>Mereu</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="331"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
         <source>Please input a number between 1-99999</source>
-        <translation type="unfinished"/>
+        <translation>Vă rugăm să introduceți un număr între 1-99999</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="372"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
         <source>Change Password</source>
-        <translation>Schimbare Parolă</translation>
+        <translation>Schimbă Parola</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="374"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
         <source>Delete Account</source>
         <translation>Ștergere cont</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="377"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
         <source>Auto Login</source>
         <translation>Autentificare automată</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
         <source>Login Without Password</source>
         <translation>Autentificare fară Parolă</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="455"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="465"/>
         <source>Group</source>
-        <translation type="unfinished"/>
+        <translation>Grup</translation>
     </message>
 </context>
 <context>
@@ -199,7 +199,7 @@
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsmodule.cpp" line="80"/>
         <source>Accounts</source>
-        <translation type="unfinished"/>
+        <translation>Conturi</translation>
     </message>
 </context>
 <context>
@@ -220,7 +220,7 @@
         <location filename="../src/frame/window/modules/accounts/accountswidget.cpp" line="140"/>
         <location filename="../src/frame/window/modules/accounts/accountswidget.cpp" line="150"/>
         <source>Standard User</source>
-        <translation type="unfinished"/>
+        <translation>Utilizator standard</translation>
     </message>
 </context>
 <context>
@@ -281,7 +281,7 @@
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="134"/>
         <source>Group</source>
-        <translation type="unfinished"/>
+        <translation>Grup</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="143"/>
@@ -324,42 +324,38 @@
     <message>
         <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="316"/>
         <source>Go to Settings</source>
-        <translation type="unfinished"/>
+        <translation>Mergi la setări</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="386"/>
-        <source>Password must be no more than %1 characters</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="393"/>
-        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="400"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="406"/>
         <source>Passwords do not match</source>
         <translation>Noua parolă nu corespunde</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="424"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="421"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="425"/>
         <source>Username must be between 3 and 32 characters</source>
         <translation>Numele de utilizator trebuie să aibă între 3 şi 32 caractere</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="431"/>
-        <source>The first character must be a letter or number</source>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="430"/>
+        <source>The first character must be a letter (lowercase)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="435"/>
+        <source>Username can only contain English letters (lowercase), numbers or special symbols (_-)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="463"/>
         <source>The full name already exists</source>
-        <translation type="unfinished"/>
+        <translation>Numele complet există deja</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="456"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="470"/>
         <source>The full name is too long</source>
-        <translation type="unfinished"/>
+        <translation>Numele complet este prea lung</translation>
     </message>
 </context>
 <context>
@@ -388,70 +384,65 @@
 <context>
     <name>dccV20::accounts::ModifyPasswdPage</name>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="59"/>
         <source>Change Password</source>
         <translation>Schimbă Parola</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="62"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="63"/>
         <source>Current Password</source>
         <translation>Parola actuală</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="66"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="67"/>
         <source>New Password</source>
         <translation>Parolă nouă</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="70"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="71"/>
         <source>Repeat Password</source>
         <translation>Repetați parola</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="75"/>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="152"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="153"/>
         <source>Cancel</source>
         <translation>Anulează</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="77"/>
         <source>Save</source>
         <translation>Salvare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="117"/>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="118"/>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="119"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="120"/>
         <source>Required</source>
         <translation>Necesar</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="151"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="152"/>
         <source>Go to Settings</source>
-        <translation type="unfinished"/>
+        <translation>Mergi la setări</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="177"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="178"/>
         <source>Wrong password</source>
         <translation>Parolă greșită</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="239"/>
         <source>Passwords do not match</source>
         <translation>Noua parolă nu corespunde</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="245"/>
-        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="251"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="253"/>
         <source>New password should differ from the current one</source>
         <translation>Parola nouă trebuie să fie diferită de cea actuală</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="258"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="260"/>
         <source>Password must be no more than %1 characters</source>
         <translation type="unfinished"/>
     </message>
@@ -481,7 +472,7 @@
     <message>
         <location filename="../src/frame/window/modules/bluetooth/bluetoothmodule.cpp" line="96"/>
         <source>Bluetooth</source>
-        <translation type="unfinished"/>
+        <translation>Bluetooth</translation>
     </message>
 </context>
 <context>
@@ -500,12 +491,12 @@
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="46"/>
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="113"/>
         <source>Connect</source>
-        <translation type="unfinished"/>
+        <translation>Conectare</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/bluetooth/detailpage.cpp" line="108"/>
         <source>Connecting</source>
-        <translation type="unfinished"/>
+        <translation>Conectare</translation>
     </message>
 </context>
 <context>
@@ -561,7 +552,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/commoninfomodule.cpp" line="80"/>
         <source>General Settings</source>
-        <translation type="unfinished"/>
+        <translation>Setări Generale</translation>
     </message>
 </context>
 <context>
@@ -670,7 +661,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="96"/>
         <source>Next</source>
-        <translation type="unfinished"/>
+        <translation>Următorul</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="100"/>
@@ -750,7 +741,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="153"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodewidget.cpp" line="153"/>
@@ -862,7 +853,7 @@
     <message>
         <location filename="../src/frame/window/modules/datetime/datetimemodule.cpp" line="70"/>
         <source>Date and Time</source>
-        <translation type="unfinished"/>
+        <translation>Data şi ora</translation>
     </message>
 </context>
 <context>
@@ -939,7 +930,7 @@
     <message>
         <location filename="../src/frame/window/modules/defapp/defaultappsmodule.cpp" line="82"/>
         <source>Default Applications</source>
-        <translation type="unfinished"/>
+        <translation>Aplicații implicite</translation>
     </message>
 </context>
 <context>
@@ -1015,50 +1006,50 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="94"/>
         <source>Main Screen</source>
         <translation>Ecran Principal</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="100"/>
         <source>Resolution</source>
         <translation>Rezoluție</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="106"/>
         <source>Refresh Rate</source>
         <translation>Rată Improspătare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Anulează</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Salvare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="266"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="270"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="268"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="328"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="272"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="338"/>
         <source>Recommended</source>
         <translation>Recomandat</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="374"/>
         <source>inch</source>
-        <translation type="unfinished"/>
+        <translation>inch</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="359"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="375"/>
         <source>Resolution %1x%2</source>
-        <translation type="unfinished"/>
+        <translation>Rezoluție %1x%2</translation>
     </message>
 </context>
 <context>
@@ -1066,11 +1057,11 @@
     <message>
         <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="68"/>
         <source>Display</source>
-        <translation type="unfinished"/>
+        <translation>Afişaj</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="119"/>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="126"/>
         <source>Multiple Displays</source>
         <translation>Afișaje multiple</translation>
     </message>
@@ -1078,38 +1069,31 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="127"/>
         <source>Multiple Displays</source>
         <translation>Afișaje multiple</translation>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
-        <source>Brightness</source>
-        <translation>Luminozitate</translation>
-        <extra-contents_path>/display/Brightness</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="134"/>
         <source>Resolution</source>
         <translation>Rezoluție</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="139"/>
         <source>Display Scaling</source>
         <translation>Scalare afișare</translation>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="146"/>
         <source>Refresh Rate</source>
-        <translation>Rată Împrospătare</translation>
+        <translation>Rată Improspătare</translation>
         <extra-contents_path>/display/Refresh Rate</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="175"/>
         <source>Rotate Screen</source>
         <translation>Roteşte Ecran</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1123,42 +1107,42 @@
         <translation>Setări particularizate</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="142"/>
         <source>Duplicate</source>
         <translation>Duplicare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="142"/>
         <source>Extend</source>
         <translation>Extindere</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="131"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
         <source>Show the same image on other screens</source>
         <translation>Arată aceeași imagine și pe alte ecrane</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="132"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
         <source>Expand the desktop across the screens</source>
         <translation>Extindeți desktop pe ecrane</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="154"/>
         <source>%1 only</source>
-        <translation type="unfinished"/>
+        <translation>numai 1%</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="155"/>
         <source>Show the screen content only on %1</source>
-        <translation type="unfinished"/>
+        <translation>Afișați conținutul ecranului doar pe 1%</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="166"/>
         <source>Customize</source>
         <translation>Personalizare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="167"/>
         <source>Configure the display according to your needs</source>
         <translation>Configurează afișajul în funcție de nevoile dvs.</translation>
     </message>
@@ -1179,7 +1163,7 @@
 <context>
     <name>dccV20::display::ResolutionDetailPage</name>
     <message>
-        <location filename="../src/frame/window/modules/display/resolutiondetailpage.cpp" line="137"/>
+        <location filename="../src/frame/window/modules/display/resolutiondetailpage.cpp" line="138"/>
         <source>Recommended</source>
         <translation>Recomandat</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1355,7 +1339,7 @@
     <message>
         <location filename="../src/frame/window/modules/keyboard/keyboardmodule.cpp" line="122"/>
         <source>Keyboard and Language</source>
-        <translation type="unfinished"/>
+        <translation>Tastatură şi limbă</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/keyboard/keyboardmodule.cpp" line="238"/>
@@ -1409,7 +1393,7 @@
     <message>
         <location filename="../src/frame/window/modules/keyboard/shortcutsettingwidget.cpp" line="74"/>
         <source>Assistive Tools</source>
-        <translation type="unfinished"/>
+        <translation>Instrumente de asistență</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/keyboard/shortcutsettingwidget.cpp" line="88"/>
@@ -1432,7 +1416,7 @@
     <message>
         <location filename="../src/frame/window/modules/keyboard/systemlanguagesettingwidget.cpp" line="66"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/keyboard/systemlanguagesettingwidget.cpp" line="68"/>
@@ -1517,44 +1501,44 @@
     <message>
         <location filename="../src/frame/window/modules/mouse/mousemodule.cpp" line="146"/>
         <source>Mouse</source>
-        <translation type="unfinished"/>
+        <translation>Maus</translation>
     </message>
 </context>
 <context>
     <name>dccV20::mouse::MouseSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Viteză indicator</translation>
         <extra-child_page>Mouse</extra-child_page>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="49"/>
         <source>Mouse Acceleration</source>
         <translation>Accelerația mausului</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="48"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="51"/>
         <source>Disable touchpad when a mouse is connected</source>
         <translation>Dezactivează touchpad-ul la conectarea mouse-ului</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="54"/>
         <source>Natural Scrolling</source>
         <translation>Derulare fizică</translation>
         <extra-child_page>Mouse</extra-child_page>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="57"/>
         <source>Slow</source>
         <translation>Încet</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="58"/>
         <source>Fast</source>
         <translation>Repede</translation>
     </message>
@@ -1588,32 +1572,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Viteză indicator</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
         <source>Tap to Click</source>
         <translation>Atingeți pentru a apăsa</translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
         <source>Natural Scrolling</source>
         <translation>Derulare fizică</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
         <source>Slow</source>
         <translation>Încet</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
         <source>Fast</source>
         <translation>Repede</translation>
     </message>
@@ -1641,69 +1625,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
         <translation>Aplicație Proxy</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Tip proxy</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>Adresa IP</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Necesar</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Nume utilizator</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Opțional</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Parola</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>Verificați „Utilizați un proxy” în meniul contextual al aplicației din Launcher după configurare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Anulează</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Salvare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
         <source>Invalid IP address</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid port</source>
         <translation type="unfinished"/>
     </message>
@@ -2116,12 +2100,12 @@
     <message>
         <location filename="../src/frame/window/modules/network/networkmodule.cpp" line="160"/>
         <source>Personal Hotspot</source>
-        <translation>Hotspot Personal </translation>
+        <translation>Hotspot Personal </translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/networkmodule.cpp" line="264"/>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Reţea</translation>
     </message>
 </context>
 <context>
@@ -2147,7 +2131,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="89"/>
         <source>Application Proxy</source>
-        <translation>Proxy Aplicație </translation>
+        <translation>Aplicație Proxy</translation>
         <extra-contents_path>/network/Application Proxy</extra-contents_path>
     </message>
     <message>
@@ -2164,7 +2148,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="301"/>
         <source>Personal Hotspot</source>
-        <translation>Hotspot Personal </translation>
+        <translation>Hotspot Personal </translation>
         <extra-contents_path>/network/Personal Hotspot</extra-contents_path>
     </message>
     <message>
@@ -2391,7 +2375,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/proxypage.cpp" line="96"/>
         <source>SOCKS Proxy</source>
-        <translation>Proxy SOCKS </translation>
+        <translation>Proxy SOCKS </translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/proxypage.cpp" line="106"/>
@@ -3413,7 +3397,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpnstrongswansection.cpp" line="143"/>
         <source>SSH Agent</source>
-        <translation>Agent SSH </translation>
+        <translation>Agent SSH </translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/network/sections/vpn/vpnstrongswansection.cpp" line="144"/>
@@ -3646,28 +3630,28 @@
 <context>
     <name>dccV20::network::WirelessPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="251"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
         <source>Connect to hidden network</source>
         <translation>Conectare la rețele ascunse</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="269"/>
         <source>Wireless Network Adapter</source>
         <translation>Adaptor Rețea Wireless</translation>
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
         <source>Close Hotspot</source>
         <translation>Închidere Hotspot</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="276"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>Dezactivați întâi hotspot-ul dacă doriți să vă conectați la o rețea wireless</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="299"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="307"/>
         <source>WLAN</source>
         <translation>WLAN</translation>
     </message>
@@ -3794,7 +3778,7 @@
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationmodule.cpp" line="63"/>
         <source>Personalization</source>
-        <translation type="unfinished"/>
+        <translation>Personalizare</translation>
     </message>
 </context>
 <context>
@@ -3887,7 +3871,7 @@
     <message>
         <location filename="../src/frame/window/modules/power/powermodule.cpp" line="73"/>
         <source>Power</source>
-        <translation type="unfinished"/>
+        <translation>Energie</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/powermodule.cpp" line="190"/>
@@ -3959,26 +3943,26 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
         <source>Never</source>
         <translation>Niciodată</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="153"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
         <source>1 Minute</source>
         <translation>1 Minut</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
         <source>%1 Minutes</source>
         <translation>%1 Minute</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
         <source>1 Hour</source>
         <translation>1 Oră</translation>
     </message>
@@ -4019,26 +4003,26 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
         <source>Never</source>
         <translation>Niciodată</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="175"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
         <source>1 Minute</source>
         <translation>1 Minut</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="178"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="181"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
         <source>%1 Minutes</source>
         <translation>%1 Minute</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
         <source>1 Hour</source>
         <translation>1 Oră</translation>
     </message>
@@ -4074,12 +4058,12 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="80"/>
         <source>Display Scaling</source>
-        <translation type="unfinished"/>
+        <translation>Scalare afișare</translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="81"/>
         <source>Night Shift</source>
-        <translation type="unfinished"/>
+        <translation>Mod de noapte</translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="88"/>
@@ -4094,7 +4078,7 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="90"/>
         <source>Personal Hotspot</source>
-        <translation>Hotspot Personal </translation>
+        <translation>Hotspot Personal </translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="91"/>
@@ -4119,12 +4103,12 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="423"/>
         <source>End User License Agreement</source>
-        <translation type="unfinished"/>
+        <translation>Acord Licenţă Utilizator Final </translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="430"/>
         <source>Cloud Account</source>
-        <translation type="unfinished"/>
+        <translation>Cont cloud</translation>
     </message>
 </context>
 <context>
@@ -4180,7 +4164,7 @@
     <message>
         <location filename="../src/frame/window/modules/sound/soundmodule.cpp" line="59"/>
         <source>Sound</source>
-        <translation type="unfinished"/>
+        <translation>Sunet</translation>
     </message>
 </context>
 <context>
@@ -4228,7 +4212,7 @@
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sound/speakerpage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/sound/speakerpage.cpp" line="165"/>
         <source>If the volume is louder than 100%, it may distort audio and be harmful to your speaker</source>
         <translation type="unfinished"/>
     </message>
@@ -4374,24 +4358,29 @@
     <message>
         <location filename="../src/frame/window/modules/sync/syncmodule.cpp" line="32"/>
         <source>Cloud Account</source>
-        <translation type="unfinished"/>
+        <translation>Cont cloud</translation>
     </message>
 </context>
 <context>
     <name>dccV20::systeminfo::ManualBackup</name>
-    <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="17"/>
-        <source>Choose Directory invalid</source>
-        <translation type="unfinished"/>
-    </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="18"/>
         <source>Backup</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="29"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="30"/>
         <source>Set backup directory</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="111"/>
+        <source>Invalid path</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="115"/>
+        <source>Tool execution error</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -4400,62 +4389,72 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="92"/>
         <source>Restore</source>
-        <translation type="unfinished"/>
+        <translation>Restaurare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="120"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="121"/>
         <source>Save User Data</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="123"/>
         <source>Reset All Settings</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="143"/>
         <source>Select restore directory</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="150"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="151"/>
         <source>Manual Restore</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="205"/>
-        <source>Backup file is invalid.</source>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="220"/>
+        <source>Backup file is invalid</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="215"/>
-        <source>This will reset all system settings to their defaults. Your data, username and password will not be deleted, please confirm and continue</source>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="224"/>
+        <source>Grub authentication failed</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="221"/>
-        <source>This will reinstall the system and clear all user data. It is risky, please confirm and continue</source>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="228"/>
+        <source>Tool execution error</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="226"/>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="244"/>
+        <source>It will reset system settings to their defaults without affecting your files and apps, but the username and password will be cleared, please confirm before proceeding</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="248"/>
+        <source>It will reinstall the system and clear all user data, which is highly risky, please confirm before proceeding</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="252"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="270"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Anulează</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="229"/>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="246"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="255"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="272"/>
         <source>Confirm</source>
-        <translation type="unfinished"/>
+        <translation>Confirmare</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="264"/>
         <source>You should reboot the computer to erase all content and settings, reboot now?</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="241"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="267"/>
         <source>You should reboot the computer to reset all settings, reboot now?</source>
         <translation type="unfinished"/>
     </message>
@@ -4548,7 +4547,7 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systeminfomodule.cpp" line="89"/>
         <source>System Info</source>
-        <translation type="unfinished"/>
+        <translation>Info Sistem</translation>
     </message>
 </context>
 <context>
@@ -4587,7 +4586,7 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="22"/>
         <source>Restore</source>
-        <translation type="unfinished"/>
+        <translation>Restaurare</translation>
     </message>
 </context>
 <context>
@@ -4777,7 +4776,7 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatemodule.cpp" line="97"/>
         <source>Updates</source>
-        <translation type="unfinished"/>
+        <translation>Actualizări</translation>
     </message>
 </context>
 <context>
@@ -4844,7 +4843,7 @@
     <message>
         <location filename="../src/frame/window/modules/update/updatewidget.cpp" line="58"/>
         <source>Updates</source>
-        <translation type="unfinished"/>
+        <translation>Actualizări</translation>
         <extra-contents_path>/update/Update</extra-contents_path>
     </message>
     <message>
@@ -4899,7 +4898,7 @@
     <message>
         <location filename="../src/frame/window/modules/wacom/wacommodule.cpp" line="100"/>
         <source>Drawing Tablet</source>
-        <translation type="unfinished"/>
+        <translation>Tableta Desen</translation>
     </message>
 </context>
 <context>
@@ -5073,7 +5072,7 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="243"/>
         <source>Application Proxy</source>
-        <translation>Proxy Aplicație </translation>
+        <translation>Aplicație Proxy</translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="244"/>
@@ -5399,7 +5398,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/accounts/accountsdetailwidget.cpp" line="64"/>
         <source>Login Without Password</source>
-        <translation>Logare fara Parolă</translation>
+        <translation>Autentificare fară Parolă</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsdetailwidget.cpp" line="68"/>
@@ -5565,7 +5564,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="265"/>
         <source>The password should be different from the username</source>
-        <translation>Parola trebuie să fie diferită de numele de utilizator</translation>
+        <translation>Noua parolă trebuie să fie diferită de numele de utilizator</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="271"/>
@@ -5617,7 +5616,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/accounts/modifyfullnamepage.cpp" line="48"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifyfullnamepage.cpp" line="63"/>
@@ -5640,7 +5639,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="54"/>
         <source>Repeat Password</source>
-        <translation>Repetă parola</translation>
+        <translation>Repetați parola</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="56"/>
@@ -5672,7 +5671,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="215"/>
         <source>The password should be different from the username</source>
-        <translation>Parola trebuie să fie diferită de numele de utilizator</translation>
+        <translation>Noua parolă trebuie să fie diferită de numele de utilizator</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="223"/>
@@ -5700,7 +5699,25 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/accounts/removeuserdialog.cpp" line="73"/>
         <source>Delete</source>
-        <translation>Șterge</translation>
+        <translation>Ștergeți</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::accounts::UserModel</name>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="166"/>
+        <source>Password must be between %1 and %2 characters</source>
+        <translation>Parola trebuie să aibă între %1 și %2 caractere</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="173"/>
+        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="186"/>
+        <source>Password must contain at least %1 types of characters</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -5790,7 +5807,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="34"/>
         <source>Sorry, it is not supported in your region at present, and will be coming soon</source>
-        <translation>Ne pare rău, în prezent regiunea dvs. nu este suportată dar va veni în curând</translation>
+        <translation>Ne pare rău, în prezent regiunea dvs. nu este suportată, dar va veni în curând</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="65"/>
@@ -5835,12 +5852,12 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="85"/>
         <source>Wallpaper</source>
-        <translation>Tapet</translation>
+        <translation>Fundal de ecran</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="86"/>
         <source>Theme</source>
-        <translation>Temă</translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="87"/>
@@ -5850,7 +5867,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="88"/>
         <source>Corner Settings</source>
-        <translation>Setări colțuri</translation>
+        <translation>Setări pentru colțuri</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="214"/>
@@ -5860,7 +5877,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="216"/>
         <source>yyyy-MM-dd hh:mm</source>
-        <translation>yyyy-MM-dd hh:mm</translation>
+        <translation>aaaa-LL-zz oo:mm</translation>
     </message>
 </context>
 <context>
@@ -5897,7 +5914,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/datetime/datesettings.cpp" line="69"/>
         <source>Confirm</source>
-        <translation>Confirmă</translation>
+        <translation>Confirmare</translation>
     </message>
 </context>
 <context>
@@ -5964,7 +5981,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="62"/>
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="197"/>
         <source>Confirm</source>
-        <translation>Confirmă</translation>
+        <translation>Confirmare</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="193"/>
@@ -5998,7 +6015,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/datetime/timezoneitem.cpp" line="112"/>
         <source>Today</source>
-        <translation>Azi</translation>
+        <translation>Astăzi</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/datetime/timezoneitem.cpp" line="131"/>
@@ -6420,7 +6437,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/window/modules/keyboard/keyboardlayoutwidget.cpp" line="74"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/keyboard/keyboardlayoutwidget.cpp" line="76"/>
@@ -6480,7 +6497,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/keyboard/keyboardwidget.cpp" line="97"/>
         <source>Caps Lock Prompt</source>
-        <translation>Solcitare Caps Lock </translation>
+        <translation>Solicitare Caps Lock </translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/keyboardwidget.cpp" line="103"/>
@@ -6761,7 +6778,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="89"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
@@ -6782,7 +6799,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="92"/>
         <source>Delete</source>
-        <translation>Șterge</translation>
+        <translation>Ștergeți</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/connectioneditpage.cpp" line="97"/>
@@ -7305,7 +7322,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="59"/>
         <source>Confirm</source>
-        <translation>Confirmă</translation>
+        <translation>Confirmare</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="61"/>
@@ -7348,7 +7365,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="83"/>
         <source>SOCKS Proxy</source>
-        <translation>Proxy SOCKS </translation>
+        <translation>Proxy SOCKS </translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="92"/>
@@ -8148,7 +8165,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/vpnpage.cpp" line="244"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/vpnpage.cpp" line="266"/>
@@ -8398,7 +8415,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="143"/>
         <source>SSH Agent</source>
-        <translation>Agent SSH </translation>
+        <translation>Agent SSH </translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="144"/>
@@ -8635,7 +8652,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/network/wirelesspage.cpp" line="67"/>
         <source>Close Hotspot</source>
-        <translation>Închide Hotspot</translation>
+        <translation>Închidere Hotspot</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/wirelesspage.cpp" line="70"/>
@@ -8785,12 +8802,12 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/personalization/module/themewidget/themewidget.cpp" line="41"/>
         <source>Icon Theme</source>
-        <translation>Teme Icoane</translation>
+        <translation>Temă Icoane</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/personalization/module/themewidget/themewidget.cpp" line="42"/>
         <source>Cursor Theme</source>
-        <translation>Teme Cursor</translation>
+        <translation>Temă Cursor</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/personalization/module/themewidget/themewidget.cpp" line="54"/>
@@ -8847,7 +8864,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="110"/>
         <source>Power Saving Mode</source>
-        <translation>Mod economisire energie</translation>
+        <translation>Mod Economisire Energie</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="111"/>
@@ -9100,7 +9117,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
 <context>
     <name>dcc::systeminfo::SystemInfoModel</name>
     <message>
-        <location filename="../src/frame/modules/systeminfo/systeminfomodel.cpp" line="173"/>
+        <location filename="../src/frame/modules/systeminfo/systeminfomodel.cpp" line="180"/>
         <source>available</source>
         <translation>disponibil</translation>
     </message>
@@ -9320,7 +9337,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="213"/>
         <source>Updating, please wait...</source>
-        <translation>Se actualizează, vă rugăm să așteptați ...</translation>
+        <translation>Se actualizează, vă rugăm așteptați ...</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="227"/>
@@ -9370,7 +9387,7 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="304"/>
         <source>Please ensure sufficient power to restart, and don&apos;t power off or unplug your machine</source>
-        <translation>Vă rugăm să asigurați o putere suficientă pentru a reporni, nu opriți sau deconectați aparatul</translation>
+        <translation>Vă rugăm să asigurați o putere suficientă pentru a reporni, nu opriți sau deconectați mașina</translation>
     </message>
 </context>
 <context>
@@ -9457,17 +9474,17 @@ Dacă nu există nicio operațiune, afișajul va fi restaurat după% 1s.</transl
 <context>
     <name>dcc::update::UpdateWorker</name>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="343"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="350"/>
         <source>Patches</source>
         <translation>Corecţii</translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="344"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="351"/>
         <source>System patches</source>
         <translation>Patch-uri Sistem</translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="1042"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="1049"/>
         <source>System</source>
         <translation>Sistem</translation>
     </message>

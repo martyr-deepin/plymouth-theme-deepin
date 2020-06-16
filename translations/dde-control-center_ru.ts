@@ -12,7 +12,7 @@
     <message>
         <location filename="../src/frame/quick_control/bluetooth/bluetoothlistmodel.cpp" line="84"/>
         <source>Click icon to enable bluetooth</source>
-        <translation>Щелкните значок для включения bluetoth</translation>
+        <translation>Щелкните значок для включения bluetooth</translation>
     </message>
     <message>
         <location filename="../src/frame/quick_control/bluetooth/bluetoothlistmodel.cpp" line="89"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="311"/>
         <source>Personalization</source>
-        <translation>Персональные Настройки</translation>
+        <translation>Персонализация</translation>
     </message>
     <message>
         <location filename="../src/frame/window/mainwindow.cpp" line="312"/>
@@ -138,58 +138,58 @@
     <name>dccV20::accounts::AccountsDetailWidget</name>
     <message>
         <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="148"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="208"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="213"/>
         <source>Full Name</source>
         <translation>Полное Имя</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="233"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="243"/>
         <source>The full name already exists</source>
         <translation>Полное имя уже существует.</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="283"/>
         <source>Validity Days</source>
         <translation>Дни Действия</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="275"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="276"/>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="338"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="285"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="286"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="348"/>
         <source>Always</source>
         <translation>Всегда</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="331"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="341"/>
         <source>Please input a number between 1-99999</source>
         <translation>Пожалуйста, введите число от 1 до 99999</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="372"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="382"/>
         <source>Change Password</source>
         <translation>Изменить Пароль</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="374"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="384"/>
         <source>Delete Account</source>
         <translation>Удалить Учетную запись</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="377"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="387"/>
         <source>Auto Login</source>
         <translation>Автоматическая Авторизация</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="381"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="391"/>
         <source>Login Without Password</source>
         <translation>Вход в Систему без Ввода Пароля</translation>
         <extra-contents_path>/accounts/Accounts Detail</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="455"/>
+        <location filename="../src/frame/window/modules/accounts/accountsdetailwidget.cpp" line="465"/>
         <source>Group</source>
         <translation>Группа</translation>
     </message>
@@ -254,7 +254,7 @@
     <message>
         <location filename="../src/frame/window/modules/accounts/addfingedialog.cpp" line="132"/>
         <source>Fingerprint added</source>
-        <translation>Отпечаток пальца добавлен</translation>
+        <translation>Отпечаток добавлен</translation>
     </message>
 </context>
 <context>
@@ -327,37 +327,33 @@
         <translation>Перейдите в Настройки</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="386"/>
-        <source>Password must be no more than %1 characters</source>
-        <translation>Пароль должен содержать не более %1 символов</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="393"/>
-        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation>Пароль должен содержать Английские буквы (с учетом регистра), цифры или специальные символы (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="400"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="406"/>
         <source>Passwords do not match</source>
         <translation>Пароли не совпадают.</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="424"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="421"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="425"/>
         <source>Username must be between 3 and 32 characters</source>
         <translation>Имя пользователя должно быть длинной 3-32 символа</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="431"/>
-        <source>The first character must be a letter or number</source>
-        <translation>Первый символ должен быть буквой или цифрой</translation>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="430"/>
+        <source>The first character must be a letter (lowercase)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="449"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="435"/>
+        <source>Username can only contain English letters (lowercase), numbers or special symbols (_-)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="463"/>
         <source>The full name already exists</source>
         <translation>Полное имя уже существует.</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="456"/>
+        <location filename="../src/frame/window/modules/accounts/createaccountpage.cpp" line="470"/>
         <source>The full name is too long</source>
         <translation>Полное имя слишком длинное</translation>
     </message>
@@ -388,70 +384,65 @@
 <context>
     <name>dccV20::accounts::ModifyPasswdPage</name>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="58"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="59"/>
         <source>Change Password</source>
         <translation>Изменить Пароль</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="62"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="63"/>
         <source>Current Password</source>
         <translation>Текущий Пароль</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="66"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="67"/>
         <source>New Password</source>
         <translation>Новый Пароль</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="70"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="71"/>
         <source>Repeat Password</source>
         <translation>Повторите Пароль</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="75"/>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="152"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="153"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="76"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="77"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="117"/>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="118"/>
         <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="119"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="120"/>
         <source>Required</source>
         <translation>Необходимо</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="151"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="152"/>
         <source>Go to Settings</source>
         <translation>Перейдите в Настройки</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="177"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="178"/>
         <source>Wrong password</source>
         <translation>Неверный пароль</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="239"/>
         <source>Passwords do not match</source>
         <translation>Пароли не совпадают.</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="245"/>
-        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
-        <translation>Пароль должен содержать Английские буквы (с учетом регистра), цифры или специальные символы (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</translation>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="251"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="253"/>
         <source>New password should differ from the current one</source>
         <translation>Новый пароль должен отличаться от текущего</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="258"/>
+        <location filename="../src/frame/window/modules/accounts/modifypasswdpage.cpp" line="260"/>
         <source>Password must be no more than %1 characters</source>
         <translation>Пароль должен содержать не более %1 символов</translation>
     </message>
@@ -649,7 +640,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="65"/>
         <source>Request Root Access</source>
-        <translation>Запрос Доступа с Правами Root</translation>
+        <translation>Запрос Доступа с правами Root</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/commoninfo/developermodedialog.cpp" line="74"/>
@@ -774,7 +765,7 @@
     <message>
         <location filename="../src/frame/window/modules/commoninfo/userexperienceprogramwidget.cpp" line="48"/>
         <source>Joining User Experience Program means that you grant and authorize us to collect and use the information of your device, system and applications. If you refuse our collection and use of the aforementioned information, do not join User Experience Program. For details, please refer to UOS Privacy Policy (https://www.chinauos.com/agreement/experience).</source>
-        <translation>Присоединение к Программе Взаимодействия с Пользователем означает, что вы предоставляете и разрешаете нам собирать и использовать информацию о вашем устройстве, системе и приложениях. Если вы отказываетесь от сбора и использования вышеупомянутой информации, не присоединяйтесь к Программе Взаимодействия с Пользователем. Для получения подробной информации, пожалуйста, обратитесь к Политике конфиденциальности UOS (https://www.chinauos.com/agreement/experience).</translation>
+        <translation>Присоединение к Программе Пользовательского Опыта означает, что Вы предоставляете и уполномочиваете нас собирать и использовать информацию о вашем устройстве, системе и приложениях. Если Вы отказываетесь от нашего сбора и использования вышеупомянутой информации, не присоединяйтесь к Программе Пользовательского Опыта. Для получения более подробной информации, пожалуйста, обратитесь к Политике конфиденциальности UOS(https://www.chinauos.com/agreement/experience).</translation>
     </message>
 </context>
 <context>
@@ -911,7 +902,7 @@
     <message>
         <location filename="../src/frame/window/modules/datetime/timezonelist.cpp" line="67"/>
         <source>Add Timezone</source>
-        <translation>Добавить Часовой пояс</translation>
+        <translation>Добавить часовой пояс</translation>
         <extra-contents_path>/datetime/Timezone List</extra-contents_path>
     </message>
 </context>
@@ -1015,50 +1006,50 @@
 <context>
     <name>dccV20::display::CustomSettingDialog</name>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="93"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="94"/>
         <source>Main Screen</source>
         <translation>Главный экран</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="100"/>
         <source>Resolution</source>
         <translation>Разрешение</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="105"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="106"/>
         <source>Refresh Rate</source>
         <translation>Частота Повтора</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="134"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="138"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="139"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="266"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="270"/>
         <source>Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="268"/>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="328"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="272"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="338"/>
         <source>Recommended</source>
         <translation>Рекомендуемый</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="358"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="374"/>
         <source>inch</source>
-        <translation type="unfinished"/>
+        <translation>дюйм</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="359"/>
+        <location filename="../src/frame/window/modules/display/customsettingdialog.cpp" line="375"/>
         <source>Resolution %1x%2</source>
-        <translation type="unfinished"/>
+        <translation>Разрешение %1x%2</translation>
     </message>
 </context>
 <context>
@@ -1069,8 +1060,8 @@
         <translation>Дисплей</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="119"/>
-        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaymodule.cpp" line="126"/>
         <source>Multiple Displays</source>
         <translation>Несколько Мониторов</translation>
     </message>
@@ -1078,38 +1069,31 @@
 <context>
     <name>dccV20::display::DisplayWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="123"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="127"/>
         <source>Multiple Displays</source>
         <translation>Несколько Мониторов</translation>
         <extra-contents_path>/display/Multiple Displays</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="125"/>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="131"/>
-        <source>Brightness</source>
-        <translation>Яркость</translation>
-        <extra-contents_path>/display/Brightness</extra-contents_path>
-    </message>
-    <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="130"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="134"/>
         <source>Resolution</source>
         <translation>Разрешение</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="135"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="139"/>
         <source>Display Scaling</source>
-        <translation>Масштабирование Монитора</translation>
+        <translation>Масштабирование Дисплея</translation>
         <extra-contents_path>/display/Display Scaling</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="146"/>
         <source>Refresh Rate</source>
         <translation>Частота Повтора</translation>
         <extra-contents_path>/display/Refresh Rate</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/display/displaywidget.cpp" line="175"/>
         <source>Rotate Screen</source>
         <translation>Повернуть Экран</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1123,42 +1107,42 @@
         <translation>Пользовательские Настройки</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="142"/>
         <source>Duplicate</source>
         <translation>Дублировать</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="128"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="142"/>
         <source>Extend</source>
         <translation>Расширить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="131"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
         <source>Show the same image on other screens</source>
         <translation>Показать то же изображение на других экранах</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="132"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
         <source>Expand the desktop across the screens</source>
         <translation>Расширить рабочий стол по экранам</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="140"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="154"/>
         <source>%1 only</source>
-        <translation type="unfinished"/>
+        <translation>Только на %1 </translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="141"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="155"/>
         <source>Show the screen content only on %1</source>
-        <translation type="unfinished"/>
+        <translation>Показывать содержимое экрана только на %1</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="145"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="166"/>
         <source>Customize</source>
         <translation>Настроить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="146"/>
+        <location filename="../src/frame/window/modules/display/multiscreensettingpage.cpp" line="167"/>
         <source>Configure the display according to your needs</source>
         <translation>Настройте дисплей в соответствии с вашими потребностями</translation>
     </message>
@@ -1179,7 +1163,7 @@
 <context>
     <name>dccV20::display::ResolutionDetailPage</name>
     <message>
-        <location filename="../src/frame/window/modules/display/resolutiondetailpage.cpp" line="137"/>
+        <location filename="../src/frame/window/modules/display/resolutiondetailpage.cpp" line="138"/>
         <source>Recommended</source>
         <translation>Рекомендуемый</translation>
         <extra-contents_path>/display/Resolution</extra-contents_path>
@@ -1254,7 +1238,7 @@
     <message>
         <location filename="../src/frame/window/modules/keyboard/customcontent.cpp" line="131"/>
         <source>This shortcut conflicts with %1, click on Add to make this shortcut effective immediately</source>
-        <translation>Это сочетание клавиш конфликтует с %1, нажмите на Добавить, чтобы выбрать именно такое сочетание клавиш</translation>
+        <translation>Этот ярлык конфликтует с %1, нажмите на кнопку Добавить, чтобы этот ярлык вступил в силу немедленно.</translation>
     </message>
 </context>
 <context>
@@ -1523,38 +1507,38 @@
 <context>
     <name>dccV20::mouse::MouseSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="44"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Скорость Указателя</translation>
         <extra-child_page>Mouse</extra-child_page>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="46"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="49"/>
         <source>Mouse Acceleration</source>
         <translation>Ускорение Мыши</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="48"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="51"/>
         <source>Disable touchpad when a mouse is connected</source>
         <translation>Отключать тачпад при подключении мыши</translation>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="51"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="54"/>
         <source>Natural Scrolling</source>
         <translation>Естественная Прокрутка</translation>
         <extra-child_page>Mouse</extra-child_page>
         <extra-contents_path>/mouse/Mouse</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="57"/>
         <source>Slow</source>
         <translation>Медленно</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/mousesettingwidget.cpp" line="58"/>
         <source>Fast</source>
         <translation>Быстро</translation>
     </message>
@@ -1588,32 +1572,32 @@
 <context>
     <name>dccV20::mouse::TouchPadSettingWidget</name>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="45"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
         <source>Pointer Speed</source>
         <translation>Скорость Указателя</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="47"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="49"/>
         <source>Tap to Click</source>
         <translation>Включить Касание</translation>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="50"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="52"/>
         <source>Natural Scrolling</source>
         <translation>Естественная Прокрутка</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="54"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="56"/>
         <source>Slow</source>
         <translation>Медленно</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="55"/>
+        <location filename="../src/frame/window/modules/mouse/touchpadsettingwidget.cpp" line="57"/>
         <source>Fast</source>
         <translation>Быстро</translation>
     </message>
@@ -1641,69 +1625,69 @@
 <context>
     <name>dccV20::network::ChainsProxyPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="49"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="48"/>
         <source>Application Proxy</source>
-        <translation>Приложение Прокси</translation>
+        <translation>Програмный Прокси</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="52"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="51"/>
         <source>Proxy Type</source>
         <translation>Тип Прокси</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="59"/>
         <source>IP Address</source>
         <translation>IP-Адрес</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="61"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="65"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="60"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
         <source>Required</source>
         <translation>Необходимо</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="64"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="63"/>
         <source>Port</source>
         <translation>Порт</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="67"/>
         <source>Username</source>
         <translation>Имя пользователя</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="69"/>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="73"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="68"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
         <source>Optional</source>
         <translation>Необязательный</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="72"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="71"/>
         <source>Password</source>
         <translation>Пароль</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="92"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="91"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
         <translation>Установите флажок «Использовать прокси» в контекстном меню приложения после настройки</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="97"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="99"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="98"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="156"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
         <source>Invalid IP address</source>
         <translation>Неверный IP адрес</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/network/chainsproxypage.cpp" line="172"/>
         <source>Invalid port</source>
         <translation>Неверный порт</translation>
     </message>
@@ -2147,7 +2131,7 @@
     <message>
         <location filename="../src/frame/window/modules/network/networkmodulewidget.cpp" line="89"/>
         <source>Application Proxy</source>
-        <translation>Приложение Прокси</translation>
+        <translation>Програмный Прокси</translation>
         <extra-contents_path>/network/Application Proxy</extra-contents_path>
     </message>
     <message>
@@ -3646,28 +3630,28 @@
 <context>
     <name>dccV20::network::WirelessPage</name>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="251"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
         <source>Connect to hidden network</source>
         <translation>Подключиться к скрытой сети</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="261"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="269"/>
         <source>Wireless Network Adapter</source>
         <translation>Беспроводная Карта</translation>
         <extra-contents_path>/network/WirelessPage</extra-contents_path>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="273"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="281"/>
         <source>Close Hotspot</source>
         <translation>Закрыть Точку Доступа</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="276"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="284"/>
         <source>Disable hotspot first if you want to connect to a wireless network</source>
         <translation>Сначала отключите точку доступа, если вы хотите подключиться к беспроводной сети</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="299"/>
+        <location filename="../src/frame/window/modules/network/wirelesspage.cpp" line="307"/>
         <source>WLAN</source>
         <translation>WLAN</translation>
     </message>
@@ -3794,7 +3778,7 @@
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationmodule.cpp" line="63"/>
         <source>Personalization</source>
-        <translation>Персональные Настройки</translation>
+        <translation>Персонализация</translation>
     </message>
 </context>
 <context>
@@ -3959,26 +3943,26 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="76"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="153"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
         <source>1 Minute</source>
         <translation>1 Минута</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="156"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="159"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="162"/>
         <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="165"/>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="174"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="177"/>
         <source>%1 Minutes</source>
         <translation>%1 Минут</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="168"/>
+        <location filename="../src/frame/window/modules/power/usebatterywidget.cpp" line="171"/>
         <source>1 Hour</source>
         <translation>1 Час</translation>
     </message>
@@ -4019,26 +4003,26 @@
     </message>
     <message>
         <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="87"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="193"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="198"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="175"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="180"/>
         <source>1 Minute</source>
         <translation>1 Минута</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="178"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="181"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="184"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="187"/>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="196"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="183"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="186"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="189"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="192"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="201"/>
         <source>%1 Minutes</source>
         <translation>%1 Минут</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="190"/>
+        <location filename="../src/frame/window/modules/power/useelectricwidget.cpp" line="195"/>
         <source>1 Hour</source>
         <translation>1 Час</translation>
     </message>
@@ -4079,7 +4063,7 @@
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="81"/>
         <source>Night Shift</source>
-        <translation type="unfinished"/>
+        <translation>Ночной Режим</translation>
     </message>
     <message>
         <location filename="../src/frame/window/search/searchwidget.cpp" line="88"/>
@@ -4228,7 +4212,7 @@
         <translation>Увеличение Громкости</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/sound/speakerpage.cpp" line="164"/>
+        <location filename="../src/frame/window/modules/sound/speakerpage.cpp" line="165"/>
         <source>If the volume is louder than 100%, it may distort audio and be harmful to your speaker</source>
         <translation>Если громкость выше 100%, это может исказить звук и нанести вред вашему динамику</translation>
     </message>
@@ -4299,7 +4283,7 @@
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="154"/>
         <source>Launcher</source>
-        <translation>Выбор Программ</translation>
+        <translation>Запуск программ</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="155"/>
@@ -4319,7 +4303,7 @@
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="158"/>
         <source>Corner Settings</source>
-        <translation>Настройки Углов Навигации</translation>
+        <translation>Настройки Углов</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/sync/pages/index.cpp" line="256"/>
@@ -4380,19 +4364,24 @@
 <context>
     <name>dccV20::systeminfo::ManualBackup</name>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="17"/>
-        <source>Choose Directory invalid</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="18"/>
         <source>Backup</source>
-        <translation type="unfinished"/>
+        <translation>Резервное копирование</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="29"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="30"/>
         <source>Set backup directory</source>
-        <translation type="unfinished"/>
+        <translation>Задать папку резервных копий</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="111"/>
+        <source>Invalid path</source>
+        <translation>Неверный путь</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualbackup.cpp" line="115"/>
+        <source>Tool execution error</source>
+        <translation>Ошибка инструмента исполнения</translation>
     </message>
 </context>
 <context>
@@ -4400,64 +4389,74 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="92"/>
         <source>Restore</source>
-        <translation type="unfinished"/>
+        <translation>Восстановить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="120"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="121"/>
         <source>Save User Data</source>
-        <translation type="unfinished"/>
+        <translation>Сохранить данные пользователя</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="122"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="123"/>
         <source>Reset All Settings</source>
-        <translation type="unfinished"/>
+        <translation>Сбросить Все Настройки</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="142"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="143"/>
         <source>Select restore directory</source>
-        <translation type="unfinished"/>
+        <translation>Выбрать папку для восстановления</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="150"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="151"/>
         <source>Manual Restore</source>
-        <translation type="unfinished"/>
+        <translation>Восстановить вручную</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="205"/>
-        <source>Backup file is invalid.</source>
-        <translation type="unfinished"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="220"/>
+        <source>Backup file is invalid</source>
+        <translation>Файл резервной копии недействителен</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="215"/>
-        <source>This will reset all system settings to their defaults. Your data, username and password will not be deleted, please confirm and continue</source>
-        <translation type="unfinished"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="224"/>
+        <source>Grub authentication failed</source>
+        <translation>Ошибка аутентификации загрузчика</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="221"/>
-        <source>This will reinstall the system and clear all user data. It is risky, please confirm and continue</source>
-        <translation type="unfinished"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="228"/>
+        <source>Tool execution error</source>
+        <translation>Ошибка инструмента исполнения</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="226"/>
         <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="244"/>
+        <source>It will reset system settings to their defaults without affecting your files and apps, but the username and password will be cleared, please confirm before proceeding</source>
+        <translation>Возврат системных настроек к значениям по умолчанию, не затрагивая ваши файлы и приложения, но имя пользователя и пароль будут удалены, пожалуйста, подтвердите, прежде чем продолжить</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="248"/>
+        <source>It will reinstall the system and clear all user data, which is highly risky, please confirm before proceeding</source>
+        <translation>Переустановить систему и очистить все пользовательские данные, что очень рискованно, пожалуйста, подтвердите, прежде чем продолжить</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="252"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="270"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="229"/>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="246"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="255"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="272"/>
         <source>Confirm</source>
-        <translation type="unfinished"/>
+        <translation>Подтвердить</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="238"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="264"/>
         <source>You should reboot the computer to erase all content and settings, reboot now?</source>
-        <translation type="unfinished"/>
+        <translation>Необходимо перезагрузить компьютер, чтобы стереть все содержимое и настройки, перезагрузить сейчас?</translation>
     </message>
     <message>
-        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="241"/>
+        <location filename="../src/frame/window/modules/systeminfo/manualrestore.cpp" line="267"/>
         <source>You should reboot the computer to reset all settings, reboot now?</source>
-        <translation type="unfinished"/>
+        <translation>Необходимо перезагрузить компьютер, чтобы сбросить все настройки, перезагрузить сейчас?</translation>
     </message>
 </context>
 <context>
@@ -4574,7 +4573,7 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systeminfowidget.cpp" line="87"/>
         <source>Backup and Restore</source>
-        <translation type="unfinished"/>
+        <translation>Резервное копирование и Восстановление</translation>
     </message>
 </context>
 <context>
@@ -4582,12 +4581,12 @@
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="21"/>
         <source>Backup</source>
-        <translation type="unfinished"/>
+        <translation>Резервное копирование</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/systemrestore.cpp" line="22"/>
         <source>Restore</source>
-        <translation type="unfinished"/>
+        <translation>Восстановить</translation>
     </message>
 </context>
 <context>
@@ -4600,7 +4599,7 @@
     <message>
         <location filename="../src/frame/window/modules/update/mirrorsourceitem.cpp" line="80"/>
         <source>Timeout</source>
-        <translation>Ожидает</translation>
+        <translation>Ожидание</translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/mirrorsourceitem.cpp" line="82"/>
@@ -4731,7 +4730,7 @@
     <message numerus="yes">
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="341"/>
         <source>%n application update(s) available</source>
-        <translation><numerusform>Доступно обновление(я) приложения %n</numerusform><numerusform>Доступно обновление(я) приложения %n</numerusform><numerusform>Доступно обновление(я) приложения %n</numerusform><numerusform>Доступно обновление(я) приложения %n</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="346"/>
@@ -4741,7 +4740,7 @@
     <message numerus="yes">
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="348"/>
         <source>New system edition and %n application update(s) available</source>
-        <translation><numerusform>Доступна новая версия системы и  обновление(я) приложения %n</numerusform><numerusform>Доступна новая версия системы и  обновление(я) приложения %n</numerusform><numerusform>Доступна новая версия системы и  обновление(я) приложения %n</numerusform><numerusform>Доступна новая версия системы и  обновление(я) приложения %n</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../src/frame/window/modules/update/updatectrlwidget.cpp" line="355"/>
@@ -5017,7 +5016,7 @@
     <message numerus="yes">
         <location filename="../src/frame/notify/notifydelegate.cpp" line="202"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>%n день(й) назад</numerusform><numerusform>%n день(й) назад</numerusform><numerusform>%n день(й) назад</numerusform><numerusform>%n день(й) назад</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
@@ -5188,7 +5187,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="17"/>
         <source>Shut down</source>
-        <translation>Выключение</translation>
+        <translation>Выключить</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="18"/>
@@ -5213,12 +5212,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="22"/>
         <source>Low battery</source>
-        <translation>Низкий заряд</translation>
+        <translation>Низкий заряд батареи</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="23"/>
         <source>Send icon in Launcher to Desktop</source>
-        <translation>Отправить значок в меню Выбора Программ</translation>
+        <translation>Отправить иконку в панели запуска на рабочий стол</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="24"/>
@@ -5399,7 +5398,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/accounts/accountsdetailwidget.cpp" line="64"/>
         <source>Login Without Password</source>
-        <translation>Входить в Систему без Ввода Пароля</translation>
+        <translation>Вход в Систему без Ввода Пароля</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsdetailwidget.cpp" line="68"/>
@@ -5447,22 +5446,22 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/accounts/accountsworker.cpp" line="391"/>
         <source>Your host was removed from the domain server successfully</source>
-        <translation>Ваш хост был удален из домена сервера.</translation>
+        <translation>Ваш хост был успешно удален с сервера домена</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsworker.cpp" line="392"/>
         <source>Your host joins the domain server successfully</source>
-        <translation>Ваш хост успешно присоединился к домену сервера.</translation>
+        <translation>Ваш хост успешно подключается к серверу домена</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsworker.cpp" line="414"/>
         <source>Your host failed to leave the domain server</source>
-        <translation>Ваш хост не смог покинуть домен сервера.</translation>
+        <translation>Ваш хост не смог покинуть сервер домена</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsworker.cpp" line="415"/>
         <source>Your host failed to join the domain server</source>
-        <translation>Ваш хост не смог присоединиться к домену сервера.</translation>
+        <translation>Ваш хост не присоединился к серверу домена</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/accountsworker.cpp" line="418"/>
@@ -5472,7 +5471,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/accounts/accountsworker.cpp" line="487"/>
         <source>Password not match</source>
-        <translation>Пароль не совпадает.</translation>
+        <translation>Пароль не совпадает</translation>
     </message>
 </context>
 <context>
@@ -5525,7 +5524,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="56"/>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="59"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/createpage.cpp" line="55"/>
@@ -5647,7 +5646,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="57"/>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="58"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/modifypasswordpage.cpp" line="62"/>
@@ -5690,7 +5689,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/accounts/removeuserdialog.cpp" line="67"/>
         <source>Delete account directory</source>
-        <translation>Удалить каталог учетной записи</translation>
+        <translation>Удалить каталог аккаунта</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/accounts/removeuserdialog.cpp" line="73"/>
@@ -5701,6 +5700,24 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/accounts/removeuserdialog.cpp" line="73"/>
         <source>Delete</source>
         <translation>Удалить</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::accounts::UserModel</name>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="166"/>
+        <source>Password must be between %1 and %2 characters</source>
+        <translation>Пароль должен быть между %1 и %2 символами</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="173"/>
+        <source>Password can only contain English letters (case-sensitive), numbers or special symbols (~!@#$%^&amp;*()[]{}\|/?,.&lt;&gt;)</source>
+        <translation>Пароль может содержать только английские буквы (с учетом регистра), цифры или специальные символы (~!@#$%^&amp;*()[] {}\|/?,.&lt;&gt;).</translation>
+    </message>
+    <message>
+        <location filename="../src/frame/modules/accounts/usermodel.cpp" line="186"/>
+        <source>Password must contain at least %1 types of characters</source>
+        <translation>Пароль должен содержать не менее %1 типов символов</translation>
     </message>
 </context>
 <context>
@@ -5762,7 +5779,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/bluetooth/pincodedialog.cpp" line="41"/>
         <source>The PIN for connecting to the Bluetooth device is:</source>
-        <translation>PIN для подключения к устройству Bluetooth:</translation>
+        <translation>PIN-код для подключения к устройству Bluetooth - это PIN-код:</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/bluetooth/pincodedialog.cpp" line="49"/>
@@ -5820,7 +5837,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="82"/>
         <source>Update Settings</source>
-        <translation>Обновить Настройки</translation>
+        <translation>Настройки Обновления</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="83"/>
@@ -5830,7 +5847,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="84"/>
         <source>Launcher</source>
-        <translation>Выбор Программ</translation>
+        <translation>Запуск программ</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="85"/>
@@ -5850,7 +5867,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="88"/>
         <source>Corner Settings</source>
-        <translation>Настройки Углов Навигации</translation>
+        <translation>Настройки Углов</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sync/syncstatewidget.cpp" line="214"/>
@@ -5897,7 +5914,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/datetime/datesettings.cpp" line="69"/>
         <source>Confirm</source>
-        <translation>Ок</translation>
+        <translation>Подтвердить</translation>
     </message>
 </context>
 <context>
@@ -5928,14 +5945,14 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/datetime/datetime.cpp" line="51"/>
         <source>Add Timezone</source>
-        <translation>Добавить Часовой пояс</translation>
+        <translation>Добавить часовой пояс</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/datetime/datetime.cpp" line="57"/>
         <location filename="../src/frame/navigation/navmodel.cpp" line="157"/>
         <location filename="../src/frame/navigationbar.cpp" line="210"/>
         <source>Time and Date</source>
-        <translation>Время и Дата</translation>
+        <translation>Время и дата</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/datetime/datetime.cpp" line="61"/>
@@ -5964,12 +5981,12 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="62"/>
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="197"/>
         <source>Confirm</source>
-        <translation>Ок</translation>
+        <translation>Подтвердить</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="193"/>
         <source>Add Timezone</source>
-        <translation>Добавить Часовой пояс</translation>
+        <translation>Добавить часовой пояс</translation>
         <extra-contents_path>/datetime/Timezone List/Add Timezone</extra-contents_path>
     </message>
     <message>
@@ -5980,7 +5997,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/datetime/timezone_dialog/timezonechooser.cpp" line="196"/>
         <source>Change Timezone</source>
-        <translation>Изменить Часовой Пояс</translation>
+        <translation>Изменить часовой пояс</translation>
     </message>
 </context>
 <context>
@@ -6003,12 +6020,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/datetime/timezoneitem.cpp" line="131"/>
         <source>%1 hours earlier than local</source>
-        <translation>%1 часов раньше чем локальное</translation>
+        <translation>На 1 час раньше местного</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/datetime/timezoneitem.cpp" line="133"/>
         <source>%1 hours later than local</source>
-        <translation>На %1 часов позже местного</translation>
+        <translation>На 1 час позже местного</translation>
     </message>
 </context>
 <context>
@@ -6023,7 +6040,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/defapp/defappviewer.cpp" line="55"/>
         <source>Webpage</source>
-        <translation>Страница в Интернете</translation>
+        <translation>Веб-страница</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/defapp/defappviewer.cpp" line="56"/>
@@ -6088,7 +6105,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/display/brightnesspage.cpp" line="81"/>
         <source>Night Shift</source>
-        <translation>Ночной Сдвиг</translation>
+        <translation>Ночной Режим</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/display/brightnesspage.cpp" line="86"/>
@@ -6305,13 +6322,13 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="60"/>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>Название</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="61"/>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="65"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customcontent.cpp" line="64"/>
@@ -6339,12 +6356,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="51"/>
         <source>Shortcuts</source>
-        <translation>Сочетание Клавиш</translation>
+        <translation>Горячие Клавиши</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="61"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="72"/>
@@ -6364,7 +6381,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="104"/>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>Название</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="105"/>
@@ -6374,7 +6391,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/customedit.cpp" line="122"/>
         <source>This shortcut conflicts with %1, click on Add to make this shortcut effective immediately</source>
-        <translation>Это сочетание клавиш конфликтует с %1, нажмите на Добавить, чтобы выбрать именно такое сочетание клавиш</translation>
+        <translation>Этот ярлык конфликтует с %1, нажмите на кнопку Добавить, чтобы этот ярлык вступил в силу немедленно.</translation>
     </message>
 </context>
 <context>
@@ -6511,7 +6528,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutcontent.cpp" line="49"/>
         <source>Please Reset Shortcut</source>
-        <translation>Сбросить Сочетание</translation>
+        <translation>Пожалуйста, сбросьте сочетание</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutcontent.cpp" line="56"/>
@@ -6526,7 +6543,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutcontent.cpp" line="59"/>
         <source>Shortcuts</source>
-        <translation>Сочетание клавиш</translation>
+        <translation>Горячие Клавиши</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutcontent.cpp" line="92"/>
@@ -6567,7 +6584,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="78"/>
         <source>Add Custom Shortcut</source>
-        <translation>Добавить сочетание</translation>
+        <translation>Добавить Пользовательское Сочетание</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="80"/>
@@ -6577,7 +6594,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/keyboard/shortcutwidget.cpp" line="93"/>
         <source>Shortcuts</source>
-        <translation>Сочетание клавиш</translation>
+        <translation>Горячие Клавиши</translation>
     </message>
 </context>
 <context>
@@ -6686,7 +6703,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/mouse/widget/palmdetectsetting.cpp" line="34"/>
         <location filename="../src/frame/modules/mouse/widget/palmdetectsetting.cpp" line="42"/>
         <source>Minimum Contact Surface</source>
-        <translation>Минимальная Контактная Поверхность</translation>
+        <translation>Минимальная площадь контакта</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
@@ -6694,7 +6711,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/mouse/widget/palmdetectsetting.cpp" line="35"/>
         <location filename="../src/frame/modules/mouse/widget/palmdetectsetting.cpp" line="45"/>
         <source>Minimum Pressure Value</source>
-        <translation>Минимальное Значение Давления</translation>
+        <translation>Минимальное значение давления</translation>
         <extra-child_page>Touchpad</extra-child_page>
         <extra-contents_path>/mouse/Touchpad</extra-contents_path>
     </message>
@@ -6709,7 +6726,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="46"/>
         <source>Application Proxy</source>
-        <translation>Приложение Proxy</translation>
+        <translation>Програмный Прокси</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="49"/>
@@ -6725,7 +6742,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="53"/>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="57"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="56"/>
@@ -6751,7 +6768,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="83"/>
         <source>Check &quot;Use a proxy&quot; in application context menu in Launcher after configured</source>
-        <translation>Установите флажок «Использовать прокси» в контекстном меню Выбор Программ после настройки</translation>
+        <translation>Установите флажок «Использовать прокси» в контекстном меню приложения после настройки</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/chainsproxypage.cpp" line="88"/>
@@ -6876,12 +6893,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="96"/>
         <source>Device MAC Addr</source>
-        <translation>MAC-адрес Устройства</translation>
+        <translation>MAC-Адрес Устройства</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="111"/>
         <source>Cloned MAC Addr</source>
-        <translation>Клонированный MAC-адрес</translation>
+        <translation>Клонированный MAC-Адрес</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ethernetsection.cpp" line="124"/>
@@ -6904,7 +6921,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/generichotspotsection.cpp" line="63"/>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>Название</translation>
     </message>
 </context>
 <context>
@@ -6917,7 +6934,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/genericsection.cpp" line="62"/>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>Название</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/genericsection.cpp" line="65"/>
@@ -6976,13 +6993,13 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="229"/>
         <source>IP Address</source>
-        <translation>IP-адрес</translation>
+        <translation>IP-Адрес</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="230"/>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="295"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/ipvxsection.cpp" line="231"/>
@@ -7110,7 +7127,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/networkmodulewidget.cpp" line="67"/>
         <source>Application Proxy</source>
-        <translation>Приложение Proxy</translation>
+        <translation>Програмный Прокси</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/networkmodulewidget.cpp" line="70"/>
@@ -7142,7 +7159,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/networkmodulewidget.cpp" line="243"/>
         <source>Wired Network</source>
-        <translation>Проводная сеть</translation>
+        <translation>Проводная Сеть</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/networkmodulewidget.cpp" line="252"/>
@@ -7191,7 +7208,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="79"/>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="86"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppoesection.cpp" line="82"/>
@@ -7214,27 +7231,27 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="86"/>
         <source>Refuse EAP Authentication</source>
-        <translation>Отказ EAP-аутентификации</translation>
+        <translation>Отказ EAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="87"/>
         <source>Refuse PAP Authentication</source>
-        <translation>Отказ PAP-аутентификации</translation>
+        <translation>Отказ PAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="88"/>
         <source>Refuse CHAP Authentication</source>
-        <translation>Отказ CHAP-аутентификации</translation>
+        <translation>Отказ CHAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="89"/>
         <source>Refuse MSCHAP Authentication</source>
-        <translation>Отказ MSCHAP-аутентификации</translation>
+        <translation>Отказ MSCHAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="90"/>
         <source>Refuse MSCHAPv2 Authentication</source>
-        <translation>Отказ MSCHAPv2-аутентификации</translation>
+        <translation>Отказ MSCHAPv2 Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="91"/>
@@ -7264,7 +7281,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="96"/>
         <source>Send PPP Echo Packets</source>
-        <translation>Отправка Эхо-пакетов PPP</translation>
+        <translation>Отправка Эхо-Пакетов PPP</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/pppsection.cpp" line="104"/>
@@ -7305,7 +7322,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="59"/>
         <source>Confirm</source>
-        <translation>Ок</translation>
+        <translation>Подтвердить</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="61"/>
@@ -7325,7 +7342,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="68"/>
         <source>HTTP Proxy</source>
-        <translation>HTTP-Прокси</translation>
+        <translation>HTTP Прокси</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="70"/>
@@ -7338,17 +7355,17 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="73"/>
         <source>HTTPS Proxy</source>
-        <translation>HTTPS-Прокси</translation>
+        <translation>HTTPS Прокси</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="78"/>
         <source>FTP Proxy</source>
-        <translation>FTP-Прокси</translation>
+        <translation>FTP Прокси</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="83"/>
         <source>SOCKS Proxy</source>
-        <translation>SOCKS-Прокси</translation>
+        <translation>SOCKS Прокси</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/proxypage.cpp" line="92"/>
@@ -7406,12 +7423,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="163"/>
         <source>Saved</source>
-        <translation>Сохранено</translation>
+        <translation>Сохраненный</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="164"/>
         <source>Ask</source>
-        <translation>Спросить</translation>
+        <translation>Спрашивать</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="165"/>
@@ -7456,7 +7473,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="202"/>
         <source>EAP Auth</source>
-        <translation>EAP-аутентификация</translation>
+        <translation>EAP Аутентификация</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="214"/>
@@ -7467,12 +7484,12 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="216"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="224"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="218"/>
         <source>Pwd Options</source>
-        <translation>Pwd Опции</translation>
+        <translation>Варианты Пароля</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="302"/>
@@ -7484,7 +7501,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="387"/>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="423"/>
         <source>CA Cert</source>
-        <translation>CA-сертификат</translation>
+        <translation>CA Сертификат</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="310"/>
@@ -7506,7 +7523,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="348"/>
         <source>PAC file</source>
-        <translation>PAC-файл</translation>
+        <translation>PAC файл</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secret8021xsection.cpp" line="352"/>
@@ -7541,7 +7558,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="105"/>
         <source>WEP 40/128-bit</source>
-        <translation>WEP 40/128-bit</translation>
+        <translation>WEP 40/128-бит</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="106"/>
@@ -7556,7 +7573,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="118"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secrethotspotsection.cpp" line="148"/>
@@ -7587,7 +7604,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="107"/>
         <source>WEP 40/128-bit</source>
-        <translation>WEP 40/128-bit</translation>
+        <translation>WEP 40/128-бит</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="108"/>
@@ -7607,7 +7624,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="121"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/secretwirelesssection.cpp" line="163"/>
@@ -7640,12 +7657,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="137"/>
         <source>Customize Renegotiation Interval</source>
-        <translation>Настроить Интервал повторного согласования</translation>
+        <translation>Настроить Интервал Повторного согласования</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="140"/>
         <source>Renegotiation Interval</source>
-        <translation>Интервал повторного согласования</translation>
+        <translation>Интервал Повторного согласования</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="146"/>
@@ -7655,17 +7672,17 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="149"/>
         <source>Use TCP Connection</source>
-        <translation>Использовать TCP-соединение</translation>
+        <translation>Использовать TCP Соединение</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="152"/>
         <source>Use TAP Device</source>
-        <translation>Использовать TAP-устройство</translation>
+        <translation>Использовать TAP Устройство</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="155"/>
         <source>Customize Tunnel MTU</source>
-        <translation>Настроить MTU-туннель</translation>
+        <translation>Настроить MTU Туннель</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="158"/>
@@ -7675,22 +7692,22 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="164"/>
         <source>Customize UDP Fragment Size</source>
-        <translation>Настройте размер UDP-фрагмента</translation>
+        <translation>Настройка Размера UDP Фрагмента</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="167"/>
         <source>UDP Fragment Size</source>
-        <translation>Размер UDP-фрагмента</translation>
+        <translation>Размер UDP Фрагмента</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="173"/>
         <source>Restrict Tunnel TCP MSS</source>
-        <translation>Ограничить туннель TCP MSS</translation>
+        <translation>Ограничить Туннель TCP MSS</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvopenvpnsection.cpp" line="176"/>
         <source>Randomize Remote Hosts</source>
-        <translation>Случайные удаленные узлы</translation>
+        <translation>Случайные Удаленные Хосты</translation>
     </message>
 </context>
 <context>
@@ -7729,12 +7746,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="149"/>
         <source>NAT-T When Available (default)</source>
-        <translation>NAT-T когда доступен (по умолчанию)</translation>
+        <translation>NAT-T Когда Доступен (по умолчанию)</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="150"/>
         <source>NAT-T Always</source>
-        <translation>NAT-T всегда</translation>
+        <translation>NAT-T Всегда</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="151"/>
@@ -7816,7 +7833,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnadvvpncsection.cpp" line="211"/>
         <source>Disable Dead Peer Detection</source>
-        <translation>Отключить обнаружение нерабочих пиров</translation>
+        <translation>Отключить Обнаружение Нерабочих Пиров</translation>
     </message>
 </context>
 <context>
@@ -7834,7 +7851,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnipsecsection.cpp" line="86"/>
         <source>Group Name</source>
-        <translation>Имя Группы</translation>
+        <translation>Название Группы</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnipsecsection.cpp" line="89"/>
@@ -7872,7 +7889,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="89"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="92"/>
@@ -7907,7 +7924,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenconnectsection.cpp" line="110"/>
         <source>Use FSID for Key Passphrase</source>
-        <translation>Использовать FSID для Ключевой Фразы</translation>
+        <translation>Использовать FSID для пароля ключа</translation>
     </message>
 </context>
 <context>
@@ -7931,7 +7948,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="117"/>
         <source>Certificates with Password (TLS)</source>
-        <translation>Пароль и сертификаты (TLS)</translation>
+        <translation>Сертификаты с Паролем (TLS)</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="118"/>
@@ -7942,12 +7959,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="123"/>
         <source>Saved</source>
-        <translation>Сохранено</translation>
+        <translation>Сохраненный</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="124"/>
         <source>Ask</source>
-        <translation>Спросить</translation>
+        <translation>Спрашивать</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="125"/>
@@ -7966,7 +7983,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="288"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="293"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="142"/>
@@ -7992,7 +8009,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="185"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="232"/>
         <source>Pwd Options</source>
-        <translation>Pwd Опции</translation>
+        <translation>Варианты Пароля</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnopenvpnsection.cpp" line="196"/>
@@ -8040,37 +8057,37 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="141"/>
         <source>40-bit (less secure)</source>
-        <translation>40-bit (наименее безопасное)</translation>
+        <translation>40-бит (наименее безопасное)</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="142"/>
         <source>128-bit (most secure)</source>
-        <translation>128-bit (наиболее безопасное)</translation>
+        <translation>128-бит (наиболее безопасное)</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="146"/>
         <source>Refuse EAP Authentication</source>
-        <translation>Отказ EAP-аутентификации</translation>
+        <translation>Отказ EAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="147"/>
         <source>Refuse PAP Authentication</source>
-        <translation>Отказ PAP-аутентификации</translation>
+        <translation>Отказ PAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="148"/>
         <source>Refuse CHAP Authentication</source>
-        <translation>Отказ CHAP-аутентификации</translation>
+        <translation>Отказ CHAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="149"/>
         <source>Refuse MSCHAP Authentication</source>
-        <translation>Отказ MSCHAP-аутентификации</translation>
+        <translation>Отказ MSCHAP Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="150"/>
         <source>Refuse MSCHAPv2 Authentication</source>
-        <translation>Отказ MSCHAPv2-аутентификации</translation>
+        <translation>Отказ MSCHAPv2 Аутентификации</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="151"/>
@@ -8100,7 +8117,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="156"/>
         <source>Send PPP Echo Packets</source>
-        <translation>Отправка Эхо-пакетов PPP</translation>
+        <translation>Отправка Эхо-Пакетов PPP</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnpppsection.cpp" line="162"/>
@@ -8221,14 +8238,14 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="153"/>
         <source>Server IP</source>
-        <translation>IP сервера</translation>
+        <translation>IP Сервера</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="154"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="166"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="170"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnproxysection.cpp" line="157"/>
@@ -8256,12 +8273,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsstpsection.cpp" line="79"/>
         <source>CA File</source>
-        <translation>CA-Файл</translation>
+        <translation>CA Файл</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsstpsection.cpp" line="82"/>
         <source>Ignore Certificate Warnings</source>
-        <translation>Игнорировать Предупреждения о Сертификате</translation>
+        <translation>Игнорировать Предупреждения Сертификата</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsstpsection.cpp" line="85"/>
@@ -8309,7 +8326,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="106"/>
         <source>Saved</source>
-        <translation>Сохранено</translation>
+        <translation>Сохраненный</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="107"/>
@@ -8331,7 +8348,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="119"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="129"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="118"/>
@@ -8341,7 +8358,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="122"/>
         <source>Pwd Options</source>
-        <translation>Pwd Опции</translation>
+        <translation>Варианты Пароля</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="128"/>
@@ -8351,7 +8368,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnsection.cpp" line="132"/>
         <source>NT Domain</source>
-        <translation>NT-домен</translation>
+        <translation>NT Домен</translation>
     </message>
 </context>
 <context>
@@ -8423,12 +8440,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="153"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="156"/>
         <source>CA Cert</source>
-        <translation>CA-сертификат</translation>
+        <translation>CA Сертификат</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="159"/>
@@ -8458,17 +8475,17 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="184"/>
         <source>Enforce UDP Encapsulation</source>
-        <translation>Соблюдать UDP-инкапсуляцию</translation>
+        <translation>Соблюдать UDP Инкапсуляцию</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="187"/>
         <source>Use IP Compression</source>
-        <translation>Использовать IP-сжатие</translation>
+        <translation>Использовать IP Сжатие</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="190"/>
         <source>Enable Custom Cipher Proposals</source>
-        <translation>Включить Пользовательские Предложения Шифрования</translation>
+        <translation>Включить Пользовательские Предложения Шифров</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnstrongswansection.cpp" line="193"/>
@@ -8539,12 +8556,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="159"/>
         <source>Saved</source>
-        <translation>Сохранено</translation>
+        <translation>Сохраненный</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="160"/>
         <source>Ask</source>
-        <translation>Спросить</translation>
+        <translation>Спрашивать</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="161"/>
@@ -8563,7 +8580,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="186"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="196"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="171"/>
@@ -8574,7 +8591,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="175"/>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="189"/>
         <source>Pwd Options</source>
-        <translation>Pwd Опции</translation>
+        <translation>Варианты Пароля</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="181"/>
@@ -8584,7 +8601,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="185"/>
         <source>Group Name</source>
-        <translation>Имя Группы</translation>
+        <translation>Название Группы</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="195"/>
@@ -8599,7 +8616,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/vpn/vpnvpncsection.cpp" line="202"/>
         <source>CA File</source>
-        <translation>CA-файл</translation>
+        <translation>CA Файл</translation>
     </message>
 </context>
 <context>
@@ -8663,12 +8680,12 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="113"/>
         <source>Required</source>
-        <translation>Требуется</translation>
+        <translation>Необходимо</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="116"/>
         <source>Device MAC Addr</source>
-        <translation>MAC-адрес Устройства</translation>
+        <translation>MAC-Адрес Устройства</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/network/sections/wirelesssection.cpp" line="144"/>
@@ -8686,7 +8703,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/personalization/module/fontswidget/fontlistwidget.cpp" line="89"/>
         <source> (Unsupported font)</source>
-        <translation>(Не поддерживаемый шрифт)</translation>
+        <translation>(Неподдерживаемый шрифт)</translation>
     </message>
 </context>
 <context>
@@ -8705,7 +8722,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/personalization/module/fontswidget/fontsettingswidget.cpp" line="94"/>
         <location filename="../src/frame/modules/personalization/module/fontswidget/fontsettingswidget.cpp" line="108"/>
         <source> (Unsupported font)</source>
-        <translation>(Не поддерживаемый шрифт)</translation>
+        <translation>(Неподдерживаемый шрифт)</translation>
     </message>
 </context>
 <context>
@@ -8747,7 +8764,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/personalization/personalizationwidget.cpp" line="70"/>
         <source>Window Effect</source>
-        <translation>Эффекты Окна</translation>
+        <translation>Эффект Окна</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/personalization/personalizationwidget.cpp" line="72"/>
@@ -8764,7 +8781,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/navigation/navmodel.cpp" line="153"/>
         <location filename="../src/frame/navigationbar.cpp" line="205"/>
         <source>Personalization</source>
-        <translation>Персональные настройки</translation>
+        <translation>Персонализация</translation>
     </message>
 </context>
 <context>
@@ -8859,7 +8876,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/navigation/navmodel.cpp" line="158"/>
         <location filename="../src/frame/navigationbar.cpp" line="211"/>
         <source>Power Management</source>
-        <translation>Управление Питанием</translation>
+        <translation>Управление энергопотреблением</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/power/powerwidget.cpp" line="190"/>
@@ -8904,7 +8921,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="43"/>
         <source>Sound Effects</source>
-        <translation>Эффекты звука</translation>
+        <translation>Эффекты Звука</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundeffectpage.cpp" line="62"/>
@@ -8955,13 +8972,13 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundmodel.cpp" line="73"/>
         <source>Low battery</source>
-        <translation>Низкий заряд</translation>
+        <translation>Низкий заряд батареи</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundmodel.cpp" line="74"/>
         <location filename="../src/frame/modules/sound/soundmodel.cpp" line="90"/>
         <source>Send icon in Launcher to Desktop</source>
-        <translation>Отправить значок в меню Выбора Программ на Рабочий Стол</translation>
+        <translation>Отправить иконку в панели запуска на рабочий стол</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/sound/soundmodel.cpp" line="75"/>
@@ -9045,7 +9062,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/sound/soundwidget.cpp" line="109"/>
         <source>Sound Effects</source>
-        <translation>Эффекты звука</translation>
+        <translation>Эффекты Звука</translation>
     </message>
 </context>
 <context>
@@ -9094,13 +9111,13 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/systeminfo/copyrightwidget.cpp" line="70"/>
         <source>Edition License</source>
-        <translation>Лицензия</translation>
+        <translation>Лицензия на Издание</translation>
     </message>
 </context>
 <context>
     <name>dcc::systeminfo::SystemInfoModel</name>
     <message>
-        <location filename="../src/frame/modules/systeminfo/systeminfomodel.cpp" line="173"/>
+        <location filename="../src/frame/modules/systeminfo/systeminfomodel.cpp" line="180"/>
         <source>available</source>
         <translation>доступно</translation>
     </message>
@@ -9157,7 +9174,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="119"/>
         <source>Edition License</source>
-        <translation>Лицензия</translation>
+        <translation>Лицензия на Издание</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/systeminfo/systeminfowidget.cpp" line="122"/>
@@ -9182,7 +9199,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/window/modules/systeminfo/nativeinfowidget.cpp" line="189"/>
         <source>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</source>
-        <translation>Copyright© 2019-2020 UnionTech Software Technology Co., LTD</translation>
+        <translation>Авторское право © 2019-2020 UnionTech Software Technology Co., LTD</translation>
     </message>
 </context>
 <context>
@@ -9205,7 +9222,7 @@ If no operation, the display will be restored after %1s.</source>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="91"/>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="125"/>
         <source>Timeout</source>
-        <translation>Ожидает</translation>
+        <translation>Ожидание</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/mirroritem.cpp" line="93"/>
@@ -9259,7 +9276,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/update/resultitem.cpp" line="80"/>
         <source>Failed to update</source>
-        <translation>Обновить не удалось.</translation>
+        <translation>Не удалось обновить</translation>
     </message>
 </context>
 <context>
@@ -9340,7 +9357,7 @@ If no operation, the display will be restored after %1s.</source>
     <message numerus="yes">
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="264"/>
         <source>%n application update(s) detected</source>
-        <translation><numerusform>%n приложение обнаружено обновление(я)</numerusform><numerusform>%n приложение обнаружено обновление(я)</numerusform><numerusform>%n приложение обнаружено обновление(я)</numerusform><numerusform>%n приложение обновление(я) обнаружены</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="269"/>
@@ -9350,7 +9367,7 @@ If no operation, the display will be restored after %1s.</source>
     <message numerus="yes">
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="271"/>
         <source>New system edition and %n application update(s) detected</source>
-        <translation><numerusform>Обнаружена новая версия системы и  обновление(я) приложения %n</numerusform><numerusform>Обнаружена новая версия системы и  обновление(я) приложения %n</numerusform><numerusform>Обнаружена новая версия системы и  обновление(я) приложения %n</numerusform><numerusform>Обнаружена новая версия системы и  обновление(я) приложения %n</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="278"/>
@@ -9365,7 +9382,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="302"/>
         <source>Your battery is lower than 50%, please plug in to continue</source>
-        <translation>Ваша батарея заряжена менее чем на 50%, пожалуйста подключите для пролжения</translation>
+        <translation>Ваша батарея заряжена менее чем на 50%, пожалуйста подключите для продолжения</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/update/updatectrlwidget.cpp" line="304"/>
@@ -9384,7 +9401,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/update/updateitem.cpp" line="160"/>
         <source>Collapse</source>
-        <translation>Крах</translation>
+        <translation>Свернуть</translation>
     </message>
 </context>
 <context>
@@ -9457,17 +9474,17 @@ If no operation, the display will be restored after %1s.</source>
 <context>
     <name>dcc::update::UpdateWorker</name>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="343"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="350"/>
         <source>Patches</source>
         <translation>Патчи</translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="344"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="351"/>
         <source>System patches</source>
         <translation>Исправления системы</translation>
     </message>
     <message>
-        <location filename="../src/frame/modules/update/updatework.cpp" line="1042"/>
+        <location filename="../src/frame/modules/update/updatework.cpp" line="1049"/>
         <source>System</source>
         <translation>Система</translation>
     </message>
@@ -9495,7 +9512,7 @@ If no operation, the display will be restored after %1s.</source>
     <message>
         <location filename="../src/frame/modules/wacom/widget/wacomsettings.cpp" line="52"/>
         <source>Light</source>
-        <translation>Лёгкая</translation>
+        <translation>Светлый</translation>
     </message>
     <message>
         <location filename="../src/frame/modules/wacom/widget/wacomsettings.cpp" line="52"/>

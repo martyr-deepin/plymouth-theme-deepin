@@ -206,7 +206,7 @@ void CreateAccountPage::initWidgets(QVBoxLayout *layout)
         }
 
         m_nameEdit->lineEdit()->blockSignals(true);
-        m_nameEdit->lineEdit()->setText(strTemp);
+        m_nameEdit->lineEdit()->setText(strTemp.toLower());
         m_nameEdit->lineEdit()->setCursorPosition(idx);
         m_nameEdit->lineEdit()->blockSignals(false);
     });
@@ -410,36 +410,40 @@ bool CreateAccountPage::onPasswordEditFinished(DPasswordEdit *edit)
     return true;
 }
 
-bool CreateAccountPage::validateUsername(const QString &username)
+bool CreateAccountPage::validateUsername(const QString &username, QString &invalidReason)
 {
-    const QString name_validate = QString("1234567890") + QString("abcdefghijklmnopqrstuvwxyz") +
-                                  QString("ABCDEFGHIJKLMNOPQRSTUVWXYZ") + QString("-_");
-    return containsChar(username, name_validate);
+    const int min_len = 3;
+    const int max_len = 32;
+
+    if (username.length() < min_len) {
+        invalidReason = tr("Username must be between 3 and 32 characters");
+        return false;
+    }
+    if (username.length() > max_len) {
+        invalidReason = tr("Username must be between 3 and 32 characters");
+        return false;
+    }
+    const uint first_char = username.at(0).unicode();
+    if (first_char < 'a' || first_char > 'z') {
+        invalidReason = tr("The first character must be a letter (lowercase)");
+        return false;
+    }
+    const QRegExp reg("[a-z][a-z0-9_-]*");
+    if (!reg.exactMatch(username)) {
+        invalidReason = tr("Username can only contain English letters (lowercase), numbers or special symbols (_-)");
+        return false;
+    }
+    return true;
 }
 
 bool CreateAccountPage::onNameEditFinished(DLineEdit *edit)
 {
     const QString &username = edit->lineEdit()->text();
-    if (username.isEmpty()) {
-        edit->setAlert(true);
-        return false;
-    }
 
-    if (username.size() < 3 || username.size() > 32) {
+    QString invalidReason;
+    if (!validateUsername(username, invalidReason)) {
         edit->setAlert(true);
-        edit->showAlertMessage(tr("Username must be between 3 and 32 characters"), -1);
-        return false;
-    }
-
-    const QString compStr = QString("1234567890") + QString("abcdefghijklmnopqrstuvwxyz") + QString("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-    if (!compStr.contains(username.at(0))) {
-        edit->setAlert(true);
-        edit->showAlertMessage(tr("The first character must be a letter or number"), -1);
-        return false;
-    }
-
-    if (!validateUsername(username)) {
-        edit->setAlert(true);
+        edit->showAlertMessage(invalidReason, -1);
         return false;
     }
     return true;

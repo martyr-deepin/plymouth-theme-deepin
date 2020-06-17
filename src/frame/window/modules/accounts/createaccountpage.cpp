@@ -374,6 +374,15 @@ void CreateAccountPage::setCreationResult(CreationResult *result)
 
 bool CreateAccountPage::onPasswordEditFinished(DPasswordEdit *edit)
 {
+    if (edit == m_repeatpasswdEdit) {
+        if (m_passwdEdit->lineEdit()->text() != m_repeatpasswdEdit->lineEdit()->text()) {
+            m_repeatpasswdEdit->setAlert(true);
+            m_repeatpasswdEdit->showAlertMessage(tr("Passwords do not match"), this->parentWidget(), -1);
+            return false;
+        }
+        return true; //重复密码 只检验与第一个密码是否相同
+    }
+
     const QString &userpassword = edit->lineEdit()->text();
     if (userpassword.isEmpty()) {
         edit->setAlert(true);
@@ -399,14 +408,7 @@ bool CreateAccountPage::onPasswordEditFinished(DPasswordEdit *edit)
         edit->showAlertMessage(res);
         return false;
     }
-
-    if (edit == m_repeatpasswdEdit) {
-        if (m_passwdEdit->lineEdit()->text() != m_repeatpasswdEdit->lineEdit()->text()) {
-            m_repeatpasswdEdit->setAlert(true);
-            m_repeatpasswdEdit->showAlertMessage(tr("Passwords do not match"), this->parentWidget(), -1);
-            return false;
-        }
-    }
+    
     return true;
 }
 

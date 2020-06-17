@@ -3977,6 +3977,18 @@
         <source>Window Effect</source>
         <translation>窗口特效</translation>
         <extra-contents_path>/personalization/General</extra-contents_path>
+        <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="149"/>
+        <source>Window Minimize Effect</source>
+        <translation>最小化时效果</translation>
+        <extra-contents_path>/personalization/General</extra-contents_path>
+<location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Scale</source>
+        <translation>缩放</translation>
+        <extra-contents_path>/personalization/General</extra-contents_path>
+<location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="152"/>
+        <source>Magic Lamp</source>
+        <translation>魔灯</translation>
+        <extra-contents_path>/personalization/General</extra-contents_path>
     </message>
     <message>
         <location filename="../src/frame/window/modules/personalization/personalizationgeneral.cpp" line="123"/>

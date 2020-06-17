@@ -46,11 +46,11 @@ FormatSetting::FormatSetting(DatetimeModel *mdoel, QWidget *parent)
     setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
 
     TitleLabel *headTitle = new TitleLabel(tr("Date and Time Formats"));     //时间格式设置
-    QLabel *txtLbael = new QLabel("Format the date  you see in the system bar"); //设置您在系统栏中看到的日期格式
+    //QLabel *txtLbael = new QLabel(tr("Format the date  you see in the system bar")); //设置您在系统栏中看到的日期格式
     m_layout->setSpacing(10);
     m_layout->setMargin(0);
     m_layout->addWidget(headTitle, 0, Qt::AlignLeft);
-    m_layout->addWidget(txtLbael, 0, Qt::AlignLeft);
+    //m_layout->addWidget(txtLbael, 0, Qt::AlignLeft);
     m_layout->setSpacing(2);
 
     QVBoxLayout *vbox = new QVBoxLayout;

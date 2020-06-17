@@ -150,6 +150,7 @@ public Q_SLOTS:
     void onHotspotEnableChanged(const bool enabled);
     void onCloseHotspotClicked();
     void onDeviceStatusChanged(const dde::network::WirelessDevice::DeviceStatus stat);
+    void onConnectWireLess (const QModelIndex & idx);
 
 private Q_SLOTS:
     void sortAPList();
@@ -185,6 +186,9 @@ private:
     QTimer *m_sortDelayTimer;
     QTimer *m_requestWirelessScanTimer;
     QMap<QString, APItem *> m_apItems;
+
+    bool m_clicked;
+    QModelIndex m_index;
 };
 }   // namespace dcc
 }   // namespace network

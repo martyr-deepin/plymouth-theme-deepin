@@ -232,6 +232,7 @@ WirelessPage::WirelessPage(WirelessDevice *dev, QWidget *parent)
     , m_modelAP(new QStandardItemModel(m_lvAP))
     , m_sortDelayTimer(new QTimer(this))
     , m_requestWirelessScanTimer(new QTimer(this))
+    , m_clicked(false)
 {
     qRegisterMetaType<APSortInfo>();
     m_preWifiStatus = Wifi_Unknown;
@@ -313,31 +314,18 @@ WirelessPage::WirelessPage(WirelessDevice *dev, QWidget *parent)
     setTitle("WLAN");
 #endif
 
-    auto onConnectWireLess =  [this](const QModelIndex & idx) {
-        if (idx.data(APItem::PathRole).toString().length() == 0) {
-            this->showConnectHidePage();
-            return;
+   auto NoQuickClick = [this] (const QModelIndex &index) {
+        if(!m_clicked || m_index != index) {
+            m_clicked = true;
+            m_index = index;
+            onConnectWireLess(index);
+            QTimer::singleShot(500,[=]{m_clicked = false;});
         }
-        const QStandardItemModel *deviceModel = qobject_cast<const QStandardItemModel *>(idx.model());
-        if (!deviceModel) {
+        else
             return;
-        }
-        m_clickedItem = dynamic_cast<APItem *>(deviceModel->item(idx.row()));
-        if (!m_clickedItem) {
-            qDebug() << "clicked item is nullptr";
-            return;
-        }
-        if (m_clickedItem->isConnected()) {
-            return;
-        }
-        m_device->updateWirlessAp();
-        this->onApWidgetConnectRequested(idx.data(APItem::PathRole).toString(),
-                                         idx.data(Qt::ItemDataRole::DisplayRole).toString());
-    };
+        };
 
-    connect(m_lvAP, &DListView::clicked, this, onConnectWireLess);
-    connect(m_lvAP, &DListView::doubleClicked, this, onConnectWireLess);
-
+    connect(m_lvAP, &DListView::clicked,this,NoQuickClick);
     connect(m_sortDelayTimer, &QTimer::timeout, this, &WirelessPage::sortAPList);
     connect(m_closeHotspotBtn, &QPushButton::clicked, this, &WirelessPage::onCloseHotspotClicked);
     connect(m_device, &WirelessDevice::apAdded, this, &WirelessPage::onAPAdded);
@@ -722,3 +710,25 @@ QString WirelessPage::connectionSsid(const QString &uuid)
 
     return ssid;
 }
+
+void WirelessPage::onConnectWireLess(const QModelIndex & idx) {
+    if (idx.data(APItem::PathRole).toString().length() == 0) {
+        this->showConnectHidePage();
+        return;
+    }
+    const QStandardItemModel *deviceModel = qobject_cast<const QStandardItemModel *>(idx.model());
+    if (!deviceModel) {
+        return;
+    }
+    m_clickedItem = dynamic_cast<APItem *>(deviceModel->item(idx.row()));
+    if (!m_clickedItem) {
+        qDebug() << "clicked item is nullptr";
+        return;
+    }
+    if (m_clickedItem->isConnected()) {
+        return;
+    }
+    m_device->updateWirlessAp();
+    this->onApWidgetConnectRequested(idx.data(APItem::PathRole).toString(),
+                                     idx.data(Qt::ItemDataRole::DisplayRole).toString());
+};

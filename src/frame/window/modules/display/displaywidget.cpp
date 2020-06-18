@@ -98,8 +98,11 @@ void DisplayWidget::onMonitorListChanged()
 {
     const auto mons = m_model->monitorList();
 
-    qDebug() << ".....5-29-1......" << Q_FUNC_INFO << "mons.first()->w() " << mons.first()->w() \
-             << "mons.first()->h() " << mons.first()->h();   //+ 5-29-1 log
+    qDebug() << "MonitorListChanged, size=" << mons.size();
+    for (Monitor *moni : mons) {
+        qDebug() << moni->name() << moni->rect() << "scale=" << moni->scale() << "curModeId=" 
+        << moni->currentMode().id() << "enable=" << moni->enable();
+    }
 
     QDBusInterface  tInter("com.deepin.daemon.Display",
                                        "/com/deepin/daemon/Display",

@@ -70,6 +70,8 @@ DetailPage::DetailPage(const Adapter *adapter, const Device *device)
     setContent(frame);
     onDeviceStatusChanged();
     connect(m_ignoreButton, &QPushButton::clicked, this, [this] {
+        if(m_device->state() == Device::StateConnected)
+            Q_EMIT requestDisconnectDevice(m_device);
         Q_EMIT requestIgnoreDevice(m_adapter, m_device);
     });
     connect(m_disconnectButton, &QPushButton::clicked, this, [this] {

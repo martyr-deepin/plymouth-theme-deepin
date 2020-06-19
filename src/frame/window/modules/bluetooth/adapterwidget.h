@@ -25,6 +25,7 @@
 
 #include <DListView>
 #include <DSpinner>
+#include <DIconButton>
 
 #include <QWidget>
 
@@ -80,10 +81,11 @@ Q_SIGNALS:
     void requestSetAlias(const dcc::bluetooth::Adapter *adapter, const QString &alias);
     void notifyLoadFinished();
     void notifyRemoveDevice();
+    void requestRefresh(const dcc::bluetooth::Adapter *adapter);
 private Q_SLOTS:
     void addDevice(const dcc::bluetooth::Device *device);
     void removeDevice(const QString &deviceId);
-    void onPowerStatus(bool bPower);
+    void onPowerStatus(bool bPower, bool bDiscovering);
 
 private:
     QLabel *m_tip;
@@ -100,6 +102,7 @@ private:
     DTK_WIDGET_NAMESPACE::DListView *m_otherDeviceListView;
     QStandardItemModel *m_otherDeviceModel;
     QList<DeviceSettingsItem *> m_preConnDevices;//记录关闭pc端蓝牙前的连接设备
+    DTK_WIDGET_NAMESPACE::DIconButton *m_refreshBtn;
 };
 }
 }

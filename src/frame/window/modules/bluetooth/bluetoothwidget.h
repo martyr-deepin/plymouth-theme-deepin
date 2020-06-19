@@ -66,6 +66,7 @@ Q_SIGNALS:
 public Q_SLOTS:
     void addAdapter(const dcc::bluetooth::Adapter *adapter);
     void removeAdapter(const dcc::bluetooth::Adapter *adapter);
+    void requestRefresh(const dcc::bluetooth::Adapter *adapter);
 
 private:
     void setVisibleState();

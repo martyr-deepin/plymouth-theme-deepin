@@ -204,9 +204,12 @@ void KBLayoutSettingWidget::onEditClicked()
 
 void KBLayoutSettingWidget::onDefault(const QString &value)
 {
+    m_bEdit = false;
+    m_editKBLayout->setText(tr("Edit"));
     int row_count = m_kbLayoutModel->rowCount();
     for (int i = 0; i < row_count; ++i) {
-        QStandardItem *item = m_kbLayoutModel->item(i, 0);
+        DStandardItem *item = dynamic_cast<DStandardItem *>(m_kbLayoutModel->item(i, 0));
+        item->setActionList(Qt::RightEdge, {});
         if (item && (item->text() == value)) {
             item->setCheckState(Qt::Checked);
             // 滚动到当前选中项

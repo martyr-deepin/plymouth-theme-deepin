@@ -104,6 +104,10 @@ void KeyboardWorker::setShortcutModel(ShortcutModel *model)
 
 void KeyboardWorker::refreshShortcut()
 {
+    if (m_freshing)
+        return;
+
+    m_freshing = true;
     QDBusPendingCallWatcher *result = new QDBusPendingCallWatcher(m_keybindInter->ListAllShortcuts(), this);
     connect(result, SIGNAL(finished(QDBusPendingCallWatcher*)), this,
             SLOT(onRequestShortcut(QDBusPendingCallWatcher*)));
@@ -386,6 +390,7 @@ void KeyboardWorker::onRequestShortcut(QDBusPendingCallWatcher *watch)
     m_model->setAllShortcut(map);
     m_shortcutModel->onParseInfo(info);
     watch->deleteLater();
+    m_freshing = false;
 }
 
 void KeyboardWorker::onAdded(const QString &in0, int in1)

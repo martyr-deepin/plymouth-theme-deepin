@@ -115,6 +115,24 @@ QList<ShortcutInfo *> ShortcutModel::infos() const
     return m_infos;
 }
 
+QList<ShortcutInfo *> ShortcutModel::getGroupList(ShortcutModel::InfoType type)
+{
+    switch (type) {
+    case System:
+        return m_systemInfos;
+    case Custom:
+        return m_customInfos;
+    case Window:
+        return  m_windowInfos;
+    case Workspace:
+        return  m_workspaceInfos;
+    case AssistiveTools:
+        return  m_assistiveToolsInfos;
+    default:
+        return m_infos;
+    }
+}
+
 void ShortcutModel::delInfo(ShortcutInfo *info)
 {
     if (m_infos.contains(info)) {
@@ -204,11 +222,7 @@ void ShortcutModel::onParseInfo(const QString &info)
         return workspaceFilter.indexOf(s1->id) < workspaceFilter.indexOf(s2->id);
     });
 
-    Q_EMIT listChanged(m_systemInfos, InfoType::System);
-    Q_EMIT listChanged(m_windowInfos, InfoType::Window);
-    Q_EMIT listChanged(m_workspaceInfos, InfoType::Workspace);
-    Q_EMIT listChanged(m_assistiveToolsInfos, InfoType::AssistiveTools);
-    Q_EMIT listChanged(m_customInfos, InfoType::Custom);
+    Q_EMIT listChanged();
 }
 
 void ShortcutModel::onCustomInfo(const QString &json)

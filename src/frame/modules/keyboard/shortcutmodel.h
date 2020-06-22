@@ -89,6 +89,7 @@ public:
     QList<ShortcutInfo *> assistiveToolsInfo() const;
     QList<ShortcutInfo *> customInfo() const;
     QList<ShortcutInfo *> infos() const;
+    QList<ShortcutInfo *> getGroupList(InfoType type);
 
     void delInfo(ShortcutInfo *info);
 
@@ -98,7 +99,7 @@ public:
     ShortcutInfo *getInfo(const QString &shortcut);
     void setSearchResult(const QString &searchResult);
 Q_SIGNALS:
-    void listChanged(QList<ShortcutInfo *>, InfoType);
+    void listChanged();
     void addCustomInfo(ShortcutInfo *info);
     void shortcutChanged(ShortcutInfo *info);
     void keyEvent(bool press, const QString &shortcut);

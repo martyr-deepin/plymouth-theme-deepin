@@ -161,6 +161,8 @@ private:
 #endif
     KeybingdingInter* m_keybindInter;
     ShortcutModel *m_shortcutModel;
+
+    bool m_freshing = false;
 };
 }
 }

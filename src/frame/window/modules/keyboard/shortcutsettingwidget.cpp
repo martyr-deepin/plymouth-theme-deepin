@@ -143,7 +143,7 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
 
     connect(m_model, &ShortcutModel::addCustomInfo, this, &ShortCutSettingWidget::onCustomAdded);
     //每次页面点击时会通过m_work->refreshShortcut()时,model会发出listChanged信号，对界面进行初始化
-    connect(m_model, &ShortcutModel::listChanged, this, &ShortCutSettingWidget::addShortcut);
+    connect(m_model, &ShortcutModel::listChanged, this, &ShortCutSettingWidget::refreshShortcut);
     connect(m_model, &ShortcutModel::shortcutChanged, this, &ShortCutSettingWidget::onShortcutChanged);
     connect(m_model, &ShortcutModel::keyEvent, this, &ShortCutSettingWidget::onKeyEvent);
     connect(m_model, &ShortcutModel::searchFinished, this, &ShortCutSettingWidget::onSearchStringFinish);
@@ -154,11 +154,14 @@ void ShortCutSettingWidget::showCustomShotcut()
     m_addCustomShortcut->click();
 }
 
-void ShortCutSettingWidget::addShortcut(QList<ShortcutInfo *> list, ShortcutModel::InfoType type)
+void ShortCutSettingWidget::refreshShortcut()
 {
-    if ((m_assistiveToolsGroup == nullptr) && (type == ShortcutModel::AssistiveTools)) {
-        return;
-    }
+    m_customGroup->setVisible(false);
+    m_assistiveToolsGroup->setVisible(false);
+    m_workspaceGroup->setVisible(false);
+    m_windowGroup->setVisible(false);
+    m_systemGroup->setVisible(false);
+
     QMap<ShortcutModel::InfoType, QList<ShortcutItem *>*> InfoMap {
         {ShortcutModel::System, &m_systemList},
         {ShortcutModel::Window, &m_windowList},
@@ -175,60 +178,74 @@ void ShortCutSettingWidget::addShortcut(QList<ShortcutInfo *> list, ShortcutMode
         {ShortcutModel::Custom, m_customGroup}
     };
 
-    QList<ShortcutItem *> *itemList{ InfoMap[type] };
-    auto group = GroupMap[type];
-    for (auto it = itemList->begin(); it != itemList->end();) {
-        ShortcutItem *item = *it;
+    QMap<ShortcutModel::InfoType, SettingsGroup *>::const_iterator i;
 
-        group->removeItem(item);
-        m_allList.removeOne(item);
-        it = itemList->erase(it);
-        item->deleteLater();
-    }
+    for (i = GroupMap.constBegin(); i != GroupMap.constEnd(); ++i){
+        ShortcutModel::InfoType type = i.key();
 
-    QList<ShortcutInfo *>::iterator it = list.begin();
-    for (; it != list.end(); ++it) {
-        ShortcutInfo *info = *it;
-        ShortcutItem *item = new ShortcutItem();
-        connect(item, &ShortcutItem::requestUpdateKey, this, &ShortCutSettingWidget::requestUpdateKey);
-        item->setShortcutInfo(info);
-        item->setTitle(info->name);
-        info->item = item;
-        m_searchInfos[info->toString()] = info;
+        QList<ShortcutItem *> *itemList{ InfoMap[type] };
+        auto group = GroupMap[type];
+        for (auto it = itemList->begin(); it != itemList->end();) {
+            ShortcutItem *item = *it;
 
-        m_allList << item;
-        switch (type) {
-        case ShortcutModel::System:
-            m_systemGroup->appendItem(item);
-            m_systemList.append(item);
-            break;
-        case ShortcutModel::Window:
-            m_windowGroup->appendItem(item);
-            m_windowList.append(item);
-            break;
-        case ShortcutModel::Workspace:
-            m_workspaceGroup->appendItem(item);
-            m_workspaceList.append(item);
-            break;
-        case ShortcutModel::AssistiveTools:
-            m_assistiveToolsGroup->appendItem(item);
-            m_assistiveToolsList.append(item);
-            break;
-        case ShortcutModel::Custom:
-            connect(m_head, &SettingsHead::editChanged, item, &ShortcutItem::onEditMode);
-            m_customGroup->appendItem(item);
-            m_customList.append(item);
+            group->removeItem(item);
+            m_allList.removeOne(item);
+            it = itemList->erase(it);
+            item->deleteLater();
+        }
 
-            if (m_customGroup->itemCount() > 1)
-                m_head->setVisible(true);
+        QList<ShortcutInfo *> list = m_model->getGroupList(type);
 
-            connect(item, &ShortcutItem::requestRemove, this, &ShortCutSettingWidget::onDestroyItem);
-            connect(item, &ShortcutItem::shortcutEditChanged, this, &ShortCutSettingWidget::shortcutEditChanged);
-            break;
-        default:
-            break;
+        QList<ShortcutInfo *>::iterator it = list.begin();
+        for (; it != list.end(); ++it) {
+            ShortcutInfo *info = *it;
+            ShortcutItem *item = new ShortcutItem();
+            connect(item, &ShortcutItem::requestUpdateKey, this, &ShortCutSettingWidget::requestUpdateKey);
+            item->setShortcutInfo(info);
+            item->setTitle(info->name);
+            info->item = item;
+            m_searchInfos[info->toString()] = info;
+
+            m_allList << item;
+            switch (type) {
+            case ShortcutModel::System:
+                m_systemGroup->appendItem(item);
+                m_systemList.append(item);
+                break;
+            case ShortcutModel::Window:
+                m_windowGroup->appendItem(item);
+                m_windowList.append(item);
+                break;
+            case ShortcutModel::Workspace:
+                m_workspaceGroup->appendItem(item);
+                m_workspaceList.append(item);
+                break;
+            case ShortcutModel::AssistiveTools:
+                m_assistiveToolsGroup->appendItem(item);
+                m_assistiveToolsList.append(item);
+                break;
+            case ShortcutModel::Custom:
+                connect(m_head, &SettingsHead::editChanged, item, &ShortcutItem::onEditMode);
+                m_customGroup->appendItem(item);
+                m_customList.append(item);
+
+                if (m_customGroup->itemCount() > 1)
+                    m_head->setVisible(true);
+
+                connect(item, &ShortcutItem::requestRemove, this, &ShortCutSettingWidget::onDestroyItem);
+                connect(item, &ShortcutItem::shortcutEditChanged, this, &ShortCutSettingWidget::shortcutEditChanged);
+                break;
+            default:
+                break;
+            }
         }
     }
+
+    m_systemGroup->setVisible(true);
+    m_windowGroup->setVisible(true);
+    m_workspaceGroup->setVisible(true);
+    m_assistiveToolsGroup->setVisible(true);
+    m_customGroup->setVisible(true);
 }
 
 SettingsHead *ShortCutSettingWidget::getHead() const

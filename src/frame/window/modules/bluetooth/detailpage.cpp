@@ -30,6 +30,7 @@
 #include <QLineEdit>
 #include <QLabel>
 #include <QString>
+#include <QApplication>
 
 using namespace dcc;
 using namespace dcc::bluetooth;
@@ -73,12 +74,15 @@ DetailPage::DetailPage(const Adapter *adapter, const Device *device)
         if(m_device->state() == Device::StateConnected)
             Q_EMIT requestDisconnectDevice(m_device);
         Q_EMIT requestIgnoreDevice(m_adapter, m_device);
+        QApplication::focusWidget()->clearFocus();
     });
     connect(m_disconnectButton, &QPushButton::clicked, this, [this] {
         Q_EMIT requestDisconnectDevice(m_device);
+        QApplication::focusWidget()->clearFocus();
     });
     connect(m_connectButton, &QPushButton::clicked, this, [this] {
         Q_EMIT requestConnectDevice(m_device);
+        QApplication::focusWidget()->clearFocus();
     });
     connect(m_device, &Device::nameChanged, m_devNameLabel, &QLabel::setText);
     connect(m_device, &Device::aliasChanged, m_editDevAlias, &QLineEdit::setText);

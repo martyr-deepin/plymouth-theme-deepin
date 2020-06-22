@@ -38,7 +38,6 @@
 #include <QRect>
 #include <QPalette>
 #include <QSettings>
-#include <QTimer>
 
 using namespace DCC_NAMESPACE;
 using namespace DCC_NAMESPACE::personalization;
@@ -151,8 +150,6 @@ PersonalizationGeneral::PersonalizationGeneral(QWidget *parent)
         connect(m_wmSwitch, &DTK_WIDGET_NAMESPACE::DSwitchButton::clicked, this, [this](bool checked) {
                 qDebug() << "DSwitchButton::clicked:" << checked << ",m_model->is3DWm():" << m_model->is3DWm();
                 m_wmSwitch->setChecked(m_model->is3DWm());
-                m_wmSwitch->setEnabled(false);
-                QTimer::singleShot(2000, this, [=]{m_wmSwitch->setEnabled(true);});
                 Q_EMIT requestSwitchWM();
         });
     }

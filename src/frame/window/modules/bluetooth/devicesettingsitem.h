@@ -54,7 +54,6 @@ public:
     DStandardItem *createStandardItem(DTK_WIDGET_NAMESPACE::DListView *parent = nullptr);
     const dcc::bluetooth::Device *device() const;
     void setLoading(const bool loading);
-    void setSpinnerColor(const QColor color);
 private:
     void setDevice(const dcc::bluetooth::Device *device);
     void initItemActionList();

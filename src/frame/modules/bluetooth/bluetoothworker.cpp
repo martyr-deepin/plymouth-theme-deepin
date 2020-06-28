@@ -180,7 +180,9 @@ void BluetoothWorker::inflateAdapter(Adapter *adapter, const QJsonObject &adapte
             QStringList tmpList;
 
             QDBusReply<QString> reply = call.reply();
-            const QString replyStr = reply.value();
+            QString replyStr;
+            if (reply.isValid())
+                replyStr = reply.value();
             QJsonDocument doc = QJsonDocument::fromJson(replyStr.toUtf8());
             QJsonArray arr = doc.array();
             for (QJsonValue val : arr) {

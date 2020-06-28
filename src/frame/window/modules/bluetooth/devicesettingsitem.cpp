@@ -48,7 +48,6 @@ DeviceSettingsItem::~DeviceSettingsItem()
 {
     if (!m_loadingIndicator.isNull()) {
         m_loadingIndicator->hide();
-        m_loadingIndicator->deleteLater();
     }
     if (!m_loadingAction.isNull()) {
         m_loadingAction->setVisible(false);
@@ -110,15 +109,6 @@ void DeviceSettingsItem::setLoading(const bool loading)
     }
     if (m_parentDListView) {
         m_parentDListView->update();
-    }
-}
-
-void DeviceSettingsItem::setSpinnerColor(const QColor color)
-{
-    if (m_deviceItem != nullptr) {
-        QPalette pa = m_loadingIndicator->palette();
-        pa.setBrush(QPalette::Highlight,color);
-        m_loadingIndicator->setPalette(pa);
     }
 }
 

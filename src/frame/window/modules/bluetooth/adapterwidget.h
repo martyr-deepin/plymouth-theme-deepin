@@ -92,8 +92,8 @@ private:
     TitleEdit *m_titleEdit;
     const dcc::bluetooth::Adapter *m_adapter;
     dcc::widgets::SwitchWidget *m_switch;
-    QList<DeviceSettingsItem *> m_deviceLists;
-    QList<DeviceSettingsItem *> m_myDevices;
+    QList<QPointer<DeviceSettingsItem>> m_deviceLists;
+    QList<QPointer<DeviceSettingsItem>> m_myDevices;
     TitleLabel *m_myDevicesGroup;
     DTK_WIDGET_NAMESPACE::DListView *m_myDeviceListView;
     QStandardItemModel *m_myDeviceModel;
@@ -101,7 +101,8 @@ private:
     DTK_WIDGET_NAMESPACE::DSpinner *m_spinner;
     DTK_WIDGET_NAMESPACE::DListView *m_otherDeviceListView;
     QStandardItemModel *m_otherDeviceModel;
-    QList<DeviceSettingsItem *> m_preConnDevices;//记录关闭pc端蓝牙前的连接设备
+
+    QList<QPointer<DeviceSettingsItem>> m_preConnDevices;
     DTK_WIDGET_NAMESPACE::DIconButton *m_refreshBtn;
 };
 }

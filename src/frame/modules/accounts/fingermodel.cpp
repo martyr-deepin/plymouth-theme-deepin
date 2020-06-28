@@ -59,6 +59,13 @@ using namespace dcc::accounts;
 FingerModel::FingerModel(QObject *parent) : QObject(parent)
 {
     m_isVaild = false;
+    m_predefineThumbsNames = {
+        tr("Fingerprint1"), tr("Fingerprint2"), tr("Fingerprint3"),
+        tr("Fingerprint4"), tr("Fingerprint5"), tr("Fingerprint6"),
+        tr("Fingerprint7"), tr("Fingerprint8"), tr("Fingerprint9"),
+        tr("Fingerprint10")
+    };
+
 }
 
 bool FingerModel::isVaild() const

@@ -86,7 +86,7 @@ void FingerPage::setFingerModel(FingerModel *model)
 
 void FingerPage::onThumbsListChanged(const QList<FingerModel::UserThumbs> &thumbs)
 {
-    QStringList thumb = thumbsLists;
+    QStringList thumb = m_model->getPredefineThumbsName();
 
     m_listGrp->clear();
 

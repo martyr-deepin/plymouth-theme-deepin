@@ -109,7 +109,7 @@ void FingerWidget::setFingerModel(FingerModel *model)
 
 void FingerWidget::onThumbsListChanged(const QStringList &thumbs)
 {
-    QStringList thumb = thumbsLists;
+    QStringList thumb = m_model->getPredefineThumbsName();
     m_vecItem.clear();
     m_listGrp->clear();
     for (int n = 0; n < 10 && n < thumbs.size(); ++n) {

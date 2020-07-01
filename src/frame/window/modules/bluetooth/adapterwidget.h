@@ -101,9 +101,6 @@ private:
     DTK_WIDGET_NAMESPACE::DSpinner *m_spinner;
     DTK_WIDGET_NAMESPACE::DListView *m_otherDeviceListView;
     QStandardItemModel *m_otherDeviceModel;
-
-    QList<QPointer<DeviceSettingsItem>> m_preConnDevices;
-    DTK_WIDGET_NAMESPACE::DIconButton *m_refreshBtn;
 };
 }
 }

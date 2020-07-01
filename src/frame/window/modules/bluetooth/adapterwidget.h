@@ -101,6 +101,8 @@ private:
     DTK_WIDGET_NAMESPACE::DSpinner *m_spinner;
     DTK_WIDGET_NAMESPACE::DListView *m_otherDeviceListView;
     QStandardItemModel *m_otherDeviceModel;
+    //蓝牙刷新按钮，由于后端使用了一分钟刷新一次而添加该按钮
+    DTK_WIDGET_NAMESPACE::DIconButton *m_refreshBtn;
 };
 }
 }

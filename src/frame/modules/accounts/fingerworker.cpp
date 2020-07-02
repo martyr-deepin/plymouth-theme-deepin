@@ -119,10 +119,14 @@ void FingerWorker::stopEnroll(const QString& userName)
     }
 }
 
-void FingerWorker::deleteFingerItem(const QString& userName, const QString& finger)
+void FingerWorker::deleteFingerItem(const QString &userName, const QString &finger)
 {
+    if (m_isDelete)
+        return ;
+    m_isDelete = true;
     auto call = m_fingerPrintInter->DeleteFinger(userName, finger);
     call.waitForFinished();
+    QTimer::singleShot(200, [ = ] () {m_isDelete = false;});
     if (call.isError()) {
         qDebug() << "call DeleteFinger Error : " << call.error();
     }

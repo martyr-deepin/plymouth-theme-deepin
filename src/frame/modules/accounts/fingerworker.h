@@ -65,6 +65,7 @@ private:
     FingerModel *m_model;
     Fingerprint *m_fingerPrintInter;
     SessionManagerInter *m_SMInter{nullptr};
+    bool m_isDelete = false;
 };
 
 }

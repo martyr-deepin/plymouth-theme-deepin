@@ -109,10 +109,6 @@ void AccountsWidget::setModel(UserModel *model)
     for (auto user : model->userList()) {
         addUser(user, false);
     }
-
-    if (model->userList().size() && !m_userlistView->selectionModel()) {
-        showDefaultAccountInfo();
-    }
 }
 
 void AccountsWidget::showDefaultAccountInfo()
@@ -319,5 +315,12 @@ void AccountsWidget::handleRequestBack(AccountsWidget::ActionOption option)
         onItemClicked(qindex2);
         }
         break;
+    }
+}
+
+void AccountsWidget::selectUserList()
+{
+    if (m_userModel->userList().size() && !m_userlistView->selectionModel()->selectedIndexes().size()) {
+        showDefaultAccountInfo();
     }
 }

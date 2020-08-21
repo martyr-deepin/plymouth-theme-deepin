@@ -109,6 +109,10 @@ void AccountsWidget::setModel(UserModel *model)
     for (auto user : model->userList()) {
         addUser(user, false);
     }
+
+    if (model->userList().size() && !m_userlistView->selectionModel()) {
+        showDefaultAccountInfo();
+    }
 }
 
 void AccountsWidget::showDefaultAccountInfo()

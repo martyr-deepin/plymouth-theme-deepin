@@ -163,7 +163,7 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
     connect(m_model, &ShortcutModel::keyEvent, this, &ShortCutSettingWidget::onKeyEvent);
     connect(m_model, &ShortcutModel::searchFinished, this, &ShortCutSettingWidget::onSearchStringFinish);
 
-    QTimer::singleShot(80, this, [=] {
+    QTimer::singleShot(50, this, [=] {
         widget->show();
     });
 }

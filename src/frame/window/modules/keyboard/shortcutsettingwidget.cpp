@@ -119,8 +119,6 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
     m_layout->addSpacing(List_Interval);
     m_layout->addWidget(m_customGroup);
 
-    this->setAttribute(Qt::WA_DontShowOnScreen);
-
     m_resetBtn = new QPushButton(tr("Restore Defaults"));
     //m_layout->setMargin(10);
     m_layout->addWidget(m_resetBtn);
@@ -132,6 +130,8 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
     ContentWidget *contentWidget = new ContentWidget(this);
     contentWidget->setContent(widget);
     vlayout->addWidget(contentWidget);
+
+    widget->hide();
 
     m_addCustomShortcut = new DFloatingButton(DStyle::SP_IncreaseElement, this);
 
@@ -164,7 +164,7 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
     connect(m_model, &ShortcutModel::searchFinished, this, &ShortCutSettingWidget::onSearchStringFinish);
 
     QTimer::singleShot(80, this, [=] {
-        this->setAttribute(Qt::WA_DontShowOnScreen, false);
+        widget->show();
     });
 }
 

@@ -292,7 +292,8 @@ void MainWindow::findFocusChild(QLayout *l, QWidget *&pre)
                 continue;
             }
 
-            cw->setFocusPolicy(Qt::StrongFocus);
+            if (!qobject_cast<QAbstractSlider *>(cw))
+                cw->setFocusPolicy(Qt::StrongFocus);
             setTabOrder(pre, cw);
             pre = cw;
         } else if (cl) {
@@ -464,7 +465,7 @@ void MainWindow::loadModules()
         auto *module = qobject_cast<ModuleInterface *>(instance);
         module->setFrameProxy(this);
 
-        if (tr("Assistive Tools") == module->displayName() && !DCC_NAMESPACE::IsDesktopSystem) {
+        if (tr("Assistive Tools") == module->displayName() && !DCC_NAMESPACE::IsCommunitySystem) {
             auto res = std::find_if(m_modules.begin(), m_modules.end(), [=] (const QPair<ModuleInterface *, QString> &data)->bool{
                     return data.second == tr("Keyboard and Language");
                 });

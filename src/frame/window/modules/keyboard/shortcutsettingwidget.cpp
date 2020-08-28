@@ -132,6 +132,7 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
     vlayout->addWidget(contentWidget);
 
     widget->hide();
+    m_searchInput->hide();
 
     m_addCustomShortcut = new DFloatingButton(DStyle::SP_IncreaseElement, this);
 
@@ -163,8 +164,9 @@ ShortCutSettingWidget::ShortCutSettingWidget(ShortcutModel *model, QWidget *pare
     connect(m_model, &ShortcutModel::keyEvent, this, &ShortCutSettingWidget::onKeyEvent);
     connect(m_model, &ShortcutModel::searchFinished, this, &ShortCutSettingWidget::onSearchStringFinish);
 
-    QTimer::singleShot(50, this, [=] {
+    QTimer::singleShot(10, this, [=] {
         widget->show();
+        m_searchInput->show();
     });
 }
 

@@ -125,6 +125,15 @@ void NetworkDetailPage::onActiveInfoChanged(const QList<QJsonObject> &infos)
 
     int infoCount = infos.count();
     for (const auto &info : infos) {
+
+        // 根据标志位InterfaceFlags判断网络连接是否有效
+        QJsonValue flagValue = info.value("InterfaceFlags");
+        if (!info.value("InterfaceFlags").isUndefined()) {
+            int flag = info.value("InterfaceFlags").toInt();
+            if (flag & NM_DEVICE_INTERFACE_FLAG_UP)
+                continue;
+        }
+
         SettingsGroup *grp = new SettingsGroup;
         const QString type = info.value("ConnectionType").toString();
         const bool isHotspot = type == "wireless-hotspot";

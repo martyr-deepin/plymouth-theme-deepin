@@ -38,9 +38,18 @@ class NetworkModel;
 namespace DCC_NAMESPACE {
 namespace network {
 
+
+
 class NetworkDetailPage : public dcc::ContentWidget
 {
     Q_OBJECT
+
+    enum InterfaceFlags {
+        NM_DEVICE_INTERFACE_FLAG_NONE       = 0,       //an alias for numeric zero, no flags set.
+        NM_DEVICE_INTERFACE_FLAG_UP         = 0x1,     //the interface is enabled from the administrative point of view. Corresponds to kernel IFF_UP.
+        NM_DEVICE_INTERFACE_FLAG_LOWER_UP   = 0x2,     //the physical link is up. Corresponds to kernel IFF_LOWER_UP.
+        NM_DEVICE_INTERFACE_FLAG_CARRIER    = 0x10000, //the interface has carrier. In most cases this is equal to the value of @NM_DEVICE_INTERFACE_FLAG_LOWER_UP
+    };
 
 public:
     explicit NetworkDetailPage(QWidget *parent = nullptr);

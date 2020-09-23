@@ -115,11 +115,11 @@ MainWindow::MainWindow(QWidget *parent)
     m_contentLayout->setContentsMargins(0, 0, 0, 0);
     m_contentLayout->setSpacing(0);
     m_rightContentLayout = new QHBoxLayout();
+    m_rightContentLayout->setContentsMargins(0,0,0,0);
 
     m_rightView = new DBackgroundGroup(m_rightContentLayout);
     m_rightView->setObjectName("modulepage");
     m_rightView->setItemSpacing(2);
-    m_rightView->setItemMargins(QMargins(10, 10, 10, 10));
     m_rightView->setContentsMargins(10, 10, 10, 10);
 
     m_navView = new dcc::widgets::MultiSelectListView(this);
@@ -264,7 +264,6 @@ void MainWindow::findFocusChild(QWidget *w, QWidget *&pre)
 void MainWindow::findFocusChild(QLayout *l, QWidget *&pre)
 {
     for (int i = 0; i < l->count(); ++i) {
-//        qDebug() << l->itemAt(i);
         auto cw = l->itemAt(i)->widget();
         auto cl = l->itemAt(i)->layout();
 
@@ -283,7 +282,6 @@ void MainWindow::findFocusChild(QLayout *l, QWidget *&pre)
                     && !qobject_cast<QLineEdit *>(cw)
                     && !qobject_cast<QAbstractItemView *>(cw)
                     && !qobject_cast<QAbstractSlider *>(cw)) || !cw->isEnabled()) {
-//                cw->setFocusPolicy(Qt::NoFocus);
                 continue;
             }
 
@@ -292,8 +290,6 @@ void MainWindow::findFocusChild(QLayout *l, QWidget *&pre)
                 continue;
             }
 
-            if (!qobject_cast<QAbstractSlider *>(cw))
-                cw->setFocusPolicy(Qt::StrongFocus);
             setTabOrder(pre, cw);
             pre = cw;
         } else if (cl) {
@@ -357,12 +353,13 @@ void MainWindow::initAllModule(const QString &m)
     //通过gsetting设置某模块是否显示,默认都显示
     m_moduleSettings = new QGSettings("com.deepin.dde.control-center", QByteArray(), this);
 
-    auto listModule =  m_moduleSettings->get(GSETTINGS_HIDE_MODULE).toStringList();
-    for (auto i : m_modules) {
-        if (listModule.contains((i.first->name()))) {
-            setModuleVisible(i.first, false);
+    connect(m_moduleSettings, &QGSettings::changed, this, [ & ] (const QString &keyName) {
+        if (keyName != "hideModule" && keyName != GSETTINGS_HIDE_MODULE) {
+            return;
         }
-    }
+        updateModuleVisible();
+    });
+    updateModuleVisible();
 
     //通过gsetting获取版本类型，设置某模块是否显示
     if (QGSettings::isSchemaInstalled("com.deepin.dde.control-versiontype")) {
@@ -473,6 +470,18 @@ void MainWindow::loadModules()
                 if (res != m_modules.end()) {
                     m_modules.insert(m_modules.indexOf(*res) + 1, {module, module->displayName()});
                 }
+        }
+    }
+}
+
+void MainWindow::updateModuleVisible()
+{
+    auto listModule = m_moduleSettings->get(GSETTINGS_HIDE_MODULE).toStringList();
+    for (auto i : m_modules) {
+        if (listModule.contains((i.first->name()))) {
+            setModuleVisible(i.first, false);
+        } else {
+            setModuleVisible(i.first, true);
         }
     }
 }

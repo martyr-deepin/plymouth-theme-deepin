@@ -23,6 +23,7 @@
 
 #include "window/modules/wacom/wacommodel.h"
 #include "window/modules/wacom/pressuresettings.h"
+#include "window/utils.h"
 
 #include "widgets/settingsitem.h"
 
@@ -63,8 +64,8 @@ void WacomWidget::initWidget()
 
     m_modeTitle->setText(tr("Mode"));
 
-    m_modeComboBox->addItem(tr("Pen"), true);
-    m_modeComboBox->addItem(tr("Mouse"), false);
+    m_modeComboBox->addItem(tr("Pen"), false);
+    m_modeComboBox->addItem(tr("Mouse"), true);
     m_modeComboBox->setCurrentIndex(0);
 
     m_modeLayout->setContentsMargins(10, 6, 10, 6);
@@ -79,15 +80,16 @@ void WacomWidget::initWidget()
     m_centralLayout->addWidget(m_modeSetting);
     m_centralLayout->addWidget(m_sensitivity);
     m_centralLayout->setMargin(0);
+    m_centralLayout->setContentsMargins(ThirdPageContentsMargins);
 
     setLayout(m_centralLayout);
 }
 
 void WacomWidget::onCursorModeChanged(const bool curMode)
 {
-    int index = 1;
+    int index = 0;
     if (curMode) {
-        index = 0;
+        index = 1;
     }
     m_sensitivity->setVisible(curMode);
     m_modeComboBox->blockSignals(true);

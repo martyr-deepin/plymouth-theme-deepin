@@ -110,6 +110,13 @@ void AccountsDetailWidget::deleteUserClicked()
     if (ret == 1) {
         Q_EMIT requestDeleteAccount(m_curUser, d.deleteHome());
     }
+
+    qDebug()<<"m_userModel->userList().count() = "<<m_userModel->userList().count();
+
+    if (IsServerSystem && m_userModel->userList().count() == 0) {
+        qDebug()<<"enter set false";
+        this->setVisible(false);
+    }
 }
 
 void AccountsDetailWidget::initUserInfo(QVBoxLayout *layout)

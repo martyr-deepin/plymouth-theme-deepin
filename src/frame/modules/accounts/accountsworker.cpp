@@ -180,6 +180,7 @@ void AccountsWorker::createAccount(const User *user)
     connect(watcher, &QFutureWatcher<CreationResult*>::finished, [this, watcher] {
         CreationResult *result = watcher->result();
         m_userModel->setAllGroups(m_accountsInter->GetGroups());
+        qDebug() << " createAccount m_accountsInter->GetGroups() = " << m_accountsInter->GetGroups().value();
         Q_EMIT accountCreationFinished(result);
         Q_EMIT requestFrameAutoHide(true);
         watcher->deleteLater();

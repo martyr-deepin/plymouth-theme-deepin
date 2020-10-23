@@ -71,9 +71,11 @@ SwitchWidget::SwitchWidget(QWidget *parent, QWidget *widget)
 
 void SwitchWidget::setChecked(const bool checked)
 {
+    qDebug() << "setChecked begin checked = " <<checked;
     m_switchBtn->blockSignals(true);
     m_switchBtn->setChecked(checked);
     m_switchBtn->blockSignals(false);
+    qDebug() << "setChecked end checked = " <<checked;
 }
 
 QString SwitchWidget::title() const

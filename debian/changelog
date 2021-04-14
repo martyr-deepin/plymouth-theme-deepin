@@ -1,3 +1,9 @@
+plymouth-theme-deepin (15.10.16) unstable; urgency=medium
+
+  * rm uos-log
+
+ -- Deepin Packages Builder <packages@deepin.com>  Tue, 13 Apr 2021 21:11:45 +0800
+
 plymouth-theme-deepin (15.04.5) unstable; urgency=medium
 
   * fix posinst
